@@ -3355,44 +3355,89 @@
  },
  {
   "url": "https://blog.csdn.net/m0_69332373/article/details/164335878",
-  "kept": false,
-  "reason": "页面拦截自动访问，没能读到内容",
+  "kept": true,
+  "cat": "T1",
+  "title": "开通条件、步骤和五个踩坑点（CSDN）",
+  "review": "中文，先讲核心概念表，再讲额度消耗快、隐私授权等注意事项",
+  "tags": [
+   "starter",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "date_pub": "2026-09-03",
   "source": "search"
  },
  {
   "url": "https://blog.csdn.net/xianyu120/article/details/163723223",
-  "kept": false,
-  "reason": "页面拦截自动访问，没能读到内容",
+  "kept": true,
+  "cat": "T1",
+  "title": "小白入门：下载安装到第一个 Bot（CSDN）",
+  "review": "中文，按判断资格、选安装包、登录、建 Bot、第一个安全任务、排错六件事展开",
+  "tags": [
+   "starter",
+   "install"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "date_pub": "2026-08-13",
   "source": "search"
  },
  {
   "url": "https://blog.csdn.net/xianyu120/article/details/164507961",
-  "kept": false,
-  "reason": "页面拦截自动访问，没能读到内容",
+  "kept": true,
+  "cat": "T1",
+  "title": "完整使用指南图文版（CSDN）",
+  "review": "中文长文，主线是窄职责、手动跑通、存技能、测试、再开 Routine；文中夹有第三方推广内容，跳过即可",
+  "tags": [
+   "guide",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "date_pub": "2026-09-07",
+  "source": "search"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2078873633989080803",
+  "kept": true,
+  "cat": "T1",
+  "title": "保姆级教程：是什么、怎么用（知乎）",
+  "review": "中文，讲能做什么和安装使用步骤；关于开通的部分请以官方页面为准",
+  "tags": [
+   "starter",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "date_pub": "2026-09-03",
+  "source": "search"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2079679237955532367",
+  "kept": true,
+  "cat": "T1",
+  "title": "入门指南：怎么正确使用、新手常犯的错（知乎）",
+  "review": "中文译文风格，讲清云电脑的概念、新手误区，并和同类产品做了比较",
+  "tags": [
+   "starter",
+   "compare"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "date_pub": "2026-09-05",
   "source": "search"
  },
  {
   "url": "https://zhuanlan.zhihu.com/p/2071222722299015239",
   "kept": false,
-  "reason": "页面拦截自动访问，没能读到内容",
-  "source": "search"
- },
- {
-  "url": "https://zhuanlan.zhihu.com/p/2078873633989080803",
-  "kept": false,
-  "reason": "页面拦截自动访问，没能读到内容",
-  "source": "search"
- },
- {
-  "url": "https://zhuanlan.zhihu.com/p/2079679237955532367",
-  "kept": false,
-  "reason": "页面拦截自动访问，没能读到内容",
+  "reason": "与 CSDN 小白入门那篇内容相同的转载",
   "source": "search"
  },
  {
   "url": "https://zhuanlan.zhihu.com/p/2080428996949440073",
   "kept": false,
-  "reason": "页面拦截自动访问，没能读到内容",
+  "reason": "与 CSDN 完整使用指南那篇内容相同的转载",
   "source": "search"
  }
 ]

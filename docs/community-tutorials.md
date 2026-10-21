@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 131 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 136 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（36）
+## 入门与配置（41）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -42,6 +42,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [从创建助手到验收成果（觉醒AI）](https://www.jxxy.net/ai/articles/grokbot-first-task-full-workflow/) - 中文，重点在验收：打开文件、核对依据、在原对话里改。标签：`starter` `review`
 - [构建每周研究助手（DataCamp 中文）](https://www.datacamp.com/zh/tutorial/grok-bot-tutorial) - 从建 Bot 到核对来源、存技能、排 Routine 的完整案例，测试过程写得很实在。标签：`routine` `skill`
 - [深度拆解：为什么它更像一个团队（少数派）](https://pwa.sspai.com/post/116250) - 中文，从角色记忆分开、主 Bot 派活讲到实际用法。标签：`overview` `chinese`
+- [开通条件、步骤和五个踩坑点（CSDN）](https://blog.csdn.net/m0_69332373/article/details/164335878) - 中文，先讲核心概念表，再讲额度消耗快、隐私授权等注意事项。标签：`starter` `chinese`
+- [小白入门：下载安装到第一个 Bot（CSDN）](https://blog.csdn.net/xianyu120/article/details/163723223) - 中文，按判断资格、选安装包、登录、建 Bot、第一个安全任务、排错六件事展开。标签：`starter` `install`
+- [完整使用指南图文版（CSDN）](https://blog.csdn.net/xianyu120/article/details/164507961) - 中文长文，主线是窄职责、手动跑通、存技能、测试、再开 Routine；文中夹有第三方推广内容，跳过即可。标签：`guide` `chinese`
+- [保姆级教程：是什么、怎么用（知乎）](https://zhuanlan.zhihu.com/p/2078873633989080803) - 中文，讲能做什么和安装使用步骤；关于开通的部分请以官方页面为准。标签：`starter` `chinese`
+- [入门指南：怎么正确使用、新手常犯的错（知乎）](https://zhuanlan.zhihu.com/p/2079679237955532367) - 中文译文风格，讲清云电脑的概念、新手误区，并和同类产品做了比较。标签：`starter` `compare`
 
 ## 多 Bot 团队（29）
 

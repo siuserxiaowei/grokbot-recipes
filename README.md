@@ -12,7 +12,7 @@
 
 - **17** 个配方，格式统一，提示词可以直接复制
 - **89** 个生态项目和学习资源，每条都打开核对过
-- **131** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **136** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **104** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
