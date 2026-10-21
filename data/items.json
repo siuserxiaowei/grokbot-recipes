@@ -2990,5 +2990,409 @@
   "verified": "2026-10-21",
   "author": "coreyganim",
   "date": "2026-10-20"
+ },
+ {
+  "url": "https://github.com/psylch/grokbot-wechat",
+  "kept": true,
+  "cat": "C",
+  "title": "grokbot-wechat（psylch）",
+  "review": "把微信消息桥接到 Grok Bot 的转发程序，带保活和看门狗，想自己部署的人看",
+  "tags": [
+   "wechat",
+   "bridge"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://x.ai/bot/guides/grok-bot-101",
+  "kept": true,
+  "cat": "A",
+  "title": "官方指南：Grok Bot 101",
+  "review": "官方作者讲 Bot 的构成、三种对话方式、共享电脑和多 Bot 串联，入门必读",
+  "tags": [
+   "official",
+   "guide"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://docs.x.ai/grok-bot/get-started",
+  "kept": true,
+  "cat": "A",
+  "title": "官方文档：开始使用",
+  "review": "从安装、登录到第一个任务的官方步骤，写请求的五个要素出自这里",
+  "tags": [
+   "official",
+   "docs"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://cursor.com/cn/docs/grok-bot/work",
+  "kept": true,
+  "cat": "A",
+  "title": "Cursor 中文文档：使用 Grok Bot",
+  "review": "官方中文版，讲 Bot、共享电脑、技能和 Routine，查功能细节时用",
+  "tags": [
+   "official",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://grok.docs-zh.com/zh-CN/grok-bot/skills-routines-and-automations",
+  "kept": true,
+  "cat": "I",
+  "title": "Grok 中文文档（社区翻译）",
+  "review": "社区翻译的官方文档中文版，适合对照阅读，以官方原文为准",
+  "tags": [
+   "docs",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://bot.fmcat.top/part2/18-solo",
+  "kept": true,
+  "cat": "I",
+  "title": "Grok Bot 新手指南（fmcat）",
+  "review": "中文长篇手册，案例篇讲一人公司、岗位定义和权限分级，进阶篇有飞书和微信接入",
+  "tags": [
+   "guide",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://ai.jotoai.com/blog/archive/2026100929735",
+  "kept": true,
+  "cat": "T1",
+  "title": "从 0 到 1 保姆教程（JOTO）",
+  "review": "中文，从安装、建 Bot 到拉群、审批、技能一篇走完，最后和几款同类产品做了对比",
+  "tags": [
+   "starter",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://blog.laozhang.ai/zh/posts/grok-bot-getting-started",
+  "kept": true,
+  "cat": "T1",
+  "title": "入门：下载、登录和第一个 Bot（LaoZhang）",
+  "review": "中文，讲清下哪个安装包、用哪个账号登录、第一次交付怎么做",
+  "tags": [
+   "starter",
+   "install"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://blog.laozhang.ai/zh/posts/grok-bot-tutorial",
+  "kept": true,
+  "cat": "T4",
+  "title": "连接 X 并验收第一个任务（LaoZhang）",
+  "review": "中文，区分 X 连接器和插件，用一条读取任务验收，失败先查状态",
+  "tags": [
+   "x",
+   "connector"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://builderdev.net/zh-cn/guides/grok-bot-guide/",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot 是什么、能做什么（BuilderDev）",
+  "review": "中文，按浏览、操作网站、文件、终端、Routine 分块介绍能力，再讲使用步骤",
+  "tags": [
+   "overview",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://chongai.pro/blog/grok-bot-shiyong-jiaocheng-chutiyan",
+  "kept": true,
+  "cat": "T5",
+  "title": "初体验：云电脑、本机操控和生图工作流（chongai）",
+  "review": "中文，macOS 八步安装记录，加一个视频转图文的可复制提示词",
+  "tags": [
+   "install",
+   "workflow"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://chunduai.com/tutorials/grok-bot-ten-steps",
+  "kept": true,
+  "cat": "T2",
+  "title": "上手十步：从一个 Bot 到一组会交接的 Bot（纯度AI）",
+  "review": "中文，先建总管、写职责、交接登录不交密码、划审批线、每周复查",
+  "tags": [
+   "team",
+   "starter"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://clawdo.com/2026/09/xAI-Grok-Bot-Usage-Guide/",
+  "kept": true,
+  "cat": "T1",
+  "title": "怎么用：开通条件、步骤和注意事项（clawdo）",
+  "review": "中文短文，适合快速过一遍；页面带订阅推广",
+  "tags": [
+   "starter",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://github.com/Spidermanbaout/grokbot-usage-guide-zh",
+  "kept": true,
+  "cat": "I",
+  "title": "grokbot-usage-guide-zh",
+  "review": "中文 GitHub 教程仓库，按建 Bot、描述任务、连接应用分章",
+  "tags": [
+   "guide",
+   "github"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://github.com/jobinben/Grok-Bot-Tutorial",
+  "kept": true,
+  "cat": "I",
+  "title": "Grok-Bot-Tutorial（jobinben）",
+  "review": "中文 GitHub 教程，偏国内安装和常见用途介绍",
+  "tags": [
+   "guide",
+   "github"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://github.com/xianyu110/grokbot",
+  "kept": true,
+  "cat": "I",
+  "title": "grokbot 完整使用指南（xianyu110）",
+  "review": "中文图文教程仓库，10 分钟上手加分主题深入",
+  "tags": [
+   "guide",
+   "github"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://grenade.tw/blog/grok-bot-tutorial/",
+  "kept": true,
+  "cat": "T4",
+  "title": "Gmail 和行事历自动化教学（Grenade）",
+  "review": "繁体中文，从中文和时区设置到整理信箱、把缴费日期写进日历",
+  "tags": [
+   "gmail",
+   "calendar"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://www.bnext.com.tw/article/91991/grok-bot-getting-started-60",
+  "kept": true,
+  "cat": "T2",
+  "title": "四步建一人公司（數位時代）",
+  "review": "繁体中文，讲职务章程、幕僚长模式和多 Bot 交接，附实测选题流程",
+  "tags": [
+   "team",
+   "chief-of-staff"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://www.jxxy.net/ai/articles/grokbot-first-task-full-workflow/",
+  "kept": true,
+  "cat": "T1",
+  "title": "从创建助手到验收成果（觉醒AI）",
+  "review": "中文，重点在验收：打开文件、核对依据、在原对话里改",
+  "tags": [
+   "starter",
+   "review"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://www.jxxy.net/ai/articles/grok-bot-mastery-guide/",
+  "kept": true,
+  "cat": "I",
+  "title": "从入门到精通长文（觉醒AI）",
+  "review": "中文长文合集页，部分内容要登录才能看",
+  "tags": [
+   "guide",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://www.ssgoo.net/grok-bot-guide",
+  "kept": true,
+  "cat": "T3",
+  "title": "实战手册：从第一次交付到接入其他模型（小声工作室）",
+  "review": "中文，额度紧张时先拆工作，再让 Bot 安装第三方执行工具；注意密钥别写进聊天",
+  "tags": [
+   "cost",
+   "models"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://www.uuaihub.com/blog/grok-bot-one-person-company-2026",
+  "kept": true,
+  "cat": "T5",
+  "title": "用一组 Bot 搭一人公司（UU AI Hub）",
+  "review": "中文，六步搭建加六个可照抄的岗位",
+  "tags": [
+   "solo",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://www.datacamp.com/zh/tutorial/grok-bot-tutorial",
+  "kept": true,
+  "cat": "T1",
+  "title": "构建每周研究助手（DataCamp 中文）",
+  "review": "从建 Bot 到核对来源、存技能、排 Routine 的完整案例，测试过程写得很实在",
+  "tags": [
+   "routine",
+   "skill"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://pwa.sspai.com/post/116250",
+  "kept": true,
+  "cat": "T1",
+  "title": "深度拆解：为什么它更像一个团队（少数派）",
+  "review": "中文，从角色记忆分开、主 Bot 派活讲到实际用法",
+  "tags": [
+   "overview",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://xput.app/N4rlhi",
+  "kept": true,
+  "cat": "T4",
+  "title": "把 Grok Bot 接入微信的新手指南（XPut 转载）",
+  "review": "中文，三步接入，附提示词和封号风险提醒",
+  "tags": [
+   "wechat",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "source": "search"
+ },
+ {
+  "url": "https://cloud.tencent.com/developer/article/2757514",
+  "kept": false,
+  "reason": "与 JOTO 那篇内容相同的转载",
+  "source": "search"
+ },
+ {
+  "url": "https://grokguide.si/",
+  "kept": false,
+  "reason": "本站自己",
+  "source": "search"
+ },
+ {
+  "url": "https://blog.csdn.net/m0_69332373/article/details/164335878",
+  "kept": false,
+  "reason": "页面拦截自动访问，没能读到内容",
+  "source": "search"
+ },
+ {
+  "url": "https://blog.csdn.net/xianyu120/article/details/163723223",
+  "kept": false,
+  "reason": "页面拦截自动访问，没能读到内容",
+  "source": "search"
+ },
+ {
+  "url": "https://blog.csdn.net/xianyu120/article/details/164507961",
+  "kept": false,
+  "reason": "页面拦截自动访问，没能读到内容",
+  "source": "search"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2071222722299015239",
+  "kept": false,
+  "reason": "页面拦截自动访问，没能读到内容",
+  "source": "search"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2078873633989080803",
+  "kept": false,
+  "reason": "页面拦截自动访问，没能读到内容",
+  "source": "search"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2079679237955532367",
+  "kept": false,
+  "reason": "页面拦截自动访问，没能读到内容",
+  "source": "search"
+ },
+ {
+  "url": "https://zhuanlan.zhihu.com/p/2080428996949440073",
+  "kept": false,
+  "reason": "页面拦截自动访问，没能读到内容",
+  "source": "search"
  }
 ]

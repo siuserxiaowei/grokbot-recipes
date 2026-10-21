@@ -4,13 +4,15 @@
 
 中文 · [English](README.en.md) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)
 
+[![link-check](https://github.com/siuserxiaowei/grokbot-recipes/actions/workflows/link-check.yml/badge.svg)](https://github.com/siuserxiaowei/grokbot-recipes/actions/workflows/link-check.yml)
+
 非官方项目。教程正文在 [grokguide.si](https://grokguide.si)。
 
 ## 一眼看完
 
 - **17** 个配方，格式统一，提示词可以直接复制
-- **79** 个生态项目，每条都打开核对过：还在、还在更新、确实和 Grok Bot 有关
-- **116** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **89** 个生态项目和学习资源，每条都打开核对过
+- **131** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **104** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
@@ -45,15 +47,18 @@
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（79）
+## 生态清单（89）
 
-### 官方与工具（5）
+### 官方与工具（8）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
 - [grokbot-sdk](https://github.com/adam91holt/grokbot-sdk) - 社区写的 TypeScript 库，能读本机 Grok Bot 的名册、记忆和对话，适合想写自动化脚本的人。标签：`sdk` `typescript` 📦
 - [grok-bot-cli](https://github.com/ScriptedAlchemy/grok-bot-cli) - 社区命令行工具，在终端里建 Bot、拉群、发消息、清理旧对话，批量操作很方便。标签：`cli` `automation` 📦
 - [Grok Bot 模板市场](https://x.ai/bot/marketplace) - 官方模板入口，按岗位分好类，点一下就能导入，新手先逛这里。标签：`official` `templates` 📘
+- [官方指南：Grok Bot 101](https://x.ai/bot/guides/grok-bot-101) - 官方作者讲 Bot 的构成、三种对话方式、共享电脑和多 Bot 串联，入门必读。标签：`official` `guide` 📘
+- [官方文档：开始使用](https://docs.x.ai/grok-bot/get-started) - 从安装、登录到第一个任务的官方步骤，写请求的五个要素出自这里。标签：`official` `docs` 📘
+- [Cursor 中文文档：使用 Grok Bot](https://cursor.com/cn/docs/grok-bot/work) - 官方中文版，讲 Bot、共享电脑、技能和 Routine，查功能细节时用。标签：`official` `chinese` 📘
 
 ### 模板与目录（10）
 
@@ -68,7 +73,7 @@
 - [GrokBotDev](https://github.com/ZeroPointRepo/GrokBotDev) - 由一组 Bot 自己维护的玩法目录，本身就是多 Bot 协作的活例子。标签：`directory` `multi-bot` 📦
 - [GrokBot HQ](https://github.com/V-harshith/grokbothq) - 按类别列出大量 Bot，还有和其他 AI 助手的对比页。标签：`directory` `compare` 📦
 
-### 技能与连接（15）
+### 技能与连接（16）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -85,6 +90,7 @@
 - [remote-grok-build](https://github.com/Qervas/remote-grok-build) - 在聊天里遥控已关联电脑上的 Grok Build，适合编程用户。标签：`plugin` `grok-build` 📦
 - [dev-work-grok-bot-skill](https://github.com/FelixFangX/dev-work-grok-bot-skill) - 把 Bot 配成研发助理的技能，会先问清你的仓库和工具，带审批规则。标签：`skill` `dev` 📦
 - [Honcho 记忆插件](https://github.com/plastic-labs/honcho/tree/main/integrations/cursor) - 给多个 Bot 共用一份长期记忆的插件，在连接应用里搜索添加。标签：`memory` `plugin` 📦
+- [grokbot-wechat（psylch）](https://github.com/psylch/grokbot-wechat) - 把微信消息桥接到 Grok Bot 的转发程序，带保活和看门狗，想自己部署的人看。标签：`wechat` `bridge` 📦
 
 ### 多 Bot 团队（15）
 
@@ -140,7 +146,7 @@
 - [grok-gadgets](https://github.com/adidshaft/grok-gadgets) - 把硬件接到 Grok Bot 的工具包，可以先用模拟器试。标签：`hardware` `sdk` 📦
 - [把 Grok Bot 装进 ESP32](https://x.com/Liu_zhongxisn/status/2112118491239379227) - 中文，硬件小项目 · @Liu_zhongxisn · 2026-10-19。标签：`hardware` `esp32` 📘
 
-### 学习资源与合集（10）
+### 学习资源与合集（16）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -152,6 +158,12 @@
 - [二十个相关 GitHub 仓库](https://x.com/maestrooth/status/2105310670535184774) - 英文串帖，快速了解生态 · @maestrooth · 2026-09-30。标签：`index` `github` 📘
 - [案例合集站推荐](https://x.com/cnyzgkc/status/2095500855797748032) - 中文，介绍 usegrokbot.com · @cnyzgkc · 2026-09-03。标签：`index` `chinese` 📘
 - [常驻助手怎么工作（斯坦福讲座）](https://x.com/leerob/status/2108650243365736855) - 英文视频，讲常驻助手的原理和上下文工程 · @leerob · 2026-10-09。标签：`lecture` `english` 📘
+- [Grok 中文文档（社区翻译）](https://grok.docs-zh.com/zh-CN/grok-bot/skills-routines-and-automations) - 社区翻译的官方文档中文版，适合对照阅读，以官方原文为准。标签：`docs` `chinese` 📘
+- [Grok Bot 新手指南（fmcat）](https://bot.fmcat.top/part2/18-solo) - 中文长篇手册，案例篇讲一人公司、岗位定义和权限分级，进阶篇有飞书和微信接入。标签：`guide` `chinese` 📘
+- [grokbot-usage-guide-zh](https://github.com/Spidermanbaout/grokbot-usage-guide-zh) - 中文 GitHub 教程仓库，按建 Bot、描述任务、连接应用分章。标签：`guide` `github` 📦
+- [Grok-Bot-Tutorial（jobinben）](https://github.com/jobinben/Grok-Bot-Tutorial) - 中文 GitHub 教程，偏国内安装和常见用途介绍。标签：`guide` `github` 📦
+- [grokbot 完整使用指南（xianyu110）](https://github.com/xianyu110/grokbot) - 中文图文教程仓库，10 分钟上手加分主题深入。标签：`guide` `github` 📦
+- [从入门到精通长文（觉醒AI）](https://www.jxxy.net/ai/articles/grok-bot-mastery-guide/) - 中文长文合集页，部分内容要登录才能看。标签：`guide` `chinese` 📘
 
 ## 教程索引
 
@@ -308,7 +320,7 @@
 
 ## 致谢
 
-本仓库的结构和最初的候选清单参考了 [sit-in/awesome-grokbot-playbooks](https://github.com/sit-in/awesome-grokbot-playbooks)（MIT 许可）。每一条我们都重新核对过，标题、短评和配方都是自己写的。
+本仓库的结构和最初的候选清单参考了 [sit-in/awesome-grokbot-playbooks](https://github.com/sit-in/awesome-grokbot-playbooks)（MIT 许可）。之后又补充了中文搜索结果里的教程。每一条我们都重新核对过，标题、短评和配方都是自己写的。
 
 ## 许可证
 
