@@ -20,5 +20,6 @@ jobs:
             --accept 200,206,429,403
             --exclude '^https://(x|twitter)\.com/'
             --exclude '^https://x\.ai/bot/'
+            --exclude '^https://(blog\.csdn\.net|zhuanlan\.zhihu\.com)/'
             README.md README.en.md docs/*.md recipes/*.md
           fail: true
