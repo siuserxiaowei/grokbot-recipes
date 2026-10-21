@@ -3439,5 +3439,267 @@
   "kept": false,
   "reason": "与 CSDN 完整使用指南那篇内容相同的转载",
   "source": "search"
+ },
+ {
+  "url": "https://github.com/doublesq97-ui/bot-team-playbook",
+  "kept": true,
+  "cat": "D",
+  "title": "bot-team-playbook",
+  "review": "一个主管 Bot 带几个专员，按 8 种身份配好整队，中文提示词能直接贴，交付靠共享文件夹加主管验收",
+  "tags": [
+   "teams",
+   "chinese"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "doublesq97-ui/bot-team-playbook",
+  "last_push": "2026-10-18",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/JeffShanCha/grokbotguide",
+  "kept": true,
+  "cat": "I",
+  "title": "GrokBotGuide",
+  "review": "社区一起写的中英双语手册，从入门路线讲到 Skill、Routine 和工具实战，每篇标了来源；非官方，刚起步",
+  "tags": [
+   "chinese",
+   "guide"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "JeffShanCha/grokbotguide",
+  "last_push": "2026-10-21",
+  "license": "MIT"
+ },
+ {
+  "url": "https://x.com/cgnot996/status/2112761781080965416",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot 新手指南：从单任务到多 Bot 分工",
+  "review": "中文长文，给新手一条四步路线，先跑通一件事再慢慢组队，还附了作者开源的学习站",
+  "tags": [
+   "beginner",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "cgnot996",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/Sukiea1008/status/2095130333536739825",
+  "kept": true,
+  "cat": "T5",
+  "title": "用 Grok Bot 搭内容团队（中译）",
+  "review": "ScottyBeamIO 那篇内容团队拆解的中文全译，先定内容方向和检查规则，再分给几个 Bot 接力",
+  "tags": [
+   "content",
+   "chinese",
+   "teams"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Sukiea1008",
+  "date": "2026-09-02"
+ },
+ {
+  "url": "https://x.com/AIGuide_/status/2112604511533469980",
+  "kept": true,
+  "cat": "T5",
+  "title": "一套 Grok Bot 内容工作流",
+  "review": "英文长帖，把扫爆款、核对源头、一题多角度、每周复盘串成十步，发布始终留给人来点",
+  "tags": [
+   "content",
+   "workflow"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "AIGuide_",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/coreyganim/status/2112663410043470281",
+  "kept": true,
+  "cat": "T2",
+  "title": "我最常用的 10 个 Grok Bot 场景",
+  "review": "英文清单，总管 Bot 派活、周日排周计划、晚间核对笔记库等，对外的东西都只出草稿",
+  "tags": [
+   "teams",
+   "use-cases"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "coreyganim",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/ManaEngineer/status/2112481479158587884",
+  "kept": true,
+  "cat": "T4",
+  "title": "自有域名转发到 Bot 邮箱",
+  "review": "短帖但收藏很多：用 Cloudflare 免费转发，按收件地址把邮件分给不同的 Bot",
+  "tags": [
+   "email",
+   "cloudflare"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "ManaEngineer",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/vikingmute/status/2112735841634378175",
+  "kept": true,
+  "cat": "T4",
+  "title": "用 Cloudflare 邮件转发做个小客服",
+  "review": "中文短帖，把域名下几个邮箱都转给 Bot，咨询自动回、建议变工单、拿不准的留给自己",
+  "tags": [
+   "email",
+   "cloudflare",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "vikingmute",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/KanikaBK/status/2112829012515160139",
+  "kept": true,
+  "cat": "T3",
+  "title": "让每周额度撑得更久",
+  "review": "英文长文，教你先测再省：短会话、放慢 Routine、一事一 Bot、能用连接器就不开浏览器",
+  "tags": [
+   "quota",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "KanikaBK",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/poolmoon6/status/2112532951946965162",
+  "kept": true,
+  "cat": "T4",
+  "title": "把本机的 Claude Code、Codex 接进 Grok Bot",
+  "review": "中文长文，用开源的 agent-mesh 让云端 Bot 和本机编程助手互发消息，文中也提醒了注入风险",
+  "tags": [
+   "agents",
+   "chinese",
+   "local"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "poolmoon6",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/0xluffy_eth/status/2112725000012833044",
+  "kept": true,
+  "cat": "T5",
+  "title": "20 段提示词做门店获客",
+  "review": "中文长文，先给 Bot 一份店铺资料，再分段查同行、改门店页、找关键词、出月报，适合本地小生意",
+  "tags": [
+   "local-business",
+   "seo",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xluffy_eth",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/XFreeze/status/2112794321502027812",
+  "kept": true,
+  "cat": "T4",
+  "title": "Drive Vault：云电脑空间不够时挪到网盘",
+  "review": "英文模板，处理大文件时把旧素材传到 Google Drive、核对后再删，成片也给网盘链接方便手机下载",
+  "tags": [
+   "storage",
+   "template"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "XFreeze",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/free_ai_guides/status/2112816192121622758",
+  "kept": true,
+  "cat": "T1",
+  "title": "把 Grok Bot 设到 iPhone 操作按钮",
+  "review": "英文短帖，写了操作按钮里的设置路径，再给几条按下就能说的语音指令",
+  "tags": [
+   "mobile",
+   "voice"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "free_ai_guides",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/HeyGen/status/2112639914198352004",
+  "kept": true,
+  "cat": "T4",
+  "title": "Grok Bot 接 HeyGen 一键出视频",
+  "review": "HeyGen 官方写的自家用法：按住手机按钮说一句，Bot 写稿再调 HeyGen 出数字人视频",
+  "tags": [
+   "video",
+   "mcp",
+   "mobile"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "HeyGen",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/neil_xbt/status/2112555245423284249",
+  "kept": true,
+  "cat": "T2",
+  "title": "用好 Bot 市场，别加完就闲置",
+  "review": "英文长文，先想清楚岗位再挑模板，加之前看它要哪些连接和审批，一周后按表现决定去留",
+  "tags": [
+   "marketplace",
+   "teams"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "neil_xbt",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/anshuman_bh/status/2112799721626767778",
+  "kept": true,
+  "cat": "T6",
+  "title": "Triage Hound：漏洞线索分诊",
+  "review": "英文长文，两个模型各自审一遍、都确认的才留下，再起草报告，适合做安全审查的人",
+  "tags": [
+   "security",
+   "review"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "anshuman_bh",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/BrianRoemmele/status/2112763030648062096",
+  "kept": false,
+  "reason": "偏推广，涉及资金账户，不收"
+ },
+ {
+  "url": "https://x.com/knoxtwts/status/2112801314199777652",
+  "kept": false,
+  "reason": "互动太少，内容和市场模板重复"
+ },
+ {
+  "url": "https://x.com/don_tech1/status/2112826145427403090",
+  "kept": false,
+  "reason": "刚发布、几乎没有互动，先观察"
  }
 ]

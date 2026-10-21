@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **17** 个配方，格式统一，提示词可以直接复制
-- **89** 个生态项目和学习资源，每条都打开核对过
-- **136** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **91** 个生态项目和学习资源，每条都打开核对过
+- **150** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **104** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
@@ -47,7 +47,7 @@
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（89）
+## 生态清单（91）
 
 ### 官方与工具（8）
 
@@ -92,7 +92,7 @@
 - [Honcho 记忆插件](https://github.com/plastic-labs/honcho/tree/main/integrations/cursor) - 给多个 Bot 共用一份长期记忆的插件，在连接应用里搜索添加。标签：`memory` `plugin` 📦
 - [grokbot-wechat（psylch）](https://github.com/psylch/grokbot-wechat) - 把微信消息桥接到 Grok Bot 的转发程序，带保活和看门狗，想自己部署的人看。标签：`wechat` `bridge` 📦
 
-### 多 Bot 团队（15）
+### 多 Bot 团队（16）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -109,6 +109,7 @@
 - [模板：Fleet Lead](https://x.ai/bot/mOunuXA9lKjg8sWImIzgy) - 总指挥模板：只汇报做完的事，对外动作一律等你批准。标签：`template` `lead` 📘
 - [a2a-bridge](https://github.com/Rladmsrl/a2a-bridge) - 把靠网址触发的 Routine 包装成标准 A2A 服务，外部助手可以给你的 Bot 派活。标签：`a2a` `webhook` 📦
 - [grokbot-desk](https://github.com/realspqrk/grokbot-desk) - 给 Bot 用的审批台，Bot 交上表格和待办，你点批准或驳回。标签：`approval` `dashboard` 📦
+- [bot-team-playbook](https://github.com/doublesq97-ui/bot-team-playbook) - 一个主管 Bot 带几个专员，按 8 种身份配好整队，中文提示词能直接贴，交付靠共享文件夹加主管验收。标签：`teams` `chinese` 📦
 
 ### Routine 与监控（4）
 
@@ -146,7 +147,7 @@
 - [grok-gadgets](https://github.com/adidshaft/grok-gadgets) - 把硬件接到 Grok Bot 的工具包，可以先用模拟器试。标签：`hardware` `sdk` 📦
 - [把 Grok Bot 装进 ESP32](https://x.com/Liu_zhongxisn/status/2112118491239379227) - 中文，硬件小项目 · @Liu_zhongxisn · 2026-10-19。标签：`hardware` `esp32` 📘
 
-### 学习资源与合集（16）
+### 学习资源与合集（17）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -164,6 +165,7 @@
 - [Grok-Bot-Tutorial（jobinben）](https://github.com/jobinben/Grok-Bot-Tutorial) - 中文 GitHub 教程，偏国内安装和常见用途介绍。标签：`guide` `github` 📦
 - [grokbot 完整使用指南（xianyu110）](https://github.com/xianyu110/grokbot) - 中文图文教程仓库，10 分钟上手加分主题深入。标签：`guide` `github` 📦
 - [从入门到精通长文（觉醒AI）](https://www.jxxy.net/ai/articles/grok-bot-mastery-guide/) - 中文长文合集页，部分内容要登录才能看。标签：`guide` `chinese` 📘
+- [GrokBotGuide](https://github.com/JeffShanCha/grokbotguide) - 社区一起写的中英双语手册，从入门路线讲到 Skill、Routine 和工具实战，每篇标了来源；非官方，刚起步。标签：`chinese` `guide` 📦
 
 ## 教程索引
 
