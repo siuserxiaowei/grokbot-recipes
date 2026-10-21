@@ -1,0 +1,23 @@
+name: 投稿配方
+description: 分享一个你用过的 Grok Bot 配方
+labels: [recipe]
+body:
+  - type: input
+    id: title
+    attributes: {label: 配方名称}
+    validations: {required: true}
+  - type: textarea
+    id: scene
+    attributes: {label: 场景, description: 谁在什么情况下用，解决什么问题}
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes: {label: 步骤}
+    validations: {required: true}
+  - type: textarea
+    id: prompt
+    attributes: {label: 提示词, description: "变量用 {{占位符}}，示例用虚构内容", render: text}
+    validations: {required: true}
+  - type: textarea
+    id: tips
+    attributes: {label: 注意事项}

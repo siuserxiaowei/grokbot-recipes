@@ -1,0 +1,24 @@
+name: link-check
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --max-retries 3 --timeout 30
+            --accept 200,206,429,403
+            --exclude '^https://(x|twitter)\.com/'
+            --exclude '^https://x\.ai/bot/'
+            README.md README.en.md docs/*.md recipes/*.md
+          fail: true

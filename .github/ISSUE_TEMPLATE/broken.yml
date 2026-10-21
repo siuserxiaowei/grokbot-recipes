@@ -1,0 +1,12 @@
+name: 链接失效或内容有误
+description: 报告打不开的链接或过时的信息
+labels: [broken]
+body:
+  - type: input
+    id: where
+    attributes: {label: 哪一条, description: 条目标题或文件名}
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes: {label: 问题描述}
+    validations: {required: true}

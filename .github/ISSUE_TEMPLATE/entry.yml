@@ -1,0 +1,26 @@
+name: 推荐条目
+description: 推荐一个项目、模板或教程
+labels: [entry]
+body:
+  - type: input
+    id: url
+    attributes: {label: 链接, description: 公开可访问的地址}
+    validations: {required: true}
+  - type: input
+    id: review
+    attributes: {label: 一句话说明, description: 为什么值得收录，用自己的话写}
+    validations: {required: true}
+  - type: dropdown
+    id: cat
+    attributes:
+      label: 分类
+      options: [官方与工具, 模板与目录, 技能与连接, 多 Bot 团队, Routine 与监控, 一人公司与内容, 自托管与替代方案, 硬件, 学习资源与合集, 社区教程]
+  - type: checkboxes
+    id: check
+    attributes:
+      label: 自查
+      options:
+        - label: 不含密钥、密码、cookie 和个人隐私
+          required: true
+        - label: 不是纯推广或收益截图
+          required: true

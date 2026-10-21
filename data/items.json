@@ -1,0 +1,2994 @@
+[
+ {
+  "url": "https://docs.x.ai",
+  "kept": true,
+  "cat": "A",
+  "title": "xAI 开发者文档",
+  "review": "模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准",
+  "tags": [
+   "official",
+   "docs"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/xai-org",
+  "kept": true,
+  "cat": "A",
+  "title": "xai-org（GitHub 组织）",
+  "review": "xAI 自己维护的开源组织，SDK 和公开模型都从这里找",
+  "tags": [
+   "official",
+   "sdk"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/adam91holt/grokbot-sdk",
+  "kept": true,
+  "cat": "A",
+  "title": "grokbot-sdk",
+  "review": "社区写的 TypeScript 库，能读本机 Grok Bot 的名册、记忆和对话，适合想写自动化脚本的人",
+  "tags": [
+   "sdk",
+   "typescript"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "adam91holt/grokbot-sdk",
+  "last_push": "2026-08-19",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/ScriptedAlchemy/grok-bot-cli",
+  "kept": true,
+  "cat": "A",
+  "title": "grok-bot-cli",
+  "review": "社区命令行工具，在终端里建 Bot、拉群、发消息、清理旧对话，批量操作很方便",
+  "tags": [
+   "cli",
+   "automation"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "ScriptedAlchemy/grok-bot-cli",
+  "last_push": "2026-10-19",
+  "license": "MIT"
+ },
+ {
+  "url": "https://x.ai/bot/marketplace",
+  "kept": true,
+  "cat": "A",
+  "title": "Grok Bot 模板市场",
+  "review": "官方模板入口，按岗位分好类，点一下就能导入，新手先逛这里",
+  "tags": [
+   "official",
+   "templates"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://usegrokbot.com/",
+  "kept": true,
+  "cat": "B",
+  "title": "UseGrokBot",
+  "review": "按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想",
+  "tags": [
+   "directory",
+   "cases"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/kydlikebtc/awesome-grokbot",
+  "kept": true,
+  "cat": "B",
+  "title": "kydlikebtc/awesome-grokbot",
+  "review": "大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语",
+  "tags": [
+   "directory",
+   "links"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "kydlikebtc/awesome-grokbot",
+  "last_push": "2026-10-20",
+  "license": "NOASSERTION"
+ },
+ {
+  "url": "https://github.com/majiayu000/awesome-grok-bot",
+  "kept": true,
+  "cat": "B",
+  "title": "majiayu000/awesome-grok-bot",
+  "review": "数千个分享链接分层整理，带搜索页，想按质量挑模板可以看它",
+  "tags": [
+   "directory",
+   "links"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "majiayu000/awesome-grok-bot",
+  "last_push": "2026-10-21",
+  "license": "CC0-1.0"
+ },
+ {
+  "url": "https://github.com/cs68614-hash/awesome-grokbot-templates",
+  "kept": true,
+  "cat": "B",
+  "title": "awesome-grokbot-templates",
+  "review": "只收官方分享链接的模板目录，不搬运提示词，干净好查",
+  "tags": [
+   "directory",
+   "templates"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "cs68614-hash/awesome-grokbot-templates",
+  "last_push": "2026-10-21",
+  "license": "CC0-1.0"
+ },
+ {
+  "url": "https://github.com/mergisi/awesome-grokbot",
+  "kept": true,
+  "cat": "B",
+  "title": "mergisi/awesome-grokbot",
+  "review": "一批可以直接粘贴的人设和起步团队，适合想快速有个样子的人",
+  "tags": [
+   "profiles",
+   "teams"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "mergisi/awesome-grokbot",
+  "last_push": "2026-08-20",
+  "license": "CC0-1.0"
+ },
+ {
+  "url": "https://github.com/templatesgrokbot/templatesgrokbot.com",
+  "kept": true,
+  "cat": "B",
+  "title": "templatesgrokbot.com",
+  "review": "按岗位检索的大型模板库，还能通过 MCP 调用；数量多，挑的时候要自己把关",
+  "tags": [
+   "templates",
+   "mcp"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "templatesgrokbot/templatesgrokbot.com",
+  "last_push": "2026-10-16",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/elie222/botdirectory.ai",
+  "kept": true,
+  "cat": "B",
+  "title": "botdirectory.ai",
+  "review": "开源的 Bot 提示词目录，不只 Grok Bot 能用，适合翻着找思路",
+  "tags": [
+   "prompts",
+   "directory"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "elie222/botdirectory.ai",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://usefulbots.pages.dev/",
+  "kept": true,
+  "cat": "B",
+  "title": "Useful Bots",
+  "review": "面向视频和内容创作者的模板合集，分类清楚",
+  "tags": [
+   "templates",
+   "creator"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/ZeroPointRepo/GrokBotDev",
+  "kept": true,
+  "cat": "B",
+  "title": "GrokBotDev",
+  "review": "由一组 Bot 自己维护的玩法目录，本身就是多 Bot 协作的活例子",
+  "tags": [
+   "directory",
+   "multi-bot"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "ZeroPointRepo/GrokBotDev",
+  "last_push": "2026-10-21",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/V-harshith/grokbothq",
+  "kept": true,
+  "cat": "B",
+  "title": "GrokBot HQ",
+  "review": "按类别列出大量 Bot，还有和其他 AI 助手的对比页",
+  "tags": [
+   "directory",
+   "compare"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "V-harshith/grokbothq",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/cobusgreyling/grok-bot-templates",
+  "kept": true,
+  "cat": "C",
+  "title": "grok-bot-templates",
+  "review": "把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下",
+  "tags": [
+   "templates",
+   "spec"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "cobusgreyling/grok-bot-templates",
+  "last_push": "2026-09-24",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/PramodDutta/botskills",
+  "kept": true,
+  "cat": "C",
+  "title": "botskills",
+  "review": "每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学",
+  "tags": [
+   "skills",
+   "guardrails"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "PramodDutta/botskills",
+  "last_push": "2026-09-24",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/bcharleson/grokbot-for-gtm",
+  "kept": true,
+  "cat": "F",
+  "title": "grokbot-for-gtm",
+  "review": "一整套海外外联获客流程，从建名单到处理回复，出海团队可以参考",
+  "tags": [
+   "gtm",
+   "outbound"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "bcharleson/grokbot-for-gtm",
+  "last_push": "2026-08-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/unicodef1wn/grokbot-field-notes",
+  "kept": true,
+  "cat": "I",
+  "title": "grokbot-field-notes",
+  "review": "整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路",
+  "tags": [
+   "notes",
+   "rules"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "unicodef1wn/grokbot-field-notes",
+  "last_push": "2026-09-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/Bodila51/grok-bot-jev",
+  "kept": true,
+  "cat": "C",
+  "title": "grok-bot-jev",
+  "review": "在耗额度的大任务前加一层便宜的判断，思路省钱；依赖第三方服务",
+  "tags": [
+   "cost",
+   "skill"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "Bodila51/grok-bot-jev",
+  "last_push": "2026-09-28",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/markfulton/agent-cookie-sync",
+  "kept": true,
+  "cat": "C",
+  "title": "agent-cookie-sync",
+  "review": "把本机浏览器的登录状态交给云端 Bot，不用给密码；相当于交出账号权限，只用于不敏感的账号",
+  "tags": [
+   "browser",
+   "login"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "markfulton/agent-cookie-sync",
+  "last_push": "2026-09-25",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/Waishnav/devspace",
+  "kept": true,
+  "cat": "C",
+  "title": "devspace",
+  "review": "一个很小的 MCP 编程工具，让 Grok Bot 等助手能读写代码",
+  "tags": [
+   "mcp",
+   "coding"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "Waishnav/devspace",
+  "last_push": "2026-10-12",
+  "license": "MIT"
+ },
+ {
+  "url": "https://docs.bland.ai/integrations/mcp/grok-bot",
+  "kept": true,
+  "cat": "C",
+  "title": "Bland 电话 MCP",
+  "review": "官方接入文档，让 Bot 能打电话、发短信，打电话前务必设审批",
+  "tags": [
+   "mcp",
+   "phone"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/jeffhuber/grokbot-imessage-skill",
+  "kept": true,
+  "cat": "C",
+  "title": "grokbot-imessage-skill",
+  "review": "在 Mac 上让 Bot 读和整理 iMessage，发送前先预览；需要较高系统权限",
+  "tags": [
+   "skill",
+   "macos"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "jeffhuber/grokbot-imessage-skill",
+  "last_push": "2026-09-15",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/adamanz/grok-bot-skill",
+  "kept": true,
+  "cat": "C",
+  "title": "grok-bot-skill",
+  "review": "装在编程工具里的技能，在终端就能给 Grok Bot 发消息、建新 Bot",
+  "tags": [
+   "skill",
+   "cli"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "adamanz/grok-bot-skill",
+  "last_push": "2026-08-17",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/unicodef1wn/lauren-poteto-rules",
+  "kept": true,
+  "cat": "C",
+  "title": "lauren-poteto-rules",
+  "review": "把“先看证据再下结论”这类工程习惯写成技能，适合给编程类 Bot",
+  "tags": [
+   "skill",
+   "engineering"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "unicodef1wn/lauren-poteto-rules",
+  "last_push": "2026-09-21",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/eze-is/web-access",
+  "kept": true,
+  "cat": "C",
+  "title": "web-access",
+  "review": "给本机助手增强联网能力的技能，中文说明，会积累各网站的访问经验",
+  "tags": [
+   "skill",
+   "web"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "eze-is/web-access",
+  "last_push": "2026-10-14",
+  "license": ""
+ },
+ {
+  "url": "https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes",
+  "kept": true,
+  "cat": "F",
+  "title": "模板：Motion Director",
+  "review": "一句话出动画短片的模板，适合做产品宣传和短视频",
+  "tags": [
+   "template",
+   "video"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/HarjjotSinghh/locum",
+  "kept": true,
+  "cat": "C",
+  "title": "locum",
+  "review": "让 Grok Bot 把写代码的活转给你本机的编程工具，只调用官方命令行",
+  "tags": [
+   "mcp",
+   "coding"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "HarjjotSinghh/locum",
+  "last_push": "2026-09-14",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/RongleCat/grok-bot-clipper",
+  "kept": true,
+  "cat": "C",
+  "title": "Grok Bot Clipper",
+  "review": "浏览器扩展，把网页、截图、帖子收进素材篮再交给 Bot",
+  "tags": [
+   "extension",
+   "clipper"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "RongleCat/grok-bot-clipper",
+  "last_push": "2026-10-18",
+  "license": "NOASSERTION"
+ },
+ {
+  "url": "https://x.ai/bot/v3WI0YuJAr1DLoYdYVXh8",
+  "kept": true,
+  "cat": "F",
+  "title": "模板：Research by Trond",
+  "review": "只读的研究模板，出带引用的简报，做选题前用",
+  "tags": [
+   "template",
+   "research"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/Qervas/remote-grok-build",
+  "kept": true,
+  "cat": "C",
+  "title": "remote-grok-build",
+  "review": "在聊天里遥控已关联电脑上的 Grok Build，适合编程用户",
+  "tags": [
+   "plugin",
+   "grok-build"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "Qervas/remote-grok-build",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/FelixFangX/dev-work-grok-bot-skill",
+  "kept": true,
+  "cat": "C",
+  "title": "dev-work-grok-bot-skill",
+  "review": "把 Bot 配成研发助理的技能，会先问清你的仓库和工具，带审批规则",
+  "tags": [
+   "skill",
+   "dev"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "FelixFangX/dev-work-grok-bot-skill",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/ellelion/botteams",
+  "kept": true,
+  "cat": "D",
+  "title": "botteams",
+  "review": "一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写",
+  "tags": [
+   "teams",
+   "install"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "ellelion/botteams",
+  "last_push": "2026-09-08",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/HAEGONG/grok-bot-profiles",
+  "kept": true,
+  "cat": "D",
+  "title": "grok-bot-profiles",
+  "review": "需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚",
+  "tags": [
+   "teams",
+   "dev"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "HAEGONG/grok-bot-profiles",
+  "last_push": "2026-08-27",
+  "license": "CC-BY-4.0"
+ },
+ {
+  "url": "https://github.com/Archive228/overnight",
+  "kept": true,
+  "cat": "D",
+  "title": "overnight",
+  "review": "六个 Bot 的视频生产线，发布前必须人审，内容号可以学它的把关方式",
+  "tags": [
+   "teams",
+   "content"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "Archive228/overnight",
+  "last_push": "2026-08-26",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/timscheuerai/grokbot-gtm-team",
+  "kept": true,
+  "cat": "D",
+  "title": "grokbot-gtm-team",
+  "review": "作者公开的十几个销售类 Bot 和建队提示词，一次对话建好整队",
+  "tags": [
+   "teams",
+   "gtm"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "timscheuerai/grokbot-gtm-team",
+  "last_push": "2026-10-14",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/AgenticsWorks/AgentPeerChat",
+  "kept": true,
+  "cat": "D",
+  "title": "AgentPeerChat",
+  "review": "自托管的 Bot 间消息通道，能把 Grok Bot 和别的助手拉进同一个频道",
+  "tags": [
+   "self-hosted",
+   "messaging"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "AgenticsWorks/AgentPeerChat",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/pdparchitect/noodle",
+  "kept": true,
+  "cat": "D",
+  "title": "noodle",
+  "review": "Mac 和 iPhone 上的多助手群聊客户端，复用已有订阅",
+  "tags": [
+   "client",
+   "multi-agent"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "pdparchitect/noodle",
+  "last_push": "2026-10-21",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/stablyai/orca",
+  "kept": true,
+  "cat": "D",
+  "title": "orca",
+  "review": "管理一群编程助手的工作台，电脑和手机都能用，社区里规模较大",
+  "tags": [
+   "workspace",
+   "fleet"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "stablyai/orca",
+  "last_push": "2026-10-21",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/Mng-dev-ai/agentrove",
+  "kept": true,
+  "cat": "D",
+  "title": "agentrove",
+  "review": "自托管的编程工作区，把多家编程助手放在一起编排",
+  "tags": [
+   "self-hosted",
+   "coding"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "Mng-dev-ai/agentrove",
+  "last_push": "2026-10-20",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/reason-machines/reason-network",
+  "kept": true,
+  "cat": "D",
+  "title": "reason-network",
+  "review": "让团队里各台电脑上的编程助手互相通话，点对点加密",
+  "tags": [
+   "network",
+   "coding"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "reason-machines/reason-network",
+  "last_push": "2026-10-21",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://x.ai/bot/HQh9l4duDHNmhCuSW_pn-",
+  "kept": true,
+  "cat": "D",
+  "title": "模板：Chief of Operations",
+  "review": "管理全队规则、登记所有 Bot 和 Routine、定期做安全检查的总管模板",
+  "tags": [
+   "template",
+   "ops"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://x.ai/bot/_5NG_WsrOdQs2jtUhZeQH",
+  "kept": true,
+  "cat": "D",
+  "title": "模板：T3 Code Bridge",
+  "review": "让 Grok Bot 指挥并盯着 T3 Code 的编程任务，完成或出错会提醒",
+  "tags": [
+   "template",
+   "coding"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/amplifthq/openmeld",
+  "kept": true,
+  "cat": "D",
+  "title": "openmeld",
+  "review": "人和多个助手共享上下文、分配任务的开源协作系统",
+  "tags": [
+   "collab",
+   "open-source"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "amplifthq/openmeld",
+  "last_push": "2026-10-21",
+  "license": "MIT"
+ },
+ {
+  "url": "https://x.ai/bot/mOunuXA9lKjg8sWImIzgy",
+  "kept": true,
+  "cat": "D",
+  "title": "模板：Fleet Lead",
+  "review": "总指挥模板：只汇报做完的事，对外动作一律等你批准",
+  "tags": [
+   "template",
+   "lead"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/Rladmsrl/a2a-bridge",
+  "kept": true,
+  "cat": "D",
+  "title": "a2a-bridge",
+  "review": "把靠网址触发的 Routine 包装成标准 A2A 服务，外部助手可以给你的 Bot 派活",
+  "tags": [
+   "a2a",
+   "webhook"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "Rladmsrl/a2a-bridge",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/realspqrk/grokbot-desk",
+  "kept": true,
+  "cat": "D",
+  "title": "grokbot-desk",
+  "review": "给 Bot 用的审批台，Bot 交上表格和待办，你点批准或驳回",
+  "tags": [
+   "approval",
+   "dashboard"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "realspqrk/grokbot-desk",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/plastic-labs/honcho/tree/main/integrations/cursor",
+  "kept": true,
+  "cat": "C",
+  "title": "Honcho 记忆插件",
+  "review": "给多个 Bot 共用一份长期记忆的插件，在连接应用里搜索添加",
+  "tags": [
+   "memory",
+   "plugin"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "plastic-labs/honcho",
+  "last_push": "2026-10-21",
+  "license": "AGPL-3.0"
+ },
+ {
+  "url": "https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn",
+  "kept": true,
+  "cat": "E",
+  "title": "模板：X Post Tracker",
+  "review": "盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒",
+  "tags": [
+   "template",
+   "x"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/eze-is/eze-grokbot",
+  "kept": true,
+  "cat": "F",
+  "title": "eze-grokbot",
+  "review": "中文作者公开的多 Bot 配置，一个 Bot 一个文件夹；没写许可证，只参考结构",
+  "tags": [
+   "chinese",
+   "config"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "eze-is/eze-grokbot",
+  "last_push": "2026-10-11",
+  "license": ""
+ },
+ {
+  "url": "https://github.com/bogao6769-netizen/grok-bot-wechat",
+  "kept": true,
+  "cat": "F",
+  "title": "grok-bot-wechat",
+  "review": "用微信消息触发 Routine 的配方，回复再转回微信",
+  "tags": [
+   "wechat",
+   "webhook"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "bogao6769/grok-bot-wechat",
+  "last_push": "2026-10-15",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/dongpen-max/XinyunOpenBot",
+  "kept": true,
+  "cat": "G",
+  "title": "XinyunOpenBot",
+  "review": "面向中文用户的开源替代，默认简体中文，可接多家模型",
+  "tags": [
+   "self-hosted",
+   "chinese"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "dongpen-max/XinyunOpenBot",
+  "last_push": "2026-08-30",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/wolfqing/OpenGrokBot",
+  "kept": true,
+  "cat": "G",
+  "title": "OpenGrokBot",
+  "review": "自托管方案，每个 Bot 一台自己的机器，模型自选",
+  "tags": [
+   "self-hosted",
+   "byo-model"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "wolfqing/OpenGrokBot",
+  "last_push": "2026-09-29",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/Anil-matcha/open-grok-bot",
+  "kept": true,
+  "cat": "G",
+  "title": "open-grok-bot",
+  "review": "本地优先的工作台，动作默认拒绝、要审批并留记录",
+  "tags": [
+   "self-hosted",
+   "approval"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "Anil-matcha/open-grok-bot",
+  "last_push": "2026-09-20",
+  "license": ""
+ },
+ {
+  "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+  "kept": true,
+  "cat": "G",
+  "title": "xiryn",
+  "review": "每个助手一台 Docker 桌面，可用 Telegram 遥控",
+  "tags": [
+   "self-hosted",
+   "docker"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "SouravBeraAkaSpeed/xiryn",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/BotHarness/DeepSeekBot",
+  "kept": true,
+  "cat": "G",
+  "title": "DeepSeekBot",
+  "review": "基于 DeepSeek 的开源替代，多 Bot、长期记忆，中英文说明",
+  "tags": [
+   "self-hosted",
+   "deepseek"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "BotHarness/DeepSeekBot",
+  "last_push": "2026-10-20",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/egoist/lorca",
+  "kept": true,
+  "cat": "G",
+  "title": "lorca",
+  "review": "单人用的加密消息应用，助手住在里面，偏个人通讯",
+  "tags": [
+   "self-hosted",
+   "messaging"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "egoist/lorca",
+  "last_push": "2026-10-20",
+  "license": "GPL-3.0"
+ },
+ {
+  "url": "https://github.com/CigaleAI/guilds",
+  "kept": true,
+  "cat": "G",
+  "title": "guilds",
+  "review": "团队形态的开源替代，项目较早期，适合关注",
+  "tags": [
+   "self-hosted",
+   "early"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "CigaleAI/guilds",
+  "last_push": "2026-10-19",
+  "license": "AGPL-3.0"
+ },
+ {
+  "url": "https://github.com/elie222/rakazo",
+  "kept": true,
+  "cat": "G",
+  "title": "rakazo",
+  "review": "开源替代，模型和沙盒都自己选，用法接近 Grok Bot",
+  "tags": [
+   "self-hosted",
+   "byo-model"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "elie222/rakazo",
+  "last_push": "2026-10-21",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/leepokai/Codync",
+  "kept": true,
+  "cat": "G",
+  "title": "Codync",
+  "review": "把本机几十种编程助手变成可以发消息派活的 Bot",
+  "tags": [
+   "self-hosted",
+   "coding"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "leepokai/Codync",
+  "last_push": "2026-10-20",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/nightly-labs/openbot",
+  "kept": true,
+  "cat": "G",
+  "title": "openbot（nightly-labs）",
+  "review": "本地桌面工作区，各助手有自己的任务队列，能从 Grok Bot 迁移",
+  "tags": [
+   "self-hosted",
+   "desktop"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "nightly-labs/openbot",
+  "last_push": "2026-10-21",
+  "license": "NOASSERTION"
+ },
+ {
+  "url": "https://github.com/milind-soni/OpenMausBot",
+  "kept": true,
+  "cat": "G",
+  "title": "OpenMausBot",
+  "review": "聊天应用形态的开源替代，底层跑你本机的命令行助手",
+  "tags": [
+   "self-hosted",
+   "chat"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "milind-soni/OpenMausBot",
+  "last_push": "2026-10-20",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/JosssphZhou/groki-bot",
+  "kept": true,
+  "cat": "H",
+  "title": "groki-bot",
+  "review": "M5Stack 桌面小机器人，能用语音把任务交给 Grok Bot",
+  "tags": [
+   "hardware",
+   "voice"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "JosssphZhou/groki-bot",
+  "last_push": "2026-10-18",
+  "license": "BSL-1.0"
+ },
+ {
+  "url": "https://github.com/adidshaft/grok-gadgets",
+  "kept": true,
+  "cat": "H",
+  "title": "grok-gadgets",
+  "review": "把硬件接到 Grok Bot 的工具包，可以先用模拟器试",
+  "tags": [
+   "hardware",
+   "sdk"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "adidshaft/grok-gadgets",
+  "last_push": "2026-10-20",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/ZeroPointRepo/awesome-grok-bot",
+  "kept": true,
+  "cat": "I",
+  "title": "awesome-grok-bot（英文）",
+  "review": "英文生态导航，技能、插件和 MCP 比较全",
+  "tags": [
+   "awesome",
+   "english"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "ZeroPointRepo/awesome-grok-bot",
+  "last_push": "2026-10-04",
+  "license": "NOASSERTION"
+ },
+ {
+  "url": "https://cnrcode.com/guides/",
+  "kept": true,
+  "cat": "I",
+  "title": "CNR Grok Bot 指南",
+  "review": "英文入门四篇，讲功能、Routine、省额度和模板；带一些推广",
+  "tags": [
+   "guide",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://bot.tiezhu.si/",
+  "kept": true,
+  "cat": "I",
+  "title": "铁柱 Grok Bot 学习站",
+  "review": "中文学习站，可以和本站对照着看",
+  "tags": [
+   "guide",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/KinGao294/grok-bot-orange-book",
+  "kept": true,
+  "cat": "I",
+  "title": "Grok Bot 橙皮书",
+  "review": "中文长篇手册，从入门到多 Bot 协作和 Routine",
+  "tags": [
+   "guide",
+   "chinese"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-21",
+  "repo": "KinGao294/grok-bot-orange-book",
+  "last_push": "2026-08-24",
+  "license": ""
+ },
+ {
+  "url": "https://x.com/eze_is_1/status/2109850538045264151",
+  "kept": true,
+  "cat": "T1",
+  "title": "让 Grok Bot 更好用的 10 条经验",
+  "review": "中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置",
+  "tags": [
+   "tips",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "eze_is_1",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/Mileson07/status/2108384482063688060",
+  "kept": true,
+  "cat": "T1",
+  "title": "官方教程中文整理",
+  "review": "把官方英文指南整理成中文，适合不想读英文的人",
+  "tags": [
+   "official",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Mileson07",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://x.com/Remake___/status/2106996626707607818",
+  "kept": true,
+  "cat": "T1",
+  "title": "把 Grok Bot 当同事用",
+  "review": "照着官方文档一步步写，注意文中的版本日期",
+  "tags": [
+   "guide",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Remake___",
+  "date": "2026-10-05"
+ },
+ {
+  "url": "https://x.com/lanvjian/status/2109560084418490771",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot 教程阅读顺序",
+  "review": "把热门教程按入门、进阶、实战排了顺序",
+  "tags": [
+   "index",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "lanvjian",
+  "date": "2026-10-12"
+ },
+ {
+  "url": "https://x.com/SawyerMerritt/status/2103664821459685708",
+  "kept": true,
+  "cat": "T1",
+  "title": "20 课教学模板",
+  "review": "英文，可导入的教学模板，从对话一路讲到团队协作",
+  "tags": [
+   "template",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "SawyerMerritt",
+  "date": "2026-09-26"
+ },
+ {
+  "url": "https://x.com/AleiahLock/status/2095924854335631840",
+  "kept": true,
+  "cat": "T1",
+  "title": "官方一小时工作坊要点",
+  "review": "英文，核心观点是从“派任务”转向“设岗位”",
+  "tags": [
+   "workshop",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "AleiahLock",
+  "date": "2026-09-04"
+ },
+ {
+  "url": "https://x.com/0xShoopy/status/2107874318244032867",
+  "kept": true,
+  "cat": "T1",
+  "title": "像招新员工一样配 Bot",
+  "review": "英文，按招人、培训、配工具三步走，演示一次就存成技能",
+  "tags": [
+   "onboarding",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xShoopy",
+  "date": "2026-10-07"
+ },
+ {
+  "url": "https://x.com/im_insulting/status/2099228547760128299",
+  "kept": true,
+  "cat": "T1",
+  "title": "务实用法：只交出非核心任务",
+  "review": "英文长文，不追花活，讲怎么把杂事交出去",
+  "tags": [
+   "tips",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "im_insulting",
+  "date": "2026-09-13"
+ },
+ {
+  "url": "https://x.com/zodchiii/status/2090778823050592662",
+  "kept": true,
+  "cat": "T2",
+  "title": "十分钟建一支团队",
+  "review": "英文，先建首席助理，再让它去建其他岗位",
+  "tags": [
+   "team",
+   "chief-of-staff"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "zodchiii",
+  "date": "2026-08-21"
+ },
+ {
+  "url": "https://x.com/Av1dlive/status/2090366905169379554",
+  "kept": true,
+  "cat": "T2",
+  "title": "首席加岗位的最小团队",
+  "review": "英文早期热帖，语气偏宣传，当最小团队的参考",
+  "tags": [
+   "team",
+   "starter"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Av1dlive",
+  "date": "2026-08-20"
+ },
+ {
+  "url": "https://x.com/shirosignal/status/2110077526924317019",
+  "kept": true,
+  "cat": "T2",
+  "title": "官方工程师的二十多个 Bot",
+  "review": "英文，首席、产品、测试等岗位怎么配",
+  "tags": [
+   "team",
+   "engineering"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "shirosignal",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/0xRafy/status/2096017149999358316",
+  "kept": true,
+  "cat": "T2",
+  "title": "官方工程师的首席助理配置",
+  "review": "英文，看真实的首席助理描述怎么写",
+  "tags": [
+   "chief-of-staff",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xRafy",
+  "date": "2026-09-04"
+ },
+ {
+  "url": "https://x.com/luhuamfl0/status/2100155813528768516",
+  "kept": true,
+  "cat": "T2",
+  "title": "Grok Bot 做调度，云电脑里跑编程工具",
+  "review": "中文，让 Bot 在自己电脑上装别的编程工具再派活",
+  "tags": [
+   "orchestration",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "luhuamfl0",
+  "date": "2026-09-16"
+ },
+ {
+  "url": "https://x.com/czzzzzzJ_/status/2109600412366160101",
+  "kept": true,
+  "cat": "T3",
+  "title": "Grok Bot 省额度教程",
+  "review": "中文，手把手讲怎么省额度",
+  "tags": [
+   "cost",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "czzzzzzJ_",
+  "date": "2026-10-12"
+ },
+ {
+  "url": "https://x.com/Michael_Fenech_/status/2108145378323542306",
+  "kept": true,
+  "cat": "T3",
+  "title": "每周对照新功能检查用法",
+  "review": "英文，让 Bot 每周看更新日志，提醒你哪些功能该用上",
+  "tags": [
+   "routine",
+   "updates"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Michael_Fenech_",
+  "date": "2026-10-08"
+ },
+ {
+  "url": "https://x.com/mikepat711/status/2107130731382079767",
+  "kept": true,
+  "cat": "T3",
+  "title": "周一自查 Routine",
+  "review": "英文，让首席助理每周一做一次全队体检",
+  "tags": [
+   "routine",
+   "review"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "mikepat711",
+  "date": "2026-10-05"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2111361067041673452",
+  "kept": true,
+  "cat": "T4",
+  "title": "Grok Bot 和本地助手打通",
+  "review": "中文，用 Webhook 和 GitHub 把云端和本机连起来",
+  "tags": [
+   "webhook",
+   "local"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-17"
+ },
+ {
+  "url": "https://x.com/SpringHaoAI/status/2095915259521585458",
+  "kept": true,
+  "cat": "T4",
+  "title": "用 Tailscale 连 Bot 的云电脑",
+  "review": "中文保姆级教程，从本机 SSH 进 Bot 的电脑",
+  "tags": [
+   "ssh",
+   "tailscale"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "SpringHaoAI",
+  "date": "2026-09-04"
+ },
+ {
+  "url": "https://x.com/sairahul1/status/2089995692874068433",
+  "kept": true,
+  "cat": "T5",
+  "title": "一个人的公司怎么用 Grok Bot 搭",
+  "review": "英文长文，按岗位拆一人公司的 Bot",
+  "tags": [
+   "solo",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sairahul1",
+  "date": "2026-08-19"
+ },
+ {
+  "url": "https://x.com/ai_goge/status/2110331990566449273",
+  "kept": true,
+  "cat": "T5",
+  "title": "内容生产拆给十几个 Bot",
+  "review": "中文长文，一个 Bot 只管一个环节",
+  "tags": [
+   "content",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "ai_goge",
+  "date": "2026-10-14"
+ },
+ {
+  "url": "https://x.com/seekjourney/status/2110986767549739151",
+  "kept": true,
+  "cat": "T5",
+  "title": "用 Grok Bot 做项目宣传片",
+  "review": "中文，开源项目怎么让 Bot 出视频",
+  "tags": [
+   "video",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "seekjourney",
+  "date": "2026-10-16"
+ },
+ {
+  "url": "https://x.com/0xlangeai/status/2111396742264742034",
+  "kept": true,
+  "cat": "I",
+  "title": "X 上 Grok Bot 文章合集（9 类）",
+  "review": "中文，按主题整理的必读文章",
+  "tags": [
+   "index",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xlangeai",
+  "date": "2026-10-17"
+ },
+ {
+  "url": "https://x.com/KinGao476942/status/2110689770892648953",
+  "kept": true,
+  "cat": "I",
+  "title": "一位作者的系列教程合集",
+  "review": "中文，一个多月的教程汇总，可以整份发给 Bot 读",
+  "tags": [
+   "index",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "KinGao476942",
+  "date": "2026-10-15"
+ },
+ {
+  "url": "https://x.com/maestrooth/status/2105310670535184774",
+  "kept": true,
+  "cat": "I",
+  "title": "二十个相关 GitHub 仓库",
+  "review": "英文串帖，快速了解生态",
+  "tags": [
+   "index",
+   "github"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "maestrooth",
+  "date": "2026-09-30"
+ },
+ {
+  "url": "https://x.com/cnyzgkc/status/2095500855797748032",
+  "kept": true,
+  "cat": "I",
+  "title": "案例合集站推荐",
+  "review": "中文，介绍 usegrokbot.com",
+  "tags": [
+   "index",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "cnyzgkc",
+  "date": "2026-09-03"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110720093613150324",
+  "kept": true,
+  "cat": "T2",
+  "title": "十几个 Bot 同时干活的体验",
+  "review": "中文，讲多 Bot 并行的实际感受",
+  "tags": [
+   "multi-bot",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-15"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2109840998910276066",
+  "kept": true,
+  "cat": "T1",
+  "title": "订阅合并后要不要切换",
+  "review": "中文，作者用自己的账讲怎么选",
+  "tags": [
+   "plan",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110975023531839754",
+  "kept": true,
+  "cat": "G",
+  "title": "DeepSeek 开源替代的介绍",
+  "review": "中文，为什么做开源替代、怎么用",
+  "tags": [
+   "self-hosted",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-16"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2105180871682884093",
+  "kept": true,
+  "cat": "T1",
+  "title": "个人助手赛道对比",
+  "review": "中文，几款个人助手的横向对比",
+  "tags": [
+   "compare",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-09-30"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2094964024630989241",
+  "kept": true,
+  "cat": "T1",
+  "title": "值得借鉴的 11 点",
+  "review": "中文，用 Grok Bot 的 11 条经验",
+  "tags": [
+   "tips",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-09-02"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2109628651897594022",
+  "kept": true,
+  "cat": "T2",
+  "title": "每个 Bot 只管一件事",
+  "review": "中文，作者列出自己十几个 Bot 的分工",
+  "tags": [
+   "roster",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-12"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2111425240492281976",
+  "kept": false,
+  "reason": "通用多智能体观点，不是 Grok Bot 内容"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2109890718567473547",
+  "kept": true,
+  "cat": "T4",
+  "title": "多个 Bot 怎么共享背景",
+  "review": "中文，讨论记忆迁移对多 Bot 的意义",
+  "tags": [
+   "memory",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110304146628976881",
+  "kept": true,
+  "cat": "T2",
+  "title": "升级后让 AI 并行做了哪些事",
+  "review": "中文，并行任务清单",
+  "tags": [
+   "multi-bot",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-14"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2108461964116865055",
+  "kept": false,
+  "reason": "重复"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2094687048288674268",
+  "kept": true,
+  "cat": "T5",
+  "title": "X 内容自动化流程",
+  "review": "中文，找素材、写、挑错、发布、复盘五步",
+  "tags": [
+   "content",
+   "x"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-09-01"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110234159344218280",
+  "kept": true,
+  "cat": "T3",
+  "title": "每天早上读邮件找问题",
+  "review": "中文，邮件晨检的做法",
+  "tags": [
+   "email",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-14"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2111647666346361273",
+  "kept": true,
+  "cat": "T4",
+  "title": "把第三方 MCP 接进 Grok Bot",
+  "review": "中文，接入一个社区 MCP 的例子",
+  "tags": [
+   "mcp",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-18"
+ },
+ {
+  "url": "https://x.com/KinGao476942/status/2097915898971742325",
+  "kept": true,
+  "cat": "T1",
+  "title": "不写代码的人怎么用好 Grok Bot",
+  "review": "中文长文，讲非工程师怎么配岗位和派活",
+  "tags": [
+   "non-engineer",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "KinGao476942",
+  "date": "2026-09-10"
+ },
+ {
+  "url": "https://x.com/KinGao476942/status/2096232745538334913",
+  "kept": true,
+  "cat": "T1",
+  "title": "工程师怎么用好 Grok Bot",
+  "review": "中文长文，译自官方工程师的指南",
+  "tags": [
+   "engineering",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "KinGao476942",
+  "date": "2026-09-05"
+ },
+ {
+  "url": "https://x.com/Chchenhao0129/status/2099045980221985208",
+  "kept": true,
+  "cat": "T1",
+  "title": "新手搭一个教练式工作台",
+  "review": "中文，从选题到复盘的入门实战",
+  "tags": [
+   "starter",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Chchenhao0129",
+  "date": "2026-09-13"
+ },
+ {
+  "url": "https://x.com/op7418/status/2109839549706969259",
+  "kept": true,
+  "cat": "T1",
+  "title": "订阅合并后该选哪档",
+  "review": "中文，讲清各档位差别和谁该换",
+  "tags": [
+   "plan",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "op7418",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/AI_Whisper_X/status/2108889821922124015",
+  "kept": true,
+  "cat": "T1",
+  "title": "海外个人助手一个月复盘",
+  "review": "中文，几款产品的形态和真实用法",
+  "tags": [
+   "compare",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "AI_Whisper_X",
+  "date": "2026-10-10"
+ },
+ {
+  "url": "https://x.com/wutujiang1999/status/2112034366998315408",
+  "kept": true,
+  "cat": "T1",
+  "title": "上手四步：上下文、工具、主 Bot、不可逆边界",
+  "review": "中文，讲清先做什么后做什么",
+  "tags": [
+   "starter",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "wutujiang1999",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/chenmo/status/2110380646824816682",
+  "kept": true,
+  "cat": "T6",
+  "title": "长期用大陆网络交互的坑",
+  "review": "中文，讲 Bot 电脑出口地区被识别的问题",
+  "tags": [
+   "network",
+   "china"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "chenmo",
+  "date": "2026-10-14"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2111740064409756037",
+  "kept": true,
+  "cat": "T6",
+  "title": "装好桌面端先关两个开关",
+  "review": "中文，安全设置：不在本机执行、不转发流量",
+  "tags": [
+   "security",
+   "desktop"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-18"
+ },
+ {
+  "url": "https://x.com/0xluffy_eth/status/2112360364662988956",
+  "kept": true,
+  "cat": "T1",
+  "title": "九段实用提示词",
+  "review": "中文，九个场景的提示词",
+  "tags": [
+   "prompts",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xluffy_eth",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/aiwarts/status/2111812368972022217",
+  "kept": false,
+  "reason": "重复"
+ },
+ {
+  "url": "https://x.com/0xlangeai/status/2111396742264742034",
+  "kept": false,
+  "reason": "重复"
+ },
+ {
+  "url": "https://x.com/AdrianPunk115/status/2097311704547987756",
+  "kept": true,
+  "cat": "T5",
+  "title": "用 Grok Bot 搭自媒体团队",
+  "review": "中文保姆级教程",
+  "tags": [
+   "content",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "AdrianPunk115",
+  "date": "2026-09-08"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2111407398237909098",
+  "kept": true,
+  "cat": "T1",
+  "title": "我现在用 Grok Bot 做什么",
+  "review": "中文，一份真实用法清单",
+  "tags": [
+   "usecases",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-17"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2112031460492537904",
+  "kept": true,
+  "cat": "T2",
+  "title": "云端干轻活、本地干重活",
+  "review": "中文，云端 Bot 和本地工具分工",
+  "tags": [
+   "hybrid",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2112211923626500585",
+  "kept": true,
+  "cat": "T2",
+  "title": "云端定计划、本机执行的工作流",
+  "review": "中文，自己搭的云加本地方案",
+  "tags": [
+   "hybrid",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2109967621710070238",
+  "kept": true,
+  "cat": "T5",
+  "title": "一小时做出每日 AI 新闻站",
+  "review": "中文，Bot 每天自动生成日报网站",
+  "tags": [
+   "news",
+   "site"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/liyue_ai/status/2108398163929510207",
+  "kept": false,
+  "reason": "帖子已删除"
+ },
+ {
+  "url": "https://x.com/NFT_Chen/status/2108414543978533341",
+  "kept": true,
+  "cat": "T4",
+  "title": "用免费模型给 Bot 当执行端",
+  "review": "中文，接第三方模型干重活，注意服务条款",
+  "tags": [
+   "models",
+   "cost"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "NFT_Chen",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://x.com/YuGuo936066/status/2112351377024225439",
+  "kept": true,
+  "cat": "T5",
+  "title": "把 AI 新闻做成中文讲解视频",
+  "review": "中文，Bot 自动出视频",
+  "tags": [
+   "video",
+   "news"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "YuGuo936066",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/KinGao476942/status/2108132811635032316",
+  "kept": true,
+  "cat": "T4",
+  "title": "把 Grok Bot 接进微信",
+  "review": "中文新手指南，带提示词",
+  "tags": [
+   "wechat",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "KinGao476942",
+  "date": "2026-10-08"
+ },
+ {
+  "url": "https://x.com/LawrenceW_Zen/status/2108825552379687326",
+  "kept": true,
+  "cat": "T4",
+  "title": "一句话让 Bot 连上微信",
+  "review": "中文，介绍一个微信连接工具",
+  "tags": [
+   "wechat",
+   "tool"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "LawrenceW_Zen",
+  "date": "2026-10-10"
+ },
+ {
+  "url": "https://x.com/Gorden_Sun/status/2109508218288513335",
+  "kept": true,
+  "cat": "T4",
+  "title": "让编程工具调用 Grok Bot",
+  "review": "中文，从外部调用 Bot 的思路",
+  "tags": [
+   "api",
+   "coding"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Gorden_Sun",
+  "date": "2026-10-12"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2111737569277104150",
+  "kept": true,
+  "cat": "T3",
+  "title": "云电脑里装本地工具干重活省额度",
+  "review": "中文，把重活转给其他工具",
+  "tags": [
+   "cost",
+   "hybrid"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-18"
+ },
+ {
+  "url": "https://x.com/fankaishuoai/status/2111978651797569600",
+  "kept": true,
+  "cat": "T6",
+  "title": "别让云端 Bot 直接接管本机",
+  "review": "中文，讲提示词注入和权限风险，必读",
+  "tags": [
+   "security",
+   "injection"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "fankaishuoai",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/0xlangeai/status/2097866244456333730",
+  "kept": true,
+  "cat": "T4",
+  "title": "在 Grok Bot 里用上 Codex",
+  "review": "中文，在 Bot 电脑里装编程命令行",
+  "tags": [
+   "coding",
+   "cli"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xlangeai",
+  "date": "2026-09-10"
+ },
+ {
+  "url": "https://x.com/Pluvio9yte/status/2110295056796229927",
+  "kept": false,
+  "reason": "帖子已删除"
+ },
+ {
+  "url": "https://x.com/Liu_zhongxisn/status/2112118491239379227",
+  "kept": true,
+  "cat": "H",
+  "title": "把 Grok Bot 装进 ESP32",
+  "review": "中文，硬件小项目",
+  "tags": [
+   "hardware",
+   "esp32"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Liu_zhongxisn",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/KinGao476942/status/2099736121781764594",
+  "kept": true,
+  "cat": "T5",
+  "title": "做自媒体怎么用好 Grok Bot",
+  "review": "中文长文，选题、写作和数据",
+  "tags": [
+   "content",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "KinGao476942",
+  "date": "2026-09-15"
+ },
+ {
+  "url": "https://x.com/op7418/status/2108545983647023493",
+  "kept": true,
+  "cat": "T5",
+  "title": "让 Bot 在 Notion 搭数据看板",
+  "review": "中文，自媒体数据整理",
+  "tags": [
+   "notion",
+   "dashboard"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "op7418",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://x.com/shao__meng/status/2102590192649670818",
+  "kept": true,
+  "cat": "T5",
+  "title": "视频频道运营模板拆解",
+  "review": "中文，讲一个帮 YouTube 频道做运营的模板",
+  "tags": [
+   "youtube",
+   "template"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "shao__meng",
+  "date": "2026-09-23"
+ },
+ {
+  "url": "https://x.com/indie_maker_fox/status/2112031493107376189",
+  "kept": true,
+  "cat": "T5",
+  "title": "手机上写帖并排期发海外平台",
+  "review": "中文，草稿交给排期工具，人最后确认",
+  "tags": [
+   "social",
+   "schedule"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "indie_maker_fox",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/sujingshen/status/2112061360708403397",
+  "kept": true,
+  "cat": "T5",
+  "title": "用 Bot 批量提交外链",
+  "review": "中文，流程完整；注意各站规则，别变成垃圾外链",
+  "tags": [
+   "seo",
+   "automation"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sujingshen",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/KinGao476942/status/2112198262661017812",
+  "kept": false,
+  "reason": "重复"
+ },
+ {
+  "url": "https://x.com/0xlangeai/status/2112516355455066170",
+  "kept": false,
+  "reason": "重复"
+ },
+ {
+  "url": "https://x.com/0xRafy/status/2090077067509370983",
+  "kept": true,
+  "cat": "T1",
+  "title": "十步从零到自动化",
+  "review": "英文长文入门",
+  "tags": [
+   "guide",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xRafy",
+  "date": "2026-08-19"
+ },
+ {
+  "url": "https://x.com/maestrooth/status/2107490775537741850",
+  "kept": true,
+  "cat": "T1",
+  "title": "雇你的第一个 AI 员工",
+  "review": "英文入门长文",
+  "tags": [
+   "guide",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "maestrooth",
+  "date": "2026-10-06"
+ },
+ {
+  "url": "https://x.com/scarfpinkgirl/status/2106407925140836787",
+  "kept": true,
+  "cat": "T1",
+  "title": "官方工作坊时间轴",
+  "review": "英文，按时间点列出工作坊内容",
+  "tags": [
+   "workshop",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "scarfpinkgirl",
+  "date": "2026-10-03"
+ },
+ {
+  "url": "https://x.com/petergyang/status/2101862331345154469",
+  "kept": true,
+  "cat": "T1",
+  "title": "个人助手赛道的几点判断",
+  "review": "英文，产品观察",
+  "tags": [
+   "opinion",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "petergyang",
+  "date": "2026-09-21"
+ },
+ {
+  "url": "https://x.com/0xRafy/status/2106098144320582134",
+  "kept": true,
+  "cat": "T1",
+  "title": "官方模板的十三步用法",
+  "review": "英文，讲怎么挑和改官方模板",
+  "tags": [
+   "templates",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xRafy",
+  "date": "2026-10-02"
+ },
+ {
+  "url": "https://x.com/minchoi/status/2112387195583799791",
+  "kept": true,
+  "cat": "T5",
+  "title": "十个真实玩法",
+  "review": "英文串帖，看别人都拿 Bot 做什么",
+  "tags": [
+   "usecases",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "minchoi",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/Michael_Fenech_/status/2112489755036536994",
+  "kept": true,
+  "cat": "T5",
+  "title": "五段省钱类提示词",
+  "review": "英文，比价、退订、账单检查这类拖着没做的事",
+  "tags": [
+   "prompts",
+   "life"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Michael_Fenech_",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/AIinPublic/status/2112484012984074583",
+  "kept": true,
+  "cat": "T4",
+  "title": "让 Bot 打电话的七段提示词",
+  "review": "英文，打电话前一定设审批",
+  "tags": [
+   "phone",
+   "prompts"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "AIinPublic",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/silentguyy66/status/2108957020187468171",
+  "kept": true,
+  "cat": "T1",
+  "title": "写“合同”而不是写“职位”",
+  "review": "英文，Bot 描述要写清交付和边界",
+  "tags": [
+   "setup",
+   "description"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "silentguyy66",
+  "date": "2026-10-10"
+ },
+ {
+  "url": "https://x.com/leerob/status/2108650243365736855",
+  "kept": true,
+  "cat": "I",
+  "title": "常驻助手怎么工作（斯坦福讲座）",
+  "review": "英文视频，讲常驻助手的原理和上下文工程",
+  "tags": [
+   "lecture",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "leerob",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://x.com/unicodef1wn/status/2112574886421901822",
+  "kept": true,
+  "cat": "T1",
+  "title": "照官方团队的方式配 Bot",
+  "review": "英文，直播笔记加作者心得",
+  "tags": [
+   "setup",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "unicodef1wn",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/eeelistar/status/2112528735127871960",
+  "kept": true,
+  "cat": "T1",
+  "title": "A 到 Z 入门指南",
+  "review": "英文入门",
+  "tags": [
+   "guide",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "eeelistar",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/DillonLoomis/status/2112572143049617718",
+  "kept": true,
+  "cat": "T5",
+  "title": "一条提示做出阅读模式插件",
+  "review": "英文，让 Bot 做自用小工具",
+  "tags": [
+   "tool",
+   "extension"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "DillonLoomis",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/Texas_Twins_Dad/status/2112645395440427500",
+  "kept": true,
+  "cat": "T5",
+  "title": "让 Bot 发课程邮件",
+  "review": "英文，Bot 运营一门入门课",
+  "tags": [
+   "course",
+   "email"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Texas_Twins_Dad",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/unicodef1wn/status/2102375891875581966",
+  "kept": true,
+  "cat": "T2",
+  "title": "十二步搭一家自管理公司",
+  "review": "英文长文，路线图式",
+  "tags": [
+   "company",
+   "roadmap"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "unicodef1wn",
+  "date": "2026-09-22"
+ },
+ {
+  "url": "https://x.com/petergyang/status/2099502180378296394",
+  "kept": true,
+  "cat": "T2",
+  "title": "上线后还在用的 11 个 Bot",
+  "review": "英文，看哪些岗位真的留下来了",
+  "tags": [
+   "roster",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "petergyang",
+  "date": "2026-09-14"
+ },
+ {
+  "url": "https://x.com/petergyang/status/2103881036711281043",
+  "kept": true,
+  "cat": "T2",
+  "title": "产品负责人的 14 个 Bot",
+  "review": "英文，按工作环节分工",
+  "tags": [
+   "roster",
+   "product"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "petergyang",
+  "date": "2026-09-26"
+ },
+ {
+  "url": "https://x.com/s4yonnara/status/2107075754886345156",
+  "kept": true,
+  "cat": "T2",
+  "title": "二十个 Bot 的自运转团队",
+  "review": "英文长文",
+  "tags": [
+   "team",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "s4yonnara",
+  "date": "2026-10-05"
+ },
+ {
+  "url": "https://x.com/maestrooth/status/2108204174403944745",
+  "kept": true,
+  "cat": "T2",
+  "title": "会设计和审查 Bot 的 Bot",
+  "review": "英文，用 Bot 管 Bot 质量",
+  "tags": [
+   "meta",
+   "review"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "maestrooth",
+  "date": "2026-10-08"
+ },
+ {
+  "url": "https://x.com/minchoi/status/2101873007673086304",
+  "kept": true,
+  "cat": "T2",
+  "title": "多工具组合工作流",
+  "review": "英文，Grok Bot 和其他工具怎么搭",
+  "tags": [
+   "workflow",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "minchoi",
+  "date": "2026-09-21"
+ },
+ {
+  "url": "https://x.com/ColinGardiner/status/2098505378246074517",
+  "kept": true,
+  "cat": "T2",
+  "title": "所有 Bot 进一个频道，只让首席说话",
+  "review": "英文，减少打扰的群聊做法",
+  "tags": [
+   "channel",
+   "chief-of-staff"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "ColinGardiner",
+  "date": "2026-09-11"
+ },
+ {
+  "url": "https://x.com/DYoung_AI/status/2111999034441515271",
+  "kept": true,
+  "cat": "T2",
+  "title": "三十个 Bot 的任务分配表",
+  "review": "英文，靠一张路由表分活",
+  "tags": [
+   "routing",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "DYoung_AI",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/MichaelGannotti/status/2111991267844362447",
+  "kept": true,
+  "cat": "T4",
+  "title": "用 Grok Bot 管理其他助手实例",
+  "review": "英文，跨平台管理",
+  "tags": [
+   "orchestration",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "MichaelGannotti",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/0xwhrrari/status/2107093781807775896",
+  "kept": true,
+  "cat": "T2",
+  "title": "一个 Bot 怎么在团队里学习",
+  "review": "英文，讲记忆设计",
+  "tags": [
+   "memory",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xwhrrari",
+  "date": "2026-10-05"
+ },
+ {
+  "url": "https://x.com/knoxtwts/status/2112167221023949227",
+  "kept": true,
+  "cat": "T2",
+  "title": "让全队共用一个大脑",
+  "review": "英文，共享记忆的做法",
+  "tags": [
+   "memory",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "knoxtwts",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/distortgeekin/status/2108897917729738810",
+  "kept": true,
+  "cat": "T2",
+  "title": "搭第一支 AI 团队",
+  "review": "英文长文",
+  "tags": [
+   "team",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "distortgeekin",
+  "date": "2026-10-10"
+ },
+ {
+  "url": "https://x.com/VengeonsP/status/2112481555276804113",
+  "kept": true,
+  "cat": "T5",
+  "title": "用 Grok Bot 搭 SEO 团队",
+  "review": "英文课程式长文",
+  "tags": [
+   "seo",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "VengeonsP",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/tibor_tee/status/2112484479440977946",
+  "kept": true,
+  "cat": "T2",
+  "title": "产品团队的 Bot 最佳实践",
+  "review": "英文",
+  "tags": [
+   "product",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "tibor_tee",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/WheelerMan/status/2112668934969209226",
+  "kept": true,
+  "cat": "T2",
+  "title": "给忙的 Bot 配一个助手",
+  "review": "英文，浏览器不再排队",
+  "tags": [
+   "helper",
+   "browser"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "WheelerMan",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/0xg4tsby/status/2108208306959310855",
+  "kept": true,
+  "cat": "T2",
+  "title": "先搭四个研究类 Bot",
+  "review": "英文，小团队起步",
+  "tags": [
+   "research",
+   "starter"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0xg4tsby",
+  "date": "2026-10-08"
+ },
+ {
+  "url": "https://x.com/DBCrypt0/status/2108667956809150967",
+  "kept": true,
+  "cat": "T3",
+  "title": "做一个回收闲置 Bot 的 Bot",
+  "review": "英文，额度快用完时清理",
+  "tags": [
+   "cost",
+   "cleanup"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "DBCrypt0",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://x.com/petergyang/status/2098614492066435228",
+  "kept": true,
+  "cat": "T3",
+  "title": "本机定时任务和云端任务怎么分",
+  "review": "英文，按任务性质分配",
+  "tags": [
+   "routine",
+   "hybrid"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "petergyang",
+  "date": "2026-09-12"
+ },
+ {
+  "url": "https://x.com/GuleidAmina/status/2104489747804471622",
+  "kept": true,
+  "cat": "T2",
+  "title": "教练 Bot 把建议直接发给对应 Bot",
+  "review": "英文，Bot 间反馈",
+  "tags": [
+   "feedback",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "GuleidAmina",
+  "date": "2026-09-28"
+ },
+ {
+  "url": "https://x.com/WaitWhat/status/2112086807093645796",
+  "kept": true,
+  "cat": "E",
+  "title": "每周找出大号和你的互动",
+  "review": "英文，X 运营小 Routine",
+  "tags": [
+   "x",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "WaitWhat",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/gippp69/status/2109235458383216811",
+  "kept": true,
+  "cat": "T3",
+  "title": "五分钟一次的 Routine 有多费",
+  "review": "英文，频率和用量的关系讲得很直观",
+  "tags": [
+   "cost",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "gippp69",
+  "date": "2026-10-11"
+ },
+ {
+  "url": "https://x.com/tejas3732/status/2112040740083904980",
+  "kept": true,
+  "cat": "T3",
+  "title": "导出用量表交给首席找省钱办法",
+  "review": "英文，简单有效",
+  "tags": [
+   "cost",
+   "usage"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "tejas3732",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/MichaelGannotti/status/2112176393014440149",
+  "kept": true,
+  "cat": "E",
+  "title": "每周一给 X 帖子打分",
+  "review": "英文，复盘内容但不追点击",
+  "tags": [
+   "x",
+   "review"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "MichaelGannotti",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/BrianRoemmele/status/2112249592133935133",
+  "kept": true,
+  "cat": "T2",
+  "title": "会自我改进的 Bot",
+  "review": "英文，讨论 Bot 自己改规则",
+  "tags": [
+   "self-improve",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "BrianRoemmele",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/Zaardaar/status/2112388264430580104",
+  "kept": true,
+  "cat": "T3",
+  "title": "一天烧掉大半额度后怎么砍用量",
+  "review": "英文复盘",
+  "tags": [
+   "cost",
+   "review"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Zaardaar",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/TeslaAIBot/status/2112683025951535280",
+  "kept": true,
+  "cat": "E",
+  "title": "每天扫冒充账号并跟进举报",
+  "review": "英文模板，账号安全",
+  "tags": [
+   "x",
+   "security"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "TeslaAIBot",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/kevinrose/status/2101455244567973976",
+  "kept": true,
+  "cat": "T5",
+  "title": "收藏视频做成离线知识库",
+  "review": "英文，个人知识管理",
+  "tags": [
+   "knowledge",
+   "offline"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "kevinrose",
+  "date": "2026-09-19"
+ },
+ {
+  "url": "https://x.com/minchoi/status/2100249139422330922",
+  "kept": true,
+  "cat": "T5",
+  "title": "把 Bot 做成内容编辑台",
+  "review": "英文",
+  "tags": [
+   "content",
+   "editorial"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "minchoi",
+  "date": "2026-09-16"
+ },
+ {
+  "url": "https://x.com/mikepat711/status/2104380789517344994",
+  "kept": true,
+  "cat": "T4",
+  "title": "在车里通过 Grok Bot 派活",
+  "review": "英文，入口玩法",
+  "tags": [
+   "voice",
+   "mobile"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "mikepat711",
+  "date": "2026-09-28"
+ },
+ {
+  "url": "https://x.com/petergyang/status/2108624122339287335",
+  "kept": true,
+  "cat": "T1",
+  "title": "给 Bot 的邮箱起名",
+  "review": "英文小建议",
+  "tags": [
+   "email",
+   "tips"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "petergyang",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://x.com/Argona0x/status/2110045296902164532",
+  "kept": true,
+  "cat": "T5",
+  "title": "会干活的第二大脑",
+  "review": "英文长文",
+  "tags": [
+   "knowledge",
+   "second-brain"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Argona0x",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/mgonto/status/2111986349511159912",
+  "kept": true,
+  "cat": "T4",
+  "title": "多个助手共用一份便携记忆",
+  "review": "英文",
+  "tags": [
+   "memory",
+   "portable"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "mgonto",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/BrianRoemmele/status/2111812467500458135",
+  "kept": true,
+  "cat": "T4",
+  "title": "让 Bot 打电话订餐厅",
+  "review": "英文，生活类例子",
+  "tags": [
+   "phone",
+   "life"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "BrianRoemmele",
+  "date": "2026-10-18"
+ },
+ {
+  "url": "https://x.com/NixFred/status/2112159670890578329",
+  "kept": true,
+  "cat": "T4",
+  "title": "一个 Bot 专做编程工具的入口",
+  "review": "英文",
+  "tags": [
+   "coding",
+   "gateway"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "NixFred",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/0x_rody/status/2112558839589417355",
+  "kept": true,
+  "cat": "T4",
+  "title": "把 Jev 接进 Grok Bot",
+  "review": "英文，接第三方决策层",
+  "tags": [
+   "integration",
+   "cost"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "0x_rody",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/distortgeekin/status/2112536833636614655",
+  "kept": true,
+  "cat": "T6",
+  "title": "让 Bot 碰钱之前先定 6 条规矩",
+  "review": "英文，接券商和交易所前必读",
+  "tags": [
+   "finance",
+   "security"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "distortgeekin",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/beamnxw/status/2107143806546002398",
+  "kept": true,
+  "cat": "T2",
+  "title": "给一人公司搭一套工程化框架",
+  "review": "英文",
+  "tags": [
+   "harness",
+   "solo"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "beamnxw",
+  "date": "2026-10-05"
+ },
+ {
+  "url": "https://x.com/bradsmith/status/2111137223290613879",
+  "kept": true,
+  "cat": "T5",
+  "title": "找回忘了跟进的客户线索",
+  "review": "英文，销售跟进",
+  "tags": [
+   "sales",
+   "crm"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "bradsmith",
+  "date": "2026-10-16"
+ },
+ {
+  "url": "https://x.com/LoganARobison/status/2096942388555997614",
+  "kept": true,
+  "cat": "T5",
+  "title": "上门服务小生意的 Bot 配置",
+  "review": "英文，本地小生意的例子",
+  "tags": [
+   "local-business",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "LoganARobison",
+  "date": "2026-09-07"
+ },
+ {
+  "url": "https://x.com/felixleezd/status/2102808184155246699",
+  "kept": true,
+  "cat": "T5",
+  "title": "一周跑一百个设计实验",
+  "review": "英文，设计迭代",
+  "tags": [
+   "design",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "felixleezd",
+  "date": "2026-09-23"
+ },
+ {
+  "url": "https://x.com/jasonzhou1993/status/2108702893033566276",
+  "kept": true,
+  "cat": "T5",
+  "title": "盯竞品广告再做投放",
+  "review": "英文，竞品监控",
+  "tags": [
+   "ads",
+   "competitor"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "jasonzhou1993",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://x.com/DanaBrunetti/status/2108095971385307240",
+  "kept": true,
+  "cat": "T5",
+  "title": "发链接收成品音频片段",
+  "review": "英文，播客剪辑",
+  "tags": [
+   "podcast",
+   "audio"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "DanaBrunetti",
+  "date": "2026-10-08"
+ },
+ {
+  "url": "https://x.com/ericosiu/status/2109435217152991240",
+  "kept": true,
+  "cat": "T1",
+  "title": "同时用几款个人助手的分工",
+  "review": "英文，按任务选工具",
+  "tags": [
+   "compare",
+   "business"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "ericosiu",
+  "date": "2026-10-12"
+ },
+ {
+  "url": "https://x.com/cyrilXBT/status/2112006867022958931",
+  "kept": true,
+  "cat": "T5",
+  "title": "低成本跑一人公司",
+  "review": "英文课程式长文",
+  "tags": [
+   "solo",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "cyrilXBT",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/ericosiu/status/2112015924479860963",
+  "kept": true,
+  "cat": "T5",
+  "title": "一期播客拆成一周内容",
+  "review": "英文，内容复用",
+  "tags": [
+   "podcast",
+   "repurpose"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "ericosiu",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/eng_khairallah1/status/2112115524624658525",
+  "kept": true,
+  "cat": "T5",
+  "title": "用 Grok Bot 做副业",
+  "review": "英文长文，偏宣传，挑能落地的部分看",
+  "tags": [
+   "side-hustle",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "eng_khairallah1",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/AleiahLock/status/2112147410122129534",
+  "kept": true,
+  "cat": "T5",
+  "title": "把 Bot 当生意伙伴的用法汇总",
+  "review": "英文",
+  "tags": [
+   "business",
+   "usecases"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "AleiahLock",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/coreyganim/status/2112577969617092879",
+  "kept": true,
+  "cat": "T5",
+  "title": "做新闻借势的公关 Bot",
+  "review": "英文，帮你找媒体机会",
+  "tags": [
+   "pr",
+   "news"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "coreyganim",
+  "date": "2026-10-20"
+ }
+]
