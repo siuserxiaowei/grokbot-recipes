@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 150 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 164 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（43）
+## 入门与配置（44）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -49,8 +49,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [入门指南：怎么正确使用、新手常犯的错（知乎）](https://zhuanlan.zhihu.com/p/2079679237955532367) - 中文译文风格，讲清云电脑的概念、新手误区，并和同类产品做了比较。标签：`starter` `compare`
 - [Grok Bot 新手指南：从单任务到多 Bot 分工](https://x.com/cgnot996/status/2112761781080965416) - 中文长文，给新手一条四步路线，先跑通一件事再慢慢组队，还附了作者开源的学习站 · @cgnot996 · 2026-10-21。标签：`beginner` `chinese`
 - [把 Grok Bot 设到 iPhone 操作按钮](https://x.com/free_ai_guides/status/2112816192121622758) - 英文短帖，写了操作按钮里的设置路径，再给几条按下就能说的语音指令 · @free_ai_guides · 2026-10-21。标签：`mobile` `voice`
+- [Grok Bot 能做什麼？12 個實際用法](https://x.com/p3nchan/status/2112890970266378589) - 繁中长文，信箱分流、早报、订票等 12 个例子，各附交代方式和翻车提醒 · @p3nchan · 2026-10-21。标签：`usecases` `zh-hant`
 
-## 多 Bot 团队（31）
+## 多 Bot 团队（36）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -83,8 +84,13 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [四步建一人公司（數位時代）](https://www.bnext.com.tw/article/91991/grok-bot-getting-started-60) - 繁体中文，讲职务章程、幕僚长模式和多 Bot 交接，附实测选题流程。标签：`team` `chief-of-staff`
 - [我最常用的 10 个 Grok Bot 场景](https://x.com/coreyganim/status/2112663410043470281) - 英文清单，总管 Bot 派活、周日排周计划、晚间核对笔记库等，对外的东西都只出草稿 · @coreyganim · 2026-10-21。标签：`teams` `use-cases`
 - [用好 Bot 市场，别加完就闲置](https://x.com/neil_xbt/status/2112555245423284249) - 英文长文，先想清楚岗位再挑模板，加之前看它要哪些连接和审批，一周后按表现决定去留 · @neil_xbt · 2026-10-20。标签：`marketplace` `teams`
+- [我养了十几个 Grok 机器人](https://x.com/sitinme/status/2109814883688796459) - 一个首席助理带十几个专职 Bot，派活、收简报、对外动作要人点头，适合想搭团队的人 · @sitinme · 2026-10-13。标签：`team` `chief`
+- [首席 Bot 管其他 Bot，再用飞书 CLI 同步](https://x.com/sitinme/status/2109990284771872987) - 首席 Bot 盯各个 Bot 的状态，信息同步到飞书，适合国内办公 · @sitinme · 2026-10-13。标签：`team` `feishu`
+- [拉开差距的 7 个底层用法](https://x.com/Jackywxsz/status/2112831856777605166) - 幕僚长当入口、产物强制落盘、知识库单向同步等，适合已经上手的人 · @Jackywxsz · 2026-10-21。标签：`team` `advanced`
+- [财富管理 Team Bot 工作坊笔记](https://x.com/tibor_tee/status/2112890658054943224) - 英文长文，复盘官方金融服务工作坊里的团队 Bot 搭法 · @tibor_tee · 2026-10-21。标签：`finance` `team`
+- [一个 Bot 只干一件事：管 X 账号的四人组](https://x.com/Zephyr_hg/status/2112876834182541338) - 英文长文，四个 Bot 分工运营一个 X 账号，讲交接和人工把关 · @Zephyr_hg · 2026-10-21。标签：`team` `x`
 
-## Routine 与额度（12）
+## Routine 与额度（13）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -98,8 +104,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [一天烧掉大半额度后怎么砍用量](https://x.com/Zaardaar/status/2112388264430580104) - 英文复盘 · @Zaardaar · 2026-10-20。标签：`cost` `review`
 - [实战手册：从第一次交付到接入其他模型（小声工作室）](https://www.ssgoo.net/grok-bot-guide) - 中文，额度紧张时先拆工作，再让 Bot 安装第三方执行工具；注意密钥别写进聊天。标签：`cost` `models`
 - [让每周额度撑得更久](https://x.com/KanikaBK/status/2112829012515160139) - 英文长文，教你先测再省：短会话、放慢 Routine、一事一 Bot、能用连接器就不开浏览器 · @KanikaBK · 2026-10-21。标签：`quota` `routine`
+- [多个订阅按额度长期一起干活](https://x.com/runes_leo/status/2112909109096058913) - 按每周额度节奏给不同工具派单，只读和改代码分开，适合同时用多个 AI 工具的人 · @runes_leo · 2026-10-21。标签：`quota` `multi-tool`
 
-## 连接、技能与记忆（24）
+## 连接、技能与记忆（27）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -125,8 +132,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [把本机的 Claude Code、Codex 接进 Grok Bot](https://x.com/poolmoon6/status/2112532951946965162) - 中文长文，用开源的 agent-mesh 让云端 Bot 和本机编程助手互发消息，文中也提醒了注入风险 · @poolmoon6 · 2026-10-20。标签：`agents` `chinese` `local`
 - [Drive Vault：云电脑空间不够时挪到网盘](https://x.com/XFreeze/status/2112794321502027812) - 英文模板，处理大文件时把旧素材传到 Google Drive、核对后再删，成片也给网盘链接方便手机下载 · @XFreeze · 2026-10-21。标签：`storage` `template`
 - [Grok Bot 接 HeyGen 一键出视频](https://x.com/HeyGen/status/2112639914198352004) - HeyGen 官方写的自家用法：按住手机按钮说一句，Bot 写稿再调 HeyGen 出数字人视频 · @HeyGen · 2026-10-21。标签：`video` `mcp` `mobile`
+- [每个 Bot 都有自己的邮箱](https://x.com/sitinme/status/2110233522409742396) - 订阅和通知交给 Bot 邮箱收、读完汇总，自己的邮箱保持干净 · @sitinme · 2026-10-14。标签：`email`
+- [一头连云电脑，一头连 Mac](https://x.com/sitinme/status/2110579602133237816) - 云端写稿排版，再连本机跑本地脚本推公众号草稿箱，讲清两边各干什么 · @sitinme · 2026-10-15。标签：`local-agent` `wechat`
+- [把 Grok Bot 接进微信](https://x.com/EvanWritesX/status/2111661828749373784) - 用开源桥接和 webhook 自建通道，微信发一句话触发 Bot，动手前先看清风险 · @EvanWritesX · 2026-10-18。标签：`wechat` `bridge`
 
-## 一人公司与内容（35）
+## 一人公司与内容（38）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -163,11 +173,15 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [用 Grok Bot 搭内容团队（中译）](https://x.com/Sukiea1008/status/2095130333536739825) - ScottyBeamIO 那篇内容团队拆解的中文全译，先定内容方向和检查规则，再分给几个 Bot 接力 · @Sukiea1008 · 2026-09-02。标签：`content` `chinese` `teams`
 - [一套 Grok Bot 内容工作流](https://x.com/AIGuide_/status/2112604511533469980) - 英文长帖，把扫爆款、核对源头、一题多角度、每周复盘串成十步，发布始终留给人来点 · @AIGuide_ · 2026-10-21。标签：`content` `workflow`
 - [20 段提示词做门店获客](https://x.com/0xluffy_eth/status/2112725000012833044) - 中文长文，先给 Bot 一份店铺资料，再分段查同行、改门店页、找关键词、出月报，适合本地小生意 · @0xluffy_eth · 2026-10-21。标签：`local-business` `seo` `chinese`
+- [睡觉时 AI 团队干了什么](https://x.com/sitinme/status/2110181293824553314) - 一晚并行几件长任务，合同类产出一律注明要律师审，适合看夜间任务怎么排 · @sitinme · 2026-10-14。标签：`routine` `overnight`
+- [公众号自动发布流程](https://x.com/sitinme/status/2110901539321856242) - 云端写稿和处理图片，连 Mac 推草稿箱，再同步飞书知识库，分步骤 · @sitinme · 2026-10-16。标签：`content` `wechat`
+- [自己做一个文件中转 Bot](https://x.com/oh_Roach/status/2112871107128971348) - 从只存不读的文件中转，到解析加每晚收藏日报，分三级逐步加功能 · @oh_Roach · 2026-10-21。标签：`files` `digest`
 
-## 安全（5）
+## 安全（6）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
 - [别让云端 Bot 直接接管本机](https://x.com/fankaishuoai/status/2111978651797569600) - 中文，讲提示词注入和权限风险，必读 · @fankaishuoai · 2026-10-19。标签：`security` `injection`
 - [让 Bot 碰钱之前先定 6 条规矩](https://x.com/distortgeekin/status/2112536833636614655) - 英文，接券商和交易所前必读 · @distortgeekin · 2026-10-20。标签：`finance` `security`
 - [Triage Hound：漏洞线索分诊](https://x.com/anshuman_bh/status/2112799721626767778) - 英文长文，两个模型各自审一遍、都确认的才留下，再起草报告，适合做安全审查的人 · @anshuman_bh · 2026-10-21。标签：`security` `review`
+- [只读授权审云平台账单](https://x.com/sitinme/status/2111358802368827741) - 用只读权限让 Bot 查出闲置的付费席位，适合想先只读试水的人 · @sitinme · 2026-10-17。标签：`readonly` `audit`

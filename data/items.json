@@ -3701,5 +3701,214 @@
   "url": "https://x.com/don_tech1/status/2112826145427403090",
   "kept": false,
   "reason": "刚发布、几乎没有互动，先观察"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2109814883688796459",
+  "kept": true,
+  "cat": "T2",
+  "title": "我养了十几个 Grok 机器人",
+  "review": "一个首席助理带十几个专职 Bot，派活、收简报、对外动作要人点头，适合想搭团队的人",
+  "tags": [
+   "team",
+   "chief"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2109990284771872987",
+  "kept": true,
+  "cat": "T2",
+  "title": "首席 Bot 管其他 Bot，再用飞书 CLI 同步",
+  "review": "首席 Bot 盯各个 Bot 的状态，信息同步到飞书，适合国内办公",
+  "tags": [
+   "team",
+   "feishu"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-13"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110181293824553314",
+  "kept": true,
+  "cat": "T5",
+  "title": "睡觉时 AI 团队干了什么",
+  "review": "一晚并行几件长任务，合同类产出一律注明要律师审，适合看夜间任务怎么排",
+  "tags": [
+   "routine",
+   "overnight"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-14"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110233522409742396",
+  "kept": true,
+  "cat": "T4",
+  "title": "每个 Bot 都有自己的邮箱",
+  "review": "订阅和通知交给 Bot 邮箱收、读完汇总，自己的邮箱保持干净",
+  "tags": [
+   "email"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-14"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110579602133237816",
+  "kept": true,
+  "cat": "T4",
+  "title": "一头连云电脑，一头连 Mac",
+  "review": "云端写稿排版，再连本机跑本地脚本推公众号草稿箱，讲清两边各干什么",
+  "tags": [
+   "local-agent",
+   "wechat"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-15"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2110901539321856242",
+  "kept": true,
+  "cat": "T5",
+  "title": "公众号自动发布流程",
+  "review": "云端写稿和处理图片，连 Mac 推草稿箱，再同步飞书知识库，分步骤",
+  "tags": [
+   "content",
+   "wechat"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-16"
+ },
+ {
+  "url": "https://x.com/sitinme/status/2111358802368827741",
+  "kept": true,
+  "cat": "T6",
+  "title": "只读授权审云平台账单",
+  "review": "用只读权限让 Bot 查出闲置的付费席位，适合想先只读试水的人",
+  "tags": [
+   "readonly",
+   "audit"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "sitinme",
+  "date": "2026-10-17"
+ },
+ {
+  "url": "https://x.com/p3nchan/status/2112890970266378589",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot 能做什麼？12 個實際用法",
+  "review": "繁中长文，信箱分流、早报、订票等 12 个例子，各附交代方式和翻车提醒",
+  "tags": [
+   "usecases",
+   "zh-hant"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "p3nchan",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/Jackywxsz/status/2112831856777605166",
+  "kept": true,
+  "cat": "T2",
+  "title": "拉开差距的 7 个底层用法",
+  "review": "幕僚长当入口、产物强制落盘、知识库单向同步等，适合已经上手的人",
+  "tags": [
+   "team",
+   "advanced"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Jackywxsz",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/runes_leo/status/2112909109096058913",
+  "kept": true,
+  "cat": "T3",
+  "title": "多个订阅按额度长期一起干活",
+  "review": "按每周额度节奏给不同工具派单，只读和改代码分开，适合同时用多个 AI 工具的人",
+  "tags": [
+   "quota",
+   "multi-tool"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "runes_leo",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/oh_Roach/status/2112871107128971348",
+  "kept": true,
+  "cat": "T5",
+  "title": "自己做一个文件中转 Bot",
+  "review": "从只存不读的文件中转，到解析加每晚收藏日报，分三级逐步加功能",
+  "tags": [
+   "files",
+   "digest"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "oh_Roach",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/EvanWritesX/status/2111661828749373784",
+  "kept": true,
+  "cat": "T4",
+  "title": "把 Grok Bot 接进微信",
+  "review": "用开源桥接和 webhook 自建通道，微信发一句话触发 Bot，动手前先看清风险",
+  "tags": [
+   "wechat",
+   "bridge"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "EvanWritesX",
+  "date": "2026-10-18"
+ },
+ {
+  "url": "https://x.com/tibor_tee/status/2112890658054943224",
+  "kept": true,
+  "cat": "T2",
+  "title": "财富管理 Team Bot 工作坊笔记",
+  "review": "英文长文，复盘官方金融服务工作坊里的团队 Bot 搭法",
+  "tags": [
+   "finance",
+   "team"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "tibor_tee",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/Zephyr_hg/status/2112876834182541338",
+  "kept": true,
+  "cat": "T2",
+  "title": "一个 Bot 只干一件事：管 X 账号的四人组",
+  "review": "英文长文，四个 Bot 分工运营一个 X 账号，讲交接和人工把关",
+  "tags": [
+   "team",
+   "x"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-21",
+  "author": "Zephyr_hg",
+  "date": "2026-10-21"
  }
 ]

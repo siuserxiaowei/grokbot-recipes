@@ -12,7 +12,7 @@
 
 - **17** 个配方，格式统一，提示词可以直接复制
 - **91** 个生态项目和学习资源，每条都打开核对过
-- **150** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **164** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **104** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
@@ -212,6 +212,14 @@
 - [收到邮件就整理：专属邮箱触发 Routine](https://grokguide.si/tutorials/email-trigger-routine)
 - [让 Bot 交回能打开、能核对的文件](https://grokguide.si/tutorials/file-delivery)
 - [Grok Bot 实操教程](https://grokguide.si/tutorials/)
+- [五件事派活：一条好请求怎么写](https://grokguide.si/tutorials/strong-request)
+- [会核对来源的每周学习助手](https://grokguide.si/tutorials/learning-scout)
+- [用一条只读任务验收插件连接](https://grokguide.si/tutorials/verify-connection)
+- [用自己的域名给 Bot 收信](https://grokguide.si/tutorials/domain-mail)
+- [研发四角色：需求、复现、实现、验收](https://grokguide.si/tutorials/dev-four-roles)
+- [出海客服：多语言来信先分流](https://grokguide.si/tutorials/ticket-triage)
+- [把一次手动操作收成技能卡](https://grokguide.si/tutorials/teach-a-task)
+- [iPhone 操作按钮一键语音聊天](https://grokguide.si/tutorials/action-button-voice)
 - [做一份有来源的会前简报](https://grokguide.si/tutorials/meeting-brief)
 - [Bot 做完了却没通知：六步排查](https://grokguide.si/tutorials/notification-checklist)
 - [这个插件能干什么？先读官方仓库里的说明书](https://grokguide.si/tutorials/read-plugin-readme)
