@@ -4144,5 +4144,297 @@
   "verified": "2026-10-22",
   "author": "XiaoLei_Liu",
   "date": "2026-10-09"
+ },
+ {
+  "url": "https://www.bilibili.com/video/BV1Set86zER3/",
+  "kept": true,
+  "cat": "T1",
+  "title": "最容易上手的多 Agent 协作工具（B站视频）",
+  "review": "中文视频，两位主讲一个偏运营一个偏产品，适合先判断这东西要不要追",
+  "tags": [
+   "video",
+   "bilibili"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://davidyin.dev/video/bv1pkb36leqq/",
+  "kept": true,
+  "cat": "T1",
+  "title": "照官方文档讲怎么用（David Yin 视频）",
+  "review": "中文视频加文字要点：先填 Bot 描述、派活五要素、先手动再技能再 Routine",
+  "tags": [
+   "video",
+   "official"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=i6TRjEjkOaY",
+  "kept": true,
+  "cat": "T1",
+  "title": "安装和第一个 Bot 演示（YouTube）",
+  "review": "英文视频，Mac 上从下载、登录到用首席模式建出第一批 Bot 的完整录屏",
+  "tags": [
+   "video",
+   "install"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=_JYh3tgJzVw",
+  "kept": true,
+  "cat": "T1",
+  "title": "新手教程：五要素加四个用例（YouTube）",
+  "review": "英文视频，围绕结果、来源、限制、交付、停止点讲派活，最后给四个可照做的用例",
+  "tags": [
+   "video",
+   "prompts"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://juejin.cn/post/7691898006994010122",
+  "kept": true,
+  "cat": "T2",
+  "title": "先想清楚谁来拍板（掘金）",
+  "review": "中文，用三种拍板说法管住多 Bot：锁定、继续改、先按住，没拍板不进正式工程",
+  "tags": [
+   "approval",
+   "multi-bot"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://juejin.cn/post/7693358476032213002",
+  "kept": true,
+  "cat": "T2",
+  "title": "汇报七八条，只批准一条往下做（掘金）",
+  "review": "中文，项目管理 Bot 汇总变更，人只批一条，专长 Bot 只领带编号的已批准项",
+  "tags": [
+   "approval",
+   "handoff"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://juejin.cn/post/7686714970139017256",
+  "kept": true,
+  "cat": "T2",
+  "title": "五个 Bot 做出一个网站（掘金）",
+  "review": "中文实验记录，测试提单、开发修复、部署、回归的闭环，也写了权限卡点",
+  "tags": [
+   "team",
+   "dev"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.reddit.com/r/GrokBot/comments/1w2g9xt/anyone_having_problems_with_grok_bots_remembering/",
+  "kept": true,
+  "cat": "T3",
+  "title": "夜间 Routine 漏跑的讨论（Reddit）",
+  "review": "英文社区讨论，结论是要紧的事别只交给无人值守的定时任务，留一步人工检查",
+  "tags": [
+   "routine",
+   "reliability"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.reddit.com/r/GrokBot/comments/1w9yzzk/skills_grok_bot_tip_im_a_heavy_hermes_user_now/",
+  "kept": true,
+  "cat": "T4",
+  "title": "让 Bot 自己建和更新技能（Reddit）",
+  "review": "英文小技巧，一段提示让 Bot 每学到一类经验就沉淀成技能并告诉你",
+  "tags": [
+   "skill",
+   "memory"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.grokbotwiki.com/",
+  "kept": true,
+  "cat": "I",
+  "title": "Grok Bot Wiki",
+  "review": "英文资料站，有模板库和指南，每页标了对照的官方文档日期",
+  "tags": [
+   "wiki",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.grokbotwiki.com/guides/skills-vs-routines",
+  "kept": true,
+  "cat": "T4",
+  "title": "技能和 Routine 分别存什么（Grok Bot Wiki）",
+  "review": "英文，用一张表讲清两者的范围、限制和测试方式，还给了排期前的放行标准",
+  "tags": [
+   "skill",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://dev.to/debs_obrien/grok-bot-explained-your-bots-get-a-cloud-computer-browser-email-4c9a",
+  "kept": true,
+  "cat": "T1",
+  "title": "讲给家人听的 Grok Bot（dev.to）",
+  "review": "英文，带你看云电脑里的文件、终端和浏览器，适合给完全没听过的人看",
+  "tags": [
+   "overview",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://xiangyugongzuoliu.com/grokbot-use-cases/",
+  "kept": true,
+  "cat": "I",
+  "title": "九类场景与资源库（翔宇工作流）",
+  "review": "中文，先讲公众号、小红书、抖音怎么拆岗，再按九类场景整理",
+  "tags": [
+   "usecases",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.jxxy.net/ai/articles/grok-bot-xiaohongshu-team-workflow/",
+  "kept": true,
+  "cat": "T5",
+  "title": "小红书工作流拆解（觉醒AI）",
+  "review": "中文，总助、选题、内容、视觉四岗分工，只整理不自动发布",
+  "tags": [
+   "xiaohongshu",
+   "content"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://www.10100.com/article/153919718",
+  "kept": true,
+  "cat": "I",
+  "title": "48 个玩法按场景整理（大数跨境）",
+  "review": "中文合集，作者说明是上手前做的功课，适合当灵感清单",
+  "tags": [
+   "index",
+   "usecases"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://shipmail.to/blog/grok-bot-email-on-your-own-domain",
+  "kept": true,
+  "cat": "T4",
+  "title": "Bot 邮箱换成自己的域名（Shipmail 博客）",
+  "review": "英文，第三方邮件服务的官方博客，讲用连接器和 webhook 让 Bot 收发自己域名的邮件",
+  "tags": [
+   "email",
+   "domain"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://grokbot.aihuangshu.com/",
+  "kept": true,
+  "cat": "I",
+  "title": "玩法全景手册（橙皮书合并版）",
+  "review": "中文站点，把橙皮书和英文清单合在一起，每天更新案例",
+  "tags": [
+   "index",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022"
+ },
+ {
+  "url": "https://x.com/London_Vista/status/2108218895987269785",
+  "kept": true,
+  "cat": "T4",
+  "title": "用 Chrome 远程桌面看 Bot 的电脑（X）",
+  "review": "英文短帖，让 Bot 自己装远程桌面，你用电脑或平板连进去；会多一个入口，记得设好 PIN",
+  "tags": [
+   "remote",
+   "desktop"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022",
+  "author": "London_Vista",
+  "date": "2026-10-08"
+ },
+ {
+  "url": "https://x.com/AlexxGed/status/2112266384013144507",
+  "kept": true,
+  "cat": "T1",
+  "title": "iPhone 操作按钮直接对 Bot 说话（X）",
+  "review": "英文短帖，按一下侧边按钮就能语音派活",
+  "tags": [
+   "iphone",
+   "voice"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022",
+  "author": "AlexxGed",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/eugeniu_ghelbur/status/2112280924268155363",
+  "kept": true,
+  "cat": "T1",
+  "title": "第一个 Bot 的 101（X 长文）",
+  "review": "英文长文，建议从一个只读的每日简报起步，跑通再排期，附常见问题",
+  "tags": [
+   "starter",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022",
+  "author": "eugeniu_ghelbur",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/KanikaBK/status/2111516185825268054",
+  "kept": false,
+  "reason": "正文里还留着作者的写作占位，像未完成稿",
+  "source": "sweep-1022"
  }
 ]

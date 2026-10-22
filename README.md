@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **17** 个配方，格式统一，提示词可以直接复制
-- **94** 个生态项目和学习资源，每条都打开核对过
-- **177** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **98** 个生态项目和学习资源，每条都打开核对过
+- **193** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **104** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
@@ -47,7 +47,7 @@
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（94）
+## 生态清单（98）
 
 ### 官方与工具（8）
 
@@ -150,7 +150,7 @@
 - [grok-gadgets](https://github.com/adidshaft/grok-gadgets) - 把硬件接到 Grok Bot 的工具包，可以先用模拟器试。标签：`hardware` `sdk` 📦
 - [把 Grok Bot 装进 ESP32](https://x.com/Liu_zhongxisn/status/2112118491239379227) - 中文，硬件小项目 · @Liu_zhongxisn · 2026-10-19。标签：`hardware` `esp32` 📘
 
-### 学习资源与合集（17）
+### 学习资源与合集（21）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -169,6 +169,10 @@
 - [grokbot 完整使用指南（xianyu110）](https://github.com/xianyu110/grokbot) - 中文图文教程仓库，10 分钟上手加分主题深入。标签：`guide` `github` 📦
 - [从入门到精通长文（觉醒AI）](https://www.jxxy.net/ai/articles/grok-bot-mastery-guide/) - 中文长文合集页，部分内容要登录才能看。标签：`guide` `chinese` 📘
 - [GrokBotGuide](https://github.com/JeffShanCha/grokbotguide) - 社区一起写的中英双语手册，从入门路线讲到 Skill、Routine 和工具实战，每篇标了来源；非官方，刚起步。标签：`chinese` `guide` 📦
+- [Grok Bot Wiki](https://www.grokbotwiki.com/) - 英文资料站，有模板库和指南，每页标了对照的官方文档日期。标签：`wiki` `english` 📘
+- [九类场景与资源库（翔宇工作流）](https://xiangyugongzuoliu.com/grokbot-use-cases/) - 中文，先讲公众号、小红书、抖音怎么拆岗，再按九类场景整理。标签：`usecases` `chinese` 📘
+- [48 个玩法按场景整理（大数跨境）](https://www.10100.com/article/153919718) - 中文合集，作者说明是上手前做的功课，适合当灵感清单。标签：`index` `usecases` 📘
+- [玩法全景手册（橙皮书合并版）](https://grokbot.aihuangshu.com/) - 中文站点，把橙皮书和英文清单合在一起，每天更新案例。标签：`index` `chinese` 📘
 
 ## 教程索引
 
