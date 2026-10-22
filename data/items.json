@@ -3910,5 +3910,239 @@
   "verified": "2026-10-21",
   "author": "Zephyr_hg",
   "date": "2026-10-21"
+ },
+ {
+  "url": "https://github.com/juangurdian/wingman",
+  "kept": true,
+  "cat": "C",
+  "title": "wingman",
+  "review": "本机 MCP 桥，让云端 Bot 接管你电脑上已经开着的 Codex 或 Claude Code 会话；和 locum 派新活不同，它是接旧会话，隧道和令牌要管好",
+  "tags": [
+   "mcp",
+   "bridge"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-22"
+ },
+ {
+  "url": "https://github.com/Viaknox/tune-up",
+  "kept": true,
+  "cat": "C",
+  "title": "Tune-Up",
+  "review": "专门给其他 Bot 做体检的 Bot，找出跑偏和白耗额度的地方，改动由你批准；会读你其他 Bot 的设定，商业品牌项目",
+  "tags": [
+   "audit",
+   "skill"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-22"
+ },
+ {
+  "url": "https://github.com/SvenKunkka/grokbot-quota-ring",
+  "kept": true,
+  "cat": "E",
+  "title": "grokbot-quota-ring",
+  "review": "Mac 菜单栏里的小饼图，看本周额度还剩多少；要交出网站登录 cookie、走未公开接口，介意就手填数字",
+  "tags": [
+   "quota",
+   "macos"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/Texas_Twins_Dad/status/2113007493492129908",
+  "kept": true,
+  "cat": "T1",
+  "title": "让 Bot 做一页会自己更新的报告",
+  "review": "英文，讲新出的页面功能：报告、备忘录、看板都能让 Bot 做成一页并持续刷新",
+  "tags": [
+   "pages",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "Texas_Twins_Dad",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/cgnot996/status/2112328304170828230",
+  "kept": true,
+  "cat": "T1",
+  "title": "iPhone 操作按钮一键语音找 Bot",
+  "review": "中文，四步设好，按一下侧边按钮就能和 Bot 说话",
+  "tags": [
+   "iphone",
+   "voice"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "cgnot996",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/mattyp/status/2112891221576389063",
+  "kept": true,
+  "cat": "T1",
+  "title": "操作按钮接 Grok Bot 语音（英文版）",
+  "review": "英文，产品团队成员写的同一套设置步骤，和上一条互相印证",
+  "tags": [
+   "iphone",
+   "voice"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "mattyp",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/petergyang/status/2113042717270049028",
+  "kept": true,
+  "cat": "T1",
+  "title": "四款个人助手更新后横评",
+  "review": "英文，作者各列优缺点，适合在几款助手之间犹豫的人",
+  "tags": [
+   "compare",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "petergyang",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/yaohongan2025/status/2112348685778489753",
+  "kept": true,
+  "cat": "T1",
+  "title": "53 个现成模板按七类挑",
+  "review": "中文长文，讲模板怎么一键装、密钥不会跟着走，也点出描述里藏指令的坑",
+  "tags": [
+   "templates",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "yaohongan2025",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/runes_leo/status/2112917404271640889",
+  "kept": true,
+  "cat": "T2",
+  "title": "几十个 Bot 怎么分组、清理、排班",
+  "review": "中文长文，统一的增删入口默认先演练，夜里清理没人管的 Bot，例行活按额度排期",
+  "tags": [
+   "teams",
+   "cleanup"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "runes_leo",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://www.letswrite.tw/night-patrol/",
+  "kept": true,
+  "cat": "T2",
+  "title": "四个 Bot 凌晨夜巡做开发",
+  "review": "繁中博客，带四个角色的设定原文，边界写死不碰正式仓库、不花钱，早上交报告",
+  "tags": [
+   "teams",
+   "overnight"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "Let's Write",
+  "date": "2026-10-01"
+ },
+ {
+  "url": "https://dev.to/bobbyhalljr/i-let-grok-bot-apply-to-software-engineering-jobs-while-i-was-sleeping-n62",
+  "kept": true,
+  "cat": "T3",
+  "title": "睡觉时让 Bot 投简历",
+  "review": "英文，带打分门槛和去重规则的求职定时任务；要交出求职网站登录，文末有作者产品",
+  "tags": [
+   "routine",
+   "jobs"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "bobbyhalljr",
+  "date": "2026-08-31"
+ },
+ {
+  "url": "https://x.com/GrokBotRadar/status/2112902000916758799",
+  "kept": true,
+  "cat": "T4",
+  "title": "Routine 只留一行，做法写进技能",
+  "review": "英文，把长指令搬进技能，日程里只写“跑这个技能”，改一处就全更新",
+  "tags": [
+   "skill",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "GrokBotRadar",
+  "date": "2026-10-21"
+ },
+ {
+  "url": "https://x.com/MaiYangAI/status/2110606555578335572",
+  "kept": true,
+  "cat": "T4",
+  "title": "邮箱加 +标签分流给不同 Routine",
+  "review": "中文，一个收件箱按标签分地址，各挂一条 Routine 处理，还能看出谁泄露了地址",
+  "tags": [
+   "email",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "MaiYangAI",
+  "date": "2026-10-15"
+ },
+ {
+  "url": "https://x.com/thecsguy/status/2113058854124794329",
+  "kept": true,
+  "cat": "T4",
+  "title": "一个 +标签对应一件事",
+  "review": "英文，收据、降价提醒各用一个别名、各挂一条 Routine，附可复制提示",
+  "tags": [
+   "email",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "thecsguy",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://juejin.cn/post/7694134378717986851",
+  "kept": true,
+  "cat": "T5",
+  "title": "让 Bot 7x24 运营一个中文站",
+  "review": "掘金复盘，改代码交给云端编程助手，踩坑后定下一个改动一个助手、按任务选档位，再存成技能给第二个站用",
+  "tags": [
+   "website",
+   "skill"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "出发向未来",
+  "date": "2026-10-08"
+ },
+ {
+  "url": "https://juejin.cn/post/7694287070886297610",
+  "kept": true,
+  "cat": "T5",
+  "title": "用代码一帧帧渲出短视频",
+  "review": "掘金长文，网页逐帧截图再合成，配音时间戳驱动动画，附八步流程和提示词模板；第三方素材商用前先核授权",
+  "tags": [
+   "video",
+   "workflow"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "author": "XiaoLei_Liu",
+  "date": "2026-10-09"
  }
 ]

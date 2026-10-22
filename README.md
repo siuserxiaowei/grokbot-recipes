@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **17** 个配方，格式统一，提示词可以直接复制
-- **91** 个生态项目和学习资源，每条都打开核对过
-- **164** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **94** 个生态项目和学习资源，每条都打开核对过
+- **177** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **104** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
@@ -47,7 +47,7 @@
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（91）
+## 生态清单（94）
 
 ### 官方与工具（8）
 
@@ -73,7 +73,7 @@
 - [GrokBotDev](https://github.com/ZeroPointRepo/GrokBotDev) - 由一组 Bot 自己维护的玩法目录，本身就是多 Bot 协作的活例子。标签：`directory` `multi-bot` 📦
 - [GrokBot HQ](https://github.com/V-harshith/grokbothq) - 按类别列出大量 Bot，还有和其他 AI 助手的对比页。标签：`directory` `compare` 📦
 
-### 技能与连接（16）
+### 技能与连接（18）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -91,6 +91,8 @@
 - [dev-work-grok-bot-skill](https://github.com/FelixFangX/dev-work-grok-bot-skill) - 把 Bot 配成研发助理的技能，会先问清你的仓库和工具，带审批规则。标签：`skill` `dev` 📦
 - [Honcho 记忆插件](https://github.com/plastic-labs/honcho/tree/main/integrations/cursor) - 给多个 Bot 共用一份长期记忆的插件，在连接应用里搜索添加。标签：`memory` `plugin` 📦
 - [grokbot-wechat（psylch）](https://github.com/psylch/grokbot-wechat) - 把微信消息桥接到 Grok Bot 的转发程序，带保活和看门狗，想自己部署的人看。标签：`wechat` `bridge` 📦
+- [wingman](https://github.com/juangurdian/wingman) - 本机 MCP 桥，让云端 Bot 接管你电脑上已经开着的 Codex 或 Claude Code 会话；和 locum 派新活不同，它是接旧会话，隧道和令牌要管好。标签：`mcp` `bridge` 📦
+- [Tune-Up](https://github.com/Viaknox/tune-up) - 专门给其他 Bot 做体检的 Bot，找出跑偏和白耗额度的地方，改动由你批准；会读你其他 Bot 的设定，商业品牌项目。标签：`audit` `skill` 📦
 
 ### 多 Bot 团队（16）
 
@@ -111,12 +113,13 @@
 - [grokbot-desk](https://github.com/realspqrk/grokbot-desk) - 给 Bot 用的审批台，Bot 交上表格和待办，你点批准或驳回。标签：`approval` `dashboard` 📦
 - [bot-team-playbook](https://github.com/doublesq97-ui/bot-team-playbook) - 一个主管 Bot 带几个专员，按 8 种身份配好整队，中文提示词能直接贴，交付靠共享文件夹加主管验收。标签：`teams` `chinese` 📦
 
-### Routine 与监控（4）
+### Routine 与监控（5）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
 - [每周一给 X 帖子打分](https://x.com/MichaelGannotti/status/2112176393014440149) - 英文，复盘内容但不追点击 · @MichaelGannotti · 2026-10-19。标签：`x` `review` 📘
 - [每天扫冒充账号并跟进举报](https://x.com/TeslaAIBot/status/2112683025951535280) - 英文模板，账号安全 · @TeslaAIBot · 2026-10-20。标签：`x` `security` 📘
+- [grokbot-quota-ring](https://github.com/SvenKunkka/grokbot-quota-ring) - Mac 菜单栏里的小饼图，看本周额度还剩多少；要交出网站登录 cookie、走未公开接口，介意就手填数字。标签：`quota` `macos` 📦
 
 ### 一人公司与内容（5）
 
