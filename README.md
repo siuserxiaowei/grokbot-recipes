@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **17** 个配方，格式统一，提示词可以直接复制
-- **98** 个生态项目和学习资源，每条都打开核对过
-- **193** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **19** 个配方，格式统一，提示词可以直接复制
+- **100** 个生态项目和学习资源，每条都打开核对过
+- **202** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **104** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
@@ -23,12 +23,13 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（17）
+## 配方（19）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
 | 配方 | 适合 |
 |---|---|
+| [批准后定时发帖：一次性 Routine 查重再发](recipes/approved-post.md) | 想让 Bot 定时发帖，又怕它发重复、日期写错、数字没出处的人 |
 | [注意力清单：让 Bot 从你的行动里整理重点](recipes/attention-list.md) | 手上项目多、优先级清单总过期的人 |
 | [花名册和看板：多 Bot 分工不打架](recipes/bot-roster.md) | 有 3 个以上 Bot 的人 |
 | [竞品雷达：只报有变化的部分](recipes/competitor-radar.md) | 需要盯竞争对手的人 |
@@ -43,11 +44,12 @@
 | [安全登录：不把密码直接贴给 Bot](recipes/safe-login.md) | 需要 Bot 登录网站的人 |
 | [没信号不打扰：通知规则写清楚](recipes/silent-notify.md) | 开了监控类 Routine 的人 |
 | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) | 有一件事每周都要手动做一遍的人 |
+| [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（98）
+## 生态清单（100）
 
 ### 官方与工具（8）
 
@@ -73,7 +75,7 @@
 - [GrokBotDev](https://github.com/ZeroPointRepo/GrokBotDev) - 由一组 Bot 自己维护的玩法目录，本身就是多 Bot 协作的活例子。标签：`directory` `multi-bot` 📦
 - [GrokBot HQ](https://github.com/V-harshith/grokbothq) - 按类别列出大量 Bot，还有和其他 AI 助手的对比页。标签：`directory` `compare` 📦
 
-### 技能与连接（18）
+### 技能与连接（19）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -93,6 +95,7 @@
 - [grokbot-wechat（psylch）](https://github.com/psylch/grokbot-wechat) - 把微信消息桥接到 Grok Bot 的转发程序，带保活和看门狗，想自己部署的人看。标签：`wechat` `bridge` 📦
 - [wingman](https://github.com/juangurdian/wingman) - 本机 MCP 桥，让云端 Bot 接管你电脑上已经开着的 Codex 或 Claude Code 会话；和 locum 派新活不同，它是接旧会话，隧道和令牌要管好。标签：`mcp` `bridge` 📦
 - [Tune-Up](https://github.com/Viaknox/tune-up) - 专门给其他 Bot 做体检的 Bot，找出跑偏和白耗额度的地方，改动由你批准；会读你其他 Bot 的设定，商业品牌项目。标签：`audit` `skill` 📦
+- [grokbot-cli](https://github.com/Nuncio-hq/grokbot-cli) - 在终端或本机编程助手里给 Bot 派活、等回复、处理审批卡，Bot 也能把活留给你本机的助手；非官方，借桌面端登录调未公开接口，只支持 Mac，删改类命令先拿测试 Bot 试。标签：`cli` `mcp` 📦
 
 ### 多 Bot 团队（16）
 
@@ -113,13 +116,14 @@
 - [grokbot-desk](https://github.com/realspqrk/grokbot-desk) - 给 Bot 用的审批台，Bot 交上表格和待办，你点批准或驳回。标签：`approval` `dashboard` 📦
 - [bot-team-playbook](https://github.com/doublesq97-ui/bot-team-playbook) - 一个主管 Bot 带几个专员，按 8 种身份配好整队，中文提示词能直接贴，交付靠共享文件夹加主管验收。标签：`teams` `chinese` 📦
 
-### Routine 与监控（5）
+### Routine 与监控（6）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
 - [每周一给 X 帖子打分](https://x.com/MichaelGannotti/status/2112176393014440149) - 英文，复盘内容但不追点击 · @MichaelGannotti · 2026-10-19。标签：`x` `review` 📘
 - [每天扫冒充账号并跟进举报](https://x.com/TeslaAIBot/status/2112683025951535280) - 英文模板，账号安全 · @TeslaAIBot · 2026-10-20。标签：`x` `security` 📘
 - [grokbot-quota-ring](https://github.com/SvenKunkka/grokbot-quota-ring) - Mac 菜单栏里的小饼图，看本周额度还剩多少；要交出网站登录 cookie、走未公开接口，介意就手填数字。标签：`quota` `macos` 📦
+- [GrokGauge](https://github.com/stevencombs/GrokGauge) - Mac 菜单栏额度环，把 SuperGrok 每周总额度拆成 Grok、Bot、Cursor 各占多少；非官方、读未公开数据，安装脚本会去掉隔离标记，介意就手动装。标签：`quota` `macos` 📦
 
 ### 一人公司与内容（5）
 
@@ -212,7 +216,7 @@
 - [客服队列交给 Bot：五件事怎么分，退款为什么必须等你点头](https://grokguide.si/playbooks/support-five-jobs)
 - [每天只看一个 Bot：收件、日历、情报三个先“只读”，再交给总管](https://grokguide.si/playbooks/work-four-bots)
 
-### 实操教程（8）
+### 实操教程（20）
 
 一件事一篇，照着做
 
@@ -232,6 +236,11 @@
 - [这个插件能干什么？先读官方仓库里的说明书](https://grokguide.si/tutorials/read-plugin-readme)
 - [从模板安装到第一次验收](https://grokguide.si/tutorials/template-first-run)
 - [用语音和键盘给 Grok Bot 交任务](https://grokguide.si/tutorials/voice-and-keyboard)
+- [让 Bot 做一页会自己更新的看板](https://grokguide.si/tutorials/pages-live-report)
+- [Routine 只写一行，做法放进技能](https://grokguide.si/tutorials/routine-one-line)
+- [让 Bot 自己记经验，更新技能](https://grokguide.si/tutorials/self-updating-skills)
+- [人批准以后，用一次性 Routine 发帖](https://grokguide.si/tutorials/approved-post-routine)
+- [让 Bot 管待办，没做完就再提醒](https://grokguide.si/tutorials/todo-nag)
 
 ### 常见问题速查（14）
 

@@ -4,9 +4,9 @@
 
 An unofficial, Chinese-first collection maintained by Dato (siuser小伟) and his Grok Bot: copy-paste recipes, a hand-checked ecosystem list, and an index of the tutorials on [grokguide.si](https://grokguide.si).
 
-- **17** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
-- **98** ecosystem projects, each opened and checked on 2026-10-22 (exists, active, really about Grok Bot)
-- **193** community tutorials ([list, in Chinese](docs/community-tutorials.md))
+- **19** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
+- **100** ecosystem projects, each opened and checked on 2026-10-22 (exists, active, really about Grok Bot)
+- **202** community tutorials ([list, in Chinese](docs/community-tutorials.md))
 - **104** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
 
 Markers: 📘 content read · 📦 repository checked. Full records: [data/items.json](data/items.json).
@@ -15,6 +15,7 @@ Markers: 📘 content read · 📦 repository checked. Full records: [data/items
 
 | Recipe | File |
 |---|---|
+| Scheduled post after approval, dedupe first | [批准后定时发帖：一次性 Routine 查重再发](recipes/approved-post.md) |
 | Attention list built from your activity | [注意力清单：让 Bot 从你的行动里整理重点](recipes/attention-list.md) |
 | Roster and board for multi-bot teams | [花名册和看板：多 Bot 分工不打架](recipes/bot-roster.md) |
 | Competitor radar, changes only | [竞品雷达：只报有变化的部分](recipes/competitor-radar.md) |
@@ -30,6 +31,7 @@ Markers: 📘 content read · 📦 repository checked. Full records: [data/items
 | Notify only on real signal | [没信号不打扰：通知规则写清楚](recipes/silent-notify.md) |
 | Teach once, turn it into a skill | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) |
 | War room: bots hand off via files | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) |
+| To-do reminders that follow up | [待办提醒：没做完就再提醒](recipes/todo-nag.md) |
 | Friday weekly-review routine | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) |
 | Daily X radar | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) |
 

@@ -4436,5 +4436,177 @@
   "kept": false,
   "reason": "正文里还留着作者的写作占位，像未完成稿",
   "source": "sweep-1022"
+ },
+ {
+  "url": "https://github.com/Nuncio-hq/grokbot-cli",
+  "kept": true,
+  "cat": "C",
+  "title": "grokbot-cli",
+  "review": "在终端或本机编程助手里给 Bot 派活、等回复、处理审批卡，Bot 也能把活留给你本机的助手；非官方，借桌面端登录调未公开接口，只支持 Mac，删改类命令先拿测试 Bot 试",
+  "tags": [
+   "cli",
+   "mcp"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm"
+ },
+ {
+  "url": "https://github.com/stevencombs/GrokGauge",
+  "kept": true,
+  "cat": "E",
+  "title": "GrokGauge",
+  "review": "Mac 菜单栏额度环，把 SuperGrok 每周总额度拆成 Grok、Bot、Cursor 各占多少；非官方、读未公开数据，安装脚本会去掉隔离标记，介意就手动装",
+  "tags": [
+   "quota",
+   "macos"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm"
+ },
+ {
+  "url": "https://x.com/dotey/status/2113014531853365681",
+  "kept": true,
+  "cat": "T1",
+  "title": "四家个人 Agent 怎么选（X）",
+  "review": "中文长帖，按适合谁来比 Grok Bot、Muse、Dots 和 Claude Duet，想让几个 AI 分工干活的看 Grok Bot",
+  "tags": [
+   "compare",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "dotey",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/itsolelehmann/status/2112189337299529966",
+  "kept": true,
+  "cat": "T1",
+  "title": "市场里的四个现成 Bot（X）",
+  "review": "英文短帖，点名剪视频、砍软件账单、查 AI 搜索曝光、盯品牌提及四个模板，装之前先让自己的 Bot 看看合不合用",
+  "tags": [
+   "marketplace",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "itsolelehmann",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://www.yesmiracle.net/post/20261015-grok-bot-main-playbooks/",
+  "kept": true,
+  "cat": "T1",
+  "title": "把官方 56 个模板归成六种玩法（博客）",
+  "review": "中文长文，按模板分类数一遍，归成派活、装模板、演示存技能、排班、组队、登进没接口的系统六类，最后提醒账号就是凭据",
+  "tags": [
+   "templates",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "yesmiracle",
+  "date": "2026-10-15"
+ },
+ {
+  "url": "https://x.com/MMMusol/status/2113176438308536500",
+  "kept": true,
+  "cat": "T2",
+  "title": "十几个 Bot 各管一摊，主 Bot 只派活（X）",
+  "review": "中文短帖，一周迭代后的分工心得：规矩写进配置、主 Bot 判断归谁再转派；帖子刚发、互动还少",
+  "tags": [
+   "multi-bot",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "MMMusol",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/DBurkland/status/2113158654165975053",
+  "kept": true,
+  "cat": "T3",
+  "title": "起飞前一小时自动出颠簸图（X）",
+  "review": "英文实例，每趟航班前跑一次 Routine，汇总航路天气报告出表格和地图，帖下附可导入的 Bot",
+  "tags": [
+   "routine",
+   "travel"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "DBurkland",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/Pluvio9yte/status/2113196159267160401",
+  "kept": true,
+  "cat": "T4",
+  "title": "把已连的几台电脑设成始终允许（X）",
+  "review": "中文小技巧，让 Bot 不经远程桌面直接给家里几台 Mac 下指令；始终允许会跳过逐条确认，只用在自己的设备上",
+  "tags": [
+   "local",
+   "devices"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "Pluvio9yte",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://juejin.cn/post/7684649314158510114",
+  "kept": true,
+  "cat": "T4",
+  "title": "从安装到接通 X 插件的完整记录（掘金）",
+  "review": "中文实录，补齐 X 开发者账号、项目和 App 后插件才读得到帖子，建议先只读、设消费上限；文中额度数字是作者个人所见",
+  "tags": [
+   "x",
+   "connector"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "小墨同学boy",
+  "date": "2026-09-13"
+ },
+ {
+  "url": "https://x.com/Pluvio9yte/status/2113065297284599924",
+  "kept": true,
+  "cat": "T5",
+  "title": "出海站、自媒体、周报、待办四个 Bot（X）",
+  "review": "中文实配分享，最值得抄的是待办 Bot：没做完的事会反复提醒；我们据此写了 grokguide 的待办教程",
+  "tags": [
+   "setup",
+   "todo"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "Pluvio9yte",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/filippkowalski/status/2113172213780144289",
+  "kept": true,
+  "cat": "T5",
+  "title": "让 Bot 帮忙编 newsletter（X）",
+  "review": "英文短帖，脚本每天收料、随手转帖给 Bot，Bot 出终稿草稿，本人早上改完再点发送",
+  "tags": [
+   "newsletter",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-22",
+  "source": "sweep-1022pm",
+  "author": "filippkowalski",
+  "date": "2026-10-22"
  }
 ]
