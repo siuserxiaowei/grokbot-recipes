@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **20** 个配方，格式统一，提示词可以直接复制
-- **105** 个生态项目和学习资源，每条都打开核对过
-- **211** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **21** 个配方，格式统一，提示词可以直接复制
+- **106** 个生态项目和学习资源，每条都打开核对过
+- **222** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **105** 篇 grokguide.si 自己的教程
+- **106** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（20）
+## 配方（21）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -44,6 +44,7 @@
 | [海外客服：多语言工单先分流](recipes/outbound-support.md) | 做海外用户的团队 |
 | [额度体检：先停、分级、逐条重开](recipes/routine-budget.md) | 开了很多 Routine 的人 |
 | [安全登录：不把密码直接贴给 Bot](recipes/safe-login.md) | 需要 Bot 登录网站的人 |
+| [脚本先跑：固定的活交给脚本，Bot 只看一行结果](recipes/script-first.md) | Routine 每天巡检页面或清单，没变化也要一页页看、额度掉得快的人 |
 | [没信号不打扰：通知规则写清楚](recipes/silent-notify.md) | 开了监控类 Routine 的人 |
 | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) | 有一件事每周都要手动做一遍的人 |
 | [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
@@ -51,7 +52,7 @@
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（105）
+## 生态清单（106）
 
 ### 官方与工具（9）
 
@@ -78,7 +79,7 @@
 - [GrokBotDev](https://github.com/ZeroPointRepo/GrokBotDev) - 由一组 Bot 自己维护的玩法目录，本身就是多 Bot 协作的活例子。标签：`directory` `multi-bot` 📦
 - [GrokBot HQ](https://github.com/V-harshith/grokbothq) - 按类别列出大量 Bot，还有和其他 AI 助手的对比页。标签：`directory` `compare` 📦
 
-### 技能与连接（22）
+### 技能与连接（23）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -102,6 +103,7 @@
 - [gb2gpt](https://github.com/EdmundLimBoEn/gb2gpt) - 在 ChatGPT 对话里给自己的 Bot 团队派活，自己架一个小服务当中转；要 ChatGPT 付费版的开发者模式和公网 HTTPS 地址，许可不允许商用。标签：`chatgpt` `mcp` 📦
 - [Send to Grok Bot](https://github.com/jamespendry/send-to-grok-bot) - 给 x.com 每条帖子加个发送按钮，一键交给你的 Bot，iPhone 走分享菜单；扩展还没上架商店要手动加载，手机路线经作者的中转服务。标签：`chrome-extension` `x` 📦
 - [Watchtower](https://github.com/ken-aisec/grokbot-watchtower) - 给共用一台云电脑的 Bot 们配一个安全官：装模板前先审、打安全分、放诱饵文件、出周报；默认只读，安装会在云电脑上装扫描工具和定时任务。标签：`security` `audit` 📦
+- [grok-bot-local-first](https://github.com/MarkusIsaksson1982/grok-bot-local-first) - 英文技能包，把巡检、比对这类固定步骤交给本机 Python 小脚本，脚本最后只吐一行 JSON，Bot 只在要判断时出手；另有启用和运维说明，付费版是可选项。标签：`skill` `quota` 📦
 
 ### 多 Bot 团队（16）
 
@@ -249,6 +251,7 @@
 - [人批准以后，用一次性 Routine 发帖](https://grokguide.si/tutorials/approved-post-routine)
 - [让 Bot 管待办，没做完就再提醒](https://grokguide.si/tutorials/todo-nag)
 - [会变的事先查来源，别只信记忆](https://grokguide.si/tutorials/check-source-first)
+- [固定的活交给脚本，Bot 只看一行结果](https://grokguide.si/tutorials/script-first)
 
 ### 常见问题速查（14）
 

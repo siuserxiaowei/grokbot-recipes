@@ -4837,5 +4837,212 @@
   "source": "sweep-1023am",
   "author": "free_ai_guides",
   "date": "2026-10-23"
+ },
+ {
+  "url": "https://github.com/MarkusIsaksson1982/grok-bot-local-first",
+  "kept": true,
+  "cat": "C",
+  "title": "grok-bot-local-first",
+  "review": "英文技能包，把巡检、比对这类固定步骤交给本机 Python 小脚本，脚本最后只吐一行 JSON，Bot 只在要判断时出手；另有启用和运维说明，付费版是可选项",
+  "tags": [
+   "skill",
+   "quota"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "repo": "MarkusIsaksson1982/grok-bot-local-first",
+  "last_push": "2026-10-23",
+  "license": "MIT"
+ },
+ {
+  "url": "https://x.com/0xKingsKuan/status/2113541121892921683",
+  "kept": true,
+  "cat": "T3",
+  "title": "额度两天就爆？九个省额度习惯（X 长文）",
+  "review": "中文长文，讲额度按动作算不按条数算，九条习惯里最实用的是降低 Routine 频率、固定步骤别让 Bot 一步步点；文中的节省比例是作者自己估的",
+  "tags": [
+   "quota",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "0xKingsKuan",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/0xlangeai/status/2113561892505763850",
+  "kept": true,
+  "cat": "T4",
+  "title": "Pages 报告、备忘录、仪表盘入门（X 长文）",
+  "review": "中文长文，按报告、备忘录、仪表盘三种页面各走一遍，从一句话需求到可分享的页面，适合第一次用 Pages 的人",
+  "tags": [
+   "pages"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "0xlangeai",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/AdrianPunk115/status/2113545672469491847",
+  "kept": true,
+  "cat": "T2",
+  "title": "Agent 时代的管理学（X 长文）",
+  "review": "中文长文，从古代官制和现代公司里挑能搬给多 Bot 团队的规矩：退回两次就停下交人拍板、权限分四级、限制写进工具本身而不是只靠提示词",
+  "tags": [
+   "team",
+   "approval"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "AdrianPunk115",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/BuzzMalx/status/2113524833560784969",
+  "kept": true,
+  "cat": "T5",
+  "title": "十个 Bot 跑内容（X）",
+  "review": "英文帖，选题、起草、改写、排期各给一个 Bot，每岗附一句指令，全部只出草稿，发不发由人定",
+  "tags": [
+   "content",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "BuzzMalx",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/Mulight/status/2113548359294161124",
+  "kept": true,
+  "cat": "T4",
+  "title": "在推文下 @bot 派活，再用私信追问（X）",
+  "review": "中文帖，刷到好帖不再收藏，直接在下面 @bot 让它整理，后续在 X 私信里接着问，常用的整理方式存成技能加定时；内容偏币圈",
+  "tags": [
+   "x",
+   "skill"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "Mulight",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/dotey/status/2110407054334550232",
+  "kept": true,
+  "cat": "T4",
+  "title": "先问 Grok 怎么筛新闻，再存成技能（X）",
+  "review": "中文短帖，让 Grok 自己讲清它是怎么在 X 上检索和筛选资讯的，把这套做法存成技能，换到别的 Bot 也能用",
+  "tags": [
+   "skill",
+   "news"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "dotey",
+  "date": "2026-10-15"
+ },
+ {
+  "url": "https://x.com/herock/status/2113516863061926189",
+  "kept": true,
+  "cat": "T4",
+  "title": "开车时让 Bot 读时间线（X）",
+  "review": "中文短帖，先说明自己在开车不便看屏幕，让 Bot 在语音对话里逐条读时间线；作者说手机发烫还闪退过一次，长时间用要留意",
+  "tags": [
+   "voice",
+   "x"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "herock",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/buckleyplanet/status/2113477575599067241",
+  "kept": true,
+  "cat": "T2",
+  "title": "所有请求汇成一份微软待办清单（X 长文）",
+  "review": "英文长文，借第三方 MCP 把各个 Bot 交代的事都写进 Microsoft To Do，由一个总管 Bot 统一排，避免每个 Bot 各记各的",
+  "tags": [
+   "todo",
+   "mcp",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "buckleyplanet",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/kunchenguid/status/2113535815133561271",
+  "kept": true,
+  "cat": "T2",
+  "title": "Firstmate：会观察下属 Bot 的总管（X）",
+  "review": "英文帖，总管 Bot 派活给别的 Bot 时会留意它们哪里做得不好，再回头改它们的说明；附模板导入链接，装之前先看它要哪些权限",
+  "tags": [
+   "team",
+   "template",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "kunchenguid",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/Texas_Twins_Dad/status/2113400048453402867",
+  "kept": true,
+  "cat": "T1",
+  "title": "手机上的日历、提醒等系统应用接进 Bot（X）",
+  "review": "英文帖，列出日历、提醒等手机应用接入后可以直接说的几句话，适合想先试手机端能做什么的人",
+  "tags": [
+   "mobile",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "Texas_Twins_Dad",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/Teslaconomics/status/2113359826399158336",
+  "kept": true,
+  "cat": "T4",
+  "title": "把账户汇成一页净资产（X）",
+  "review": "英文帖，把理财账户接进 Bot 后让它做一页净资产 Pages；接金融账户前先看清授权范围，最好只给只读",
+  "tags": [
+   "pages",
+   "finance",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023pm",
+  "author": "Teslaconomics",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/tejas3732/status/2113487449125208081",
+  "kept": false,
+  "reason": "内容单薄，主要是让读者装一个要读代码仓库权限的第三方工具",
+  "source": "sweep-1023pm"
+ },
+ {
+  "url": "https://x.com/Mileson07/status/2113514194687668731",
+  "kept": false,
+  "reason": "标题用“免费领取”引流，内容和已收的模板中文目录重复",
+  "source": "sweep-1023pm"
  }
 ]
