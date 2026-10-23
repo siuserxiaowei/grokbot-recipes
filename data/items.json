@@ -4608,5 +4608,234 @@
   "source": "sweep-1022pm",
   "author": "filippkowalski",
   "date": "2026-10-22"
+ },
+ {
+  "url": "https://github.com/Nichokas/grokbot-linux-port",
+  "kept": true,
+  "cat": "A",
+  "title": "grokbot-linux-port",
+  "review": "非官方 Linux 打包，把官方 .deb 原样重打成 Arch、Fedora 和通用压缩包，每天跟版本；Ubuntu、Debian 用户直接装官方包更稳妥",
+  "tags": [
+   "linux",
+   "packaging"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "repo": "Nichokas/grokbot-linux-port",
+  "last_push": "2026-10-22",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/EdmundLimBoEn/gb2gpt",
+  "kept": true,
+  "cat": "C",
+  "title": "gb2gpt",
+  "review": "在 ChatGPT 对话里给自己的 Bot 团队派活，自己架一个小服务当中转；要 ChatGPT 付费版的开发者模式和公网 HTTPS 地址，许可不允许商用",
+  "tags": [
+   "chatgpt",
+   "mcp"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "repo": "EdmundLimBoEn/gb2gpt",
+  "last_push": "2026-10-22",
+  "license": "CC BY-NC 4.0"
+ },
+ {
+  "url": "https://github.com/jamespendry/send-to-grok-bot",
+  "kept": true,
+  "cat": "C",
+  "title": "Send to Grok Bot",
+  "review": "给 x.com 每条帖子加个发送按钮，一键交给你的 Bot，iPhone 走分享菜单；扩展还没上架商店要手动加载，手机路线经作者的中转服务",
+  "tags": [
+   "chrome-extension",
+   "x"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "repo": "jamespendry/send-to-grok-bot",
+  "last_push": "2026-10-22",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/ken-aisec/grokbot-watchtower",
+  "kept": true,
+  "cat": "C",
+  "title": "Watchtower",
+  "review": "给共用一台云电脑的 Bot 们配一个安全官：装模板前先审、打安全分、放诱饵文件、出周报；默认只读，安装会在云电脑上装扫描工具和定时任务",
+  "tags": [
+   "security",
+   "audit"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "repo": "ken-aisec/grokbot-watchtower",
+  "last_push": "2026-10-22",
+  "license": "Apache-2.0"
+ },
+ {
+  "url": "https://github.com/Liu-zhongxian/zongzhu-bot",
+  "kept": true,
+  "cat": "H",
+  "title": "宗主 zongzhu-bot",
+  "review": "ESP32-S3 圆屏语音终端，说一句话就把活交给 Bot，回复上屏并朗读，中文说明齐全；需要一台常开的电脑跑后端",
+  "tags": [
+   "hardware",
+   "voice"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "repo": "Liu-zhongxian/zongzhu-bot",
+  "last_push": "2026-10-22",
+  "license": "MIT"
+ },
+ {
+  "url": "https://ofox.io/zh/blog/grok-bot-get-started-guide/",
+  "kept": true,
+  "cat": "T1",
+  "title": "从安装登录到交出第一个任务（Ofox 博客）",
+  "review": "中文长文，按官方文档讲账户资格、装哪个客户端、怎么写第一份有验收标准的任务，提醒多个 Bot 共用一台电脑不等于隔离",
+  "tags": [
+   "starter",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "Ofox",
+  "date": "2026-10-09"
+ },
+ {
+  "url": "https://www.cw.com.tw/article/5143389",
+  "kept": true,
+  "cat": "T1",
+  "title": "生活助理新手指南（天下杂志）",
+  "review": "繁体中文编译，六步设好第一个生活助理，附十条日常提示词，前几周建议自己检查结果；部分内容要登录才能看全",
+  "tags": [
+   "starter",
+   "life"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "天下杂志 乐羽嘉",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/eng_khairallah1/status/2113204927405400074",
+  "kept": true,
+  "cat": "T2",
+  "title": "第一支 Bot 团队先搭三个（X 长文）",
+  "review": "英文长文，别一上来开六个，先三个；把分工、交接、谁来协调、什么时候停写清楚，写稿和审稿分给不同的 Bot",
+  "tags": [
+   "team",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "eng_khairallah1",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/Michael_Fenech_/status/2112133154916208727",
+  "kept": true,
+  "cat": "T4",
+  "title": "会变的事先查来源，别只信记忆（X）",
+  "review": "英文长帖附整段提示词，记忆里只存去哪查、回答说明出处、先改一个 Bot 再推广；我们据此写了 grokguide 的先查来源教程",
+  "tags": [
+   "memory",
+   "prompt"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "Michael_Fenech_",
+  "date": "2026-10-19"
+ },
+ {
+  "url": "https://x.com/vinayp10/status/2113263397491855821",
+  "kept": true,
+  "cat": "T4",
+  "title": "第二大脑搬到 Grok Bot（X 长文）",
+  "review": "英文长文，笔记放 GitHub、开场先读一份启动文件、结束写回，看重云电脑不用自己维护家里的机器",
+  "tags": [
+   "second-brain",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "vinayp10",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/JayDook/status/2113329700172927219",
+  "kept": true,
+  "cat": "T5",
+  "title": "True Circle：按真实对话排出你的核心圈（X）",
+  "review": "英文短帖附模板，只读扫你近期公开帖子和回复，按真正来回的对话给人排序，有三种视图；帖子刚发、互动还少",
+  "tags": [
+   "x",
+   "template"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "JayDook",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/distortgeekin/status/2113261664694894731",
+  "kept": true,
+  "cat": "T5",
+  "title": "Pages 先建哪六页（X）",
+  "review": "英文短帖，营收、管线、晨报、董事会备忘、制度页、竞品六句可直接改的提示，备忘那页只起草不发送；标题语气偏夸张",
+  "tags": [
+   "pages",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "distortgeekin",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/ryangrowthh/status/2113276573793267911",
+  "kept": true,
+  "cat": "T5",
+  "title": "11 个 Bot 组成的内容团队（X 长文）",
+  "review": "英文长文，先定首席助理和账号定位，再分研究、创作、追踪三组，每岗附提示词，作者也承认还得靠人挑；曝光数字是作者自己说的",
+  "tags": [
+   "content",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "ryangrowthh",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/free_ai_guides/status/2113309273744617696",
+  "kept": true,
+  "cat": "T6",
+  "title": "购物 Bot 只备购物车，下单你来点（X 长文）",
+  "review": "英文长文，Bot 负责搜价、核对是不是真便宜、每天盯价，付款按钮留给你，别把卡号丢进聊天",
+  "tags": [
+   "shopping",
+   "approval"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-23",
+  "source": "sweep-1023am",
+  "author": "free_ai_guides",
+  "date": "2026-10-23"
  }
 ]

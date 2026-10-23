@@ -4,10 +4,10 @@
 
 An unofficial, Chinese-first collection maintained by Dato (siuser小伟) and his Grok Bot: copy-paste recipes, a hand-checked ecosystem list, and an index of the tutorials on [grokguide.si](https://grokguide.si).
 
-- **19** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
-- **100** ecosystem projects, each opened and checked on 2026-10-22 (exists, active, really about Grok Bot)
-- **202** community tutorials ([list, in Chinese](docs/community-tutorials.md))
-- **104** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
+- **20** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
+- **105** ecosystem projects, each opened and checked on 2026-10-23 (exists, active, really about Grok Bot)
+- **211** community tutorials ([list, in Chinese](docs/community-tutorials.md))
+- **105** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
 
 Markers: 📘 content read · 📦 repository checked. Full records: [data/items.json](data/items.json).
 
@@ -18,6 +18,7 @@ Markers: 📘 content read · 📦 repository checked. Full records: [data/items
 | Scheduled post after approval, dedupe first | [批准后定时发帖：一次性 Routine 查重再发](recipes/approved-post.md) |
 | Attention list built from your activity | [注意力清单：让 Bot 从你的行动里整理重点](recipes/attention-list.md) |
 | Roster and board for multi-bot teams | [花名册和看板：多 Bot 分工不打架](recipes/bot-roster.md) |
+| Check the source before answering anything that changes | [先查来源：会变的事不只信记忆](recipes/check-source-first.md) |
 | Competitor radar, changes only | [竞品雷达：只报有变化的部分](recipes/competitor-radar.md) |
 | Four dev roles: spec, repro, build, review | [研发四个角色：需求、复现、实现、审查](recipes/dev-four-roles.md) |
 | Draft first, human sends | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) |
