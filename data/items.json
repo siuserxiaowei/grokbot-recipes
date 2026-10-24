@@ -5464,5 +5464,209 @@
   "kept": false,
   "reason": "只有一句话，内容和已收的 Vault 帖重复",
   "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/anselmcmakin/personal-chef",
+  "kept": true,
+  "cat": "B",
+  "title": "Personal Chef",
+  "review": "家庭一周晚饭模板，过敏连「可能含有」都当硬规则、预算超了自己改方案，购物车只装不结账，技能说明写得很细，值得照着改成自己的版本",
+  "tags": [
+   "template",
+   "meal-plan",
+   "routine",
+   "shopping"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "repo": "anselmcmakin/personal-chef",
+  "last_push": "2026-10-24",
+  "license": "MIT",
+  "source": "sweep-1024pm"
+ },
+ {
+  "url": "https://github.com/onlymehdi/broom",
+  "kept": true,
+  "cat": "C",
+  "title": "broom",
+  "review": "只靠技能说明清理 Gmail 垃圾信，只挪进回收站、不点退订，银行和订单邮件默认不碰，刚建的仓库，先拿小范围试",
+  "tags": [
+   "gmail",
+   "skills",
+   "inbox"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "onlymehdi/broom",
+  "last_push": "2026-10-24",
+  "license": "MIT",
+  "source": "sweep-1024pm"
+ },
+ {
+  "url": "https://github.com/Dissipative-ATLAS/stackchan-grok-bridge",
+  "kept": true,
+  "cat": "H",
+  "title": "stackchan-grok-bridge",
+  "review": "中文项目，让 StackChan 小机器人把问题经 Mac 中转和 Cloudflare 信箱交给 Grok Bot，作者记了真机一次往返约三分钟，适合爱折腾硬件的人看思路；仓库没写许可证",
+  "tags": [
+   "hardware",
+   "stackchan",
+   "cloudflare",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "repo": "Dissipative-ATLAS/stackchan-grok-bridge",
+  "last_push": "2026-10-24",
+  "license": "NOASSERTION",
+  "source": "sweep-1024pm"
+ },
+ {
+  "url": "https://github.com/bytec-ai/grok-x-bridge-example",
+  "kept": true,
+  "cat": "C",
+  "title": "grok-x-bridge-example",
+  "review": "中文示例：编程智能体经 Worker 和 D1 唤醒 Grok Bot 去搜 X，再把结果回调回来，想让别的工具借 Bot 的 X 搜索可以参考；没写许可证，只当示例读",
+  "tags": [
+   "webhook",
+   "cloudflare",
+   "x-search",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "repo": "bytec-ai/grok-x-bridge-example",
+  "last_push": "2026-10-24",
+  "license": "NOASSERTION",
+  "source": "sweep-1024pm"
+ },
+ {
+  "url": "https://x.com/Sukiea1008/status/2113544871197933660",
+  "kept": true,
+  "cat": "T1",
+  "title": "官方模板市场 10 个值得先看的模板（X 长文）",
+  "review": "中文长文，从模板市场挑了 10 个按用途分组，再给一个导入、连工具、改输出、定审批线的五步起步顺序，适合不想从零写提示词的新手",
+  "tags": [
+   "chinese",
+   "marketplace",
+   "templates"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024pm",
+  "author": "Sukiea1008",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/Mulight/status/2113862965262962804",
+  "kept": true,
+  "cat": "T1",
+  "title": "新手从哪学起：中英文和官方教程导航（X）",
+  "review": "中文导航帖，把几份中文合集、一套英文课程和官方 Guides 排了先后顺序，篇幅短，适合拿来定学习路线",
+  "tags": [
+   "chinese",
+   "roundup",
+   "learning-path"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024pm",
+  "author": "Mulight",
+  "date": "2026-10-24"
+ },
+ {
+  "url": "https://x.com/xitang_ai/status/2113805016511258737",
+  "kept": true,
+  "cat": "T1",
+  "title": "91 条教程里挑出 24 篇，按学习顺序排（X 长文）",
+  "review": "中文合集，按收藏数从 91 条里筛出 24 篇并排好先后，每篇写了为什么看，和蓝哥的分类合集互补",
+  "tags": [
+   "chinese",
+   "roundup"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024pm",
+  "author": "xitang_ai",
+  "date": "2026-10-24"
+ },
+ {
+  "url": "https://x.com/xilo2991/status/2109613437215293905",
+  "kept": true,
+  "cat": "T2",
+  "title": "零基础搭全自动 Agent 团队万字长文（X）",
+  "review": "中文万字长文，从开通讲到主 Bot 派活、多 Bot 协作，把 Grok Bot 比成一家虚拟公司来讲，适合想一次读完整套概念的人",
+  "tags": [
+   "chinese",
+   "multi-bot",
+   "getting-started"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024pm",
+  "author": "xilo2991",
+  "date": "2026-10-12"
+ },
+ {
+  "url": "https://x.com/mattyp/status/2092286281266962681",
+  "kept": true,
+  "cat": "T1",
+  "title": "Getting Started with Grok Bot（X 视频）",
+  "review": "英文入门视频，半小时讲 Bot 的构成、三种运行方式、多 Bot 串联和四个实际工作流，带章节时间点，不爱读长文的人先看这个",
+  "tags": [
+   "english",
+   "video",
+   "getting-started"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024pm",
+  "author": "mattyp",
+  "date": "2026-08-25"
+ },
+ {
+  "url": "https://www.pandawm.com/blog/grok-bot-overseas-marketing-workflows.html",
+  "kept": true,
+  "cat": "T5",
+  "title": "Grok Bot 做海外营销的几个工作流（博客）",
+  "review": "中文博客，按官方用例拆出三个出海营销角色，再讲从一次任务到稳定工作流的七步和 X 上 @bot 派活，审批规则先定再放权；站点是出海服务商，推荐内容跳过即可",
+  "tags": [
+   "chinese",
+   "marketing",
+   "workflow"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024pm",
+  "author": "pandawm",
+  "date": "2026-10-18"
+ },
+ {
+  "url": "https://thetrail.jp/news/grok-bot-guide",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot の使い方（日语）",
+  "review": "日语入门文章，从订阅入口讲到第一个 Bot 和 Routine，附发布以来的更新时间线，适合给日语读者",
+  "tags": [
+   "japanese",
+   "getting-started"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024pm",
+  "author": "TRAIL",
+  "date": "2026-10-24"
+ },
+ {
+  "url": "https://github.com/telegraphic-dev/a2a-exposed",
+  "kept": false,
+  "reason": "通用 A2A 网关，和 Grok Bot 关系不直接，且主推付费托管，先观察",
+  "source": "sweep-1024pm"
+ },
+ {
+  "url": "https://www.claudemax.shop/",
+  "kept": false,
+  "reason": "账号转售站，不收",
+  "source": "sweep-1024pm"
  }
 ]

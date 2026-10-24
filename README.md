@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **22** 个配方，格式统一，提示词可以直接复制
-- **116** 个生态项目和学习资源，每条都打开核对过
-- **236** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **23** 个配方，格式统一，提示词可以直接复制
+- **120** 个生态项目和学习资源，每条都打开核对过
+- **243** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **108** 篇 grokguide.si 自己的教程
+- **109** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（22）
+## 配方（23）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -50,10 +50,11 @@
 | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) | 有一件事每周都要手动做一遍的人 |
 | [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
+| [一周晚饭：周六排好，过敏当硬规则](recipes/weekly-dinner.md) | 每周都在愁吃什么、家里有人过敏或挑食、想把买菜清单也一起省掉的人 |
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（116）
+## 生态清单（120）
 
 ### 官方与工具（12）
 
@@ -70,7 +71,7 @@
 - [android-grok-home](https://github.com/drumpat01/android-grok-home) - 把 Grok Bot 做成 Android 桌面启动器的实验项目，基于官方 BDK，喜欢折腾手机的人可以看看。标签：`android` `launcher` `bdk` 📦
 - [grokbot-widget](https://github.com/imranbarbhuiya/grokbot-widget) - macOS 悬浮小窗，随时呼出 Bot；安装包没做公证，第一次打开要自己在系统设置里放行。标签：`macos` `widget` 📦
 
-### 模板与目录（10）
+### 模板与目录（11）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -82,8 +83,9 @@
 - [Useful Bots](https://usefulbots.pages.dev/) - 面向视频和内容创作者的模板合集，分类清楚。标签：`templates` `creator` 📘
 - [GrokBotDev](https://github.com/ZeroPointRepo/GrokBotDev) - 由一组 Bot 自己维护的玩法目录，本身就是多 Bot 协作的活例子。标签：`directory` `multi-bot` 📦
 - [GrokBot HQ](https://github.com/V-harshith/grokbothq) - 按类别列出大量 Bot，还有和其他 AI 助手的对比页。标签：`directory` `compare` 📦
+- [Personal Chef](https://github.com/anselmcmakin/personal-chef) - 家庭一周晚饭模板，过敏连「可能含有」都当硬规则、预算超了自己改方案，购物车只装不结账，技能说明写得很细，值得照着改成自己的版本。标签：`template` `meal-plan` `routine` `shopping` 📘
 
-### 技能与连接（25）
+### 技能与连接（27）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -110,6 +112,8 @@
 - [grok-bot-local-first](https://github.com/MarkusIsaksson1982/grok-bot-local-first) - 英文技能包，把巡检、比对这类固定步骤交给本机 Python 小脚本，脚本最后只吐一行 JSON，Bot 只在要判断时出手；另有启用和运维说明，付费版是可选项。标签：`skill` `quota` 📦
 - [grok-bot-mcp](https://github.com/cherwinyu/grok-bot-mcp) - Windows 上的 MCP 服务，让 Bot 把编程活交给本机代理，最后用 git diff 验收，改动看得见。标签：`mcp` `windows` `coding` 📦
 - [grokbot-skills](https://github.com/dallintwatts/grokbot-skills) - 一组技能附带 sha256 清单，装之前先对哈希，被改过就不装；我们照着写了一篇钉版本教程。标签：`skills` `sha256` `security` 📦
+- [broom](https://github.com/onlymehdi/broom) - 只靠技能说明清理 Gmail 垃圾信，只挪进回收站、不点退订，银行和订单邮件默认不碰，刚建的仓库，先拿小范围试。标签：`gmail` `skills` `inbox` 📦
+- [grok-x-bridge-example](https://github.com/bytec-ai/grok-x-bridge-example) - 中文示例：编程智能体经 Worker 和 D1 唤醒 Grok Bot 去搜 X，再把结果回调回来，想让别的工具借 Bot 的 X 搜索可以参考；没写许可证，只当示例读。标签：`webhook` `cloudflare` `x-search` `chinese` 📘
 
 ### 多 Bot 团队（18）
 
@@ -166,12 +170,13 @@
 - [claudio-bot](https://github.com/IamP5/claudio-bot) - 自己托管的 Claude Code 助手，用 iPhone 远程派活，想要类似 Grok Bot 体验又想数据留在自己机器上的人可以参考。标签：`self-hosted` `claude-code` `ios` 📦
 - [agent-harbor](https://github.com/TommyBez/agent-harbor) - 在 macOS 上用 tmux 管一堆 Claude Code、Codex 会话，适合本机同时跑好几个编程代理的人。标签：`macos` `tmux` `coding-agents` 📦
 
-### 硬件（4）
+### 硬件（5）
 
 - [groki-bot](https://github.com/JosssphZhou/groki-bot) - M5Stack 桌面小机器人，能用语音把任务交给 Grok Bot。标签：`hardware` `voice` 📦
 - [grok-gadgets](https://github.com/adidshaft/grok-gadgets) - 把硬件接到 Grok Bot 的工具包，可以先用模拟器试。标签：`hardware` `sdk` 📦
 - [把 Grok Bot 装进 ESP32](https://x.com/Liu_zhongxisn/status/2112118491239379227) - 中文，硬件小项目 · @Liu_zhongxisn · 2026-10-19。标签：`hardware` `esp32` 📘
 - [宗主 zongzhu-bot](https://github.com/Liu-zhongxian/zongzhu-bot) - ESP32-S3 圆屏语音终端，说一句话就把活交给 Bot，回复上屏并朗读，中文说明齐全；需要一台常开的电脑跑后端。标签：`hardware` `voice` 📦
+- [stackchan-grok-bridge](https://github.com/Dissipative-ATLAS/stackchan-grok-bridge) - 中文项目，让 StackChan 小机器人把问题经 Mac 中转和 Cloudflare 信箱交给 Grok Bot，作者记了真机一次往返约三分钟，适合爱折腾硬件的人看思路；仓库没写许可证。标签：`hardware` `stackchan` `cloudflare` `chinese` 📘
 
 ### 学习资源与合集（22）
 

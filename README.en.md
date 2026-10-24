@@ -4,10 +4,10 @@
 
 An unofficial, Chinese-first collection maintained by Dato (siuser小伟) and his Grok Bot: copy-paste recipes, a hand-checked ecosystem list, and an index of the tutorials on [grokguide.si](https://grokguide.si).
 
-- **22** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
-- **116** ecosystem projects, each opened and checked on 2026-10-24 (exists, active, really about Grok Bot)
-- **236** community tutorials ([list, in Chinese](docs/community-tutorials.md))
-- **108** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
+- **23** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
+- **120** ecosystem projects, each opened and checked on 2026-10-24 (exists, active, really about Grok Bot)
+- **243** community tutorials ([list, in Chinese](docs/community-tutorials.md))
+- **109** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
 
 Markers: 📘 content read · 📦 repository checked. Full records: [data/items.json](data/items.json).
 
@@ -35,6 +35,7 @@ Markers: 📘 content read · 📦 repository checked. Full records: [data/items
 | Teach once, turn it into a skill | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) |
 | War room: bots hand off via files | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) |
 | To-do reminders that follow up | [待办提醒：没做完就再提醒](recipes/todo-nag.md) |
+| Weekly family dinners: allergies as hard rules | [一周晚饭：周六排好，过敏当硬规则](recipes/weekly-dinner.md) |
 | Friday weekly-review routine | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) |
 | Daily X radar | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) |
 

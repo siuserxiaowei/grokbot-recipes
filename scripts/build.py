@@ -23,7 +23,7 @@ R=["# Grok Bot 中文配方库 · grokguide 版","",
 "中文 · [English](README.en.md) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)","",
 "[![link-check](https://github.com/siuserxiaowei/grokbot-recipes/actions/workflows/link-check.yml/badge.svg)](https://github.com/siuserxiaowei/grokbot-recipes/actions/workflows/link-check.yml)","",
 "非官方项目。教程正文在 [grokguide.si](https://grokguide.si)。","",
-"## 一眼看完","",f"- **{len(recs)}** 个配方，格式统一，提示词可以直接复制",f"- **{len(proj)}** 个生态项目和学习资源，每条都打开核对过",f"- **{len(tut)}** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)","- **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)","- **108** 篇 grokguide.si 自己的教程","",
+"## 一眼看完","",f"- **{len(recs)}** 个配方，格式统一，提示词可以直接复制",f"- **{len(proj)}** 个生态项目和学习资源，每条都打开核对过",f"- **{len(tut)}** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)","- **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)","- **109** 篇 grokguide.si 自己的教程","",
 "每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。","",
 "## 怎么用","","1. 新手先读 [第 0 章](https://grokguide.si/guide/ch00) 和 [第 1 章](https://grokguide.si/guide/ch01)。","2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。","3. 想找现成的工具和模板，看生态清单。","",
 f"## 配方（{len(recs)}）","","格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。","","| 配方 | 适合 |","|---|---|"]+[f"| [{t}]({f}) | {w} |" for f,t,w in recs]
