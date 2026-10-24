@@ -5044,5 +5044,425 @@
   "kept": false,
   "reason": "标题用“免费领取”引流，内容和已收的模板中文目录重复",
   "source": "sweep-1023pm"
+ },
+ {
+  "url": "https://github.com/GrokkingGrok/TetherBot",
+  "kept": true,
+  "cat": "A",
+  "title": "TetherBot",
+  "review": "GNOME 桌面上的 Grok Bot 客户端，作者自己标了早期预览版，Linux 用户可以先装来玩，别指望稳定",
+  "tags": [
+   "linux",
+   "gnome",
+   "desktop"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "GrokkingGrok/TetherBot",
+  "last_push": "2026-10-24",
+  "license": "NOASSERTION",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/IamP5/claudio-bot",
+  "kept": true,
+  "cat": "G",
+  "title": "claudio-bot",
+  "review": "自己托管的 Claude Code 助手，用 iPhone 远程派活，想要类似 Grok Bot 体验又想数据留在自己机器上的人可以参考",
+  "tags": [
+   "self-hosted",
+   "claude-code",
+   "ios"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "IamP5/claudio-bot",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/TommyBez/agent-harbor",
+  "kept": true,
+  "cat": "G",
+  "title": "agent-harbor",
+  "review": "在 macOS 上用 tmux 管一堆 Claude Code、Codex 会话，适合本机同时跑好几个编程代理的人",
+  "tags": [
+   "macos",
+   "tmux",
+   "coding-agents"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "TommyBez/agent-harbor",
+  "last_push": "2026-10-23",
+  "license": "Apache-2.0",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/cherwinyu/grok-bot-mcp",
+  "kept": true,
+  "cat": "C",
+  "title": "grok-bot-mcp",
+  "review": "Windows 上的 MCP 服务，让 Bot 把编程活交给本机代理，最后用 git diff 验收，改动看得见",
+  "tags": [
+   "mcp",
+   "windows",
+   "coding"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "cherwinyu/grok-bot-mcp",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/dallintwatts/grokbot-skills",
+  "kept": true,
+  "cat": "C",
+  "title": "grokbot-skills",
+  "review": "一组技能附带 sha256 清单，装之前先对哈希，被改过就不装；我们照着写了一篇钉版本教程",
+  "tags": [
+   "skills",
+   "sha256",
+   "security"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "dallintwatts/grokbot-skills",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/ddhjy/grok-bot-hub",
+  "kept": true,
+  "cat": "I",
+  "title": "grok-bot-hub",
+  "review": "中文 Grok Bot 导航站源码，把官方文档、模板和社区链接归在一页，新手找入口方便",
+  "tags": [
+   "chinese",
+   "directory"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "ddhjy/grok-bot-hub",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/drumpat01/android-grok-home",
+  "kept": true,
+  "cat": "A",
+  "title": "android-grok-home",
+  "review": "把 Grok Bot 做成 Android 桌面启动器的实验项目，基于官方 BDK，喜欢折腾手机的人可以看看",
+  "tags": [
+   "android",
+   "launcher",
+   "bdk"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "drumpat01/android-grok-home",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/imranbarbhuiya/grokbot-widget",
+  "kept": true,
+  "cat": "A",
+  "title": "grokbot-widget",
+  "review": "macOS 悬浮小窗，随时呼出 Bot；安装包没做公证，第一次打开要自己在系统设置里放行",
+  "tags": [
+   "macos",
+   "widget"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "imranbarbhuiya/grokbot-widget",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/meir-bot/grokbot-executive-team",
+  "kept": true,
+  "cat": "D",
+  "title": "grokbot-executive-team",
+  "review": "一套“高管团队”多 Bot 模板，CEO、CFO 等角色分工写好了，适合想照抄分工表的人",
+  "tags": [
+   "multi-bot",
+   "template"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "meir-bot/grokbot-executive-team",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://github.com/puzzle-app/grokbot-delivery-team",
+  "kept": true,
+  "cat": "D",
+  "title": "grokbot-delivery-team",
+  "review": "13 个 Bot 组成的咨询交付团队模板，角色和交接写得细；仓库来自一家做财务软件的公司，带点自家产品",
+  "tags": [
+   "multi-bot",
+   "template",
+   "consulting"
+  ],
+  "level": "只核实仓库",
+  "verified": "2026-10-24",
+  "repo": "puzzle-app/grokbot-delivery-team",
+  "last_push": "2026-10-23",
+  "license": "MIT",
+  "source": "sweep-1024am"
+ },
+ {
+  "url": "https://x.com/GlennHasABeard/status/2113739345362297175",
+  "kept": true,
+  "cat": "T5",
+  "title": "Foreman：X 运营模板拆解（X）",
+  "review": "英文帖，拆一套管 X 账号的多 Bot 模板，连 X API 的花费也算给你看，想自动运营账号前先读",
+  "tags": [
+   "x",
+   "ops",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "GlennHasABeard",
+  "date": "2026-10-24"
+ },
+ {
+  "url": "https://x.com/Greshamtrade/status/2112214741103825314",
+  "kept": true,
+  "cat": "T3",
+  "title": "七个改动省额度（X）",
+  "review": "英文帖，收藏很多，七条省额度的改法都很实在，跟我们的额度体检配方可以对照着用",
+  "tags": [
+   "quota",
+   "routine",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "Greshamtrade",
+  "date": "2026-10-20"
+ },
+ {
+  "url": "https://x.com/SPCX100T/status/2110145512020279726",
+  "kept": true,
+  "cat": "T5",
+  "title": "每天开盘前的股票简报（X）",
+  "review": "英文帖，教 Bot 每天开盘前整理一页简报；只是信息汇总，不能当买卖建议",
+  "tags": [
+   "finance",
+   "briefing",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "SPCX100T",
+  "date": "2026-10-14"
+ },
+ {
+  "url": "https://x.com/Texas_Twins_Dad/status/2113721070834622570",
+  "kept": true,
+  "cat": "T6",
+  "title": "Vault 保险库在哪、怎么用（X）",
+  "review": "英文帖，带你找到新出的 Vault 入口，把登录信息交给保险库而不是贴在聊天里",
+  "tags": [
+   "vault",
+   "security",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "Texas_Twins_Dad",
+  "date": "2026-10-24"
+ },
+ {
+  "url": "https://x.com/TheRyanRobinson/status/2113696594465841569",
+  "kept": true,
+  "cat": "T2",
+  "title": "六个 Bot 做 YouTube（X）",
+  "review": "英文帖，六个 Bot 分工做选题、脚本到发布，分工思路清楚，发布这步最好还是自己点头",
+  "tags": [
+   "youtube",
+   "multi-bot",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "TheRyanRobinson",
+  "date": "2026-10-24"
+ },
+ {
+  "url": "https://x.com/amateo/status/2113638995183677748",
+  "kept": true,
+  "cat": "T2",
+  "title": "Dr. X 小队（X）",
+  "review": "英文帖，展示一队 Bot 分工做 X 内容，帖里带了作者自己的服务链接，看思路就行",
+  "tags": [
+   "x",
+   "multi-bot",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "amateo",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/bradmillscan/status/2113638380361728309",
+  "kept": true,
+  "cat": "T6",
+  "title": "信任阶梯：一步步放权（X）",
+  "review": "英文帖，讲怎么从只读开始一级级给 Bot 放权，每升一级都有验收，思路值得抄",
+  "tags": [
+   "trust",
+   "permissions",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "bradmillscan",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/byalexai/status/2113623068018917419",
+  "kept": true,
+  "cat": "T2",
+  "title": "22 个 Bot 的十条规矩（X）",
+  "review": "英文帖，跑了 22 个 Bot 之后总结的十条规矩，命名、交接、额度都谈到，人多 Bot 多时有用",
+  "tags": [
+   "multi-bot",
+   "rules",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "byalexai",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/mattyp/status/2113636230885720101",
+  "kept": true,
+  "cat": "T2",
+  "title": "Team Bots 演示视频（X）",
+  "review": "英文视频，演示团队版里多人共用 Bot，需要 Teams 或企业版，个人用户先了解就好",
+  "tags": [
+   "teams",
+   "video",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "mattyp",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/shenpengwdh/status/2113602107412541650",
+  "kept": true,
+  "cat": "T1",
+  "title": "180 条回复里挑出的 8 种用法（X）",
+  "review": "中文帖，从一百多条网友回复里归纳八种常见用法，适合还不知道拿 Bot 干嘛的人",
+  "tags": [
+   "chinese",
+   "use-cases"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "shenpengwdh",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/taresky/status/2113621639594402284",
+  "kept": true,
+  "cat": "T6",
+  "title": "让 Bot 帮你网购（X）",
+  "review": "英文帖，配 1Password 和一次性虚拟卡让 Bot 下单；涉及付款，每一单都要自己确认，限额要设",
+  "tags": [
+   "shopping",
+   "1password",
+   "payment",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "taresky",
+  "date": "2026-10-23"
+ },
+ {
+  "url": "https://x.com/tsukiema_/status/2112947495059743047",
+  "kept": true,
+  "cat": "T4",
+  "title": "用 Bot 搭第二大脑（X）",
+  "review": "日文帖，讲把笔记和记忆交给 Bot 整理成第二大脑，记忆怎么分层讲得清楚",
+  "tags": [
+   "memory",
+   "notes",
+   "japanese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "tsukiema_",
+  "date": "2026-10-22"
+ },
+ {
+  "url": "https://x.com/xiaomovps/status/2094596141765857596",
+  "kept": true,
+  "cat": "T1",
+  "title": "从九月用到现在的 0 到 1（X）",
+  "review": "中文帖，作者从九月开始一路用下来的上手记录，里面的花费数字是他个人情况，别照搬",
+  "tags": [
+   "chinese",
+   "getting-started"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "xiaomovps",
+  "date": "2026-09-01"
+ },
+ {
+  "url": "https://deaitinh.com/wp-content/uploads/2026/10/ebook-grokbot-toan-tap-2026.pdf",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot 全集电子书（越南语 PDF）",
+  "review": "越南语电子书，二十章从安装讲到 Routine，截图是 0.71 版的，界面细节可能和现在不一样",
+  "tags": [
+   "vietnamese",
+   "ebook",
+   "pdf"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024am",
+  "author": "deaitinh.com",
+  "date": "2026-10"
+ },
+ {
+  "url": "https://x.com/indie_maker_fox/status/2113789986868981964",
+  "kept": false,
+  "reason": "只有一句话，内容和已收的 Vault 帖重复",
+  "source": "sweep-1024am"
  }
 ]

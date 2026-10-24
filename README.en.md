@@ -4,10 +4,10 @@
 
 An unofficial, Chinese-first collection maintained by Dato (siuser小伟) and his Grok Bot: copy-paste recipes, a hand-checked ecosystem list, and an index of the tutorials on [grokguide.si](https://grokguide.si).
 
-- **21** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
-- **106** ecosystem projects, each opened and checked on 2026-10-23 (exists, active, really about Grok Bot)
-- **222** community tutorials ([list, in Chinese](docs/community-tutorials.md))
-- **106** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
+- **22** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
+- **116** ecosystem projects, each opened and checked on 2026-10-24 (exists, active, really about Grok Bot)
+- **236** community tutorials ([list, in Chinese](docs/community-tutorials.md))
+- **108** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
 
 Markers: 📘 content read · 📦 repository checked. Full records: [data/items.json](data/items.json).
 
@@ -27,6 +27,7 @@ Markers: 📘 content read · 📦 repository checked. Full records: [data/items
 | Sourced pre-meeting brief | [会前简报：有来源、能核对](recipes/meeting-brief.md) |
 | Solo founder: research, support, content | [一人三岗：调研、客服、内容](recipes/one-person-three-roles.md) |
 | Multilingual support triage | [海外客服：多语言工单先分流](recipes/outbound-support.md) |
+| Pin skills: check sha256 before installing | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) |
 | Usage check-up: pause, rank, re-enable | [额度体检：先停、分级、逐条重开](recipes/routine-budget.md) |
 | Log in without pasting passwords | [安全登录：不把密码直接贴给 Bot](recipes/safe-login.md) |
 | Script runs first, the bot reads one JSON line | [脚本先跑：固定的活交给脚本，Bot 只看一行结果](recipes/script-first.md) |
