@@ -5668,5 +5668,116 @@
   "kept": false,
   "reason": "账号转售站，不收",
   "source": "sweep-1024pm"
+ },
+ {
+  "url": "https://github.com/ssamssae/grokbot-telegram-bridge",
+  "kept": true,
+  "cat": "C",
+  "title": "grokbot-telegram-bridge",
+  "review": "用自己的 Telegram 机器人和某个 Bot 来回对话，只走 Routine 的 webhook 和本机文件，不碰屏幕自动化；需要一台 Mac，非官方",
+  "tags": [
+   "telegram",
+   "webhook",
+   "bridge"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024night"
+ },
+ {
+  "url": "https://github.com/addidotlol/grok-rpm",
+  "kept": true,
+  "cat": "A",
+  "title": "grok-rpm（Fedora/RHEL 的 dnf 仓库）",
+  "review": "把官方 deb 转成 rpm 做成 dnf 仓库，我们拆包看过依赖和文件；非官方、没有签名，装前和官方版本号对一下",
+  "tags": [
+   "linux",
+   "fedora",
+   "unofficial"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-24",
+  "source": "sweep-1024night"
+ },
+ {
+  "url": "https://github.com/gallez-tech/grok-bot-bin",
+  "kept": true,
+  "cat": "A",
+  "title": "grok-bot-bin（Arch 包）",
+  "review": "每天跟官方更新接口重新打 Arch 包，作者提醒先下载再 pacman -U；非官方，没有签名文件",
+  "tags": [
+   "linux",
+   "arch",
+   "unofficial"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024night"
+ },
+ {
+  "url": "https://github.com/indrayam/samachar",
+  "kept": true,
+  "cat": "F",
+  "title": "The Daily Diff（Bot 编的个人报纸）",
+  "review": "一个由 Bot 每天挑论文和帖子、生成静态报纸的真实站点，想做个人信息日报可以看它的文件分工",
+  "tags": [
+   "newsletter",
+   "static-site",
+   "example"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "source": "sweep-1024night"
+ },
+ {
+  "url": "https://aitamer.news/posts/grok-bot-routines-scheduler/",
+  "kept": true,
+  "cat": "T3",
+  "title": "给一个 Bot 排班，再画一条停止线（博客）",
+  "review": "英文博客，一步步建 Routine，再读回 Instruction 和 When to run、点 Test 看结果，还专门测了文件不见时会不会报错；提醒测试也是真干活",
+  "tags": [
+   "routine",
+   "test",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "author": "AI Tamer",
+  "date": "2026-10-10",
+  "source": "sweep-1024night"
+ },
+ {
+  "url": "https://www.tonyreviewsthings.com/elon-gave-grok-a-computer-how-to-put-it-to-work/",
+  "kept": true,
+  "cat": "T1",
+  "title": "从设置到技能、Routine 和 @bot 的上手长文（博客）",
+  "review": "英文长文，先跑通一次任务，再存成技能、换一个仓库复测两次才排 Routine，节奏讲得清楚；标题偏夸张",
+  "tags": [
+   "setup",
+   "skill",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "author": "tonyreviewsthings",
+  "date": "2026-10",
+  "source": "sweep-1024night"
+ },
+ {
+  "url": "https://x.com/0xjmori/status/2109648700897116554",
+  "kept": true,
+  "cat": "T2",
+  "title": "12 步搭一个全天候的工程小队（X 长文）",
+  "review": "英文长文，让多个 Bot 分工修 GitHub issue、验证代码、准备 PR；合并前一定要人看，别直接放权",
+  "tags": [
+   "engineering",
+   "team",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-24",
+  "author": "0xjmori",
+  "date": "2026-10-12",
+  "source": "sweep-1024night"
  }
 ]

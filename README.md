@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **23** 个配方，格式统一，提示词可以直接复制
-- **120** 个生态项目和学习资源，每条都打开核对过
-- **243** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **24** 个配方，格式统一，提示词可以直接复制
+- **124** 个生态项目和学习资源，每条都打开核对过
+- **246** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **109** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（23）
+## 配方（24）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -39,6 +39,7 @@
 | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) | 怕 Bot 替你乱发东西的人 |
 | [邮件触发整理：专属邮箱收到就处理](recipes/email-trigger.md) | 经常收固定格式邮件的人 |
 | [交付验收：要能打开、能核对的文件](recipes/file-delivery.md) | 让 Bot 做表格、报告的人 |
+| [Linux 新版提醒](recipes/linux-update-watch.md) | 在 Linux 上用 Grok Bot、内置更新管不到的人 |
 | [会前简报：有来源、能核对](recipes/meeting-brief.md) | 经常开外部会议的人 |
 | [一人三岗：调研、客服、内容](recipes/one-person-three-roles.md) | 一个人做产品的人 |
 | [海外客服：多语言工单先分流](recipes/outbound-support.md) | 做海外用户的团队 |
@@ -54,9 +55,9 @@
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（120）
+## 生态清单（124）
 
-### 官方与工具（12）
+### 官方与工具（14）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -70,6 +71,8 @@
 - [TetherBot](https://github.com/GrokkingGrok/TetherBot) - GNOME 桌面上的 Grok Bot 客户端，作者自己标了早期预览版，Linux 用户可以先装来玩，别指望稳定。标签：`linux` `gnome` `desktop` 📦
 - [android-grok-home](https://github.com/drumpat01/android-grok-home) - 把 Grok Bot 做成 Android 桌面启动器的实验项目，基于官方 BDK，喜欢折腾手机的人可以看看。标签：`android` `launcher` `bdk` 📦
 - [grokbot-widget](https://github.com/imranbarbhuiya/grokbot-widget) - macOS 悬浮小窗，随时呼出 Bot；安装包没做公证，第一次打开要自己在系统设置里放行。标签：`macos` `widget` 📦
+- [grok-rpm（Fedora/RHEL 的 dnf 仓库）](https://github.com/addidotlol/grok-rpm) - 把官方 deb 转成 rpm 做成 dnf 仓库，我们拆包看过依赖和文件；非官方、没有签名，装前和官方版本号对一下。标签：`linux` `fedora` `unofficial` 📦
+- [grok-bot-bin（Arch 包）](https://github.com/gallez-tech/grok-bot-bin) - 每天跟官方更新接口重新打 Arch 包，作者提醒先下载再 pacman -U；非官方，没有签名文件。标签：`linux` `arch` `unofficial` 📘
 
 ### 模板与目录（11）
 
@@ -85,7 +88,7 @@
 - [GrokBot HQ](https://github.com/V-harshith/grokbothq) - 按类别列出大量 Bot，还有和其他 AI 助手的对比页。标签：`directory` `compare` 📦
 - [Personal Chef](https://github.com/anselmcmakin/personal-chef) - 家庭一周晚饭模板，过敏连「可能含有」都当硬规则、预算超了自己改方案，购物车只装不结账，技能说明写得很细，值得照着改成自己的版本。标签：`template` `meal-plan` `routine` `shopping` 📘
 
-### 技能与连接（27）
+### 技能与连接（28）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -114,6 +117,7 @@
 - [grokbot-skills](https://github.com/dallintwatts/grokbot-skills) - 一组技能附带 sha256 清单，装之前先对哈希，被改过就不装；我们照着写了一篇钉版本教程。标签：`skills` `sha256` `security` 📦
 - [broom](https://github.com/onlymehdi/broom) - 只靠技能说明清理 Gmail 垃圾信，只挪进回收站、不点退订，银行和订单邮件默认不碰，刚建的仓库，先拿小范围试。标签：`gmail` `skills` `inbox` 📦
 - [grok-x-bridge-example](https://github.com/bytec-ai/grok-x-bridge-example) - 中文示例：编程智能体经 Worker 和 D1 唤醒 Grok Bot 去搜 X，再把结果回调回来，想让别的工具借 Bot 的 X 搜索可以参考；没写许可证，只当示例读。标签：`webhook` `cloudflare` `x-search` `chinese` 📘
+- [grokbot-telegram-bridge](https://github.com/ssamssae/grokbot-telegram-bridge) - 用自己的 Telegram 机器人和某个 Bot 来回对话，只走 Routine 的 webhook 和本机文件，不碰屏幕自动化；需要一台 Mac，非官方。标签：`telegram` `webhook` `bridge` 📘
 
 ### 多 Bot 团队（18）
 
@@ -145,13 +149,14 @@
 - [grokbot-quota-ring](https://github.com/SvenKunkka/grokbot-quota-ring) - Mac 菜单栏里的小饼图，看本周额度还剩多少；要交出网站登录 cookie、走未公开接口，介意就手填数字。标签：`quota` `macos` 📦
 - [GrokGauge](https://github.com/stevencombs/GrokGauge) - Mac 菜单栏额度环，把 SuperGrok 每周总额度拆成 Grok、Bot、Cursor 各占多少；非官方、读未公开数据，安装脚本会去掉隔离标记，介意就手动装。标签：`quota` `macos` 📦
 
-### 一人公司与内容（5）
+### 一人公司与内容（6）
 
 - [grokbot-for-gtm](https://github.com/bcharleson/grokbot-for-gtm) - 一整套海外外联获客流程，从建名单到处理回复，出海团队可以参考。标签：`gtm` `outbound` 📦
 - [模板：Motion Director](https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes) - 一句话出动画短片的模板，适合做产品宣传和短视频。标签：`template` `video` 📘
 - [模板：Research by Trond](https://x.ai/bot/v3WI0YuJAr1DLoYdYVXh8) - 只读的研究模板，出带引用的简报，做选题前用。标签：`template` `research` 📘
 - [eze-grokbot](https://github.com/eze-is/eze-grokbot) - 中文作者公开的多 Bot 配置，一个 Bot 一个文件夹；没写许可证，只参考结构。标签：`chinese` `config` 📦
 - [grok-bot-wechat](https://github.com/bogao6769-netizen/grok-bot-wechat) - 用微信消息触发 Routine 的配方，回复再转回微信。标签：`wechat` `webhook` 📦
+- [The Daily Diff（Bot 编的个人报纸）](https://github.com/indrayam/samachar) - 一个由 Bot 每天挑论文和帖子、生成静态报纸的真实站点，想做个人信息日报可以看它的文件分工。标签：`newsletter` `static-site` `example` 📘
 
 ### 自托管与替代方案（14）
 
