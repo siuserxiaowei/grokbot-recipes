@@ -5779,5 +5779,297 @@
   "author": "0xjmori",
   "date": "2026-10-12",
   "source": "sweep-1024night"
+ },
+ {
+  "url": "https://github.com/AgwaB/grok-bot-agents",
+  "kept": true,
+  "cat": "C",
+  "title": "grok-bot-agents：把重活转给云电脑上的 Claude Code / Codex",
+  "review": "技能插件加一个小控制器，Bot 自己做轻活、重活交给云电脑里的命令行代理跑完回报；要导入你本机的登录和密钥，每一份都要你点头，想清楚再给",
+  "tags": [
+   "plugin",
+   "delegate",
+   "cli"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://github.com/jeffgreendesign/follow-through",
+  "kept": true,
+  "cat": "B",
+  "title": "Follow-Through：家里周期性的事，记一份账",
+  "review": "生日、每周晚饭、补货这类会回来的事一份记录；没你的话不标完成，断了几天只问一句不刷屏，默认不建 Routine、只和你说话",
+  "tags": [
+   "template",
+   "household",
+   "chat-only"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://github.com/Olivia295/grokbot-team-monitor-UI",
+  "kept": true,
+  "cat": "D",
+  "title": "Bot 监控室：多 Bot 交接画成一间小办公室",
+  "review": "本机只读看板，把 Bot 之间谁交给谁、卡在哪画出来，有中文界面和演示模式，也能吃自己写的事件日志；我们在云电脑上跑过演示和日志模式",
+  "tags": [
+   "monitor",
+   "team",
+   "dashboard",
+   "chinese"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://github.com/vliuyt/grok-bot-esp32-bridge",
+  "kept": true,
+  "cat": "H",
+  "title": "小糖：ESP32 圆屏桌面宠物接 Grok Bot",
+  "review": "微雪 1.43 寸圆屏板刷成会眨眼的小宠物，按住按键说话，由 Mac 桥接到你的 Bot；走的是桌面 App 内部接口，作者自己说不保证稳定",
+  "tags": [
+   "esp32",
+   "hardware",
+   "voice",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://github.com/TeebooTed/desk",
+  "kept": true,
+  "cat": "E",
+  "title": "Desk：本地项目看板，留言直达 Bot",
+  "review": "单文件本地看板按项目排进度，留言框经本机中转发到 Bot 的 Webhook Routine；一键安装脚本会装开机自启，先克隆下来看一遍再跑",
+  "tags": [
+   "dashboard",
+   "webhook",
+   "routine"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://metagrok.io/grok-bot",
+  "kept": true,
+  "cat": "I",
+  "title": "METAGROK：按编号排的 Grok Bot 小操作合集（英文）",
+  "review": "独立站，一条一个操作，从建 Bot、开通知到修连不上电脑都有，适合碰到具体问题时查；非官方，界面变了以官方为准",
+  "tags": [
+   "howto",
+   "index",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://grokmag.com/grok-bot/how-it-works/",
+  "kept": true,
+  "cat": "I",
+  "title": "GrokMag：Grok Bot 独立指南（多语言）",
+  "review": "独立站，讲设置、Routine、审批和购物流程，有中文等多个语言版本；非官方，套餐类内容以官方页面为准",
+  "tags": [
+   "guide",
+   "multilingual"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/ai_goge/status/2113822097839685660",
+  "kept": true,
+  "cat": "T1",
+  "title": "系列 1-2：下载、套餐和登录（X 长文）",
+  "review": "中文系列的准备篇，从下载到登录一步步走；套餐部分会变，开通前再对一次官方页面",
+  "tags": [
+   "setup",
+   "login",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "ai_goge",
+  "date": "2026-10-24",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/Bytec99/status/2113863359988908395",
+  "kept": true,
+  "cat": "T4",
+  "title": "外部服务借 Bot 搜 X 的两条路（X 长文）",
+  "review": "中文长文，对比 Webhook 加 Worker 和 BDK 加 MCP 两种接法，正好配我们收录的 grok-x-bridge-example 一起看",
+  "tags": [
+   "webhook",
+   "mcp",
+   "x",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "Bytec99",
+  "date": "2026-10-24",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/AleiahLock/status/2113965935946027159",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot A 到 Z（X 长文）",
+  "review": "英文，按字母把常见概念过一遍，当术语表查很顺手",
+  "tags": [
+   "glossary",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "AleiahLock",
+  "date": "2026-10-24",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/undefinedKi/status/2113972662506541522",
+  "kept": true,
+  "cat": "T1",
+  "title": "Grok Bot 野外手册（X 长文）",
+  "review": "英文上手长文，从第一个 Bot 讲到技能和定时任务，结构清楚",
+  "tags": [
+   "setup",
+   "skill",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "undefinedKi",
+  "date": "2026-10-24",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/milesdeutscher/status/2113935280231325963",
+  "kept": true,
+  "cat": "T5",
+  "title": "十个 Bot 和它们的提示词（X 长文）",
+  "review": "英文，十个一人公司常用 Bot 各给一段提示词；拿来改成自己的规矩再用，别整段照搬",
+  "tags": [
+   "prompts",
+   "solo",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "milesdeutscher",
+  "date": "2026-10-24",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/0xDepressionn/status/2113984485137990129",
+  "kept": true,
+  "cat": "T2",
+  "title": "五个 Bot 上夜班，专设一个审稿 Bot（X 长文）",
+  "review": "英文，夜里分工干活、代码只进夜班分支，第二天由审稿 Bot 先过一遍再给人看；思路值得抄",
+  "tags": [
+   "team",
+   "review",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "0xDepressionn",
+  "date": "2026-10-24",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/CryptoVerse_Co/status/2113977677174698485",
+  "kept": true,
+  "cat": "T6",
+  "title": "只做功课、不碰钱包的加密研究 Bot（X 长文）",
+  "review": "英文，Bot 只查资料写笔记，钱包、交易、签名一律不碰；安全边界写得明白，内容不构成投资建议",
+  "tags": [
+   "safety",
+   "research",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "CryptoVerse_Co",
+  "date": "2026-10-24",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://grokbotwiki.com/guides/evaluate-a-workflow",
+  "kept": true,
+  "cat": "T3",
+  "title": "上线前给工作流打分：四类输入一起测",
+  "review": "正常、含糊、空、来源打不开四种输入各跑一遍再排 Routine；站方说打分框架是编辑经验，不是实测数据",
+  "tags": [
+   "test",
+   "routine",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "grokbotwiki",
+  "date": "2026-10",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://ai-study.wiki/zh/tutorials/grok-bot/grok-bot-getting-started/",
+  "kept": true,
+  "cat": "T1",
+  "title": "入门：账号资格、安装与第一个任务（AI Atlas）",
+  "review": "中文，先分清 Bot 和普通 Grok 聊天，再用一个只读小任务验收第一次交付，节奏稳",
+  "tags": [
+   "setup",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "AI Atlas",
+  "date": "2026-10-21",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://digital-sales-job.com/grok-bot-templates",
+  "kept": true,
+  "cat": "T1",
+  "title": "官方 54 个团队模板拆解（日文博客）",
+  "review": "日文，把官方团队模板按用途和设计套路归类，挑模板前扫一眼能省时间",
+  "tags": [
+   "templates",
+   "japanese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "digital-sales-job",
+  "date": "2026-10-19",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://x.com/artimindArt/status/2114039831281938679",
+  "kept": false,
+  "cat": "T5",
+  "title": "Bot 团队运营 AI 时装账号",
+  "reason": "互动很少，先观察",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
+ },
+ {
+  "url": "https://ai211.vip/posts/156",
+  "kept": false,
+  "cat": "T1",
+  "title": "聚合站转述 GitTrend0x",
+  "reason": "转述别人的帖子，没有新内容",
+  "verified": "2026-10-25",
+  "source": "sweep-1025am"
  }
 ]

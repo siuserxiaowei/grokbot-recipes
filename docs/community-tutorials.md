@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 246 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 256 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（71）
+## 入门与配置（76）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -77,8 +77,13 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Getting Started with Grok Bot（X 视频）](https://x.com/mattyp/status/2092286281266962681) - 英文入门视频，半小时讲 Bot 的构成、三种运行方式、多 Bot 串联和四个实际工作流，带章节时间点，不爱读长文的人先看这个 · @mattyp · 2026-08-25。标签：`english` `video` `getting-started`
 - [Grok Bot の使い方（日语）](https://thetrail.jp/news/grok-bot-guide) - 日语入门文章，从订阅入口讲到第一个 Bot 和 Routine，附发布以来的更新时间线，适合给日语读者 · @TRAIL · 2026-10-24。标签：`japanese` `getting-started`
 - [从设置到技能、Routine 和 @bot 的上手长文（博客）](https://www.tonyreviewsthings.com/elon-gave-grok-a-computer-how-to-put-it-to-work/) - 英文长文，先跑通一次任务，再存成技能、换一个仓库复测两次才排 Routine，节奏讲得清楚；标题偏夸张 · @tonyreviewsthings · 2026-10。标签：`setup` `skill` `english`
+- [系列 1-2：下载、套餐和登录（X 长文）](https://x.com/ai_goge/status/2113822097839685660) - 中文系列的准备篇，从下载到登录一步步走；套餐部分会变，开通前再对一次官方页面 · @ai_goge · 2026-10-24。标签：`setup` `login` `chinese`
+- [Grok Bot A 到 Z（X 长文）](https://x.com/AleiahLock/status/2113965935946027159) - 英文，按字母把常见概念过一遍，当术语表查很顺手 · @AleiahLock · 2026-10-24。标签：`glossary` `english`
+- [Grok Bot 野外手册（X 长文）](https://x.com/undefinedKi/status/2113972662506541522) - 英文上手长文，从第一个 Bot 讲到技能和定时任务，结构清楚 · @undefinedKi · 2026-10-24。标签：`setup` `skill` `english`
+- [入门：账号资格、安装与第一个任务（AI Atlas）](https://ai-study.wiki/zh/tutorials/grok-bot/grok-bot-getting-started/) - 中文，先分清 Bot 和普通 Grok 聊天，再用一个只读小任务验收第一次交付，节奏稳 · @AI Atlas · 2026-10-21。标签：`setup` `chinese`
+- [官方 54 个团队模板拆解（日文博客）](https://digital-sales-job.com/grok-bot-templates) - 日文，把官方团队模板按用途和设计套路归类，挑模板前扫一眼能省时间 · @digital-sales-job · 2026-10-19。标签：`templates` `japanese`
 
-## 多 Bot 团队（52）
+## 多 Bot 团队（53）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -132,8 +137,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Team Bots 演示视频（X）](https://x.com/mattyp/status/2113636230885720101) - 英文视频，演示团队版里多人共用 Bot，需要 Teams 或企业版，个人用户先了解就好 · @mattyp · 2026-10-23。标签：`teams` `video` `english`
 - [零基础搭全自动 Agent 团队万字长文（X）](https://x.com/xilo2991/status/2109613437215293905) - 中文万字长文，从开通讲到主 Bot 派活、多 Bot 协作，把 Grok Bot 比成一家虚拟公司来讲，适合想一次读完整套概念的人 · @xilo2991 · 2026-10-12。标签：`chinese` `multi-bot` `getting-started`
 - [12 步搭一个全天候的工程小队（X 长文）](https://x.com/0xjmori/status/2109648700897116554) - 英文长文，让多个 Bot 分工修 GitHub issue、验证代码、准备 PR；合并前一定要人看，别直接放权 · @0xjmori · 2026-10-12。标签：`engineering` `team` `english`
+- [五个 Bot 上夜班，专设一个审稿 Bot（X 长文）](https://x.com/0xDepressionn/status/2113984485137990129) - 英文，夜里分工干活、代码只进夜班分支，第二天由审稿 Bot 先过一遍再给人看；思路值得抄 · @0xDepressionn · 2026-10-24。标签：`team` `review` `english`
 
-## Routine 与额度（19）
+## Routine 与额度（20）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -154,8 +160,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [额度两天就爆？九个省额度习惯（X 长文）](https://x.com/0xKingsKuan/status/2113541121892921683) - 中文长文，讲额度按动作算不按条数算，九条习惯里最实用的是降低 Routine 频率、固定步骤别让 Bot 一步步点；文中的节省比例是作者自己估的 · @0xKingsKuan · 2026-10-23。标签：`quota` `routine`
 - [七个改动省额度（X）](https://x.com/Greshamtrade/status/2112214741103825314) - 英文帖，收藏很多，七条省额度的改法都很实在，跟我们的额度体检配方可以对照着用 · @Greshamtrade · 2026-10-20。标签：`quota` `routine` `english`
 - [给一个 Bot 排班，再画一条停止线（博客）](https://aitamer.news/posts/grok-bot-routines-scheduler/) - 英文博客，一步步建 Routine，再读回 Instruction 和 When to run、点 Test 看结果，还专门测了文件不见时会不会报错；提醒测试也是真干活 · @AI Tamer · 2026-10-10。标签：`routine` `test` `english`
+- [上线前给工作流打分：四类输入一起测](https://grokbotwiki.com/guides/evaluate-a-workflow) - 正常、含糊、空、来源打不开四种输入各跑一遍再排 Routine；站方说打分框架是编辑经验，不是实测数据 · @grokbotwiki · 2026-10。标签：`test` `routine` `english`
 
-## 连接、技能与记忆（44）
+## 连接、技能与记忆（45）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -201,8 +208,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [开车时让 Bot 读时间线（X）](https://x.com/herock/status/2113516863061926189) - 中文短帖，先说明自己在开车不便看屏幕，让 Bot 在语音对话里逐条读时间线；作者说手机发烫还闪退过一次，长时间用要留意 · @herock · 2026-10-23。标签：`voice` `x`
 - [把账户汇成一页净资产（X）](https://x.com/Teslaconomics/status/2113359826399158336) - 英文帖，把理财账户接进 Bot 后让它做一页净资产 Pages；接金融账户前先看清授权范围，最好只给只读 · @Teslaconomics · 2026-10-23。标签：`pages` `finance` `english`
 - [用 Bot 搭第二大脑（X）](https://x.com/tsukiema_/status/2112947495059743047) - 日文帖，讲把笔记和记忆交给 Bot 整理成第二大脑，记忆怎么分层讲得清楚 · @tsukiema_ · 2026-10-22。标签：`memory` `notes` `japanese`
+- [外部服务借 Bot 搜 X 的两条路（X 长文）](https://x.com/Bytec99/status/2113863359988908395) - 中文长文，对比 Webhook 加 Worker 和 BDK 加 MCP 两种接法，正好配我们收录的 grok-x-bridge-example 一起看 · @Bytec99 · 2026-10-24。标签：`webhook` `mcp` `x` `chinese`
 
-## 一人公司与内容（50）
+## 一人公司与内容（51）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -254,8 +262,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Foreman：X 运营模板拆解（X）](https://x.com/GlennHasABeard/status/2113739345362297175) - 英文帖，拆一套管 X 账号的多 Bot 模板，连 X API 的花费也算给你看，想自动运营账号前先读 · @GlennHasABeard · 2026-10-24。标签：`x` `ops` `english`
 - [每天开盘前的股票简报（X）](https://x.com/SPCX100T/status/2110145512020279726) - 英文帖，教 Bot 每天开盘前整理一页简报；只是信息汇总，不能当买卖建议 · @SPCX100T · 2026-10-14。标签：`finance` `briefing` `english`
 - [Grok Bot 做海外营销的几个工作流（博客）](https://www.pandawm.com/blog/grok-bot-overseas-marketing-workflows.html) - 中文博客，按官方用例拆出三个出海营销角色，再讲从一次任务到稳定工作流的七步和 X 上 @bot 派活，审批规则先定再放权；站点是出海服务商，推荐内容跳过即可 · @pandawm · 2026-10-18。标签：`chinese` `marketing` `workflow`
+- [十个 Bot 和它们的提示词（X 长文）](https://x.com/milesdeutscher/status/2113935280231325963) - 英文，十个一人公司常用 Bot 各给一段提示词；拿来改成自己的规矩再用，别整段照搬 · @milesdeutscher · 2026-10-24。标签：`prompts` `solo` `english`
 
-## 安全（10）
+## 安全（11）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
@@ -267,3 +276,4 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Vault 保险库在哪、怎么用（X）](https://x.com/Texas_Twins_Dad/status/2113721070834622570) - 英文帖，带你找到新出的 Vault 入口，把登录信息交给保险库而不是贴在聊天里 · @Texas_Twins_Dad · 2026-10-24。标签：`vault` `security` `english`
 - [信任阶梯：一步步放权（X）](https://x.com/bradmillscan/status/2113638380361728309) - 英文帖，讲怎么从只读开始一级级给 Bot 放权，每升一级都有验收，思路值得抄 · @bradmillscan · 2026-10-23。标签：`trust` `permissions` `english`
 - [让 Bot 帮你网购（X）](https://x.com/taresky/status/2113621639594402284) - 英文帖，配 1Password 和一次性虚拟卡让 Bot 下单；涉及付款，每一单都要自己确认，限额要设 · @taresky · 2026-10-23。标签：`shopping` `1password` `payment` `english`
+- [只做功课、不碰钱包的加密研究 Bot（X 长文）](https://x.com/CryptoVerse_Co/status/2113977677174698485) - 英文，Bot 只查资料写笔记，钱包、交易、签名一律不碰；安全边界写得明白，内容不构成投资建议 · @CryptoVerse_Co · 2026-10-24。标签：`safety` `research` `english`

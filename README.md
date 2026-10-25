@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **24** 个配方，格式统一，提示词可以直接复制
-- **124** 个生态项目和学习资源，每条都打开核对过
-- **246** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **25** 个配方，格式统一，提示词可以直接复制
+- **131** 个生态项目和学习资源，每条都打开核对过
+- **256** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **109** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（24）
+## 配方（25）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -49,13 +49,14 @@
 | [脚本先跑：固定的活交给脚本，Bot 只看一行结果](recipes/script-first.md) | Routine 每天巡检页面或清单，没变化也要一页页看、额度掉得快的人 |
 | [没信号不打扰：通知规则写清楚](recipes/silent-notify.md) | 开了监控类 Routine 的人 |
 | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) | 有一件事每周都要手动做一遍的人 |
+| [多 Bot 交接看板](recipes/team-monitor.md) | 手上有两个以上 Bot、想知道活卡在谁那里的人 |
 | [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
 | [一周晚饭：周六排好，过敏当硬规则](recipes/weekly-dinner.md) | 每周都在愁吃什么、家里有人过敏或挑食、想把买菜清单也一起省掉的人 |
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 
-## 生态清单（124）
+## 生态清单（131）
 
 ### 官方与工具（14）
 
@@ -74,7 +75,7 @@
 - [grok-rpm（Fedora/RHEL 的 dnf 仓库）](https://github.com/addidotlol/grok-rpm) - 把官方 deb 转成 rpm 做成 dnf 仓库，我们拆包看过依赖和文件；非官方、没有签名，装前和官方版本号对一下。标签：`linux` `fedora` `unofficial` 📦
 - [grok-bot-bin（Arch 包）](https://github.com/gallez-tech/grok-bot-bin) - 每天跟官方更新接口重新打 Arch 包，作者提醒先下载再 pacman -U；非官方，没有签名文件。标签：`linux` `arch` `unofficial` 📘
 
-### 模板与目录（11）
+### 模板与目录（12）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -87,8 +88,9 @@
 - [GrokBotDev](https://github.com/ZeroPointRepo/GrokBotDev) - 由一组 Bot 自己维护的玩法目录，本身就是多 Bot 协作的活例子。标签：`directory` `multi-bot` 📦
 - [GrokBot HQ](https://github.com/V-harshith/grokbothq) - 按类别列出大量 Bot，还有和其他 AI 助手的对比页。标签：`directory` `compare` 📦
 - [Personal Chef](https://github.com/anselmcmakin/personal-chef) - 家庭一周晚饭模板，过敏连「可能含有」都当硬规则、预算超了自己改方案，购物车只装不结账，技能说明写得很细，值得照着改成自己的版本。标签：`template` `meal-plan` `routine` `shopping` 📘
+- [Follow-Through：家里周期性的事，记一份账](https://github.com/jeffgreendesign/follow-through) - 生日、每周晚饭、补货这类会回来的事一份记录；没你的话不标完成，断了几天只问一句不刷屏，默认不建 Routine、只和你说话。标签：`template` `household` `chat-only` 📘
 
-### 技能与连接（28）
+### 技能与连接（29）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -118,8 +120,9 @@
 - [broom](https://github.com/onlymehdi/broom) - 只靠技能说明清理 Gmail 垃圾信，只挪进回收站、不点退订，银行和订单邮件默认不碰，刚建的仓库，先拿小范围试。标签：`gmail` `skills` `inbox` 📦
 - [grok-x-bridge-example](https://github.com/bytec-ai/grok-x-bridge-example) - 中文示例：编程智能体经 Worker 和 D1 唤醒 Grok Bot 去搜 X，再把结果回调回来，想让别的工具借 Bot 的 X 搜索可以参考；没写许可证，只当示例读。标签：`webhook` `cloudflare` `x-search` `chinese` 📘
 - [grokbot-telegram-bridge](https://github.com/ssamssae/grokbot-telegram-bridge) - 用自己的 Telegram 机器人和某个 Bot 来回对话，只走 Routine 的 webhook 和本机文件，不碰屏幕自动化；需要一台 Mac，非官方。标签：`telegram` `webhook` `bridge` 📘
+- [grok-bot-agents：把重活转给云电脑上的 Claude Code / Codex](https://github.com/AgwaB/grok-bot-agents) - 技能插件加一个小控制器，Bot 自己做轻活、重活交给云电脑里的命令行代理跑完回报；要导入你本机的登录和密钥，每一份都要你点头，想清楚再给。标签：`plugin` `delegate` `cli` 📘
 
-### 多 Bot 团队（18）
+### 多 Bot 团队（19）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -139,8 +142,9 @@
 - [bot-team-playbook](https://github.com/doublesq97-ui/bot-team-playbook) - 一个主管 Bot 带几个专员，按 8 种身份配好整队，中文提示词能直接贴，交付靠共享文件夹加主管验收。标签：`teams` `chinese` 📦
 - [grokbot-executive-team](https://github.com/meir-bot/grokbot-executive-team) - 一套“高管团队”多 Bot 模板，CEO、CFO 等角色分工写好了，适合想照抄分工表的人。标签：`multi-bot` `template` 📦
 - [grokbot-delivery-team](https://github.com/puzzle-app/grokbot-delivery-team) - 13 个 Bot 组成的咨询交付团队模板，角色和交接写得细；仓库来自一家做财务软件的公司，带点自家产品。标签：`multi-bot` `template` `consulting` 📦
+- [Bot 监控室：多 Bot 交接画成一间小办公室](https://github.com/Olivia295/grokbot-team-monitor-UI) - 本机只读看板，把 Bot 之间谁交给谁、卡在哪画出来，有中文界面和演示模式，也能吃自己写的事件日志；我们在云电脑上跑过演示和日志模式。标签：`monitor` `team` `dashboard` `chinese` 📦
 
-### Routine 与监控（6）
+### Routine 与监控（7）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -148,6 +152,7 @@
 - [每天扫冒充账号并跟进举报](https://x.com/TeslaAIBot/status/2112683025951535280) - 英文模板，账号安全 · @TeslaAIBot · 2026-10-20。标签：`x` `security` 📘
 - [grokbot-quota-ring](https://github.com/SvenKunkka/grokbot-quota-ring) - Mac 菜单栏里的小饼图，看本周额度还剩多少；要交出网站登录 cookie、走未公开接口，介意就手填数字。标签：`quota` `macos` 📦
 - [GrokGauge](https://github.com/stevencombs/GrokGauge) - Mac 菜单栏额度环，把 SuperGrok 每周总额度拆成 Grok、Bot、Cursor 各占多少；非官方、读未公开数据，安装脚本会去掉隔离标记，介意就手动装。标签：`quota` `macos` 📦
+- [Desk：本地项目看板，留言直达 Bot](https://github.com/TeebooTed/desk) - 单文件本地看板按项目排进度，留言框经本机中转发到 Bot 的 Webhook Routine；一键安装脚本会装开机自启，先克隆下来看一遍再跑。标签：`dashboard` `webhook` `routine` 📘
 
 ### 一人公司与内容（6）
 
@@ -175,15 +180,16 @@
 - [claudio-bot](https://github.com/IamP5/claudio-bot) - 自己托管的 Claude Code 助手，用 iPhone 远程派活，想要类似 Grok Bot 体验又想数据留在自己机器上的人可以参考。标签：`self-hosted` `claude-code` `ios` 📦
 - [agent-harbor](https://github.com/TommyBez/agent-harbor) - 在 macOS 上用 tmux 管一堆 Claude Code、Codex 会话，适合本机同时跑好几个编程代理的人。标签：`macos` `tmux` `coding-agents` 📦
 
-### 硬件（5）
+### 硬件（6）
 
 - [groki-bot](https://github.com/JosssphZhou/groki-bot) - M5Stack 桌面小机器人，能用语音把任务交给 Grok Bot。标签：`hardware` `voice` 📦
 - [grok-gadgets](https://github.com/adidshaft/grok-gadgets) - 把硬件接到 Grok Bot 的工具包，可以先用模拟器试。标签：`hardware` `sdk` 📦
 - [把 Grok Bot 装进 ESP32](https://x.com/Liu_zhongxisn/status/2112118491239379227) - 中文，硬件小项目 · @Liu_zhongxisn · 2026-10-19。标签：`hardware` `esp32` 📘
 - [宗主 zongzhu-bot](https://github.com/Liu-zhongxian/zongzhu-bot) - ESP32-S3 圆屏语音终端，说一句话就把活交给 Bot，回复上屏并朗读，中文说明齐全；需要一台常开的电脑跑后端。标签：`hardware` `voice` 📦
 - [stackchan-grok-bridge](https://github.com/Dissipative-ATLAS/stackchan-grok-bridge) - 中文项目，让 StackChan 小机器人把问题经 Mac 中转和 Cloudflare 信箱交给 Grok Bot，作者记了真机一次往返约三分钟，适合爱折腾硬件的人看思路；仓库没写许可证。标签：`hardware` `stackchan` `cloudflare` `chinese` 📘
+- [小糖：ESP32 圆屏桌面宠物接 Grok Bot](https://github.com/vliuyt/grok-bot-esp32-bridge) - 微雪 1.43 寸圆屏板刷成会眨眼的小宠物，按住按键说话，由 Mac 桥接到你的 Bot；走的是桌面 App 内部接口，作者自己说不保证稳定。标签：`esp32` `hardware` `voice` `chinese` 📘
 
-### 学习资源与合集（22）
+### 学习资源与合集（24）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -207,6 +213,8 @@
 - [48 个玩法按场景整理（大数跨境）](https://www.10100.com/article/153919718) - 中文合集，作者说明是上手前做的功课，适合当灵感清单。标签：`index` `usecases` 📘
 - [玩法全景手册（橙皮书合并版）](https://grokbot.aihuangshu.com/) - 中文站点，把橙皮书和英文清单合在一起，每天更新案例。标签：`index` `chinese` 📘
 - [grok-bot-hub](https://github.com/ddhjy/grok-bot-hub) - 中文 Grok Bot 导航站源码，把官方文档、模板和社区链接归在一页，新手找入口方便。标签：`chinese` `directory` 📦
+- [METAGROK：按编号排的 Grok Bot 小操作合集（英文）](https://metagrok.io/grok-bot) - 独立站，一条一个操作，从建 Bot、开通知到修连不上电脑都有，适合碰到具体问题时查；非官方，界面变了以官方为准。标签：`howto` `index` `english` 📘
+- [GrokMag：Grok Bot 独立指南（多语言）](https://grokmag.com/grok-bot/how-it-works/) - 独立站，讲设置、Routine、审批和购物流程，有中文等多个语言版本；非官方，套餐类内容以官方页面为准。标签：`guide` `multilingual` 📘
 
 ## 教程索引
 
