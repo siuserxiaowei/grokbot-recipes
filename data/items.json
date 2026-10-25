@@ -6071,5 +6071,154 @@
   "reason": "转述别人的帖子，没有新内容",
   "verified": "2026-10-25",
   "source": "sweep-1025am"
+ },
+ {
+  "url": "https://github.com/hmarquez-solutions/omarchy-grok-bot",
+  "kept": true,
+  "cat": "A",
+  "title": "omarchy-grok-bot：Omarchy 状态栏上看 Bot 在忙什么",
+  "review": "给 Omarchy（Arch 系 Linux 桌面）状态栏加一张小脸，Bot 空闲、干活、有未读、等你批准时表情各不同，点开面板能看每个 Bot 的最后一句话；作者标明非官方",
+  "tags": [
+   "linux",
+   "statusbar",
+   "community"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://github.com/wustep/my-bot-scripts",
+  "kept": true,
+  "cat": "C",
+  "title": "my-bot-scripts：一位社区用户的脚本工具箱",
+  "review": "每个文件夹一件事：消息热力图、两个账号间加密中继、短信转给不同 Bot 等，都带写给 Bot 看的 SKILL.md；我们在云电脑上跑通了其中的 msg-graph",
+  "tags": [
+   "skill",
+   "scripts",
+   "stats"
+  ],
+  "level": "仓库已核对",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://github.com/chekusu/yobiru",
+  "kept": true,
+  "cat": "D",
+  "title": "yobiru：让不同电脑上的 agent 互相发消息",
+  "review": "借 Tailscale 组网，自己的几个 agent 之间能互发消息，也能用链接加朋友的 agent，新版起端到端加密；要装本机服务，先读清权限再接",
+  "tags": [
+   "team",
+   "messaging",
+   "tailscale"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://github.com/thinkingpower-labs/GrokBotChineseFix",
+  "kept": true,
+  "cat": "A",
+  "title": "GrokBotChineseFix：Windows 上打不出中文逗号的小补丁",
+  "review": "Grok Bot 在前台时把 Ctrl+逗号换成全角逗号，离线运行、只管这一个按键；Windows 中文输入受这个快捷键困扰的可以装",
+  "tags": [
+   "windows",
+   "chinese",
+   "input"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://github.com/LJMStark/grok-bot-blackbook",
+  "kept": true,
+  "cat": "I",
+  "title": "Grok Bot 黑皮书：中文长篇合集",
+  "review": "中文 PDF 长书，按章节讲概念、技能和 Routine，附几十个可改的模板和一份大资源表；内容量大，挑自己用得上的章节看，许可是署名、非商用、相同方式共享",
+  "tags": [
+   "book",
+   "templates",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://x.ai/bot/__4FfrkUdvpdMk6-LKg5r",
+  "kept": true,
+  "cat": "B",
+  "title": "Firstmate：多 Bot 团队的领队模板",
+  "review": "官方模板页可直接添加，思路是一个领队 Bot 对接你、再分派给其他成员；作者的思路长文我们已收在多 Bot 团队教程里，装前看清会建几个 Bot",
+  "tags": [
+   "template",
+   "team",
+   "lead"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://grok-bots.com/zh/how-to-use-grok-bot",
+  "kept": true,
+  "cat": "I",
+  "title": "grok-bots.com：Grok Bot 独立使用指南（多语言）",
+  "review": "独立站，有中文页，从开始用到常见设置一页讲完，适合新手扫一遍；站方自称非官方，功能细节以官方为准",
+  "tags": [
+   "guide",
+   "multilingual",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://x.com/Mulight/status/2114193455387951457",
+  "kept": true,
+  "cat": "T3",
+  "title": "额度掉得快？先改掉这几个习惯（X 帖子）",
+  "review": "中文，列了几种最耗额度的用法，提醒去设置里看自动续额和每月额外用量上限；配我们的“固定的活交给脚本”一起看",
+  "tags": [
+   "quota",
+   "routine",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "Mulight",
+  "date": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://x.com/faveeexd/status/2114240152826487185",
+  "kept": true,
+  "cat": "T2",
+  "title": "49 个 Bot 分 6 个部门做 X 增长（X 帖子）",
+  "review": "英文，每个部门设一个负责人，你只跟 6 个负责人说话，品牌说明放共享记忆、所有产出只到草稿；作者说还没有成果，结构可以借鉴，规模别照搬",
+  "tags": [
+   "team",
+   "x",
+   "structure",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-25",
+  "author": "faveeexd",
+  "date": "2026-10-25",
+  "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://x.com/Mulight/status/2113915001501286501",
+  "kept": false,
+  "cat": "T3",
+  "title": "被引用的原帖",
+  "reason": "讲的是购买和价格，不收",
+  "verified": "2026-10-25",
+  "source": "sweep-1025pm"
  }
 ]

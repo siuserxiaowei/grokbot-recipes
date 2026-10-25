@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 256 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 258 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（76）
 
@@ -83,7 +83,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [入门：账号资格、安装与第一个任务（AI Atlas）](https://ai-study.wiki/zh/tutorials/grok-bot/grok-bot-getting-started/) - 中文，先分清 Bot 和普通 Grok 聊天，再用一个只读小任务验收第一次交付，节奏稳 · @AI Atlas · 2026-10-21。标签：`setup` `chinese`
 - [官方 54 个团队模板拆解（日文博客）](https://digital-sales-job.com/grok-bot-templates) - 日文，把官方团队模板按用途和设计套路归类，挑模板前扫一眼能省时间 · @digital-sales-job · 2026-10-19。标签：`templates` `japanese`
 
-## 多 Bot 团队（53）
+## 多 Bot 团队（54）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -138,8 +138,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [零基础搭全自动 Agent 团队万字长文（X）](https://x.com/xilo2991/status/2109613437215293905) - 中文万字长文，从开通讲到主 Bot 派活、多 Bot 协作，把 Grok Bot 比成一家虚拟公司来讲，适合想一次读完整套概念的人 · @xilo2991 · 2026-10-12。标签：`chinese` `multi-bot` `getting-started`
 - [12 步搭一个全天候的工程小队（X 长文）](https://x.com/0xjmori/status/2109648700897116554) - 英文长文，让多个 Bot 分工修 GitHub issue、验证代码、准备 PR；合并前一定要人看，别直接放权 · @0xjmori · 2026-10-12。标签：`engineering` `team` `english`
 - [五个 Bot 上夜班，专设一个审稿 Bot（X 长文）](https://x.com/0xDepressionn/status/2113984485137990129) - 英文，夜里分工干活、代码只进夜班分支，第二天由审稿 Bot 先过一遍再给人看；思路值得抄 · @0xDepressionn · 2026-10-24。标签：`team` `review` `english`
+- [49 个 Bot 分 6 个部门做 X 增长（X 帖子）](https://x.com/faveeexd/status/2114240152826487185) - 英文，每个部门设一个负责人，你只跟 6 个负责人说话，品牌说明放共享记忆、所有产出只到草稿；作者说还没有成果，结构可以借鉴，规模别照搬 · @faveeexd · 2026-10-25。标签：`team` `x` `structure` `english`
 
-## Routine 与额度（20）
+## Routine 与额度（21）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -161,6 +162,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [七个改动省额度（X）](https://x.com/Greshamtrade/status/2112214741103825314) - 英文帖，收藏很多，七条省额度的改法都很实在，跟我们的额度体检配方可以对照着用 · @Greshamtrade · 2026-10-20。标签：`quota` `routine` `english`
 - [给一个 Bot 排班，再画一条停止线（博客）](https://aitamer.news/posts/grok-bot-routines-scheduler/) - 英文博客，一步步建 Routine，再读回 Instruction 和 When to run、点 Test 看结果，还专门测了文件不见时会不会报错；提醒测试也是真干活 · @AI Tamer · 2026-10-10。标签：`routine` `test` `english`
 - [上线前给工作流打分：四类输入一起测](https://grokbotwiki.com/guides/evaluate-a-workflow) - 正常、含糊、空、来源打不开四种输入各跑一遍再排 Routine；站方说打分框架是编辑经验，不是实测数据 · @grokbotwiki · 2026-10。标签：`test` `routine` `english`
+- [额度掉得快？先改掉这几个习惯（X 帖子）](https://x.com/Mulight/status/2114193455387951457) - 中文，列了几种最耗额度的用法，提醒去设置里看自动续额和每月额外用量上限；配我们的“固定的活交给脚本”一起看 · @Mulight · 2026-10-25。标签：`quota` `routine` `chinese`
 
 ## 连接、技能与记忆（45）
 
