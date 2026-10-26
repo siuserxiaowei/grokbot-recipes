@@ -168,6 +168,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [给一个 Bot 排班，再画一条停止线（博客）](https://aitamer.news/posts/grok-bot-routines-scheduler/) - 英文博客，一步步建 Routine，再读回 Instruction 和 When to run、点 Test 看结果，还专门测了文件不见时会不会报错；提醒测试也是真干活 · @AI Tamer · 2026-10-10。标签：`routine` `test` `english`
 - [上线前给工作流打分：四类输入一起测](https://grokbotwiki.com/guides/evaluate-a-workflow) - 正常、含糊、空、来源打不开四种输入各跑一遍再排 Routine；站方说打分框架是编辑经验，不是实测数据 · @grokbotwiki · 2026-10。标签：`test` `routine` `english`
 - [额度掉得快？先改掉这几个习惯（X 帖子）](https://x.com/Mulight/status/2114193455387951457) - 中文，列了几种最耗额度的用法，提醒去设置里看自动续额和每月额外用量上限；配我们的“固定的活交给脚本”一起看 · @Mulight · 2026-10-25。标签：`quota` `routine` `chinese`
+- [多 Bot 协作总冲突？用一套 Harness 统一规则底座（X 长文）](https://x.com/tanglele0318/status/2114499611465236500) - 中文长文，讲多 Bot 共用一个带版本号的规则文件夹、入口只放红线和路由、共享库只让一个 Bot 写；最值得抄的是“只读体检脚本”，我们照着搭了缩小版实跑 · @tanglele0318 · 2026-10-26。标签：`multi-bot` `rules` `chinese`
 - [Free Games Scout：只认官方商店的免费游戏侦察（X 帖子）](https://x.com/elvenmaidinn/status/2114317639527080391) - 英文，定时查免费游戏、每条回官方商店核实；我们用 Epic 和 GOG 官方接口自己实跑了一版，写成了中文教程 · @elvenmaidinn · 2026-10-25。标签：`routine` `games` `english`
 - [Don't Leave Me Hanging：盯住邮件里没收尾的事（X 帖子）](https://x.com/BrianRoemmele/status/2114394724849385687) - 英文，让 Bot 定期翻邮件，找出还没回、还没跟进的往来提醒你收尾；读邮件的权限要先想清楚 · @BrianRoemmele · 2026-10-25。标签：`email` `routine` `english`
 - [上下文反复重读最耗额度（X 帖子）](https://x.com/GrokBotRadar/status/2114409935345971231) - 英文，解释长对话里缓存反复重读为什么让额度掉得快，并提醒看自动续额设置；和我们已有的额度说明重合，作补充看 · @GrokBotRadar · 2026-10-26。标签：`quota` `cache` `english`
