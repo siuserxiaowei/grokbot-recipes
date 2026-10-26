@@ -6220,5 +6220,323 @@
   "reason": "讲的是购买和价格，不收",
   "verified": "2026-10-25",
   "source": "sweep-1025pm"
+ },
+ {
+  "url": "https://github.com/ChamathRosh/grok-bot-templates",
+  "kept": true,
+  "cat": "B",
+  "title": "grok-bot-templates（ChamathRosh）：小商家用的六个草稿模板",
+  "review": "六个面向小店的模板，产出都只停在草稿、要你确认才发；目前只有排期那个带一键安装，README 里推广链接较多，挑模板本身看就行",
+  "tags": [
+   "template",
+   "small-business",
+   "draft"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://github.com/francoCosimo95/claude-grok-bridge",
+  "kept": true,
+  "cat": "C",
+  "title": "claude-grok-bridge：让 Claude Code 把活交给 Grok Bot",
+  "review": "借 Routine 的调用地址让 Claude Code 给 Bot 派任务、取结果，一行引导就能接上，没有额外依赖；调用地址等于钥匙，别贴进公开仓库",
+  "tags": [
+   "claude-code",
+   "routine",
+   "bridge"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://github.com/lthero-big/gbb-multica-bridge",
+  "kept": true,
+  "cat": "C",
+  "title": "gbb-multica-bridge：把 Bot 接进 Multica（中文说明）",
+  "review": "中文 README，用 gbb 把 Bot 接到 Multica 的运行环境，本机或 SSH 回传都行，还附了恢复脚本；适合已经在用 Multica 的人",
+  "tags": [
+   "multica",
+   "bridge",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://github.com/PhillipHolland/imessage-relay",
+  "kept": true,
+  "cat": "C",
+  "title": "imessage-relay：用自己的 Mac 把 iMessage 转到 X Chat",
+  "review": "在你自己的 Mac 上中转 iMessage 和 X Chat，需要再开一个 X 账号；默认只演练不真发，只读本机消息库，安装包带校验值，先演练确认再开",
+  "tags": [
+   "imessage",
+   "mac",
+   "relay"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://github.com/sudoTomas/groknet",
+  "kept": true,
+  "cat": "D",
+  "title": "groknet：让不同人的 Bot 互加好友",
+  "review": "通过 MCP 加好友，再用一个接收消息的 Routine 收件；服务托管在作者的服务器上，接收地址的钥匙会交给对方服务，介意的话别接",
+  "tags": [
+   "team",
+   "mcp",
+   "webhook"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://github.com/william1010121/Botling",
+  "kept": true,
+  "cat": "G",
+  "title": "Botling：在 Mac 上仿一个 Bot，底层换成 Claude Code / Codex",
+  "review": "自己电脑上跑的仿制品，驱动本机的 Claude Code 或 Codex 命令行；GPL-3.0 许可，适合想在本机试同类玩法的开发者",
+  "tags": [
+   "self-hosted",
+   "mac",
+   "claude-code"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/wanerfu/status/2113886968988020918",
+  "kept": true,
+  "cat": "T1",
+  "title": "八步上手 Grok Bot（X 帖子）",
+  "review": "中文，从开第一个 Bot 到建第一个定时任务按八步走，新手照着顺一遍；细节配我们的入门课程看",
+  "tags": [
+   "beginner",
+   "setup",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "wanerfu",
+  "date": "2026-10-24",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/alin_zone/status/2113995666401710320",
+  "kept": true,
+  "cat": "T1",
+  "title": "云电脑改坏了怎么回退（X 帖子）",
+  "review": "中文，讲云电脑出问题时怎么回到之前的状态、平时怎么留备份；配我们的云电脑备份教程一起看",
+  "tags": [
+   "vm",
+   "backup",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "alin_zone",
+  "date": "2026-10-24",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/xiaomovps/status/2114229204309164262",
+  "kept": true,
+  "cat": "T1",
+  "title": "三个新手坑，外加私有仓库当备份（X 帖子）",
+  "review": "中文，列了三个常见坑，建议把技能和配置定期推到自己的私有 GitHub 仓库；备份思路实用",
+  "tags": [
+   "pitfalls",
+   "backup",
+   "github",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "xiaomovps",
+  "date": "2026-10-25",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/bdall_1/status/2114191938752815119",
+  "kept": true,
+  "cat": "T5",
+  "title": "用几个 Bot 搭内容小组（X 帖子）",
+  "review": "中文长文，按选题、写稿、审稿分工搭内容小组；结构可以参考，发布前人工把关别省",
+  "tags": [
+   "content",
+   "team",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "bdall_1",
+  "date": "2026-10-25",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/Chris_Defi/status/2114300755171745972",
+  "kept": true,
+  "cat": "T4",
+  "title": "Grok Bot 和 Muse 对比，外加用 adb 控安卓手机（X 帖子）",
+  "review": "中文，作者把两款产品放一起比，并演示让 Bot 通过 adb 操作安卓手机；对比带个人立场，adb 那段可以借鉴",
+  "tags": [
+   "android",
+   "adb",
+   "compare",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "Chris_Defi",
+  "date": "2026-10-25",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/sxzz/status/2112344654683492392",
+  "kept": true,
+  "cat": "T4",
+  "title": "让 Bot 借 Bland 替你打电话排队（X 帖子）",
+  "review": "中文，作者让 Bot 调用 Bland 这类 AI 电话服务去打官方热线；思路新，涉及个人信息的电话要自己在旁边盯着",
+  "tags": [
+   "phone",
+   "bland",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "sxzz",
+  "date": "2026-10-20",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/akshay_pachaar/status/2114344099230961880",
+  "kept": true,
+  "cat": "T2",
+  "title": "四个角色的工程小队（X 帖子）",
+  "review": "英文，按产品、开发、测试、运维四个角色分 Bot，分工写得清楚；帖子里带了某后端服务的推广，挑结构看",
+  "tags": [
+   "team",
+   "engineering",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "akshay_pachaar",
+  "date": "2026-10-25",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/N01ennn/status/2114390660723675598",
+  "kept": true,
+  "cat": "T2",
+  "title": "Bot 团队实战长文，含 IncidentSweep（X 帖子）",
+  "review": "英文长文，讲作者怎么分配团队里各个 Bot，其中 IncidentSweep 负责扫故障；适合已经开了多个 Bot 的人",
+  "tags": [
+   "team",
+   "incident",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "N01ennn",
+  "date": "2026-10-25",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/elvenmaidinn/status/2114317639527080391",
+  "kept": true,
+  "cat": "T3",
+  "title": "Free Games Scout：只认官方商店的免费游戏侦察（X 帖子）",
+  "review": "英文，定时查免费游戏、每条回官方商店核实；我们用 Epic 和 GOG 官方接口自己实跑了一版，写成了中文教程",
+  "tags": [
+   "routine",
+   "games",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "elvenmaidinn",
+  "date": "2026-10-25",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/BrianRoemmele/status/2114394724849385687",
+  "kept": true,
+  "cat": "T3",
+  "title": "Don't Leave Me Hanging：盯住邮件里没收尾的事（X 帖子）",
+  "review": "英文，让 Bot 定期翻邮件，找出还没回、还没跟进的往来提醒你收尾；读邮件的权限要先想清楚",
+  "tags": [
+   "email",
+   "routine",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "BrianRoemmele",
+  "date": "2026-10-25",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://x.com/GrokBotRadar/status/2114409935345971231",
+  "kept": true,
+  "cat": "T3",
+  "title": "上下文反复重读最耗额度（X 帖子）",
+  "review": "英文，解释长对话里缓存反复重读为什么让额度掉得快，并提醒看自动续额设置；和我们已有的额度说明重合，作补充看",
+  "tags": [
+   "quota",
+   "cache",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "GrokBotRadar",
+  "date": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://learncursor.dev/learn/cursor-agents/grok-bot-skills-routines",
+  "kept": true,
+  "cat": "T3",
+  "title": "learncursor.dev：Grok Bot 的技能和 Routine 讲解（英文）",
+  "review": "英文教程页，把技能和 Routine 分开讲，再说两者怎么配合；概念清楚，适合想弄懂两者区别的人",
+  "tags": [
+   "skill",
+   "routine",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://grokbotguide.ai/zh/",
+  "kept": true,
+  "cat": "I",
+  "title": "grokbotguide.ai：Grok Bot 中文问答站",
+  "review": "独立站，有中文版，按问题组织，比如怎么设定时任务；站方非官方，功能细节以官方为准",
+  "tags": [
+   "guide",
+   "faq",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
+ },
+ {
+  "url": "https://advanceintelligence.ai/story/2026-10-16-02",
+  "kept": false,
+  "cat": "I",
+  "title": "新闻站转述推文",
+  "reason": "只是转述一条推文，没有新内容，不收",
+  "verified": "2026-10-26",
+  "source": "sweep-1026am"
  }
 ]
