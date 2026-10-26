@@ -6538,5 +6538,204 @@
   "reason": "只是转述一条推文，没有新内容，不收",
   "verified": "2026-10-26",
   "source": "sweep-1026am"
+ },
+ {
+  "url": "https://github.com/monkeyteamvip/x-virality-score",
+  "kept": true,
+  "cat": "F",
+  "title": "x-virality-score",
+  "review": "只读扫关注列表与趋势词，起草帖子并刷新你自己的 GitHub Pages 看板；发布仍由你点，示范看板只是别人的例子",
+  "tags": [
+   "x",
+   "dashboard",
+   "routine",
+   "draft"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026pm",
+  "repo": "monkeyteamvip/x-virality-score",
+  "last_push": "2026-10-26",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/Caffrey-Li/QuotaPot",
+  "kept": true,
+  "cat": "A",
+  "title": "QuotaPot",
+  "review": "Mac/Windows 常驻小窗口，盯 Cursor、Claude、Codex、Grok Bot 等用量、对话上下文和磁盘占用，可一键复制整理提示词",
+  "tags": [
+   "desktop",
+   "quota",
+   "macos",
+   "windows"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026pm",
+  "repo": "Caffrey-Li/QuotaPot",
+  "last_push": "2026-10-26",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/ELU-Labs/dark-factory",
+  "kept": true,
+  "cat": "D",
+  "title": "dark-factory",
+  "review": "一段提示词让多个 Grok Bot 按工厂流水线改仓库，配合 ELU 做真实用户验证；需要分支保护和预览部署",
+  "tags": [
+   "multi-bot",
+   "factory",
+   "verification",
+   "prompt"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026pm",
+  "repo": "ELU-Labs/dark-factory",
+  "last_push": "2026-10-26",
+  "license": "MIT"
+ },
+ {
+  "url": "https://github.com/exa-pub/grokbot-tunnel",
+  "kept": true,
+  "cat": "G",
+  "title": "grokbot-tunnel",
+  "review": "Go 写的隧道：把 Linux 服务器接成 Grok Bot 的一台电脑，无桌面也能跑命令和读写文件；MIT，星少但文档和安装脚本齐全",
+  "tags": [
+   "tunnel",
+   "self-host",
+   "go",
+   "linux"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "source": "sweep-1026pm",
+  "repo": "exa-pub/grokbot-tunnel",
+  "last_push": "2026-10-25",
+  "license": "MIT"
+ },
+ {
+  "url": "https://x.com/AdrianPunk115/status/2114648961399349608",
+  "kept": true,
+  "cat": "T2",
+  "title": "用企业组织架构给 Grok Bot 分工（X 长文）",
+  "review": "中文长文，对照直线、职能、事业部、矩阵、项目、扁平、网络七种结构，讲什么任务交给固定岗位、什么时候要主 Bot 统筹",
+  "tags": [
+   "multi-bot",
+   "org",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "AdrianPunk115",
+  "date": "2026-10-26",
+  "source": "sweep-1026pm"
+ },
+ {
+  "url": "https://x.com/xiangxiang103/status/2114524472820818073",
+  "kept": true,
+  "cat": "T1",
+  "title": "iPhone 上用 Hey Grok 喊出语音聊天（含真机视频）",
+  "review": "中文短教程：快捷指令 + 人声快捷指令设成「Hey Grok」，附真机录屏；锁屏时要先点一下屏幕，Face ID 解锁后可免手",
+  "tags": [
+   "iphone",
+   "voice",
+   "shortcut",
+   "chinese"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "xiangxiang103",
+  "date": "2026-10-26",
+  "source": "sweep-1026pm"
+ },
+ {
+  "url": "https://x.com/eng_khairallah1/status/2114647320834810139",
+  "kept": true,
+  "cat": "T3",
+  "title": "六条 Routine 把早晨从开工改成验收（X 长文）",
+  "review": "英文长文：构建轮班、发布雷达、来源包、客户台账、收件分拣、周五复盘六条，强调一事一 Bot、无事不打扰、只起草不代发",
+  "tags": [
+   "routine",
+   "prompt",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "eng_khairallah1",
+  "date": "2026-10-26",
+  "source": "sweep-1026pm"
+ },
+ {
+  "url": "https://x.com/0xRicker/status/2112903221987397874",
+  "kept": true,
+  "cat": "T2",
+  "title": "把 Grok Bot 做成路由：四模式拆活 + Kimi 集群（X 长文）",
+  "review": "英文长文六步：Grok Bot 只做 fan-out/chain/debate/supervisor 分类，并行与共享记忆交给 Kimi Swarm；适合要跨很多子任务的人",
+  "tags": [
+   "multi-agent",
+   "router",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "0xRicker",
+  "date": "2026-10-21",
+  "source": "sweep-1026pm"
+ },
+ {
+  "url": "https://x.com/fluixoo/status/2114264509904736642",
+  "kept": true,
+  "cat": "T2",
+  "title": "手机权限上线后的 7 Bot 一周配方（X 帖）",
+  "review": "英文：晨报、会前备课、月初发票、会后跟进草稿、收件分拣、周一数字、周五续费各一岗，强调一 Bot 一岗，附可粘贴提示词",
+  "tags": [
+   "multi-bot",
+   "phone",
+   "routine",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "fluixoo",
+  "date": "2026-10-25",
+  "source": "sweep-1026pm"
+ },
+ {
+  "url": "https://x.com/Chansoo/status/2110436904705397053",
+  "kept": true,
+  "cat": "T4",
+  "title": "Tesla Fleet 六步：用 Grok Bot 控车（X 帖）",
+  "review": "英文：Fleet API 建应用→密钥放云电脑→GitHub Pages 验签→secure fields 不进聊天→一次 OAuth→车端配对；敏感动作先问你",
+  "tags": [
+   "tesla",
+   "fleet-api",
+   "secure-fields",
+   "english"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "Chansoo",
+  "date": "2026-10-14",
+  "source": "sweep-1026pm"
+ },
+ {
+  "url": "https://x.com/moritzkremb/status/2114051840102768922",
+  "kept": true,
+  "cat": "T4",
+  "title": "Bridge Bot：让 ChatGPT / Claude Code 派活给 Grok Bot（X 帖）",
+  "review": "公开模板：加 Bot 后拿到 webhook URL、密钥和一段现成提示，贴进 ChatGPT 或 Claude Code 就装好 /send-to-grok-bot；密钥只放对方工具的密钥设置",
+  "tags": [
+   "webhook",
+   "bridge",
+   "chatgpt",
+   "claude"
+  ],
+  "level": "读过文档",
+  "verified": "2026-10-26",
+  "author": "moritzkremb",
+  "date": "2026-10-24",
+  "source": "sweep-1026pm"
  }
 ]
