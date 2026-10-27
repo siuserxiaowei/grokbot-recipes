@@ -10,7 +10,7 @@
 
 ## 一眼看完
 
-- **33** 个配方，格式统一，提示词可以直接复制
+- **39** 个配方，格式统一，提示词可以直接复制
 - **158** 个生态项目和学习资源，每条都打开核对过
 - **294** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（33）
+## 配方（39）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -60,6 +60,12 @@
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
 | [一周晚饭：周六排好，过敏当硬规则](recipes/weekly-dinner.md) | 每周都在愁吃什么、家里有人过敏或挑食、想把买菜清单也一起省掉的人 |
 | [每周功能对照：让首席 Bot 对照更新日志改你的 Routine](recipes/weekly-feature-check.md) | 已经开了一批 Routine、怕绕路和额度浪费、想跟着官方新功能收紧流程的人 |
+| [主 Bot 只挂两条 Routine：专项点名才干](recipes/main-bot-slim.md) | 主 Bot 越挂越胖、额度被定时任务吃光的人 |
+| [群里底牌走私聊通道](recipes/group-private-lane.md) | 多 Bot 群聊里要藏报价、密钥、客户底牌的人 |
+| [网页截图按日期归档](recipes/screenshot-archive.md) | 要盯公开页有没有改、又不要登录爬站的人 |
+| [邮件附件归类：只复制不删](recipes/mail-attach-sort.md) | 邮箱附件堆成山、发票合同混在一起的人 |
+| [两个文件夹快照对比](recipes/folder-snapshot-diff.md) | 备份盘、导出目录、前后版本对不上的人 |
+| [实跑结果打成离线 HTML 报告](recipes/html-report-pack.md) | 要把多段终端输出交给同事、又不好塞一堆散文件的人 |
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |

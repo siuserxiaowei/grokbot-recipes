@@ -7202,5 +7202,98 @@
     "author": "heitieya",
     "date": "2026-10-27",
     "source": "sweep-1027pm"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/main-bot-slim",
+    "kept": true,
+    "cat": "T2",
+    "title": "主 Bot 只挂两条 Routine（实测教程）",
+    "review": "我们实跑：编制体检揪出研究助理误挂周报；主 Bot 两条、专项默认零条，只提案不代停",
+    "tags": [
+      "tutorial",
+      "routines",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-27",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/group-private-lane",
+    "kept": true,
+    "cat": "T2",
+    "title": "群里底牌走私聊通道（实测教程）",
+    "review": "样例对话密钥阅读 4→2、外人可见 2→0；公开动作回群，底牌走私聊",
+    "tags": [
+      "tutorial",
+      "privacy",
+      "multi-bot",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-27",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/screenshot-archive",
+    "kept": true,
+    "cat": "T3",
+    "title": "网页截图按日期归档（实测教程）",
+    "review": "公开页首屏落盘带哈希；首页与 Fedora 200，x.ai changelog 403 如实记",
+    "tags": [
+      "tutorial",
+      "screenshot",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-27",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/mail-attach-sort",
+    "kept": true,
+    "cat": "T3",
+    "title": "邮件附件归类只复制不删（实测教程）",
+    "review": "7 个样本分桶，1 对重复发票进 duplicates；原件不动",
+    "tags": [
+      "tutorial",
+      "files",
+      "email",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-27",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/folder-snapshot-diff",
+    "kept": true,
+    "cat": "T3",
+    "title": "文件夹快照对比（实测教程）",
+    "review": "only_b 1、changed 2、same 1；只出清单不自动合并",
+    "tags": [
+      "tutorial",
+      "files",
+      "diff",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-27",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/html-report-pack",
+    "kept": true,
+    "cat": "T3",
+    "title": "实跑结果打成离线 HTML（实测教程）",
+    "review": "多段终端收进单页约 3.6KB，自检 h1=1 h2=5",
+    "tags": [
+      "tutorial",
+      "report",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-27",
+    "repo": "siuserxiaowei/grokguide"
   }
 ]
