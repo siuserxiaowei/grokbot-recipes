@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 294 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 308 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（83）
+## 入门与配置（86）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -89,8 +89,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Meet Your Cheapest Employee: Grok Bot（X 长文）](https://x.com/k1rallik/status/2114726480559112502) - 英文入门：先给有终点线的活，手机派活再追问，附 5 段提示词和 2 个可复用 skill，并教你核算订阅值不值 · @k1rallik · 2026-10-26。标签：`getting-started` `prompt` `english`
 - [Galaxy Day：persona × harness 澄清长文（X 长文）](https://x.com/dustADD/status/2114884419488235543) - 中文澄清文：别被「年薪 / 日更」话术吓到，先分清 persona 与 harness 各管什么，再决定要不要照抄演示 · @dustADD · 2026-10-27。标签：`persona` `harness` `chinese`
 - [Grok Bot vs Muse vs Hark 对比（X 帖）](https://x.com/heitieya/status/2114913630751994106) - 中文横向对比三款助手的定位与上手差异，适合选型前先分清场景再开 Bot · @heitieya · 2026-10-27。标签：`comparison` `muse` `hark` `chinese`
+- [Markdown 链接抽取（实测教程）](https://grokguide.si/tutorials/md-links-extract) - 2 文件 5 处去重 4 个 URL，抽取阶段不发请求。标签：`tutorial` `webmaster` `grokguide`
+- [SQLite 只读查询（实测教程）](https://grokguide.si/tutorials/sqlite-readonly) - mode=ro 汇总 A:3 B:5 C:3，DELETE 报 OperationalError。标签：`tutorial` `data` `grokguide`
+- [Frontmatter 体检（实测教程）](https://grokguide.si/tutorials/frontmatter-lint) - 4 文件揪出 3 个问题，缺 title/未闭合/无文头都会 FAIL。标签：`tutorial` `webmaster` `grokguide`
 
-## 多 Bot 团队（63）
+## 多 Bot 团队（65）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -155,8 +158,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [十步生活助理团队：Daily Chief + 三专员（X 长文）](https://x.com/irongiantXBT/status/2109293672495784029) - 英文十步：晨报、角色合同、技能与 Routine、Inbox/Research/Life Admin 专员，以及 ACTION/TARGET/REASON 审批线 · @irongiantXBT · 2026-10-11。标签：`multi-bot` `life-admin` `english`
 - [三 Bot 共建会自己长的第二大脑 wiki（X 帖）](https://x.com/Mr_Buzzoni/status/2114655525388394685) - 英文：reader 只归档、librarian 改 wiki、checker 查矛盾；新旧冲突只标记不覆盖，附可粘贴启动提示词 · @Mr_Buzzoni · 2026-10-26。标签：`multi-bot` `wiki` `second-brain` `english`
 - [两周实测六 Bot 群聊小队（掘金）](https://juejin.cn/post/7700798335888490511) - 中文实测：用六个 Bot 搭群聊小队两周，写清分工、交接和踩坑，适合想先小规模试多 Bot 的人 · @宅小年 · 2026-10-26。标签：`multi-bot` `group-chat` `chinese` `juejin`
+- [主 Bot 只挂两条 Routine（实测教程）](https://grokguide.si/tutorials/main-bot-slim) - 我们实跑：编制体检揪出研究助理误挂周报；主 Bot 两条、专项默认零条，只提案不代停。标签：`tutorial` `routines` `grokguide`
+- [群里底牌走私聊通道（实测教程）](https://grokguide.si/tutorials/group-private-lane) - 样例对话密钥阅读 4→2、外人可见 2→0；公开动作回群，底牌走私聊。标签：`tutorial` `privacy` `multi-bot` `grokguide`
 
-## Routine 与额度（28）
+## Routine 与额度（34）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -186,6 +191,12 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [六条 Routine 把早晨从开工改成验收（X 长文）](https://x.com/eng_khairallah1/status/2114647320834810139) - 英文长文：构建轮班、发布雷达、来源包、客户台账、收件分拣、周五复盘六条，强调一事一 Bot、无事不打扰、只起草不代发 · @eng_khairallah1 · 2026-10-26。标签：`routine` `prompt` `english`
 - [Routine 记账员：算唤醒次数、加变化检查（X 帖）](https://x.com/gippp69/status/2114689520964677797) - 英文串帖：可粘贴审计提示词，估唤醒次数、建议先比变化再跑、付款类保持草稿，最后出前后对比表并存成 Skill · @gippp69 · 2026-10-26。标签：`routine` `quota` `prompt` `english`
 - [每周功能对照：首席 Bot 对照更新日志改 Routine（X 长文）](https://x.com/Michael_Fenech_/status/2114661816873734316) - 英文七步：只读官方更新，把新功能映射到现有 Routine，只出提案不擅自改；适合怕绕路和额度浪费的人 · @Michael_Fenech_ · 2026-10-26。标签：`routines` `changelog` `weekly` `english`
+- [网页截图按日期归档（实测教程）](https://grokguide.si/tutorials/screenshot-archive) - 公开页首屏落盘带哈希；首页与 Fedora 200，x.ai changelog 403 如实记。标签：`tutorial` `screenshot` `grokguide`
+- [邮件附件归类只复制不删（实测教程）](https://grokguide.si/tutorials/mail-attach-sort) - 7 个样本分桶，1 对重复发票进 duplicates；原件不动。标签：`tutorial` `files` `email` `grokguide`
+- [文件夹快照对比（实测教程）](https://grokguide.si/tutorials/folder-snapshot-diff) - only_b 1、changed 2、same 1；只出清单不自动合并。标签：`tutorial` `files` `diff` `grokguide`
+- [实跑结果打成离线 HTML（实测教程）](https://grokguide.si/tutorials/html-report-pack) - 多段终端收进单页约 3.6KB，自检 h1=1 h2=5。标签：`tutorial` `report` `grokguide`
+- [隐藏不等于暂停（实测教程）](https://grokguide.si/tutorials/hide-not-pause) - 花名册体检揪出隐藏的竞品雷达仍有 2 条启用 Routine。标签：`tutorial` `routine` `grokguide`
+- [安静检查：没变化一行 quiet（实测教程）](https://grokguide.si/tutorials/quiet-check) - 三次实跑：基线、quiet exit=0、改价后才报 changed。标签：`tutorial` `routine` `grokguide`
 
 ## 连接、技能与记忆（51）
 
@@ -302,7 +313,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [I Wrote an X Article with Grok Bot（X 帖）](https://x.com/FFBuncho/status/2114935585098129851) - 英文实测：Bot 起草进 X Articles 草稿、你再点发布；接 X 连接器变更后不必再为发文额外扣 API 额度 · @FFBuncho · 2026-10-27。标签：`x-articles` `draft` `connector` `english`
 - [十个生活域 Grok Bot 案例按收藏数盘点（X 帖）](https://x.com/longhaiqwe123/status/2114975635244556347) - 中文合集：按收藏数挑十条生活域用法，适合灵感扫一眼再挑一条深挖 · @longhaiqwe123 · 2026-10-27。标签：`usecases` `roundup` `chinese`
 
-## 安全（11）
+## 安全（14）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
@@ -315,3 +326,6 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [信任阶梯：一步步放权（X）](https://x.com/bradmillscan/status/2113638380361728309) - 英文帖，讲怎么从只读开始一级级给 Bot 放权，每升一级都有验收，思路值得抄 · @bradmillscan · 2026-10-23。标签：`trust` `permissions` `english`
 - [让 Bot 帮你网购（X）](https://x.com/taresky/status/2113621639594402284) - 英文帖，配 1Password 和一次性虚拟卡让 Bot 下单；涉及付款，每一单都要自己确认，限额要设 · @taresky · 2026-10-23。标签：`shopping` `1password` `payment` `english`
 - [只做功课、不碰钱包的加密研究 Bot（X 长文）](https://x.com/CryptoVerse_Co/status/2113977677174698485) - 英文，Bot 只查资料写笔记，钱包、交易、签名一律不碰；安全边界写得明白，内容不构成投资建议 · @CryptoVerse_Co · 2026-10-24。标签：`safety` `research` `english`
+- [完成前验证闸门（实测教程）](https://grokguide.si/tutorials/verify-gate) - 错校验和被拦，修好后六项全 PASS 才允许标 done。标签：`tutorial` `security` `grokguide`
+- [.env 只比键名（实测教程）](https://grokguide.si/tutorials/env-key-diff) - 5 键 vs 4 键只报名字，从不打印等号右边。标签：`tutorial` `security` `grokguide`
+- [tar 先预览不解压（实测教程）](https://grokguide.si/tutorials/tar-preview) - 列出 3 个成员，未调用 extract；危险路径会标警告。标签：`tutorial` `security` `grokguide`

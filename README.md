@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **39** 个配方，格式统一，提示词可以直接复制
+- **43** 个配方，格式统一，提示词可以直接复制
 - **158** 个生态项目和学习资源，每条都打开核对过
-- **294** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **308** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **109** 篇 grokguide.si 自己的教程
+- **149** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（39）
+## 配方（43）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -40,32 +40,36 @@
 | [研发四个角色：需求、复现、实现、审查](recipes/dev-four-roles.md) | 让 Bot 参与写代码的团队 |
 | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) | 怕 Bot 替你乱发东西的人 |
 | [邮件触发整理：专属邮箱收到就处理](recipes/email-trigger.md) | 经常收固定格式邮件的人 |
+| [.env 只比键名：从不打印值](recipes/env-key-diff.md) | 换机器或拉新仓库时总漏配环境变量、又怕密钥进聊天的人 |
 | [交付验收：要能打开、能核对的文件](recipes/file-delivery.md) | 让 Bot 做表格、报告的人 |
 | [总控派活：一张路由表，重活交给工程师 Bot](recipes/fleet-router.md) | 已经有三五个 Bot、每次都要想“这事该找谁”的人 |
+| [两个文件夹快照对比](recipes/folder-snapshot-diff.md) | 备份盘、导出目录、前后版本对不上的人 |
 | [免费游戏侦察：只认官方商店](recipes/free-games-scout.md) | 想领限时免费游戏、又不想被转发消息和 Demo 刷屏的人 |
 | [推一个任务文件，GitHub Action 叫醒 Bot](recipes/github-webhook.md) | 本地有 Agent 写任务说明、想让 Grok Bot 自动接活的开发者 |
+| [群里底牌走私聊通道](recipes/group-private-lane.md) | 多 Bot 群聊里要藏报价、密钥、客户底牌的人 |
+| [隐藏前先停表：隐藏不等于暂停](recipes/hide-not-pause.md) | 暂时不想看见某个 Bot、却发现额度还在掉的人 |
+| [实跑结果打成离线 HTML 报告](recipes/html-report-pack.md) | 要把多段终端输出交给同事、又不好塞一堆散文件的人 |
 | [Linux 新版提醒](recipes/linux-update-watch.md) | 在 Linux 上用 Grok Bot、内置更新管不到的人 |
+| [邮件附件归类：只复制不删](recipes/mail-attach-sort.md) | 邮箱附件堆成山、发票合同混在一起的人 |
+| [主 Bot 只挂两条 Routine：专项点名才干](recipes/main-bot-slim.md) | 主 Bot 越挂越胖、额度被定时任务吃光的人 |
 | [会前简报：有来源、能核对](recipes/meeting-brief.md) | 经常开外部会议的人 |
 | [消息热力图：看清最常找哪个 Bot](recipes/msg-heatmap.md) | 开了好几个 Bot、想知道哪些常用、哪些建完就闲着的人 |
 | [一人三岗：调研、客服、内容](recipes/one-person-three-roles.md) | 一个人做产品的人 |
 | [海外客服：多语言工单先分流](recipes/outbound-support.md) | 做海外用户的团队 |
 | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) | 想装别人写的技能，又怕作者以后改了内容、或者中途被人动了手脚的人 |
+| [安静检查：没变化只打一行 quiet](recipes/quiet-check.md) | 巡检 Routine 多数时候没变化、却老刷屏的人 |
 | [额度体检：先停、分级、逐条重开](recipes/routine-budget.md) | 开了很多 Routine 的人 |
 | [安全登录：不把密码直接贴给 Bot](recipes/safe-login.md) | 需要 Bot 登录网站的人 |
+| [网页截图按日期归档](recipes/screenshot-archive.md) | 要盯公开页有没有改、又不要登录爬站的人 |
 | [脚本先跑：固定的活交给脚本，Bot 只看一行结果](recipes/script-first.md) | Routine 每天巡检页面或清单，没变化也要一页页看、额度掉得快的人 |
 | [没信号不打扰：通知规则写清楚](recipes/silent-notify.md) | 开了监控类 Routine 的人 |
 | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) | 有一件事每周都要手动做一遍的人 |
 | [多 Bot 交接看板](recipes/team-monitor.md) | 手上有两个以上 Bot、想知道活卡在谁那里的人 |
 | [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
+| [完成前验证闸门：不过禁止标 done](recipes/verify-gate.md) | Bot 常说「好了」却缺文件、数字对不上的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
 | [一周晚饭：周六排好，过敏当硬规则](recipes/weekly-dinner.md) | 每周都在愁吃什么、家里有人过敏或挑食、想把买菜清单也一起省掉的人 |
 | [每周功能对照：让首席 Bot 对照更新日志改你的 Routine](recipes/weekly-feature-check.md) | 已经开了一批 Routine、怕绕路和额度浪费、想跟着官方新功能收紧流程的人 |
-| [主 Bot 只挂两条 Routine：专项点名才干](recipes/main-bot-slim.md) | 主 Bot 越挂越胖、额度被定时任务吃光的人 |
-| [群里底牌走私聊通道](recipes/group-private-lane.md) | 多 Bot 群聊里要藏报价、密钥、客户底牌的人 |
-| [网页截图按日期归档](recipes/screenshot-archive.md) | 要盯公开页有没有改、又不要登录爬站的人 |
-| [邮件附件归类：只复制不删](recipes/mail-attach-sort.md) | 邮箱附件堆成山、发票合同混在一起的人 |
-| [两个文件夹快照对比](recipes/folder-snapshot-diff.md) | 备份盘、导出目录、前后版本对不上的人 |
-| [实跑结果打成离线 HTML 报告](recipes/html-report-pack.md) | 要把多段终端输出交给同事、又不好塞一堆散文件的人 |
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |

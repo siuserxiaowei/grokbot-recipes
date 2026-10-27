@@ -7295,5 +7295,125 @@
     "level": "自己实跑过",
     "verified": "2026-10-27",
     "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/hide-not-pause",
+    "kept": true,
+    "cat": "T3",
+    "title": "隐藏不等于暂停（实测教程）",
+    "review": "花名册体检揪出隐藏的竞品雷达仍有 2 条启用 Routine",
+    "tags": [
+      "tutorial",
+      "routine",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/quiet-check",
+    "kept": true,
+    "cat": "T3",
+    "title": "安静检查：没变化一行 quiet（实测教程）",
+    "review": "三次实跑：基线、quiet exit=0、改价后才报 changed",
+    "tags": [
+      "tutorial",
+      "routine",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/verify-gate",
+    "kept": true,
+    "cat": "T6",
+    "title": "完成前验证闸门（实测教程）",
+    "review": "错校验和被拦，修好后六项全 PASS 才允许标 done",
+    "tags": [
+      "tutorial",
+      "security",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/env-key-diff",
+    "kept": true,
+    "cat": "T6",
+    "title": ".env 只比键名（实测教程）",
+    "review": "5 键 vs 4 键只报名字，从不打印等号右边",
+    "tags": [
+      "tutorial",
+      "security",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/md-links-extract",
+    "kept": true,
+    "cat": "T1",
+    "title": "Markdown 链接抽取（实测教程）",
+    "review": "2 文件 5 处去重 4 个 URL，抽取阶段不发请求",
+    "tags": [
+      "tutorial",
+      "webmaster",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/sqlite-readonly",
+    "kept": true,
+    "cat": "T1",
+    "title": "SQLite 只读查询（实测教程）",
+    "review": "mode=ro 汇总 A:3 B:5 C:3，DELETE 报 OperationalError",
+    "tags": [
+      "tutorial",
+      "data",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/tar-preview",
+    "kept": true,
+    "cat": "T6",
+    "title": "tar 先预览不解压（实测教程）",
+    "review": "列出 3 个成员，未调用 extract；危险路径会标警告",
+    "tags": [
+      "tutorial",
+      "security",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/frontmatter-lint",
+    "kept": true,
+    "cat": "T1",
+    "title": "Frontmatter 体检（实测教程）",
+    "review": "4 文件揪出 3 个问题，缺 title/未闭合/无文头都会 FAIL",
+    "tags": [
+      "tutorial",
+      "webmaster",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
   }
 ]
