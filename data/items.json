@@ -7075,5 +7075,132 @@
     "author": "宅小年",
     "date": "2026-10-26",
     "source": "sweep-1027am"
+  },
+  {
+    "url": "https://github.com/patrick-mns/localbot",
+    "kept": true,
+    "cat": "G",
+    "title": "Local Bot：Mac 本机跑的 Grok Bot 风格队友",
+    "review": "MIT；用 Cua Driver + Docker/Lume 在 Mac 上跑本地队友，最新发布 LocalBot-0.15.2.dmg；星少但更新到 2026-10-27",
+    "tags": [
+      "self-hosted",
+      "mac",
+      "local",
+      "cua",
+      "docker"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-27",
+    "repo": "patrick-mns/localbot",
+    "last_push": "2026-10-27",
+    "license": "MIT",
+    "source": "sweep-1027pm"
+  },
+  {
+    "url": "https://x.com/Michael_Fenech_/status/2114661816873734316",
+    "kept": true,
+    "cat": "T3",
+    "title": "每周功能对照：首席 Bot 对照更新日志改 Routine（X 长文）",
+    "review": "英文七步：只读官方更新，把新功能映射到现有 Routine，只出提案不擅自改；适合怕绕路和额度浪费的人",
+    "tags": [
+      "routines",
+      "changelog",
+      "weekly",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-27",
+    "author": "Michael_Fenech_",
+    "date": "2026-10-26",
+    "source": "sweep-1027pm"
+  },
+  {
+    "url": "https://x.com/FFBuncho/status/2114935585098129851",
+    "kept": true,
+    "cat": "T5",
+    "title": "I Wrote an X Article with Grok Bot（X 帖）",
+    "review": "英文实测：Bot 起草进 X Articles 草稿、你再点发布；接 X 连接器变更后不必再为发文额外扣 API 额度",
+    "tags": [
+      "x-articles",
+      "draft",
+      "connector",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-27",
+    "author": "FFBuncho",
+    "date": "2026-10-27",
+    "source": "sweep-1027pm"
+  },
+  {
+    "url": "https://x.com/jinglian/status/2114928279199330602",
+    "kept": true,
+    "cat": "T4",
+    "title": "X 连接器书签 / DM / 长文草稿不再额外扣 API（X 帖）",
+    "review": "中文转述官方：连上 X 后书签、私信、长文草稿等不再另付 API；适合核对连接器账单口径",
+    "tags": [
+      "x-connector",
+      "api",
+      "billing",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-27",
+    "author": "jinglian",
+    "date": "2026-10-27",
+    "source": "sweep-1027pm"
+  },
+  {
+    "url": "https://x.com/darrell_tw_/status/2115021834223812760",
+    "kept": true,
+    "cat": "T4",
+    "title": "个人与工作邮箱日历分 Bot（X 帖）",
+    "review": "中文小技巧：个人与工作的 Gmail / 日历各开一个 Bot，权限与记忆不串；比单 Bot 多账号更清晰",
+    "tags": [
+      "gmail",
+      "calendar",
+      "multi-bot",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-27",
+    "author": "darrell_tw_",
+    "date": "2026-10-27",
+    "source": "sweep-1027pm"
+  },
+  {
+    "url": "https://x.com/longhaiqwe123/status/2114975635244556347",
+    "kept": true,
+    "cat": "T5",
+    "title": "十个生活域 Grok Bot 案例按收藏数盘点（X 帖）",
+    "review": "中文合集：按收藏数挑十条生活域用法，适合灵感扫一眼再挑一条深挖",
+    "tags": [
+      "usecases",
+      "roundup",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-27",
+    "author": "longhaiqwe123",
+    "date": "2026-10-27",
+    "source": "sweep-1027pm"
+  },
+  {
+    "url": "https://x.com/heitieya/status/2114913630751994106",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot vs Muse vs Hark 对比（X 帖）",
+    "review": "中文横向对比三款助手的定位与上手差异，适合选型前先分清场景再开 Bot",
+    "tags": [
+      "comparison",
+      "muse",
+      "hark",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-27",
+    "author": "heitieya",
+    "date": "2026-10-27",
+    "source": "sweep-1027pm"
   }
 ]

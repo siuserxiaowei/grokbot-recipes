@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 288 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 294 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（82）
+## 入门与配置（83）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -88,6 +88,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [iPhone 上用 Hey Grok 喊出语音聊天（含真机视频）](https://x.com/xiangxiang103/status/2114524472820818073) - 中文短教程：快捷指令 + 人声快捷指令设成「Hey Grok」，附真机录屏；锁屏时要先点一下屏幕，Face ID 解锁后可免手 · @xiangxiang103 · 2026-10-26。标签：`iphone` `voice` `shortcut` `chinese`
 - [Meet Your Cheapest Employee: Grok Bot（X 长文）](https://x.com/k1rallik/status/2114726480559112502) - 英文入门：先给有终点线的活，手机派活再追问，附 5 段提示词和 2 个可复用 skill，并教你核算订阅值不值 · @k1rallik · 2026-10-26。标签：`getting-started` `prompt` `english`
 - [Galaxy Day：persona × harness 澄清长文（X 长文）](https://x.com/dustADD/status/2114884419488235543) - 中文澄清文：别被「年薪 / 日更」话术吓到，先分清 persona 与 harness 各管什么，再决定要不要照抄演示 · @dustADD · 2026-10-27。标签：`persona` `harness` `chinese`
+- [Grok Bot vs Muse vs Hark 对比（X 帖）](https://x.com/heitieya/status/2114913630751994106) - 中文横向对比三款助手的定位与上手差异，适合选型前先分清场景再开 Bot · @heitieya · 2026-10-27。标签：`comparison` `muse` `hark` `chinese`
 
 ## 多 Bot 团队（63）
 
@@ -155,7 +156,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [三 Bot 共建会自己长的第二大脑 wiki（X 帖）](https://x.com/Mr_Buzzoni/status/2114655525388394685) - 英文：reader 只归档、librarian 改 wiki、checker 查矛盾；新旧冲突只标记不覆盖，附可粘贴启动提示词 · @Mr_Buzzoni · 2026-10-26。标签：`multi-bot` `wiki` `second-brain` `english`
 - [两周实测六 Bot 群聊小队（掘金）](https://juejin.cn/post/7700798335888490511) - 中文实测：用六个 Bot 搭群聊小队两周，写清分工、交接和踩坑，适合想先小规模试多 Bot 的人 · @宅小年 · 2026-10-26。标签：`multi-bot` `group-chat` `chinese` `juejin`
 
-## Routine 与额度（27）
+## Routine 与额度（28）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -184,8 +185,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [learncursor.dev：Grok Bot 的技能和 Routine 讲解（英文）](https://learncursor.dev/learn/cursor-agents/grok-bot-skills-routines) - 英文教程页，把技能和 Routine 分开讲，再说两者怎么配合；概念清楚，适合想弄懂两者区别的人。标签：`skill` `routine` `english`
 - [六条 Routine 把早晨从开工改成验收（X 长文）](https://x.com/eng_khairallah1/status/2114647320834810139) - 英文长文：构建轮班、发布雷达、来源包、客户台账、收件分拣、周五复盘六条，强调一事一 Bot、无事不打扰、只起草不代发 · @eng_khairallah1 · 2026-10-26。标签：`routine` `prompt` `english`
 - [Routine 记账员：算唤醒次数、加变化检查（X 帖）](https://x.com/gippp69/status/2114689520964677797) - 英文串帖：可粘贴审计提示词，估唤醒次数、建议先比变化再跑、付款类保持草稿，最后出前后对比表并存成 Skill · @gippp69 · 2026-10-26。标签：`routine` `quota` `prompt` `english`
+- [每周功能对照：首席 Bot 对照更新日志改 Routine（X 长文）](https://x.com/Michael_Fenech_/status/2114661816873734316) - 英文七步：只读官方更新，把新功能映射到现有 Routine，只出提案不擅自改；适合怕绕路和额度浪费的人 · @Michael_Fenech_ · 2026-10-26。标签：`routines` `changelog` `weekly` `english`
 
-## 连接、技能与记忆（49）
+## 连接、技能与记忆（51）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -236,8 +238,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [让 Bot 借 Bland 替你打电话排队（X 帖子）](https://x.com/sxzz/status/2112344654683492392) - 中文，作者让 Bot 调用 Bland 这类 AI 电话服务去打官方热线；思路新，涉及个人信息的电话要自己在旁边盯着 · @sxzz · 2026-10-20。标签：`phone` `bland` `chinese`
 - [Tesla Fleet 六步：用 Grok Bot 控车（X 帖）](https://x.com/Chansoo/status/2110436904705397053) - 英文：Fleet API 建应用→密钥放云电脑→GitHub Pages 验签→secure fields 不进聊天→一次 OAuth→车端配对；敏感动作先问你 · @Chansoo · 2026-10-14。标签：`tesla` `fleet-api` `secure-fields` `english`
 - [Bridge Bot：让 ChatGPT / Claude Code 派活给 Grok Bot（X 帖）](https://x.com/moritzkremb/status/2114051840102768922) - 公开模板：加 Bot 后拿到 webhook URL、密钥和一段现成提示，贴进 ChatGPT 或 Claude Code 就装好 /send-to-grok-bot；密钥只放对方工具的密钥设置 · @moritzkremb · 2026-10-24。标签：`webhook` `bridge` `chatgpt` `claude`
+- [X 连接器书签 / DM / 长文草稿不再额外扣 API（X 帖）](https://x.com/jinglian/status/2114928279199330602) - 中文转述官方：连上 X 后书签、私信、长文草稿等不再另付 API；适合核对连接器账单口径 · @jinglian · 2026-10-27。标签：`x-connector` `api` `billing` `chinese`
+- [个人与工作邮箱日历分 Bot（X 帖）](https://x.com/darrell_tw_/status/2115021834223812760) - 中文小技巧：个人与工作的 Gmail / 日历各开一个 Bot，权限与记忆不串；比单 Bot 多账号更清晰 · @darrell_tw_ · 2026-10-27。标签：`gmail` `calendar` `multi-bot` `chinese`
 
-## 一人公司与内容（56）
+## 一人公司与内容（58）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -295,6 +299,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [关注列表体检：揪出僵尸号并出取关清单（X 帖）](https://x.com/CrypSaf/status/2114660781174198660) - 英文：让 Bot 按静默天数筛关注列表，生成可点击取关页；取关仍由本人手点，提示词在自回复里 · @CrypSaf · 2026-10-26。标签：`x` `following` `audit` `english`
 - [内容系统：One Bot per Job（X 长文）](https://x.com/zaimiri/status/2114727526345941125) - 英文全指南：一岗一 Bot、写声线、用真实数据体检账号、排每日 Routine；硬规矩是 Bot 不发帖不私信 · @zaimiri · 2026-10-26。标签：`content` `one-bot-one-job` `english`
 - [How to Make Money on X with Grok Bot（X 长文）](https://x.com/ryangrowthh/status/2114730076197798214) - 英文：六条变现路径与漏斗配比，主页体检、CTA 反推、转化追踪各附提示词；接作者内容引擎续篇 · @ryangrowthh · 2026-10-26。标签：`monetization` `x` `funnel` `english`
+- [I Wrote an X Article with Grok Bot（X 帖）](https://x.com/FFBuncho/status/2114935585098129851) - 英文实测：Bot 起草进 X Articles 草稿、你再点发布；接 X 连接器变更后不必再为发文额外扣 API 额度 · @FFBuncho · 2026-10-27。标签：`x-articles` `draft` `connector` `english`
+- [十个生活域 Grok Bot 案例按收藏数盘点（X 帖）](https://x.com/longhaiqwe123/status/2114975635244556347) - 中文合集：按收藏数挑十条生活域用法，适合灵感扫一眼再挑一条深挖 · @longhaiqwe123 · 2026-10-27。标签：`usecases` `roundup` `chinese`
 
 ## 安全（11）
 

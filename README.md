@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **32** 个配方，格式统一，提示词可以直接复制
-- **157** 个生态项目和学习资源，每条都打开核对过
-- **288** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **33** 个配方，格式统一，提示词可以直接复制
+- **158** 个生态项目和学习资源，每条都打开核对过
+- **294** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **109** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（32）
+## 配方（33）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -59,11 +59,12 @@
 | [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
 | [一周晚饭：周六排好，过敏当硬规则](recipes/weekly-dinner.md) | 每周都在愁吃什么、家里有人过敏或挑食、想把买菜清单也一起省掉的人 |
+| [每周功能对照：让首席 Bot 对照更新日志改你的 Routine](recipes/weekly-feature-check.md) | 已经开了一批 Routine、怕绕路和额度浪费、想跟着官方新功能收紧流程的人 |
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（157）
+## 生态清单（158）
 
 ### 官方与工具（18）
 
@@ -191,7 +192,7 @@
 - [The Daily Diff（Bot 编的个人报纸）](https://github.com/indrayam/samachar) - 一个由 Bot 每天挑论文和帖子、生成静态报纸的真实站点，想做个人信息日报可以看它的文件分工。标签：`newsletter` `static-site` `example` 📘
 - [x-virality-score](https://github.com/monkeyteamvip/x-virality-score) - 只读扫关注列表与趋势词，起草帖子并刷新你自己的 GitHub Pages 看板；发布仍由你点，示范看板只是别人的例子。标签：`x` `dashboard` `routine` `draft` 📘
 
-### 自托管与替代方案（16）
+### 自托管与替代方案（17）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -209,6 +210,7 @@
 - [agent-harbor](https://github.com/TommyBez/agent-harbor) - 在 macOS 上用 tmux 管一堆 Claude Code、Codex 会话，适合本机同时跑好几个编程代理的人。标签：`macos` `tmux` `coding-agents` 📦
 - [Botling：在 Mac 上仿一个 Bot，底层换成 Claude Code / Codex](https://github.com/william1010121/Botling) - 自己电脑上跑的仿制品，驱动本机的 Claude Code 或 Codex 命令行；GPL-3.0 许可，适合想在本机试同类玩法的开发者。标签：`self-hosted` `mac` `claude-code` 📘
 - [grokbot-tunnel](https://github.com/exa-pub/grokbot-tunnel) - Go 写的隧道：把 Linux 服务器接成 Grok Bot 的一台电脑，无桌面也能跑命令和读写文件；MIT，星少但文档和安装脚本齐全。标签：`tunnel` `self-host` `go` `linux` 📘
+- [Local Bot：Mac 本机跑的 Grok Bot 风格队友](https://github.com/patrick-mns/localbot) - MIT；用 Cua Driver + Docker/Lume 在 Mac 上跑本地队友，最新发布 LocalBot-0.15.2.dmg；星少但更新到 2026-10-27。标签：`self-hosted` `mac` `local` `cua` `docker` 📦
 
 ### 硬件（6）
 
