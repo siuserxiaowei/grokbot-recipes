@@ -7415,5 +7415,339 @@
     "level": "自己实跑过",
     "verified": "2026-10-28",
     "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://github.com/twhit223/grok-bot-cos",
+    "kept": true,
+    "cat": "D",
+    "title": "Chief of Staff（幕僚长可复刻配置）",
+    "review": "五条 Routine + 目标完整句子 + 外发只起草；MIT，有中文装机教程",
+    "tags": [
+      "chief-of-staff",
+      "routine",
+      "template"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28",
+    "repo": "twhit223/grok-bot-cos"
+  },
+  {
+    "url": "https://github.com/DynamaxVV/mygrokbot-host",
+    "kept": true,
+    "cat": "G",
+    "title": "MyGrokbot：自建桌面工作台",
+    "review": "多 Bot 名册与审批后执行；GPL-3.0，非官方，星少",
+    "tags": [
+      "self-hosted",
+      "desktop",
+      "multi-bot"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28",
+    "repo": "DynamaxVV/mygrokbot-host"
+  },
+  {
+    "url": "https://github.com/AIPMAndy/grok-bot-handbook",
+    "kept": true,
+    "cat": "I",
+    "title": "Grok Bot 保姆级中文使用攻略",
+    "review": "26 章+指令+FAQ；MIT 有在线版，作者另有付费咨询",
+    "tags": [
+      "chinese",
+      "guide",
+      "prompts"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28",
+    "repo": "AIPMAndy/grok-bot-handbook"
+  },
+  {
+    "url": "https://github.com/themsquared/grok-bot-cross-agent-leak",
+    "kept": true,
+    "cat": "I",
+    "title": "跨 Bot 泄露事故：复现说明与护栏思路",
+    "review": "同机敏感只读与外发混装风险；只采纳防御要点，不复制复现",
+    "tags": [
+      "security",
+      "mcp",
+      "incident"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28",
+    "repo": "themsquared/grok-bot-cross-agent-leak"
+  },
+  {
+    "url": "https://x.ai/bot/9E8iw2zlg2fTWzUT6RUsP",
+    "kept": true,
+    "cat": "E",
+    "title": "模板：Script This Routine",
+    "review": "省额度体检，机械检查改脚本再叫醒 Bot",
+    "tags": [
+      "template",
+      "routine",
+      "usage",
+      "script"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/chief-of-staff",
+    "kept": true,
+    "cat": "T2",
+    "title": "幕僚长装机（实测教程）",
+    "review": "装机核对 5/5，样例晨报虚构，外发只起草",
+    "tags": [
+      "tutorial",
+      "chief-of-staff",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://github.com/siuserxiaowei/grokbot-recipes/blob/main/recipes/shared-box-guardrails.md",
+    "kept": true,
+    "cat": "T6",
+    "title": "共享云电脑护栏（配方）",
+    "review": "敏感只读别和能外发 Bot 混装；不提供复现步骤",
+    "tags": [
+      "security",
+      "shared-box"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-28",
+    "repo": "siuserxiaowei/grokbot-recipes"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2114873656014930007",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 系列 1-5：做你的第一个 Bot",
+    "review": "中文长文，五要素派活，附可复制指令",
+    "tags": [
+      "starter",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/alpha_founders/status/2115160193763778775",
+    "kept": true,
+    "cat": "T1",
+    "title": "The Complete Grok Bot Guide（Founders School）",
+    "review": "英文三级上手指南",
+    "tags": [
+      "guide",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/LoganTGott/status/2115141226294862261",
+    "kept": true,
+    "cat": "T1",
+    "title": "How To Master Grok Bot（15 分钟入门）",
+    "review": "英文，先讲清概念再装第一个一岗 bot",
+    "tags": [
+      "starter",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/XFreeze/status/2115103136125997258",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 常见用法误区与改法",
+    "review": "事件触发、五要素、Auto-review、先测再定时",
+    "tags": [
+      "mistakes",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/ai_voyager168/status/2115238521908720002",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 实战玩法 · 10.28 晨间五则",
+    "review": "中文汇总开发信、Webhook、Skill 再 Routine",
+    "tags": [
+      "index",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/Greshamtrade/status/2115225301701493075",
+    "kept": true,
+    "cat": "T1",
+    "title": "9 个高星 Grok Bot GitHub 配置对照",
+    "review": "按翻车点对照高星仓库",
+    "tags": [
+      "index",
+      "github",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/gippp69/status/2115018135396905000",
+    "kept": true,
+    "cat": "T2",
+    "title": "7 Bots 1 Clock：共用账本 + 手机看板",
+    "review": "LEDGER.md 交接，周约 60 次运行",
+    "tags": [
+      "team",
+      "ledger",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/milesdeutscher/status/2115095293209539012",
+    "kept": true,
+    "cat": "T2",
+    "title": "9 个 bot 分四个部门",
+    "review": "夜班出货、早报汇总，附建队启动提示词",
+    "tags": [
+      "team",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/drew_ponder/status/2115120349151219892",
+    "kept": true,
+    "cat": "T2",
+    "title": "11 个 bot 零点击跑九个平台",
+    "review": "一岗一条线，发帖前检查清单",
+    "tags": [
+      "team",
+      "content",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/teedubya/status/2115174209001558428",
+    "kept": true,
+    "cat": "T2",
+    "title": "带 30 个 bot 的人怎么 15 分钟讲透",
+    "review": "五部门花名册 + Pages/Vault + 跨工具串连",
+    "tags": [
+      "team",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/Kevin_Logan/status/2115077015569048015",
+    "kept": true,
+    "cat": "T3",
+    "title": "模板：Script This Routine（省额度体检）",
+    "review": "机械检查改脚本，需要判断才叫醒",
+    "tags": [
+      "routine",
+      "usage",
+      "template"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/keyiLeYi/status/2115022960897790101",
+    "kept": true,
+    "cat": "T3",
+    "title": "Grok Bot 更新提醒 Bot 模板",
+    "review": "监控 changelog/RSS，有更新再私聊",
+    "tags": [
+      "routine",
+      "changelog",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/KamilStanuch/status/2115002175277445222",
+    "kept": true,
+    "cat": "T4",
+    "title": "X 书签进 Sheet + Drive 夜更",
+    "review": "书签进可搜索表格并备份图片",
+    "tags": [
+      "bookmarks",
+      "sheets",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/anytwocardzz/status/2115009901273497811",
+    "kept": true,
+    "cat": "T5",
+    "title": "Six AI Bots 内容团队",
+    "review": "只跟首席说话，每天打包三份草稿",
+    "tags": [
+      "content",
+      "team",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/slash1sol/status/2115049607902200007",
+    "kept": true,
+    "cat": "T5",
+    "title": "Flop Coroner：解剖没起量的帖子",
+    "review": "验尸岗写 never_again.md，不代发",
+    "tags": [
+      "content",
+      "review",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/felixleezd/status/2115155579488583948",
+    "kept": true,
+    "cat": "T5",
+    "title": "首席设计工程师：流失点变待批设计",
+    "review": "每周读分析出设计，等本人选定才上线",
+    "tags": [
+      "design",
+      "product",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/fangyuan093/status/2115232740354429278",
+    "kept": true,
+    "cat": "T5",
+    "title": "用 Grok Bot 做内容调研与爆款结构",
+    "review": "中文，对标热帖+语音回答套模板",
+    "tags": [
+      "content",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
   }
 ]
