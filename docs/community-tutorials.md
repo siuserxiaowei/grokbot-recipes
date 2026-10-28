@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 344 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 354 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（92）
+## 入门与配置（94）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -98,6 +98,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 常见用法误区与改法](https://x.com/XFreeze/status/2115103136125997258) - 事件触发、五要素、Auto-review、先测再定时。标签：`mistakes` `english`
 - [Grok Bot 实战玩法 · 10.28 晨间五则](https://x.com/ai_voyager168/status/2115238521908720002) - 中文汇总开发信、Webhook、Skill 再 Routine。标签：`index` `chinese`
 - [9 个高星 Grok Bot GitHub 配置对照](https://x.com/Greshamtrade/status/2115225301701493075) - 按翻车点对照高星仓库。标签：`index` `github` `english`
+- [最近官方更新怎么用：Pages、视频、Vault 等](https://x.com/xiangxiang103/status/2115266384276099575) - 按官方更新帖逐条讲用在哪，附可直接粘的提示词 · @xiangxiang103 · 2026-10-28。标签：`tips` `chinese` `update`
+- [锁屏 Action Button 绑 Start Dictation](https://x.com/chessxyz/status/2115277445310070866) - 日记式实操：操作按钮搜 grok 绑听写，碎片想法直接进 Bot · @chessxyz · 2026-10-28。标签：`ios` `dictation` `chinese`
 
 ## 多 Bot 团队（70）
 
@@ -172,7 +174,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [11 个 bot 零点击跑九个平台](https://x.com/drew_ponder/status/2115120349151219892) - 一岗一条线，发帖前检查清单。标签：`team` `content` `english`
 - [带 30 个 bot 的人怎么 15 分钟讲透](https://x.com/teedubya/status/2115174209001558428) - 五部门花名册 + Pages/Vault + 跨工具串连。标签：`team` `english`
 
-## Routine 与额度（36）
+## Routine 与额度（38）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -210,6 +212,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [安静检查：没变化一行 quiet（实测教程）](https://grokguide.si/tutorials/quiet-check) - 三次实跑：基线、quiet exit=0、改价后才报 changed。标签：`tutorial` `routine` `grokguide`
 - [模板：Script This Routine（省额度体检）](https://x.com/Kevin_Logan/status/2115077015569048015) - 机械检查改脚本，需要判断才叫醒。标签：`routine` `usage` `template`
 - [Grok Bot 更新提醒 Bot 模板](https://x.com/keyiLeYi/status/2115022960897790101) - 监控 changelog/RSS，有更新再私聊。标签：`routine` `changelog` `chinese`
+- [Stop Wasting Usage：七条派活习惯](https://x.com/karanC_12/status/2108921353256698298) - 先写清结果和停止点，重复活收成 skill，别硬上多 Agent · @karanC_12 · 2026-10-10。标签：`usage` `tips`
+- [夜间找移动端 UI bug 交给编程代理](https://x.com/acadictive/status/2115354128884875735) - 每晚真实站点登录/未登录各扫一遍，修清单交给 coding agent · @acadictive · 2026-10-28。标签：`routine` `qa` `mobile`
 
 ## 连接、技能与记忆（52）
 
@@ -266,7 +270,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [个人与工作邮箱日历分 Bot（X 帖）](https://x.com/darrell_tw_/status/2115021834223812760) - 中文小技巧：个人与工作的 Gmail / 日历各开一个 Bot，权限与记忆不串；比单 Bot 多账号更清晰 · @darrell_tw_ · 2026-10-27。标签：`gmail` `calendar` `multi-bot` `chinese`
 - [X 书签进 Sheet + Drive 夜更](https://x.com/KamilStanuch/status/2115002175277445222) - 书签进可搜索表格并备份图片。标签：`bookmarks` `sheets` `english`
 
-## 一人公司与内容（79）
+## 一人公司与内容（85）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -347,6 +351,12 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [本站：飞书提及过滤](https://grokguide.si/tutorials/feishu-mention-filter) - 我们实跑的样例事件过滤。标签：`chinese` `ours`
 - [本站：0.77.0 记忆导入草稿](https://grokguide.si/tutorials/memory-import-pack) - 对照 changelog 的导入转换。标签：`chinese` `ours`
 - [本站：赛博小晚五模式](https://grokguide.si/tutorials/cyber-xiaowan-modes) - Grok Bot 人设适配与路由自测。标签：`chinese` `ours`
+- [独立产品客服助理：Gmail + Linear](https://x.com/kevinma_dev_zh/status/2115244657328148885) - 收反馈、起草回复、修完回访；外发仍由你点发送 · @kevinma_dev_zh · 2026-10-28。标签：`support` `gmail` `chinese`
+- [24 小时研究助理：财报与宏观速读](https://x.com/eastweb3eth/status/2115292530971668749) - 五类研究派活写法；只作信息整理，不写投资建议 · @eastweb3eth · 2026-10-28。标签：`research` `routine` `chinese`
+- [从 Reddit 额度抱怨里挖小产品](https://x.com/Timojoy713/status/2115352795935367605) - 四步法 + 每日 Routine 提示词；只谈选题，不谈售价 · @Timojoy713 · 2026-10-28。标签：`indie` `routine` `chinese`
+- [让 Grok Bot 帮你建 X 列表](https://x.com/HeyYoGB/status/2115265797115527389) - 一句提示词按话题建公开列表，人工删不合适的再置顶 · @HeyYoGB · 2026-10-28。标签：`x` `lists`
+- [Grok Bot SEO System 全流程](https://x.com/JulianGoldieSEO/status/2115287849092477332) - Scout/Director/Writer 分工写法；文中数字为作者自述，本站不推付费课 · @JulianGoldieSEO · 2026-10-28。标签：`seo` `content`
+- [本站：tibot 提及与关键词摘要](https://grokguide.si/tutorials/tibot) - 我们核对模板可达性并写了虚构样例摘要。标签：`chinese` `ours` `x`
 
 ## 安全（15）
 

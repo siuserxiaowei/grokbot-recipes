@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **51** 个配方，格式统一，提示词可以直接复制
-- **164** 个生态项目和学习资源，每条都打开核对过
-- **344** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **52** 个配方，格式统一，提示词可以直接复制
+- **167** 个生态项目和学习资源，每条都打开核对过
+- **354** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **109** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（51）
+## 配方（52）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -71,6 +71,7 @@
 | [没信号不打扰：通知规则写清楚](recipes/silent-notify.md) | 开了监控类 Routine 的人 |
 | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) | 有一件事每周都要手动做一遍的人 |
 | [多 Bot 交接看板](recipes/team-monitor.md) | 手上有两个以上 Bot、想知道活卡在谁那里的人 |
+| [tibot：盯自己的提及与关键词，从不代发](recipes/tibot.md) | 在 X 上有账号、想及时看到别人提你或谈你关键词、又不想让 Bot 替你发帖或擅自拉黑的人 |
 | [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
 | [完成前验证闸门：不过禁止标 done](recipes/verify-gate.md) | Bot 常说「好了」却缺文件、数字对不上的人 |
 | [虚拟机服务花名册：重置后分清谁来装](recipes/vm-service-ledger.md) | 虚拟机常重置、工具总要重装，想先分清可自动装和需自己登录的人 |
@@ -82,7 +83,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（164）
+## 生态清单（167）
 
 ### 官方与工具（18）
 
@@ -124,7 +125,7 @@
 - [灵境 Lingverse：中文写手系列（墨灵）](https://github.com/lingverse-ai/lingverse) - 可一键导入的中文 Bot 系列，第一位「墨灵」专写长文并把同一素材改成多平台版本；内容 CC BY 4.0、代码 MIT。标签：`template` `writing` `chinese` 📘
 - [grok-starter-kit：Grok Bot + Claude Code 起步套件](https://github.com/qubicsdata/grok-starter-kit) - 按 AGENTS.md 分阶段接入：第一阶段只读盘点现有配置，没你同意不覆盖；带第二大脑、技能和晨报 Routine。标签：`starter` `claude-code` `routine` 📘
 
-### 技能与连接（36）
+### 技能与连接（37）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -162,8 +163,9 @@
 - [Holdt：iCloud 日历 MCP](https://github.com/holdtapp/holdt) - 部署在你自己的 Cloudflare 上，让 Bot 读写 iCloud 日历；每次改动先出预览再问你，需要 Apple 专用密码。标签：`mcp` `calendar` `icloud` 📦
 - [grokbot-box-heal：云电脑自愈套件](https://github.com/heyalchang/grokbot-box-heal) - 平台重置或休眠后把 Tailscale、软件包基线与 gh 登录态装回；从不代登录、从不下载 Tailscale 二进制，离线包和首次登录要你自己放。标签：`cloud-computer` `tailscale` `recovery` 📘
 - [Grok Bridge（niharnm）：多工具任务交接 CLI](https://github.com/niharnm/grok-bridge) - 一个命令行在 Grok Bot 与 Codex、Claude Code、Cursor 等之间双向交接任务；作者自标实验性 alpha，反向调用要你批准本机命令。标签：`bridge` `cli` `multi-agent` 📦
+- [模板：Grok Bot Command Line（Brian Roemmele）](https://x.ai/bot/PKtdrwJNC54pLQIAT3H60) - 用 Google Voice + Gmail 短信/语音留言派活；大陆申请不了 Google Voice。标签：`template` `sms` `voice` 📘
 
-### 多 Bot 团队（24）
+### 多 Bot 团队（25）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -189,8 +191,9 @@
 - [dark-factory](https://github.com/ELU-Labs/dark-factory) - 一段提示词让多个 Grok Bot 按工厂流水线改仓库，配合 ELU 做真实用户验证；需要分支保护和预览部署。标签：`multi-bot` `factory` `verification` `prompt` 📘
 - [Grok Bot OS：个人舰队起步包](https://github.com/skorten/grokbot-os) - 一个总管当前台、其余 Bot 一岗一事，私人 Notion 只许一个 Bot 写，凡是要发出去的都要你批准。标签：`multi-bot` `notion` `starter` 📘
 - [Chief of Staff（幕僚长可复刻配置）](https://github.com/twhit223/grok-bot-cos) - 五条 Routine + 目标完整句子 + 外发只起草；MIT，有中文装机教程。标签：`chief-of-staff` `routine` `template` 📦
+- [T3 Tots](https://github.com/Deepusleepy/t3-tots) - T3 Code 的 Grok Bot 伴侣；未公开本地接口、升级可能失效；从 release tag + manifest 校验安装。标签：`skill` `t3-code` `webhook` 📦
 
-### Routine 与监控（9）
+### Routine 与监控（10）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -201,6 +204,7 @@
 - [Desk：本地项目看板，留言直达 Bot](https://github.com/TeebooTed/desk) - 单文件本地看板按项目排进度，留言框经本机中转发到 Bot 的 Webhook Routine；一键安装脚本会装开机自启，先克隆下来看一遍再跑。标签：`dashboard` `webhook` `routine` 📘
 - [GrugBot Console：Routine 总控台](https://github.com/devprecated/grokbot-management-console) - 一页看所有 Bot 的 Routine 与每次运行，可暂停、改时间、改提示词，出事一键全停；Next.js + Postgres 自托管，部署前看清它读哪些日志。标签：`routine` `dashboard` `self-hosted` 📦
 - [模板：Script This Routine](https://x.ai/bot/9E8iw2zlg2fTWzUT6RUsP) - 省额度体检，机械检查改脚本再叫醒 Bot。标签：`template` `routine` `usage` `script` 📦
+- [模板：tibot（poteto）](https://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3) - 盯你的提及和关键词（没 @ 也抓），每天一份短摘要，从不替你发帖；可选手动确认后拉黑。标签：`template` `x` `digest` 📘
 
 ### 一人公司与内容（7）
 

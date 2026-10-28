@@ -8010,5 +8010,205 @@
     ],
     "level": "仓库已核对",
     "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3",
+    "kept": true,
+    "cat": "E",
+    "title": "模板：tibot（poteto）",
+    "review": "盯你的提及和关键词（没 @ 也抓），每天一份短摘要，从不替你发帖；可选手动确认后拉黑",
+    "tags": [
+      "template",
+      "x",
+      "digest"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://x.ai/bot/PKtdrwJNC54pLQIAT3H60",
+    "kept": true,
+    "cat": "C",
+    "title": "模板：Grok Bot Command Line（Brian Roemmele）",
+    "review": "用 Google Voice + Gmail 短信/语音留言派活；大陆申请不了 Google Voice",
+    "tags": [
+      "template",
+      "sms",
+      "voice"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/Deepusleepy/t3-tots",
+    "kept": true,
+    "cat": "D",
+    "title": "T3 Tots",
+    "review": "T3 Code 的 Grok Bot 伴侣；未公开本地接口、升级可能失效；从 release tag + manifest 校验安装",
+    "tags": [
+      "skill",
+      "t3-code",
+      "webhook"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28",
+    "repo": "Deepusleepy/t3-tots",
+    "last_push": "2026-10-28",
+    "license": "MIT"
+  },
+  {
+    "url": "https://x.com/xiangxiang103/status/2115266384276099575",
+    "kept": true,
+    "cat": "T1",
+    "title": "最近官方更新怎么用：Pages、视频、Vault 等",
+    "review": "按官方更新帖逐条讲用在哪，附可直接粘的提示词",
+    "tags": [
+      "tips",
+      "chinese",
+      "update"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "xiangxiang103",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/chessxyz/status/2115277445310070866",
+    "kept": true,
+    "cat": "T1",
+    "title": "锁屏 Action Button 绑 Start Dictation",
+    "review": "日记式实操：操作按钮搜 grok 绑听写，碎片想法直接进 Bot",
+    "tags": [
+      "ios",
+      "dictation",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "chessxyz",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/kevinma_dev_zh/status/2115244657328148885",
+    "kept": true,
+    "cat": "T5",
+    "title": "独立产品客服助理：Gmail + Linear",
+    "review": "收反馈、起草回复、修完回访；外发仍由你点发送",
+    "tags": [
+      "support",
+      "gmail",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "kevinma_dev_zh",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/eastweb3eth/status/2115292530971668749",
+    "kept": true,
+    "cat": "T5",
+    "title": "24 小时研究助理：财报与宏观速读",
+    "review": "五类研究派活写法；只作信息整理，不写投资建议",
+    "tags": [
+      "research",
+      "routine",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "eastweb3eth",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/Timojoy713/status/2115352795935367605",
+    "kept": true,
+    "cat": "T5",
+    "title": "从 Reddit 额度抱怨里挖小产品",
+    "review": "四步法 + 每日 Routine 提示词；只谈选题，不谈售价",
+    "tags": [
+      "indie",
+      "routine",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "Timojoy713",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/karanC_12/status/2108921353256698298",
+    "kept": true,
+    "cat": "T3",
+    "title": "Stop Wasting Usage：七条派活习惯",
+    "review": "先写清结果和停止点，重复活收成 skill，别硬上多 Agent",
+    "tags": [
+      "usage",
+      "tips"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "karanC_12",
+    "date": "2026-10-10"
+  },
+  {
+    "url": "https://x.com/HeyYoGB/status/2115265797115527389",
+    "kept": true,
+    "cat": "T5",
+    "title": "让 Grok Bot 帮你建 X 列表",
+    "review": "一句提示词按话题建公开列表，人工删不合适的再置顶",
+    "tags": [
+      "x",
+      "lists"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "HeyYoGB",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/JulianGoldieSEO/status/2115287849092477332",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot SEO System 全流程",
+    "review": "Scout/Director/Writer 分工写法；文中数字为作者自述，本站不推付费课",
+    "tags": [
+      "seo",
+      "content"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "JulianGoldieSEO",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/acadictive/status/2115354128884875735",
+    "kept": true,
+    "cat": "T3",
+    "title": "夜间找移动端 UI bug 交给编程代理",
+    "review": "每晚真实站点登录/未登录各扫一遍，修清单交给 coding agent",
+    "tags": [
+      "routine",
+      "qa",
+      "mobile"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-28",
+    "author": "acadictive",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/tibot",
+    "kept": true,
+    "cat": "T5",
+    "title": "本站：tibot 提及与关键词摘要",
+    "review": "我们核对模板可达性并写了虚构样例摘要",
+    "tags": [
+      "chinese",
+      "ours",
+      "x"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
   }
 ]
