@@ -7749,5 +7749,266 @@
     ],
     "level": "读过内容",
     "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/FEyPw9pGeiCO3IkkZ9sclBdjnde",
+    "kept": true,
+    "cat": "T5",
+    "title": "铁柱AGI 知识空间（Grok Bot 方案总览）",
+    "review": "中文合集入口；飞书正文需登录，公开目录可当选题源",
+    "tags": [
+      "chinese",
+      "hub",
+      "feishu"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://bot.fmcat.top/",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot 新手指南（学习站）",
+    "review": "中文系统教程站，章节齐全，适合对照复刻",
+    "tags": [
+      "chinese",
+      "guide"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://bot.fmcat.top/changelog/",
+    "kept": true,
+    "cat": "T5",
+    "title": "学习站更新日志（含桌面 0.77.0）",
+    "review": "中文编译官方能力；0.77.0 记忆导入与问答卡片已复刻",
+    "tags": [
+      "chinese",
+      "changelog"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://github.com/cyberxiaowan/cyber-xiaowan",
+    "kept": true,
+    "cat": "P",
+    "title": "赛博小晚 cyber-xiaowan",
+    "review": "五模式思考 OS；Grok Bot 侧用人设适配，不走 npx 目录",
+    "tags": [
+      "skill",
+      "thinking"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/Myw6wFW8EicOiRkoEAXcVJqinee",
+    "kept": false,
+    "cat": "T5",
+    "title": "大一统 X 订阅解读",
+    "review": "涉订阅选型与价格，站规不收录正文；仅登记来源",
+    "tags": [
+      "chinese",
+      "skip-price"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/OPMJw2EgtiWMiJkcrzFc6gJ8nlf",
+    "kept": true,
+    "cat": "T5",
+    "title": "额度超长续航新手指南",
+    "review": "中文额度习惯；我们只收省额度玩法，不写代充与标价",
+    "tags": [
+      "chinese",
+      "quota"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/DyADwei3ziJwyOkuNKscNv2ungf",
+    "kept": false,
+    "cat": "T5",
+    "title": "绑定 X 送开发者积分",
+    "review": "积分/撒钱导向，站规跳过正文复刻",
+    "tags": [
+      "chinese",
+      "skip-promo"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/F2VXw4hVbirRUjk5QgFcWS0jnJg",
+    "kept": true,
+    "cat": "T5",
+    "title": "团队接入飞书教程",
+    "review": "飞书接入；我们复刻了提及过滤篇（样例事件）",
+    "tags": [
+      "chinese",
+      "feishu"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/Kxtxw9gLBiqi0nkhZpCc7le5nrh",
+    "kept": true,
+    "cat": "T5",
+    "title": "Webhook + 快捷指令知识入库",
+    "review": "入库流水线；已复刻白名单过滤实跑",
+    "tags": [
+      "chinese",
+      "webhook"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/IwrfwYt1ti0aDWk3YEdcGyQRnUb",
+    "kept": true,
+    "cat": "T5",
+    "title": "微信聊天记录打通 Grok Bot",
+    "review": "快捷指令进阶；并入知识入库篇，不直连微信登录",
+    "tags": [
+      "chinese",
+      "wechat"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/Q6ZdwzjO5i6z0pkdMfyca8Cbnye",
+    "kept": true,
+    "cat": "T5",
+    "title": "虚拟机重置备份恢复",
+    "review": "重置后工具恢复；已复刻服务花名册分类",
+    "tags": [
+      "chinese",
+      "backup"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://jcng5q8n0f3z.feishu.cn/wiki/W0TCwnTmbiIJ9KkF4S4cV6ifnCh",
+    "kept": true,
+    "cat": "T5",
+    "title": "Agent 系统备份 / 百万撤离",
+    "review": "整套撤离；已复刻白名单备份+密钥跳过",
+    "tags": [
+      "chinese",
+      "backup"
+    ],
+    "level": "读过标题",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://bot.fmcat.top/part3/21-backup",
+    "kept": true,
+    "cat": "T5",
+    "title": "学习站：云电脑重置后找回配置",
+    "review": "公开章，和自愈/花名册对照着读",
+    "tags": [
+      "chinese",
+      "backup"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://bot.fmcat.top/part3/22-feishu-wechat",
+    "kept": true,
+    "cat": "T5",
+    "title": "学习站：飞书与微信",
+    "review": "公开章，和提及过滤、入库篇对照",
+    "tags": [
+      "chinese",
+      "feishu"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/agent-memory-backup",
+    "kept": true,
+    "cat": "T5",
+    "title": "本站：Agent 系统备份",
+    "review": "我们实跑的白名单撤离",
+    "tags": [
+      "chinese",
+      "ours"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/vm-service-ledger",
+    "kept": true,
+    "cat": "T5",
+    "title": "本站：虚拟机服务花名册",
+    "review": "我们实跑的三类分类",
+    "tags": [
+      "chinese",
+      "ours"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/webhook-knowledge-inbox",
+    "kept": true,
+    "cat": "T5",
+    "title": "本站：Webhook 知识入库",
+    "review": "我们实跑的白名单入库",
+    "tags": [
+      "chinese",
+      "ours"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/feishu-mention-filter",
+    "kept": true,
+    "cat": "T5",
+    "title": "本站：飞书提及过滤",
+    "review": "我们实跑的样例事件过滤",
+    "tags": [
+      "chinese",
+      "ours"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/memory-import-pack",
+    "kept": true,
+    "cat": "T5",
+    "title": "本站：0.77.0 记忆导入草稿",
+    "review": "对照 changelog 的导入转换",
+    "tags": [
+      "chinese",
+      "ours"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/cyber-xiaowan-modes",
+    "kept": true,
+    "cat": "T5",
+    "title": "本站：赛博小晚五模式",
+    "review": "Grok Bot 人设适配与路由自测",
+    "tags": [
+      "chinese",
+      "ours"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-28"
   }
 ]
