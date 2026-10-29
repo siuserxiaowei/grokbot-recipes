@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **60** 个配方，格式统一，提示词可以直接复制
-- **174** 个生态项目和学习资源，每条都打开核对过
-- **380** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **61** 个配方，格式统一，提示词可以直接复制
+- **177** 个生态项目和学习资源，每条都打开核对过
+- **392** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **110** 篇 grokguide.si 自己的教程
+- **111** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（60）
+## 配方（61）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -81,6 +81,7 @@
 | [Routine 次数先算账：合计 300、单个 200](recipes/trigger-budget.md) | 开了多个定时任务、怕触发次数超限的人 |
 | [Vault Hints：每条写清什么时候用](recipes/vault-hints.md) | Vault 里存了多张卡、多个账号、怕 Bot 用错的人 |
 | [账单查订阅：找出忘了退的重复扣款](recipes/subscription-audit.md) | 总觉得每月有几笔扣款说不清、又不想让 Bot 碰网银的人 |
+| [免费试用防扣费：按服务时区算，提前两天提醒](recipes/trial-guard.md) | 开过免费试用、总是扣了钱才想起来，又不想让 Bot 自己去取消的人 |
 | [完成前验证闸门：不过禁止标 done](recipes/verify-gate.md) | Bot 常说「好了」却缺文件、数字对不上的人 |
 | [虚拟机服务花名册：重置后分清谁来装](recipes/vm-service-ledger.md) | 虚拟机常重置、工具总要重装，想先分清可自动装和需自己登录的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
@@ -91,7 +92,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（174）
+## 生态清单（177）
 
 ### 官方与工具（19）
 
@@ -115,7 +116,7 @@
 - [botter：非官方 Node.js SDK 与 CLI](https://github.com/jethros-projects/botter) - 用类型化接口给 Grok Bot 派活、跟读对话，也能做桌面客户端；走的是非公开接口，随时可能失效，Node 要打过 10 月安全补丁。标签：`sdk` `cli` `unofficial` 📦
 - [grok-bot-backup](https://github.com/company-notes/grok-bot-backup) - 非官方导出工具：对话、记忆和云电脑文件打包带走；导出的 ZIP 不加密，存放前自己加密。标签：`backup` `export` `unofficial` 📦
 
-### 模板与目录（16）
+### 模板与目录（17）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -133,8 +134,9 @@
 - [grok-bot-templates（ChamathRosh）：小商家用的六个草稿模板](https://github.com/ChamathRosh/grok-bot-templates) - 六个面向小店的模板，产出都只停在草稿、要你确认才发；目前只有排期那个带一键安装，README 里推广链接较多，挑模板本身看就行。标签：`template` `small-business` `draft` 📘
 - [灵境 Lingverse：中文写手系列（墨灵）](https://github.com/lingverse-ai/lingverse) - 可一键导入的中文 Bot 系列，第一位「墨灵」专写长文并把同一素材改成多平台版本；内容 CC BY 4.0、代码 MIT。标签：`template` `writing` `chinese` 📘
 - [grok-starter-kit：Grok Bot + Claude Code 起步套件](https://github.com/qubicsdata/grok-starter-kit) - 按 AGENTS.md 分阶段接入：第一阶段只读盘点现有配置，没你同意不覆盖；带第二大脑、技能和晨报 Routine。标签：`starter` `claude-code` `routine` 📘
+- [grokbot.rocks：Grok Bot 分享目录](https://grokbot.rocks/) - @BrianRoemmele 维护的公开分享链接大目录，按 26 个类别分，10 月 28 日已收 7500 多个；量大质量不一，站上另推付费会员指南，挑模板时先看说明再装。标签：`directory` `links` `english` 📘
 
-### 技能与连接（40）
+### 技能与连接（41）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -176,6 +178,7 @@
 - [grokbot-weixin](https://github.com/ericyangpan/grokbot-weixin) - 把微信 iLink Bot 消息转成 webhook，交给 Routine 处理；适合想在微信里派活的人，先用测试号试。标签：`webhook` `wechat` `routine` 📦
 - [stampede](https://github.com/vib-z/stampede) - 短信派活给 Bot，经 Tailscale 回到你自己的 Mac 让 Claude Code 干；合并、推送、花钱前都要你点头。标签：`tailscale` `claude-code` `mac` 📦
 - [Tesla-Grokbot-Connector](https://github.com/naoiseirwin/Tesla-Grokbot-Connector) - 本地 MCP，只读查 Tesla 电量、充电、空调和行程，走官方 Fleet API，不发车辆指令。标签：`mcp` `tesla` `read-only` 📦
+- [personal-agent-dossier](https://github.com/AidaShika/personal-agent-dossier) - 把一个 Bot 的职责、规则、记忆、Routine 和依赖打包成一份 .dossier.md，换平台或换机器时照着重建；导入先空跑，自带校验脚本，MIT。标签：`migration` `memory` `skill` 📦
 
 ### 多 Bot 团队（27）
 
@@ -261,7 +264,7 @@
 - [stackchan-grok-bridge](https://github.com/Dissipative-ATLAS/stackchan-grok-bridge) - 中文项目，让 StackChan 小机器人把问题经 Mac 中转和 Cloudflare 信箱交给 Grok Bot，作者记了真机一次往返约三分钟，适合爱折腾硬件的人看思路；仓库没写许可证。标签：`hardware` `stackchan` `cloudflare` `chinese` 📘
 - [小糖：ESP32 圆屏桌面宠物接 Grok Bot](https://github.com/vliuyt/grok-bot-esp32-bridge) - 微雪 1.43 寸圆屏板刷成会眨眼的小宠物，按住按键说话，由 Mac 桥接到你的 Bot；走的是桌面 App 内部接口，作者自己说不保证稳定。标签：`esp32` `hardware` `voice` `chinese` 📘
 
-### 学习资源与合集（29）
+### 学习资源与合集（30）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -294,6 +297,7 @@
 - [跨 Bot 泄露事故：复现说明与护栏思路](https://github.com/themsquared/grok-bot-cross-agent-leak) - 同机敏感只读与外发混装风险；只采纳防御要点，不复制复现。标签：`security` `mcp` `incident` 📦
 
 ## 教程索引
+- [The Daily Bot · What's New](https://thedailybot.vercel.app/whats-new) - 第三方整理的 Grok Bot 每版更新，英文，按版本列新功能，想快速查某个模板哪版上的可以翻；以官方更新日志为准。标签：`changelog` `english` `tracker` 📘
 
 ### 入门教程（14 章）（16）
 

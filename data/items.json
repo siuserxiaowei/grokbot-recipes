@@ -8737,5 +8737,242 @@
     "level": "自己实跑过",
     "verified": "2026-10-29",
     "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://x.com/heizolshao/status/2115436150034677945",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot、Muse、Dots 三家对比（X 长文）",
+    "review": "汇总海外论坛讨论比三家带云电脑的 Bot，偏口碑整理；价格和地区限制以各家官网为准",
+    "tags": [
+      "chinese",
+      "compare",
+      "article"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "heizolshao",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/SIAxiom/status/2115660704409661813",
+    "kept": true,
+    "cat": "T1",
+    "title": "Teach a task：做一遍让 Bot 学（X 帖）",
+    "review": "讲清入口和流程：演示一遍生成技能、先看步骤再测，学会不等于每次都准",
+    "tags": [
+      "chinese",
+      "teach-a-task",
+      "skill"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "SIAxiom",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/RoyOsherove/status/2115591603133764082",
+    "kept": true,
+    "cat": "T2",
+    "title": "Anatomy of a Personal Factory of Grok Bots（X 长文）",
+    "review": "作者用过几种个人 Agent 后的自建“Bot 工厂”复盘，网页版有完整图示",
+    "tags": [
+      "english",
+      "multi-bot",
+      "factory"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "RoyOsherove",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/Totao/status/2115596603478139341",
+    "kept": true,
+    "cat": "T2",
+    "title": "Household team：家务四件套（X 帖）",
+    "review": "厨师、囤货采购、管家、打扫四个分享 Bot，首次对话会引导设置，厨师和囤货搭配用",
+    "tags": [
+      "english",
+      "household",
+      "template"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "Totao",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/KinGao476942/status/2115592603605557564",
+    "kept": true,
+    "cat": "T4",
+    "title": "把 Codex、Claude Code 等接进 Grok Bot（X 帖）",
+    "review": "在云电脑用各家 CLI 登录自己的账号再派活；其中 Muse 那段靠第三方转接，可能违反服务条款，别照抄",
+    "tags": [
+      "chinese",
+      "codex",
+      "claude-code"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "KinGao476942",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/Lovislexus/status/2115628435699793960",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok 当项目经理，Claude Code / Codex 写代码（X 帖）",
+    "review": "拆任务、派开发、按测试结果验收三步；作者也提醒要先配好开发 Agent 和权限",
+    "tags": [
+      "chinese",
+      "coding",
+      "pm"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "Lovislexus",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/cnfinancewatch/status/2115737209286660584",
+    "kept": true,
+    "cat": "T5",
+    "title": "财报季 6 个 Bot 分工（X 帖）",
+    "review": "日历、前瞻、预期波动、结果、电话会、汇总六个 Bot 群聊接力；只读资料不下单，数据要点来源核对",
+    "tags": [
+      "chinese",
+      "finance",
+      "multi-bot"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "cnfinancewatch",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/joganicpe/status/2115716591090385167",
+    "kept": true,
+    "cat": "T5",
+    "title": "Pages 看板 7 条提示词（X 帖）",
+    "review": "指挥中心、账目、线索、X 主页等七个 Page 各一句话提示词，带更新时间和“别发出去”的边界",
+    "tags": [
+      "chinese",
+      "pages",
+      "dashboard"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "joganicpe",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/AlexFinn/status/2115596225793921048",
+    "kept": true,
+    "cat": "T5",
+    "title": "Pages and dashboards 讲解视频（X 帖）",
+    "review": "演示五个看板怎么搭，其中一个用来盯用量",
+    "tags": [
+      "english",
+      "pages",
+      "video"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "AlexFinn",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/Leo100x/status/2115715241677930811",
+    "kept": true,
+    "cat": "T5",
+    "title": "My content team works while I sleep（X 长文）",
+    "review": "每天 6 点（UTC）出简报和 7 条草稿，人只挑认同的再发；流程和分工写得细",
+    "tags": [
+      "english",
+      "content",
+      "routine"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "Leo100x",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/umerdarazkha/status/2115697032086319425",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot Can Run Your Social Media（X 长文）",
+    "review": "借社媒排程工具接六个 Routine：排期、周检、回评、催审批、周报；账号小，当思路看",
+    "tags": [
+      "english",
+      "social",
+      "routine"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "umerdarazkha",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/trial-guard",
+    "kept": true,
+    "cat": "T5",
+    "title": "免费试用扣费前提醒（实测教程）",
+    "review": "6 个虚构试用实跑：只加天数算错 3 个；按服务时区算，只提醒不取消",
+    "tags": [
+      "tutorial",
+      "calendar",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokbot.rocks/",
+    "kept": true,
+    "cat": "B",
+    "title": "grokbot.rocks",
+    "review": "公开分享链接大目录，26 类 7500 多个；量大质量不一，站上另推付费会员指南",
+    "tags": [
+      "directory",
+      "links",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "BrianRoemmele"
+  },
+  {
+    "url": "https://github.com/AidaShika/personal-agent-dossier",
+    "kept": true,
+    "cat": "C",
+    "title": "personal-agent-dossier",
+    "review": "把 Bot 的职责、规则、记忆、Routine 打包成 .dossier.md 迁移；导入先空跑，带校验脚本",
+    "tags": [
+      "migration",
+      "memory",
+      "skill"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "AidaShika/personal-agent-dossier",
+    "last_push": "2026-10-29",
+    "license": "MIT"
+  },
+  {
+    "url": "https://thedailybot.vercel.app/whats-new",
+    "kept": true,
+    "cat": "I",
+    "title": "The Daily Bot · What's New",
+    "review": "第三方逐版整理更新内容，查某模板哪版上线方便；以官方日志为准",
+    "tags": [
+      "changelog",
+      "english",
+      "tracker"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29"
   }
 ]
