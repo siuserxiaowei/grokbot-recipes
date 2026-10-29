@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **52** 个配方，格式统一，提示词可以直接复制
+- **59** 个配方，格式统一，提示词可以直接复制
 - **167** 个生态项目和学习资源，每条都打开核对过
-- **354** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **361** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **109** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（52）
+## 配方（59）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -32,10 +32,14 @@
 |---|---|
 | [Agent 系统备份：搬走记忆，不带走密钥](recipes/agent-memory-backup.md) | 云电脑要重置或换机器，想带走 bots/skills/inbox，又绝不能把 secrets 打进包的人 |
 | [批准后定时发帖：一次性 Routine 查重再发](recipes/approved-post.md) | 想让 Bot 定时发帖，又怕它发重复、日期写错、数字没出处的人 |
+| [附件预检：查上限再分批](recipes/attach-precheck.md) | 一次要发很多照片视频给 Bot、总有发不上的人 |
 | [注意力清单：让 Bot 从你的行动里整理重点](recipes/attention-list.md) | 手上项目多、优先级清单总过期的人 |
+| [Auto-review 规则先判一遍：动词加对象，冲突按先问](recipes/auto-review-rules.md) | 想在 0.77 Permissions 里加审批规则、又怕写宽了让 Bot 乱发的人 |
 | [多 Bot 共用规则底座：一个入口、一个写入者](recipes/bot-harness.md) | 同时用好几个 Bot、规则老对不上或者共享文件被互相覆盖的人 |
 | [花名册和看板：多 Bot 分工不打架](recipes/bot-roster.md) | 有 3 个以上 Bot 的人 |
+| [群发前剔除退信和退订](recipes/bounce-suppress.md) | 要给一批人发通知、名单里有退过信的人 |
 | [云电脑自愈：重置后把 Tailscale 和常用状态装回来](recipes/box-heal.md) | 云电脑常被平台重置、换机或休眠，想让 Tailscale、软件包基线和 gh 登录态自动回来，又不想让脚本代你登录的人 |
+| [代打电话话术卡：敏感内容一律拦下](recipes/call-script-guard.md) | 想让 Bot 代打订座、催物流电话的人 |
 | [先查来源：会变的事不只信记忆](recipes/check-source-first.md) | Bot 记住的日期、邮箱、订单状态过期了还在照着用的人 |
 | [幕僚长 Bot：一天五条简报，外发等你批准](recipes/chief-of-staff.md) | 想要一个只盯目标、待办和会议的「幕僚长」、又不想它擅自发 Slack / 邮件的人 |
 | [竞品雷达：只报有变化的部分](recipes/competitor-radar.md) | 需要盯竞争对手的人 |
@@ -69,10 +73,13 @@
 | [脚本先跑：固定的活交给脚本，Bot 只看一行结果](recipes/script-first.md) | Routine 每天巡检页面或清单，没变化也要一页页看、额度掉得快的人 |
 | [共享云电脑护栏：敏感只读别和能外发的 Bot 混装](recipes/shared-box-guardrails.md) | 一台云电脑上跑多个 Bot、其中至少一个能读敏感数据、另一个能发 Slack / 邮件 / 社媒的人 |
 | [没信号不打扰：通知规则写清楚](recipes/silent-notify.md) | 开了监控类 Routine 的人 |
+| [表格转 Markdown 和 Slack：中文按 2 格对齐](recipes/table-copy-formats.md) | 要把表格贴到 Slack 和文档、贴过去总乱的人 |
 | [教会一次：把手动操作变成技能](recipes/teach-a-task.md) | 有一件事每周都要手动做一遍的人 |
 | [多 Bot 交接看板](recipes/team-monitor.md) | 手上有两个以上 Bot、想知道活卡在谁那里的人 |
 | [tibot：盯自己的提及与关键词，从不代发](recipes/tibot.md) | 在 X 上有账号、想及时看到别人提你或谈你关键词、又不想让 Bot 替你发帖或擅自拉黑的人 |
 | [待办提醒：没做完就再提醒](recipes/todo-nag.md) | 清单 App 一过截止就不管了、事情总被忘掉的人 |
+| [Routine 次数先算账：合计 300、单个 200](recipes/trigger-budget.md) | 开了多个定时任务、怕触发次数超限的人 |
+| [Vault Hints：每条写清什么时候用](recipes/vault-hints.md) | Vault 里存了多张卡、多个账号、怕 Bot 用错的人 |
 | [完成前验证闸门：不过禁止标 done](recipes/verify-gate.md) | Bot 常说「好了」却缺文件、数字对不上的人 |
 | [虚拟机服务花名册：重置后分清谁来装](recipes/vm-service-ledger.md) | 虚拟机常重置、工具总要重装，想先分清可自动装和需自己登录的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |

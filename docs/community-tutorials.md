@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 354 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 361 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（94）
+## 入门与配置（97）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -100,6 +100,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [9 个高星 Grok Bot GitHub 配置对照](https://x.com/Greshamtrade/status/2115225301701493075) - 按翻车点对照高星仓库。标签：`index` `github` `english`
 - [最近官方更新怎么用：Pages、视频、Vault 等](https://x.com/xiangxiang103/status/2115266384276099575) - 按官方更新帖逐条讲用在哪，附可直接粘的提示词 · @xiangxiang103 · 2026-10-28。标签：`tips` `chinese` `update`
 - [锁屏 Action Button 绑 Start Dictation](https://x.com/chessxyz/status/2115277445310070866) - 日记式实操：操作按钮搜 grok 绑听写，碎片想法直接进 Bot · @chessxyz · 2026-10-28。标签：`ios` `dictation` `chinese`
+- [表格转 Markdown 和 Slack：中文按 2 格对齐（实测教程）](https://grokguide.si/tutorials/table-copy-formats) - 按字数补齐时“乌鲁木齐”那行会歪，按显示宽度才齐。标签：`tutorial` `table` `grokguide`
+- [附件预检：查上限再分批（实测教程）](https://grokguide.si/tutorials/attach-precheck) - 26 个占位文件实跑：2 个超限，其余拆成 3 条。标签：`tutorial` `files` `grokguide`
+- [群发前剔除退信和退订（实测教程）](https://grokguide.si/tutorials/bounce-suppress) - 大小写统一后才发现 B@Example.com 就是已退订那个；6 个剩 3 个。标签：`tutorial` `email` `grokguide`
 
 ## 多 Bot 团队（70）
 
@@ -174,7 +177,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [11 个 bot 零点击跑九个平台](https://x.com/drew_ponder/status/2115120349151219892) - 一岗一条线，发帖前检查清单。标签：`team` `content` `english`
 - [带 30 个 bot 的人怎么 15 分钟讲透](https://x.com/teedubya/status/2115174209001558428) - 五部门花名册 + Pages/Vault + 跨工具串连。标签：`team` `english`
 
-## Routine 与额度（38）
+## Routine 与额度（39）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -214,6 +217,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 更新提醒 Bot 模板](https://x.com/keyiLeYi/status/2115022960897790101) - 监控 changelog/RSS，有更新再私聊。标签：`routine` `changelog` `chinese`
 - [Stop Wasting Usage：七条派活习惯](https://x.com/karanC_12/status/2108921353256698298) - 先写清结果和停止点，重复活收成 skill，别硬上多 Agent · @karanC_12 · 2026-10-10。标签：`usage` `tips`
 - [夜间找移动端 UI bug 交给编程代理](https://x.com/acadictive/status/2115354128884875735) - 每晚真实站点登录/未登录各扫一遍，修清单交给 coding agent · @acadictive · 2026-10-28。标签：`routine` `qa` `mobile`
+- [Routine 次数先算账：合计 300、单个 200（实测教程）](https://grokguide.si/tutorials/trigger-budget) - 示例里一个 15 秒轮询就 240 次，合计 313 超限；改事件触发后 73 次。标签：`tutorial` `routine` `grokguide`
 
 ## 连接、技能与记忆（52）
 
@@ -358,7 +362,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot SEO System 全流程](https://x.com/JulianGoldieSEO/status/2115287849092477332) - Scout/Director/Writer 分工写法；文中数字为作者自述，本站不推付费课 · @JulianGoldieSEO · 2026-10-28。标签：`seo` `content`
 - [本站：tibot 提及与关键词摘要](https://grokguide.si/tutorials/tibot) - 我们核对模板可达性并写了虚构样例摘要。标签：`chinese` `ours` `x`
 
-## 安全（15）
+## 安全（18）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
@@ -375,3 +379,6 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [.env 只比键名（实测教程）](https://grokguide.si/tutorials/env-key-diff) - 5 键 vs 4 键只报名字，从不打印等号右边。标签：`tutorial` `security` `grokguide`
 - [tar 先预览不解压（实测教程）](https://grokguide.si/tutorials/tar-preview) - 列出 3 个成员，未调用 extract；危险路径会标警告。标签：`tutorial` `security` `grokguide`
 - [共享云电脑护栏（配方）](https://github.com/siuserxiaowei/grokbot-recipes/blob/main/recipes/shared-box-guardrails.md) - 敏感只读别和能外发 Bot 混装；不提供复现步骤。标签：`security` `shared-box`
+- [Auto-review 规则先判一遍：动词加对象，冲突按先问（实测教程）](https://grokguide.si/tutorials/auto-review-rules) - 宽词“邮件”放进放行，会和“发送邮件”打架；示例 6 个动作里 1 个冲突。标签：`tutorial` `permissions` `grokguide`
+- [代打电话话术卡：敏感内容一律拦下（实测教程）](https://grokguide.si/tutorials/call-script-guard) - 5 张示例卡拦下 3 张；功能未全量上线，我们没真打。标签：`tutorial` `phone` `grokguide`
+- [Vault Hints：每条写清什么时候用（实测教程）](https://grokguide.si/tutorials/vault-hints) - 假条目实跑：主卡没写提示，付款时被备用卡抢先。标签：`tutorial` `vault` `grokguide`

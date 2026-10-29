@@ -8210,5 +8210,110 @@
     ],
     "level": "仓库已核对",
     "verified": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/auto-review-rules",
+    "kept": true,
+    "cat": "T6",
+    "title": "Auto-review 规则先判一遍：动词加对象，冲突按先问（实测教程）",
+    "review": "宽词“邮件”放进放行，会和“发送邮件”打架；示例 6 个动作里 1 个冲突",
+    "tags": [
+      "tutorial",
+      "permissions",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/table-copy-formats",
+    "kept": true,
+    "cat": "T1",
+    "title": "表格转 Markdown 和 Slack：中文按 2 格对齐（实测教程）",
+    "review": "按字数补齐时“乌鲁木齐”那行会歪，按显示宽度才齐",
+    "tags": [
+      "tutorial",
+      "table",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/trigger-budget",
+    "kept": true,
+    "cat": "T3",
+    "title": "Routine 次数先算账：合计 300、单个 200（实测教程）",
+    "review": "示例里一个 15 秒轮询就 240 次，合计 313 超限；改事件触发后 73 次",
+    "tags": [
+      "tutorial",
+      "routine",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/attach-precheck",
+    "kept": true,
+    "cat": "T1",
+    "title": "附件预检：查上限再分批（实测教程）",
+    "review": "26 个占位文件实跑：2 个超限，其余拆成 3 条",
+    "tags": [
+      "tutorial",
+      "files",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/call-script-guard",
+    "kept": true,
+    "cat": "T6",
+    "title": "代打电话话术卡：敏感内容一律拦下（实测教程）",
+    "review": "5 张示例卡拦下 3 张；功能未全量上线，我们没真打",
+    "tags": [
+      "tutorial",
+      "phone",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/bounce-suppress",
+    "kept": true,
+    "cat": "T1",
+    "title": "群发前剔除退信和退订（实测教程）",
+    "review": "大小写统一后才发现 B@Example.com 就是已退订那个；6 个剩 3 个",
+    "tags": [
+      "tutorial",
+      "email",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/vault-hints",
+    "kept": true,
+    "cat": "T6",
+    "title": "Vault Hints：每条写清什么时候用（实测教程）",
+    "review": "假条目实跑：主卡没写提示，付款时被备用卡抢先",
+    "tags": [
+      "tutorial",
+      "vault",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
   }
 ]
