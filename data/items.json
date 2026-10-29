@@ -8315,5 +8315,427 @@
     "level": "自己实跑过",
     "verified": "2026-10-29",
     "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://github.com/ericyangpan/grokbot-weixin",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-weixin",
+    "review": "把微信 iLink Bot 消息转成 webhook，交给 Routine 处理；适合想在微信里派活的人，先用测试号试",
+    "tags": [
+      "webhook",
+      "wechat",
+      "routine"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "ericyangpan/grokbot-weixin",
+    "last_push": "2026-10-25",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/vib-z/stampede",
+    "kept": true,
+    "cat": "C",
+    "title": "stampede",
+    "review": "短信派活给 Bot，经 Tailscale 回到你自己的 Mac 让 Claude Code 干；合并、推送、花钱前都要你点头",
+    "tags": [
+      "tailscale",
+      "claude-code",
+      "mac"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "vib-z/stampede",
+    "last_push": "2026-10-28",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/crusader0711/specialized-ai-grok-empire",
+    "kept": true,
+    "cat": "D",
+    "title": "Project SAGE",
+    "review": "多 Bot 团队的规章包：角色分工、交接和审批写成文件；偏框架，拿来改成自己的规矩再用",
+    "tags": [
+      "multi-bot",
+      "governance",
+      "framework"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "crusader0711/specialized-ai-grok-empire",
+    "last_push": "2026-10-28",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/GlennHasABeard/foreman",
+    "kept": true,
+    "cat": "D",
+    "title": "Foreman",
+    "review": "一组只读的 X 小 Bot，可整队装也可单装；要自备官方 X API 凭证，不代发",
+    "tags": [
+      "x",
+      "read-only",
+      "crew"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "GlennHasABeard/foreman",
+    "last_push": "2026-10-25",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/company-notes/grok-bot-backup",
+    "kept": true,
+    "cat": "A",
+    "title": "grok-bot-backup",
+    "review": "非官方导出工具：对话、记忆和云电脑文件打包带走；导出的 ZIP 不加密，存放前自己加密",
+    "tags": [
+      "backup",
+      "export",
+      "unofficial"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "company-notes/grok-bot-backup",
+    "last_push": "2026-10-23",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/naoiseirwin/Tesla-Grokbot-Connector",
+    "kept": true,
+    "cat": "C",
+    "title": "Tesla-Grokbot-Connector",
+    "review": "本地 MCP，只读查 Tesla 电量、充电、空调和行程，走官方 Fleet API，不发车辆指令",
+    "tags": [
+      "mcp",
+      "tesla",
+      "read-only"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "naoiseirwin/Tesla-Grokbot-Connector",
+    "last_push": "2026-10-27",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/alexsergivan/kwant",
+    "kept": true,
+    "cat": "G",
+    "title": "kwant",
+    "review": "自托管的多 Bot 工作台，单个 Rust 程序带审批和 Routine；AGPL 协议，改了要开源",
+    "tags": [
+      "self-hosted",
+      "rust",
+      "multi-bot"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-29",
+    "repo": "alexsergivan/kwant",
+    "last_push": "2026-10-29",
+    "license": "AGPL-3.0"
+  },
+  {
+    "url": "https://x.com/0xlangeai/status/2115583879285506449",
+    "kept": true,
+    "cat": "T5",
+    "title": "AI Edge 的 Elon 用法中文整理（X 帖）",
+    "review": "中文速读：查僵尸订阅、批处理工单、买完盯物流、侧边键语音四个用法",
+    "tags": [
+      "chinese",
+      "x",
+      "workflow"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "0xlangeai",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/aiedge_/status/2115459312994914327",
+    "kept": true,
+    "cat": "T5",
+    "title": "How Elon Musk & SpaceXSI Use Grok Bot（X 长文）",
+    "review": "五套带提示词的工作流，订阅体检那条写明“缺数据就标出来、不批不退”",
+    "tags": [
+      "english",
+      "workflow",
+      "approval"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "aiedge_",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/thejayden/status/2115388434025955778",
+    "kept": true,
+    "cat": "T2",
+    "title": "How to Automate Your Life With Grok Bot（X 长文）",
+    "review": "十个单职 Bot，每个配建 Bot、任务、Routine 三段提示词，可整套照抄",
+    "tags": [
+      "english",
+      "multi-bot",
+      "routine"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "thejayden",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/thedelost/status/2114701030340300848",
+    "kept": true,
+    "cat": "T2",
+    "title": "The Grok Bot Playbook: Self-Running AI Team（X 长文）",
+    "review": "从一个 Bot 到总管带队：分工、交接、过夜护栏按顺序讲",
+    "tags": [
+      "english",
+      "multi-bot",
+      "guardrails"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "thedelost",
+    "date": "2026-10-26"
+  },
+  {
+    "url": "https://x.com/joelcomm/status/2115507903171887128",
+    "kept": true,
+    "cat": "T2",
+    "title": "Start With One Bot, Not Ten（X 长文）",
+    "review": "62 个 Bot 一半没职责，砍到 10 个各管一件、统一向总管汇报",
+    "tags": [
+      "english",
+      "multi-bot",
+      "audit"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "joelcomm",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/GrokBotRadar/status/2115489802682585477",
+    "kept": true,
+    "cat": "T3",
+    "title": "Your Grok Bot Week Is LEAKING（X 长文）",
+    "review": "导出用量看缓存读取占比，逐条列出额度漏在哪、哪些流行做法其实没用",
+    "tags": [
+      "english",
+      "usage",
+      "routine"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "GrokBotRadar",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/PromptLLM/status/2115472384530555202",
+    "kept": true,
+    "cat": "T6",
+    "title": "Set Up Grok Bot Vault（X 长文）",
+    "review": "Vault 存登录、卡和联系信息的逐步设置，全账号共用这点要先想清楚",
+    "tags": [
+      "english",
+      "vault",
+      "security"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "PromptLLM",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/Michael_Fenech_/status/2115421573524148479",
+    "kept": true,
+    "cat": "T3",
+    "title": "Make Grok Bot read websites cheaper（X 帖）",
+    "review": "同一网站三种读法对比：纯脚本最省、浏览器加脚本次之、看屏幕最费",
+    "tags": [
+      "english",
+      "script",
+      "usage"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "Michael_Fenech_",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/moritzkremb/status/2115390588983849105",
+    "kept": true,
+    "cat": "T4",
+    "title": "用 Cursor 项目指定模型（X 帖）",
+    "review": "建空 Cursor 项目做成技能，让 Bot 把指定模型的活转过去",
+    "tags": [
+      "english",
+      "cursor",
+      "skill"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "moritzkremb",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/heynavtoor/status/2115425844839751726",
+    "kept": true,
+    "cat": "T5",
+    "title": "15 Grok Bot Workflows for Creators（X 长文）",
+    "review": "创作者的 15 个流程：赞助邮件、合作排期、数据汇总，发送前都等你按",
+    "tags": [
+      "english",
+      "creator",
+      "prompts"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "heynavtoor",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/slash1sol/status/2115428869247320547",
+    "kept": true,
+    "cat": "T5",
+    "title": "Reply Window：15 分钟回复窗口（X 帖）",
+    "review": "只标新帖起量的前 15 分钟、两行草稿由你改了再发，规则写得具体",
+    "tags": [
+      "english",
+      "x",
+      "draft"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "slash1sol",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/_StanGirard/status/2115433346301841808",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot for content on two websites（X 长文）",
+    "review": "研究 Bot 只出证据不写稿，写稿 Bot 只能用它给的材料，合并仍由人按",
+    "tags": [
+      "english",
+      "seo",
+      "pipeline"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "_StanGirard",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/VibeMarketer_/status/2115451548402925745",
+    "kept": true,
+    "cat": "T5",
+    "title": "In-House Media Team With One Person（X 长文）",
+    "review": "一个内容负责人加 Bot 做公司媒体：选题、成稿、周复盘都留证据链",
+    "tags": [
+      "english",
+      "content",
+      "team"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "VibeMarketer_",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/thebobmcintosh/status/2115448503807656044",
+    "kept": true,
+    "cat": "T2",
+    "title": "How I Run a Team of AI Bots（X 长文）",
+    "review": "一个经理 Bot 收活再分派，几十个专职 Bot 只开一个对话",
+    "tags": [
+      "english",
+      "multi-bot",
+      "manager"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "thebobmcintosh",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/DotComParker/status/2115464509532090701",
+    "kept": true,
+    "cat": "T5",
+    "title": "11 Income Streams with Grok Bot（X 长文）",
+    "review": "11 种副业流程各带提示词，先查平台规则和披露要求再动手",
+    "tags": [
+      "english",
+      "business",
+      "prompts"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "DotComParker",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/BlockInsight214/status/2115422328175690234",
+    "kept": true,
+    "cat": "T4",
+    "title": "给 Bot 一个专属邮箱再搭邮件应用（X 帖）",
+    "review": "Bot 自己的邮箱和你的邮箱分开，往来干净好查",
+    "tags": [
+      "chinese",
+      "email",
+      "x"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "BlockInsight214",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/kk_ai_lab/status/2115436473830850816",
+    "kept": true,
+    "cat": "T3",
+    "title": "Codex 和 Grok Bot 怎么分额度（X 帖）",
+    "review": "写代码转给 Codex，停群聊改一对一派活；额度口径以自己的用量页为准",
+    "tags": [
+      "chinese",
+      "usage",
+      "codex"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "kk_ai_lab",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://x.com/nana_ai_diary/status/2115397647574151508",
+    "kept": true,
+    "cat": "T1",
+    "title": "学 Grok Bot 值得关注的 10 个账号（X 帖）",
+    "review": "中英文实操博主清单，找教程时按人顺着看比搜关键词快",
+    "tags": [
+      "chinese",
+      "accounts",
+      "x"
+    ],
+    "level": "读过内容",
+    "verified": "2026-10-29",
+    "author": "nana_ai_diary",
+    "date": "2026-10-28"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/subscription-audit",
+    "kept": true,
+    "cat": "T5",
+    "title": "账单里找忘了退的订阅（实测教程）",
+    "review": "虚构账单实跑：不归并商户写法会漏一家；只列清单，退订逐条批",
+    "tags": [
+      "tutorial",
+      "csv",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-29",
+    "repo": "siuserxiaowei/grokguide"
   }
 ]
