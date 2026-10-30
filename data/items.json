@@ -8933,23 +8933,22 @@
     "url": "https://grokbot.rocks/",
     "kept": true,
     "cat": "B",
-    "title": "grokbot.rocks",
-    "review": "公开分享链接大目录，26 类 7500 多个；量大质量不一，站上另推付费会员指南",
+    "title": "grokbot.rocks：Grok Bot 分享目录",
+    "review": "@BrianRoemmele 维护的公开分享链接大目录，按 26 个类别分，10 月 28 日已收 7500 多个；量大质量不一，站上另推付费会员指南，挑模板时先看说明再装",
     "tags": [
       "directory",
       "links",
       "english"
     ],
-    "level": "读过内容",
-    "verified": "2026-10-29",
-    "author": "BrianRoemmele"
+    "level": "读过文档",
+    "verified": "2026-10-29"
   },
   {
     "url": "https://github.com/AidaShika/personal-agent-dossier",
     "kept": true,
     "cat": "C",
     "title": "personal-agent-dossier",
-    "review": "把 Bot 的职责、规则、记忆、Routine 打包成 .dossier.md 迁移；导入先空跑，带校验脚本",
+    "review": "把一个 Bot 的职责、规则、记忆、Routine 和依赖打包成一份 .dossier.md，换平台或换机器时照着重建；导入先空跑，自带校验脚本，MIT",
     "tags": [
       "migration",
       "memory",
@@ -8972,7 +8971,280 @@
       "english",
       "tracker"
     ],
-    "level": "读过内容",
+    "level": "读过文档",
     "verified": "2026-10-29"
+  },
+  {
+    "url": "https://github.com/s87343472/backlink-pilot",
+    "kept": true,
+    "cat": "F",
+    "title": "backlink-pilot",
+    "review": "独立开发者一条命令提交目录站和 awesome 列表；批量提交前先逐站看规则，别变成群发",
+    "tags": [
+      "seo",
+      "backlinks",
+      "cli"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-30",
+    "repo": "s87343472/backlink-pilot",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/tantan1hao/grok-multi-bot-workflow",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-multi-bot-workflow",
+    "review": "纯提示词的多 Bot 协作流程，覆盖拆需求、证据、接续和验收；作者标为实验版 v0.1.0，还没有完整真实任务验收",
+    "tags": [
+      "multi-bot",
+      "workflow",
+      "chinese"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-30",
+    "repo": "tantan1hao/grok-multi-bot-workflow",
+    "last_push": "2026-10-29",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/Aaebraham/head-office",
+    "kept": true,
+    "cat": "D",
+    "title": "head-office",
+    "review": "把 Bot 和其他代理画成一个 3D 办公室看状态；只支持 macOS，读的是本地客户端缓存，不是公开接口，升级可能失效",
+    "tags": [
+      "dashboard",
+      "multi-bot",
+      "macos"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-30",
+    "repo": "Aaebraham/head-office",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/njm-cursor-x/webex-grok",
+    "kept": true,
+    "cat": "C",
+    "title": "webex-grok",
+    "review": "Webex 连接器，能读发消息、用 Bot 的浏览器入会；要 Webex 管理员先开 MCP，作者不是思科官方",
+    "tags": [
+      "connector",
+      "webex",
+      "meetings"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-30",
+    "repo": "njm-cursor-x/webex-grok",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/datadda27/grokbot-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "datadda27/grokbot-skills",
+    "review": "给公开模板（如 CFB Portal Tracker、Prepper）配的现成 skill；技能会跟着仓库更新，装之前钉住版本看一遍",
+    "tags": [
+      "skill",
+      "templates"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-30",
+    "repo": "datadda27/grokbot-skills",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/anselmcmakin/local-ai-manager",
+    "kept": true,
+    "cat": "G",
+    "title": "local-ai-manager",
+    "review": "配合 Local AI Manager 模板在自己电脑跑本地模型；发布包带 SHA-256，面板只开在 127.0.0.1，带看门狗",
+    "tags": [
+      "local-ai",
+      "self-hosted",
+      "template"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-10-30",
+    "repo": "anselmcmakin/local-ai-manager",
+    "last_push": "2026-10-24",
+    "license": "MIT"
+  },
+  {
+    "url": "https://agentusecases.ai/agents/grok-bot",
+    "kept": true,
+    "cat": "B",
+    "title": "agentusecases.ai · Grok Bot",
+    "review": "按场景收集 AI 代理用法的目录，Grok Bot 只是其中一类；有赞助位，效果数字是投稿人自己说的",
+    "tags": [
+      "directory",
+      "use-cases",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/xiaomovps/status/2115738442181333337",
+    "kept": true,
+    "cat": "T1",
+    "title": "新版 Grok Bot 从 0 到 1",
+    "review": "中文长文，按新版重写：先接 X 跑只读任务、再套现成模板、每半个月清一次记忆",
+    "tags": [
+      "beginner",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "xiaomovps",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/bggg_ai/status/2115838960861900911",
+    "kept": true,
+    "cat": "T4",
+    "title": "Bot 当联络员：Notion、Cloudflare Worker 和飞书",
+    "review": "中文分享，Bot 把活转给 Claude 和 Codex；飞书群 @机器人 经免费 Worker 中转做小语种翻译，Notion 当共享库",
+    "tags": [
+      "notion",
+      "feishu",
+      "webhook",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "bggg_ai",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/thisisdjen/status/2115864757173440888",
+    "kept": true,
+    "cat": "T1",
+    "title": "You need Grok Bot.",
+    "review": "英文入门长文，作者用它整理消息、CRM、日程和帖子数据，从零讲起",
+    "tags": [
+      "beginner",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "thisisdjen",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/tibor_tee/status/2115731122206482588",
+    "kept": true,
+    "cat": "T1",
+    "title": "SpaceXSI 高校工作坊复盘",
+    "review": "英文，复盘一场给高校职员的 1 小时工作坊，用虚构学校演示学生支持、合规检查和改网站",
+    "tags": [
+      "workshop",
+      "education",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "tibor_tee",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/debs_obrien/status/2115750113721114878",
+    "kept": true,
+    "cat": "T5",
+    "title": "会说话的求职页：语音代理怎么做、怎么测",
+    "review": "英文，一上午和 Bot 加 ElevenLabs 做出能语音问答的求职页，并写了怎么测试回答",
+    "tags": [
+      "voice",
+      "website",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "debs_obrien",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/m4lkxx/status/2115775972536434946",
+    "kept": true,
+    "cat": "T3",
+    "title": "6 个 Bot 管 200 多个代理，账单更小",
+    "review": "英文，导出用量发现 75% 花在重读聊天；按领域拆成 6 个 Bot，再加一个只管运维的 Bot",
+    "tags": [
+      "multi-bot",
+      "cost",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "m4lkxx",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/doublenickk/status/2115831790191436182",
+    "kept": true,
+    "cat": "T6",
+    "title": "事故排查 Routine：先设权限再下线",
+    "review": "英文，Routine 对比报错和发版、出时间线和假设，改生产先批；提醒所有 Bot 共用文件和登录。我们照这个思路写了时间线教程",
+    "tags": [
+      "incident",
+      "routine",
+      "security",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "doublenickk",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/gippp69/status/2115778291755782151",
+    "kept": true,
+    "cat": "T2",
+    "title": "7 个 Bot 别按钟点空跑：5 个修法",
+    "review": "英文，按钟点唤醒大多空跑，改成事件触发；提醒试运行会真干活、X 额度大家共用",
+    "tags": [
+      "multi-bot",
+      "routine",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "gippp69",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/KanikaBK/status/2115743021312696327",
+    "kept": true,
+    "cat": "T5",
+    "title": "How To Hire Grok Bot as Your First Employee",
+    "review": "英文长文，一 Bot 一岗位、写岗位说明、只给必要工具，附 10 段岗位提示词",
+    "tags": [
+      "solo-business",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "KanikaBK",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/incident-timeline",
+    "kept": true,
+    "cat": "T3",
+    "title": "报错先对发版，事故排查时间线（实测教程）",
+    "review": "虚构 4 次发版、221 条报错实跑：只怪最近发版错 3 种；对上首次出现，缺数据就报失败",
+    "tags": [
+      "tutorial",
+      "incident",
+      "grokguide"
+    ],
+    "level": "自己实跑过",
+    "verified": "2026-10-30",
+    "repo": "siuserxiaowei/grokguide"
   }
 ]

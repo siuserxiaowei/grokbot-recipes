@@ -5,7 +5,7 @@ CAT={"A":"官方与工具","B":"模板与目录","C":"技能与连接","D":"多 
 d=[x for x in json.load(open("data/items.json")) if x["kept"]]
 proj=[x for x in d if not x["cat"].startswith("T")]; tut=[x for x in d if x["cat"].startswith("T")]
 def line(x,mark=False):
-    ex=f" · @{x['author']} · {x['date']}" if x.get("author") else ""
+    ex=f" · @{x['author']} · {x['date']}" if x.get("author") and x.get("date") else ""
     s=f"- [{x['title']}]({x['url']}) - {x['review']}{ex}。标签："+" ".join(f"`{t}`" for t in x["tags"])
     return s+((" 📘" if x["level"]=="读过文档" else " 📦") if mark else "")
 L=["# 社区教程精选","","X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。","",f"共 {len(tut)} 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。",""]
@@ -23,7 +23,7 @@ R=["# Grok Bot 中文配方库 · grokguide 版","",
 "中文 · [English](README.en.md) · [路线图](ROADMAP.md) · [参与贡献](CONTRIBUTING.md)","",
 "[![link-check](https://github.com/siuserxiaowei/grokbot-recipes/actions/workflows/link-check.yml/badge.svg)](https://github.com/siuserxiaowei/grokbot-recipes/actions/workflows/link-check.yml)","",
 "非官方项目。教程正文在 [grokguide.si](https://grokguide.si)。","",
-"## 一眼看完","",f"- **{len(recs)}** 个配方，格式统一，提示词可以直接复制",f"- **{len(proj)}** 个生态项目和学习资源，每条都打开核对过",f"- **{len(tut)}** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)","- **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)","- **109** 篇 grokguide.si 自己的教程","",
+"## 一眼看完","",f"- **{len(recs)}** 个配方，格式统一，提示词可以直接复制",f"- **{len(proj)}** 个生态项目和学习资源，每条都打开核对过",f"- **{len(tut)}** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)","- **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)","- **112** 篇 grokguide.si 自己的教程","",
 "每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。","",
 "## 怎么用","","1. 新手先读 [第 0 章](https://grokguide.si/guide/ch00) 和 [第 1 章](https://grokguide.si/guide/ch01)。","2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。","3. 想找现成的工具和模板，看生态清单。","",
 f"## 配方（{len(recs)}）","","格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。","","| 配方 | 适合 |","|---|---|"]+[f"| [{t}]({f}) | {w} |" for f,t,w in recs]
