@@ -9246,5 +9246,264 @@
     "level": "自己实跑过",
     "verified": "2026-10-30",
     "repo": "siuserxiaowei/grokguide"
+  },
+  {
+    "url": "https://github.com/CodeVelo/inbox-sentry",
+    "kept": true,
+    "cat": "C",
+    "title": "Inbox Sentry：只读盯 Outlook 提示词注入",
+    "review": "免费模板，只读扫 Outlook/Hotmail 里的假指令和隐藏文字，打进审查清单；人回对错教它，MIT 文档仓，装前看清只读范围",
+    "tags": [
+      "security",
+      "email",
+      "template"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-30",
+    "repo": "CodeVelo/inbox-sentry",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/k7cfo/remove-your-data",
+    "kept": true,
+    "cat": "C",
+    "title": "remove-your-data：把链接丢给 Bot 走官方 opt-out",
+    "review": "隐私清理 skill，向数据经纪商走官方退出流程，本地留记录；聊天卡片不含住址电话，Apache-2.0，装前看清要交哪些权限",
+    "tags": [
+      "privacy",
+      "skill",
+      "opt-out"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-30",
+    "repo": "k7cfo/remove-your-data",
+    "last_push": "2026-10-29",
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/number5meme/grokbot-larkbot-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-larkbot-bridge：Lark 长连接接 Routine",
+    "review": "飞书国际版自建应用走官方长连接，纯出站把私聊和群 @ 转给 Routine webhook，可回文本图片文件；MIT，密钥和 owner 保护要先配好",
+    "tags": [
+      "lark",
+      "bridge",
+      "webhook"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-30",
+    "repo": "number5meme/grokbot-larkbot-bridge",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/LofiSu/grok-export-tool",
+    "kept": true,
+    "cat": "A",
+    "title": "grok-export-tool：本机导出 Bot 与 Grok 对话",
+    "review": "读本机已登录浏览器 cookie，CLI 与 MCP 写出 JSONL/Markdown 归档；不要 API key、不发新消息，读 cookie 属敏感能力，MIT",
+    "tags": [
+      "export",
+      "backup",
+      "cli"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-30",
+    "repo": "LofiSu/grok-export-tool",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/Obiwayne/dawnbrief",
+    "kept": true,
+    "cat": "E",
+    "title": "dawnbrief：七点简报预览（日历、邮件、RSS）",
+    "review": "七点简报：日历、专注时段、待办邮件、Miniflux/RSSHub；带本地预览工具，MIT；Grok Bot 技能在正式套餐上我们还没端到端跑通，先当结构参考",
+    "tags": [
+      "routine",
+      "brief",
+      "rss"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-30",
+    "repo": "Obiwayne/dawnbrief",
+    "last_push": "2026-10-23",
+    "license": "MIT"
+  },
+  {
+    "url": "https://x.com/heizolshao/status/2116002071635722606",
+    "kept": true,
+    "cat": "T1",
+    "title": "翻遍 Reddit 整理出 55 个真实案例",
+    "review": "中文长文，把 r/grokbot 上网友自述用法汇成一篇，从工资单到家庭管家，每条一两句，适合找灵感后自己搭",
+    "tags": [
+      "chinese",
+      "cases",
+      "article"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "heizolshao",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/airkin_/status/2115999728492282049",
+    "kept": true,
+    "cat": "T3",
+    "title": "Routine 里别写死工具名，只写意图",
+    "review": "中文踩坑：MCP 工具名写进 Routine，接口一改就挂；改成只写结果、约束和同步去向。我们照这个思路写了意图式 Routine 教程",
+    "tags": [
+      "routine",
+      "mcp",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "airkin_",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/leaf_sanren/status/2115718050389610891",
+    "kept": true,
+    "cat": "T3",
+    "title": "额度机制 15 条：按干的活扣、看图最贵",
+    "review": "中文长帖，讲额度按调用和上下文扣、截图最烧、定时任务按唤醒次数算；文中数字是作者反推，非官方",
+    "tags": [
+      "quota",
+      "routine",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "leaf_sanren",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/ai_chuhai/status/2116013045080092686",
+    "kept": true,
+    "cat": "T4",
+    "title": "外链自动提交 Skill：先筛质量再逐站提交",
+    "review": "中文，基于开源 backlink_skills 改编，一批最多 10 站、验证码和付款交还给你；写明不付费、不加互链、不群发",
+    "tags": [
+      "backlink",
+      "skill",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "ai_chuhai",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/LoPassFilter28/status/2115971630031667365",
+    "kept": true,
+    "cat": "T5",
+    "title": "用 Grok Bot + Trello 整理全部推文归档",
+    "review": "英文八步：申请 X 归档、接 Trello、让 Bot 按类建板；导出归档和申请 Trello key 两步作者让你自己查",
+    "tags": [
+      "archive",
+      "trello",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "LoPassFilter28",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/DYoung_AI/status/2116073922819170776",
+    "kept": true,
+    "cat": "T5",
+    "title": "购物与订阅：三类活分开做",
+    "review": "英文长文，把购物下单和订阅管理拆成三类活分开来做，避免一个 Bot 又比价又下单又退订",
+    "tags": [
+      "shopping",
+      "subscriptions",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "DYoung_AI",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/everestchris6/status/2115850129693688001",
+    "kept": true,
+    "cat": "T5",
+    "title": "用 Grok Bot 自动化营销（完整指南）",
+    "review": "英文长文，填空式 setup 把营销拆成调研、巡查、内容、周报几个岗位；工具清单含抓取和出图，冷邮件要另用发信域名",
+    "tags": [
+      "marketing",
+      "solo",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "everestchris6",
+    "date": "2026-10-29"
+  },
+  {
+    "url": "https://x.com/gm365/status/2116100274230358432",
+    "kept": true,
+    "cat": "T3",
+    "title": "微信读书模板：定时打开网页版刷阅读时长",
+    "review": "中文，用云电脑浏览器打开微信读书网页版扫码后定时阅读；要交出读书账号登录，装前想清楚",
+    "tags": [
+      "routine",
+      "weread",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "gm365",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/bit_sister/status/2116090587409748249",
+    "kept": true,
+    "cat": "T3",
+    "title": "省 Token 实操手册：六招降低周消耗",
+    "review": "中文串帖，强调消耗多来自缓存重读，公式是唤醒次数乘历史长度；和 GrokBotRadar 的用量分析对照看",
+    "tags": [
+      "quota",
+      "cache",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "bit_sister",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/Mulight/status/2116057516652278058",
+    "kept": true,
+    "cat": "T3",
+    "title": "对话太长也耗额度：旧 Bot 交接给新 Bot",
+    "review": "中文，提醒长期往一个窗口塞任务会让上下文越积越贵；可让旧 Bot 建新 Bot 并交接重要记忆",
+    "tags": [
+      "quota",
+      "context",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30",
+    "author": "Mulight",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/routine-intent",
+    "kept": true,
+    "cat": "T3",
+    "title": "Routine 只写意图，别写死工具名（实测教程）",
+    "review": "虚构两条 Routine、两版工具表：写死工具名改名后失败；只写意图自动选到新名",
+    "tags": [
+      "tutorial",
+      "routine",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-30"
   }
 ]

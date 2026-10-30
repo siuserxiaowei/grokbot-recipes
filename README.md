@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **62** 个配方，格式统一，提示词可以直接复制
-- **184** 个生态项目和学习资源，每条都打开核对过
-- **402** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **63** 个配方，格式统一，提示词可以直接复制
+- **189** 个生态项目和学习资源，每条都打开核对过
+- **413** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **112** 篇 grokguide.si 自己的教程
+- **113** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（62）
+## 配方（63）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -69,6 +69,7 @@
 | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) | 想装别人写的技能，又怕作者以后改了内容、或者中途被人动了手脚的人 |
 | [安静检查：没变化只打一行 quiet](recipes/quiet-check.md) | 巡检 Routine 多数时候没变化、却老刷屏的人 |
 | [额度体检：先停、分级、逐条重开](recipes/routine-budget.md) | 开了很多 Routine 的人 |
+| [Routine 只写意图：别把工具名写死](recipes/routine-intent.md) | Routine 里写过具体 MCP 工具名，接口一改就整条挂掉的人 |
 | [安全登录：不把密码直接贴给 Bot](recipes/safe-login.md) | 需要 Bot 登录网站的人 |
 | [网页截图按日期归档](recipes/screenshot-archive.md) | 要盯公开页有没有改、又不要登录爬站的人 |
 | [脚本先跑：固定的活交给脚本，Bot 只看一行结果](recipes/script-first.md) | Routine 每天巡检页面或清单，没变化也要一页页看、额度掉得快的人 |
@@ -93,9 +94,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（184）
+## 生态清单（189）
 
-### 官方与工具（19）
+### 官方与工具（20）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -116,6 +117,7 @@
 - [QuotaPot](https://github.com/Caffrey-Li/QuotaPot) - Mac/Windows 常驻小窗口，盯 Cursor、Claude、Codex、Grok Bot 等用量、对话上下文和磁盘占用，可一键复制整理提示词。标签：`desktop` `quota` `macos` `windows` 📘
 - [botter：非官方 Node.js SDK 与 CLI](https://github.com/jethros-projects/botter) - 用类型化接口给 Grok Bot 派活、跟读对话，也能做桌面客户端；走的是非公开接口，随时可能失效，Node 要打过 10 月安全补丁。标签：`sdk` `cli` `unofficial` 📦
 - [grok-bot-backup](https://github.com/company-notes/grok-bot-backup) - 非官方导出工具：对话、记忆和云电脑文件打包带走；导出的 ZIP 不加密，存放前自己加密。标签：`backup` `export` `unofficial` 📦
+- [grok-export-tool：本机导出 Bot 与 Grok 对话](https://github.com/LofiSu/grok-export-tool) - 读本机已登录浏览器 cookie，CLI 与 MCP 写出 JSONL/Markdown 归档；不要 API key、不发新消息，读 cookie 属敏感能力，MIT。标签：`export` `backup` `cli` 📦
 
 ### 模板与目录（18）
 
@@ -138,7 +140,7 @@
 - [grokbot.rocks：Grok Bot 分享目录](https://grokbot.rocks/) - @BrianRoemmele 维护的公开分享链接大目录，按 26 个类别分，10 月 28 日已收 7500 多个；量大质量不一，站上另推付费会员指南，挑模板时先看说明再装。标签：`directory` `links` `english` 📘
 - [agentusecases.ai · Grok Bot](https://agentusecases.ai/agents/grok-bot) - 按场景收集 AI 代理用法的目录，Grok Bot 只是其中一类；有赞助位，效果数字是投稿人自己说的。标签：`directory` `use-cases` `english` 📘
 
-### 技能与连接（43）
+### 技能与连接（46）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -183,6 +185,9 @@
 - [personal-agent-dossier](https://github.com/AidaShika/personal-agent-dossier) - 把一个 Bot 的职责、规则、记忆、Routine 和依赖打包成一份 .dossier.md，换平台或换机器时照着重建；导入先空跑，自带校验脚本，MIT。标签：`migration` `memory` `skill` 📦
 - [webex-grok](https://github.com/njm-cursor-x/webex-grok) - Webex 连接器，能读发消息、用 Bot 的浏览器入会；要 Webex 管理员先开 MCP，作者不是思科官方。标签：`connector` `webex` `meetings` 📦
 - [datadda27/grokbot-skills](https://github.com/datadda27/grokbot-skills) - 给公开模板（如 CFB Portal Tracker、Prepper）配的现成 skill；技能会跟着仓库更新，装之前钉住版本看一遍。标签：`skill` `templates` 📦
+- [Inbox Sentry：只读盯 Outlook 提示词注入](https://github.com/CodeVelo/inbox-sentry) - 免费模板，只读扫 Outlook/Hotmail 里的假指令和隐藏文字，打进审查清单；人回对错教它，MIT 文档仓，装前看清只读范围。标签：`security` `email` `template` 📦
+- [remove-your-data：把链接丢给 Bot 走官方 opt-out](https://github.com/k7cfo/remove-your-data) - 隐私清理 skill，向数据经纪商走官方退出流程，本地留记录；聊天卡片不含住址电话，Apache-2.0，装前看清要交哪些权限。标签：`privacy` `skill` `opt-out` 📦
+- [grokbot-larkbot-bridge：Lark 长连接接 Routine](https://github.com/number5meme/grokbot-larkbot-bridge) - 飞书国际版自建应用走官方长连接，纯出站把私聊和群 @ 转给 Routine webhook，可回文本图片文件；MIT，密钥和 owner 保护要先配好。标签：`lark` `bridge` `webhook` 📦
 
 ### 多 Bot 团队（29）
 
@@ -216,7 +221,7 @@
 - [grok-multi-bot-workflow](https://github.com/tantan1hao/grok-multi-bot-workflow) - 纯提示词的多 Bot 协作流程，覆盖拆需求、证据、接续和验收；作者标为实验版 v0.1.0，还没有完整真实任务验收。标签：`multi-bot` `workflow` `chinese` 📦
 - [head-office](https://github.com/Aaebraham/head-office) - 把 Bot 和其他代理画成一个 3D 办公室看状态；只支持 macOS，读的是本地客户端缓存，不是公开接口，升级可能失效。标签：`dashboard` `multi-bot` `macos` 📦
 
-### Routine 与监控（10）
+### Routine 与监控（11）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -228,6 +233,7 @@
 - [GrugBot Console：Routine 总控台](https://github.com/devprecated/grokbot-management-console) - 一页看所有 Bot 的 Routine 与每次运行，可暂停、改时间、改提示词，出事一键全停；Next.js + Postgres 自托管，部署前看清它读哪些日志。标签：`routine` `dashboard` `self-hosted` 📦
 - [模板：Script This Routine](https://x.ai/bot/9E8iw2zlg2fTWzUT6RUsP) - 省额度体检，机械检查改脚本再叫醒 Bot。标签：`template` `routine` `usage` `script` 📦
 - [模板：tibot（poteto）](https://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3) - 盯你的提及和关键词（没 @ 也抓），每天一份短摘要，从不替你发帖；可选手动确认后拉黑。标签：`template` `x` `digest` 📘
+- [dawnbrief：七点简报预览（日历、邮件、RSS）](https://github.com/Obiwayne/dawnbrief) - 七点简报：日历、专注时段、待办邮件、Miniflux/RSSHub；带本地预览工具，MIT；Grok Bot 技能在正式套餐上我们还没端到端跑通，先当结构参考。标签：`routine` `brief` `rss` 📦
 
 ### 一人公司与内容（8）
 

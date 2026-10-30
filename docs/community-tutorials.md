@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 402 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 413 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（103）
+## 入门与配置（104）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -109,6 +109,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [新版 Grok Bot 从 0 到 1](https://x.com/xiaomovps/status/2115738442181333337) - 中文长文，按新版重写：先接 X 跑只读任务、再套现成模板、每半个月清一次记忆 · @xiaomovps · 2026-10-29。标签：`beginner` `chinese`
 - [You need Grok Bot.](https://x.com/thisisdjen/status/2115864757173440888) - 英文入门长文，作者用它整理消息、CRM、日程和帖子数据，从零讲起 · @thisisdjen · 2026-10-30。标签：`beginner` `english`
 - [SpaceXSI 高校工作坊复盘](https://x.com/tibor_tee/status/2115731122206482588) - 英文，复盘一场给高校职员的 1 小时工作坊，用虚构学校演示学生支持、合规检查和改网站 · @tibor_tee · 2026-10-29。标签：`workshop` `education` `english`
+- [翻遍 Reddit 整理出 55 个真实案例](https://x.com/heizolshao/status/2116002071635722606) - 中文长文，把 r/grokbot 上网友自述用法汇成一篇，从工资单到家庭管家，每条一两句，适合找灵感后自己搭 · @heizolshao · 2026-10-30。标签：`chinese` `cases` `article`
 
 ## 多 Bot 团队（77）
 
@@ -190,7 +191,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Household team：家务四件套（X 帖）](https://x.com/Totao/status/2115596603478139341) - 厨师、囤货采购、管家、打扫四个分享 Bot，首次对话会引导设置，厨师和囤货搭配用 · @Totao · 2026-10-29。标签：`english` `household` `template`
 - [7 个 Bot 别按钟点空跑：5 个修法](https://x.com/gippp69/status/2115778291755782151) - 英文，按钟点唤醒大多空跑，改成事件触发；提醒试运行会真干活、X 额度大家共用 · @gippp69 · 2026-10-29。标签：`multi-bot` `routine` `english`
 
-## Routine 与额度（44）
+## Routine 与额度（50）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -236,8 +237,14 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Codex 和 Grok Bot 怎么分额度（X 帖）](https://x.com/kk_ai_lab/status/2115436473830850816) - 写代码转给 Codex，停群聊改一对一派活；额度口径以自己的用量页为准 · @kk_ai_lab · 2026-10-28。标签：`chinese` `usage` `codex`
 - [6 个 Bot 管 200 多个代理，账单更小](https://x.com/m4lkxx/status/2115775972536434946) - 英文，导出用量发现 75% 花在重读聊天；按领域拆成 6 个 Bot，再加一个只管运维的 Bot · @m4lkxx · 2026-10-29。标签：`multi-bot` `cost` `english`
 - [报错先对发版，事故排查时间线（实测教程）](https://grokguide.si/tutorials/incident-timeline) - 虚构 4 次发版、221 条报错实跑：只怪最近发版错 3 种；对上首次出现，缺数据就报失败。标签：`tutorial` `incident` `grokguide`
+- [Routine 里别写死工具名，只写意图](https://x.com/airkin_/status/2115999728492282049) - 中文踩坑：MCP 工具名写进 Routine，接口一改就挂；改成只写结果、约束和同步去向。我们照这个思路写了意图式 Routine 教程 · @airkin_ · 2026-10-30。标签：`routine` `mcp` `chinese`
+- [额度机制 15 条：按干的活扣、看图最贵](https://x.com/leaf_sanren/status/2115718050389610891) - 中文长帖，讲额度按调用和上下文扣、截图最烧、定时任务按唤醒次数算；文中数字是作者反推，非官方 · @leaf_sanren · 2026-10-29。标签：`quota` `routine` `chinese`
+- [微信读书模板：定时打开网页版刷阅读时长](https://x.com/gm365/status/2116100274230358432) - 中文，用云电脑浏览器打开微信读书网页版扫码后定时阅读；要交出读书账号登录，装前想清楚 · @gm365 · 2026-10-30。标签：`routine` `weread` `chinese`
+- [省 Token 实操手册：六招降低周消耗](https://x.com/bit_sister/status/2116090587409748249) - 中文串帖，强调消耗多来自缓存重读，公式是唤醒次数乘历史长度；和 GrokBotRadar 的用量分析对照看 · @bit_sister · 2026-10-30。标签：`quota` `cache` `chinese`
+- [对话太长也耗额度：旧 Bot 交接给新 Bot](https://x.com/Mulight/status/2116057516652278058) - 中文，提醒长期往一个窗口塞任务会让上下文越积越贵；可让旧 Bot 建新 Bot 并交接重要记忆 · @Mulight · 2026-10-30。标签：`quota` `context` `chinese`
+- [Routine 只写意图，别写死工具名（实测教程）](https://grokguide.si/tutorials/routine-intent) - 虚构两条 Routine、两版工具表：写死工具名改名后失败；只写意图自动选到新名。标签：`tutorial` `routine` `grokguide`
 
-## 连接、技能与记忆（57）
+## 连接、技能与记忆（58）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -296,8 +303,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [把 Codex、Claude Code 等接进 Grok Bot（X 帖）](https://x.com/KinGao476942/status/2115592603605557564) - 在云电脑用各家 CLI 登录自己的账号再派活；其中 Muse 那段靠第三方转接，可能违反服务条款，别照抄 · @KinGao476942 · 2026-10-29。标签：`chinese` `codex` `claude-code`
 - [Grok 当项目经理，Claude Code / Codex 写代码（X 帖）](https://x.com/Lovislexus/status/2115628435699793960) - 拆任务、派开发、按测试结果验收三步；作者也提醒要先配好开发 Agent 和权限 · @Lovislexus · 2026-10-29。标签：`chinese` `coding` `pm`
 - [Bot 当联络员：Notion、Cloudflare Worker 和飞书](https://x.com/bggg_ai/status/2115838960861900911) - 中文分享，Bot 把活转给 Claude 和 Codex；飞书群 @机器人 经免费 Worker 中转做小语种翻译，Notion 当共享库 · @bggg_ai · 2026-10-30。标签：`notion` `feishu` `webhook` `chinese`
+- [外链自动提交 Skill：先筛质量再逐站提交](https://x.com/ai_chuhai/status/2116013045080092686) - 中文，基于开源 backlink_skills 改编，一批最多 10 站、验证码和付款交还给你；写明不付费、不加互链、不群发 · @ai_chuhai · 2026-10-30。标签：`backlink` `skill` `chinese`
 
-## 一人公司与内容（101）
+## 一人公司与内容（104）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -400,6 +408,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [免费试用扣费前提醒（实测教程）](https://grokguide.si/tutorials/trial-guard) - 6 个虚构试用实跑：只加天数算错 3 个；按服务时区算，只提醒不取消。标签：`tutorial` `calendar` `grokguide`
 - [会说话的求职页：语音代理怎么做、怎么测](https://x.com/debs_obrien/status/2115750113721114878) - 英文，一上午和 Bot 加 ElevenLabs 做出能语音问答的求职页，并写了怎么测试回答 · @debs_obrien · 2026-10-29。标签：`voice` `website` `english`
 - [How To Hire Grok Bot as Your First Employee](https://x.com/KanikaBK/status/2115743021312696327) - 英文长文，一 Bot 一岗位、写岗位说明、只给必要工具，附 10 段岗位提示词 · @KanikaBK · 2026-10-29。标签：`solo-business` `english`
+- [用 Grok Bot + Trello 整理全部推文归档](https://x.com/LoPassFilter28/status/2115971630031667365) - 英文八步：申请 X 归档、接 Trello、让 Bot 按类建板；导出归档和申请 Trello key 两步作者让你自己查 · @LoPassFilter28 · 2026-10-30。标签：`archive` `trello` `english`
+- [购物与订阅：三类活分开做](https://x.com/DYoung_AI/status/2116073922819170776) - 英文长文，把购物下单和订阅管理拆成三类活分开来做，避免一个 Bot 又比价又下单又退订 · @DYoung_AI · 2026-10-30。标签：`shopping` `subscriptions` `english`
+- [用 Grok Bot 自动化营销（完整指南）](https://x.com/everestchris6/status/2115850129693688001) - 英文长文，填空式 setup 把营销拆成调研、巡查、内容、周报几个岗位；工具清单含抓取和出图，冷邮件要另用发信域名 · @everestchris6 · 2026-10-29。标签：`marketing` `solo` `english`
 
 ## 安全（20）
 
