@@ -9928,5 +9928,34 @@
     ],
     "level": "读过文档",
     "verified": "2026-10-31"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/eng-bot-fleet",
+    "kept": true,
+    "cat": "T3",
+    "title": "工程 Bot 小队：共享进度表巡检 + 夜间审计（实测教程）",
+    "review": "虚构 6 行进度表：2 条要追、2 条可待审；CI 时长审计揪出 2 条变慢工作流；无 cloud agents，不自动合并",
+    "tags": [
+      "tutorial",
+      "engineering",
+      "fleet",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31"
+  },
+  {
+    "url": "https://aiblog.ganhai.cloud/guides/grok-bot-for-engineering/",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 工程指南（中译）",
+    "review": "官方工程指南中译：专责工程 Bot、共享看板、夜间审计与 P0；我们据此写了实操教程",
+    "tags": [
+      "engineering",
+      "official",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31"
   }
 ]

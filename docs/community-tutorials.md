@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 432 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 433 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（109）
 
@@ -18,6 +18,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [个人助手赛道对比](https://x.com/sitinme/status/2105180871682884093) - 中文，几款个人助手的横向对比 · @sitinme · 2026-09-30。标签：`compare` `chinese`
 - [值得借鉴的 11 点](https://x.com/sitinme/status/2094964024630989241) - 中文，用 Grok Bot 的 11 条经验 · @sitinme · 2026-09-02。标签：`tips` `chinese`
 - [不写代码的人怎么用好 Grok Bot](https://x.com/KinGao476942/status/2097915898971742325) - 中文长文，讲非工程师怎么配岗位和派活 · @KinGao476942 · 2026-09-10。标签：`non-engineer` `chinese`
+- [Grok Bot 工程指南（中译）](https://aiblog.ganhai.cloud/guides/grok-bot-for-engineering/) - 官方工程指南中译：专责工程 Bot、共享看板巡检、夜间审计与 P0；我们据此写了实操教程 · AI 官博译读 · 2026-09-10。标签：`engineering` `chinese` `official`
 - [工程师怎么用好 Grok Bot](https://x.com/KinGao476942/status/2096232745538334913) - 中文长文，译自官方工程师的指南 · @KinGao476942 · 2026-09-05。标签：`engineering` `chinese`
 - [新手搭一个教练式工作台](https://x.com/Chchenhao0129/status/2099045980221985208) - 中文，从选题到复盘的入门实战 · @Chchenhao0129 · 2026-09-13。标签：`starter` `chinese`
 - [订阅合并后该选哪档](https://x.com/op7418/status/2109839549706969259) - 中文，讲清各档位差别和谁该换 · @op7418 · 2026-10-13。标签：`plan` `chinese`
