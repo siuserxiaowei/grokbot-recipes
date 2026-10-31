@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **64** 个配方，格式统一，提示词可以直接复制
+- **65** 个配方，格式统一，提示词可以直接复制
 - **194** 个生态项目和学习资源，每条都打开核对过
-- **423** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **432** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **112** 篇 grokguide.si 自己的教程
+- **113** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（64）
+## 配方（65）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -69,6 +69,7 @@
 | [海外客服：多语言工单先分流](recipes/outbound-support.md) | 做海外用户的团队 |
 | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) | 想装别人写的技能，又怕作者以后改了内容、或者中途被人动了手脚的人 |
 | [安静检查：没变化只打一行 quiet](recipes/quiet-check.md) | 巡检 Routine 多数时候没变化、却老刷屏的人 |
+| [重复任务扫描：两周日志里找出该自动化的三件事](recipes/repeat-task-scan.md) | 觉得一天很忙却说不清时间花在哪，想先挑三件重复活交给 Bot，又不想一口气开一堆自动化的人 |
 | [额度体检：先停、分级、逐条重开](recipes/routine-budget.md) | 开了很多 Routine 的人 |
 | [Routine 只写意图：别把工具名写死](recipes/routine-intent.md) | Routine 里写过具体 MCP 工具名，接口一改就整条挂掉的人 |
 | [安全登录：不把密码直接贴给 Bot](recipes/safe-login.md) | 需要 Bot 登录网站的人 |
@@ -356,7 +357,7 @@
 - [客服队列交给 Bot：五件事怎么分，退款为什么必须等你点头](https://grokguide.si/playbooks/support-five-jobs)
 - [每天只看一个 Bot：收件、日历、情报三个先“只读”，再交给总管](https://grokguide.si/playbooks/work-four-bots)
 
-### 实操教程（23）
+### 实操教程（24）
 
 一件事一篇，照着做
 
@@ -383,6 +384,7 @@
 - [让 Bot 管待办，没做完就再提醒](https://grokguide.si/tutorials/todo-nag)
 - [会变的事先查来源，别只信记忆](https://grokguide.si/tutorials/check-source-first)
 - [固定的活交给脚本，Bot 只看一行结果](https://grokguide.si/tutorials/script-first)
+- [重复任务扫描：两周日志里找出该自动化的三件事](https://grokguide.si/tutorials/repeat-task-scan)
 - [选题侦察：找高于作者均值的帖，跳过广告抽奖](https://grokguide.si/tutorials/content-scout)
 
 ### 常见问题速查（14）

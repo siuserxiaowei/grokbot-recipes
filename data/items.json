@@ -9785,5 +9785,148 @@
     ],
     "level": "读过文档",
     "verified": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/sanyuanVC/status/2116379043880992790",
+    "kept": true,
+    "cat": "T1",
+    "title": "新手完整起步：从订阅档位到下载登录",
+    "review": "中文，手把手从选对订阅档位到下载登录开第一个 Bot；提醒别买错不含 Bot 的档，文中数字以官方为准",
+    "tags": [
+      "beginner",
+      "subscription",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "sanyuanVC",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/wquguru/status/2115972037403713688",
+    "kept": true,
+    "cat": "T2",
+    "title": "三 Agent 接力：共享记忆层做开源姿势库",
+    "review": "中文长文，Grok Bot 调研结论写入共享记忆，再交给其他 Agent 接力；适合看跨工具交接，第三方服务自行甄别",
+    "tags": [
+      "multi-agent",
+      "memory",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "wquguru",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/JulianGoldieSEO/status/2116363222781702403",
+    "kept": true,
+    "cat": "T2",
+    "title": "6 条提示词搭 26 Agent 操作系统看板",
+    "review": "英文，用 Pages 做只读舰队看板；文中数字与付费社群为作者自述，本站只收免费提示词部分",
+    "tags": [
+      "multi-agent",
+      "pages",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "JulianGoldieSEO",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/ScottyBeamIO/status/2116196322420129989",
+    "kept": true,
+    "cat": "T5",
+    "title": "销售 Shared Bot：调研、报价、Deal Desk",
+    "review": "英文，按角色做成 Shared Bot，一次改进全员同步；强调客户侧输出先给人审，权限跟代表人走",
+    "tags": [
+      "sales",
+      "shared-bot",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "ScottyBeamIO",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/ericzakariasson/status/2116282740802998627",
+    "kept": true,
+    "cat": "T3",
+    "title": "一条提示词：翻两周工作找重复任务",
+    "review": "英文短帖，让 Bot 扫邮件会议 Slack 文档，列出重复活并挑三件先自动化；只建议不私自开",
+    "tags": [
+      "automation",
+      "prompt",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "ericzakariasson",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/Texas_Twins_Dad/status/2116335904692330881",
+    "kept": true,
+    "cat": "T6",
+    "title": "家庭网络安全盾：DNS、防火墙、通行密钥",
+    "review": "英文模板，带你开 DNS 过滤、防火墙和 2FA；改动都由你亲手做，Bot 不索要密码和验证码",
+    "tags": [
+      "security",
+      "family",
+      "template",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "Texas_Twins_Dad",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/JeffRuan_/status/2116468594166870271",
+    "kept": true,
+    "cat": "T1",
+    "title": "Personal Agent 一定要做的八件事",
+    "review": "中文长文，从工作流、知识库、选题调研到复盘输出；强调先跑稳一件再扩，权限按需给",
+    "tags": [
+      "personal-agent",
+      "tips",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "JeffRuan_",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/KimFull/status/2116448944611803412",
+    "kept": true,
+    "cat": "T1",
+    "title": "笔电阖上，Bot 还在云电脑上做事",
+    "review": "繁中入门帖，讲清云电脑和本机是分开的；关 App 后 Routine 仍会跑，本机指令要另开权限",
+    "tags": [
+      "beginner",
+      "computer",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "KimFull",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/repeat-task-scan",
+    "kept": true,
+    "cat": "T3",
+    "title": "重复任务扫描：两周日志找出该自动化的三件事（实测教程）",
+    "review": "虚构 32 条日志实跑：5 项重复入表，一次性丢掉；Top3 收件箱、会前简报、周报抄表",
+    "tags": [
+      "tutorial",
+      "automation",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31"
   }
 ]
