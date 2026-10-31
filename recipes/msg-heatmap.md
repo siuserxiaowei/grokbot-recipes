@@ -17,7 +17,7 @@ Bot 一多，凭感觉说不清自己平时在找谁。用社区仓库 wustep/my
 1. 让 Bot 克隆 https://github.com/wustep/my-bot-scripts ，先读 msg-graph 的 README、SKILL.md 和导出脚本。
 2. 把 SKILL.md 原样存成技能 msg-graph。
 3. 导出时设好时区：`MSG_GRAPH_TZ=Asia/Shanghai python3 export_grokbot_messages.py --out <路径>/messages.json`，默认是美西时间。
-4. 把 JSON 放进查看器的 data 文件夹，起一个只听 127.0.0.1 的小网页服务，打开 http://localhost:47821 。
+4. 把 JSON 放进查看器的 data 文件夹，起一个只听 127.0.0.1 的小网页服务，打开本机查看器地址（默认 `http://127.0.0.1:47821`）。
 5. 以后再跑，输出里出现 `unchanged=1` 就说明数字没变，不用再拷。
 
 ## 提示词

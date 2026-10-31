@@ -10,7 +10,7 @@
 ## 准备
 
 - 一台能用的 Grok Bot 云电脑（bash 5、`jq`、`flock`、`timeout`、`setsid`、`ss`，以及免密 `sudo -n`）
-- 仓库：https://github.com/heyalchang/grokbot-box-heal（MIT）
+- 仓库：[heyalchang/grokbot-box-heal](https://github.com/heyalchang/grokbot-box-heal)（MIT）
 - 若要用 Tailscale：事先下载官方静态二进制放到 `/workspace/tailscale/bin/`，并自己完成一次登录；套件从不下载、从不登录
 - 若不用 Tailscale：装完后对 `100-tailscale` 和 `150-tailscale-online` 建 `DISABLED` 文件
 

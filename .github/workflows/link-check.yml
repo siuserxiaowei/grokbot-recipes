@@ -21,5 +21,7 @@ jobs:
             --exclude '^https://(x|twitter)\.com/'
             --exclude '^https://x\.ai/bot/'
             --exclude '^https://(blog\.csdn\.net|zhuanlan\.zhihu\.com)/'
+            --exclude '^https://[^/]*\.feishu\.cn/'
+            --exclude '^https?://(localhost|127\.0\.0\.1)(:\\d+)?/'
             README.md README.en.md docs/*.md recipes/*.md
           fail: true

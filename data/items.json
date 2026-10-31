@@ -6776,7 +6776,7 @@
   },
   {
     "url": "https://github.com/qubicsdata/grok-starter-kit",
-    "kept": true,
+    "kept": false,
     "cat": "B",
     "title": "grok-starter-kit：Grok Bot + Claude Code 起步套件",
     "review": "按 AGENTS.md 分阶段接入：第一阶段只读盘点现有配置，没你同意不覆盖；带第二大脑、技能和晨报 Routine",
@@ -6790,7 +6790,9 @@
     "source": "sweep-1027am",
     "repo": "qubicsdata/grok-starter-kit",
     "last_push": "2026-10-21",
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "reason": "仓库 404，用户 qubicsdata 下已无此仓库",
+    "retired": "2026-10-31"
   },
   {
     "url": "https://github.com/holdtapp/holdt",
@@ -6848,7 +6850,7 @@
   },
   {
     "url": "https://github.com/devprecated/grokbot-management-console",
-    "kept": true,
+    "kept": false,
     "cat": "E",
     "title": "GrugBot Console：Routine 总控台",
     "review": "一页看所有 Bot 的 Routine 与每次运行，可暂停、改时间、改提示词，出事一键全停；Next.js + Postgres 自托管，部署前看清它读哪些日志",
@@ -6862,7 +6864,9 @@
     "source": "sweep-1027am",
     "repo": "devprecated/grokbot-management-console",
     "last_push": "2026-10-23",
-    "license": "MIT"
+    "license": "MIT",
+    "reason": "仓库 404，用户 devprecated 不存在或仓库已删",
+    "retired": "2026-10-31"
   },
   {
     "url": "https://github.com/niharnm/grok-bridge",
