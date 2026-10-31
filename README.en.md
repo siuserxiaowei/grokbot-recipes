@@ -4,9 +4,9 @@
 
 An unofficial, Chinese-first collection maintained by Dato (siuser小伟) and his Grok Bot: copy-paste recipes, a hand-checked ecosystem list, and an index of the tutorials on [grokguide.si](https://grokguide.si).
 
-- **63** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
-- **189** ecosystem projects, each opened and checked on 2026-10-24 (exists, active, really about Grok Bot)
-- **413** community tutorials ([list, in Chinese](docs/community-tutorials.md))
+- **64** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
+- **196** ecosystem projects, each opened and checked on 2026-10-24 (exists, active, really about Grok Bot)
+- **423** community tutorials ([list, in Chinese](docs/community-tutorials.md))
 - **113** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
 
 Markers: 📘 content read · 📦 repository checked. Full records: [data/items.json](data/items.json).

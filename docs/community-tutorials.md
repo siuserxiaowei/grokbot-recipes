@@ -2,10 +2,12 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 413 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 423 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（104）
+## 入门与配置（106）
 
+- [企业团队怎么用 Grok Bot 跨部门派活](https://x.com/tibor_tee/status/2116138557345816705) - 英文长文，按部门讲 AI 队友怎么落地；偏工作坊讲义，注意权限和审批边界 · @tibor_tee · 2026-10-30。标签：`enterprise` `workshop` `english`
+- [八月以来社区 Bot 十强榜](https://x.com/0x_kaize/status/2116114441947521127) - 英文串帖，强调好用的 Bot 多半来自用户自己的痛点；榜单主观，当导航用 · @0x_kaize · 2026-10-30。标签：`roundup` `marketplace` `english`
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
 - [把 Grok Bot 当同事用](https://x.com/Remake___/status/2106996626707607818) - 照着官方文档一步步写，注意文中的版本日期 · @Remake___ · 2026-10-05。标签：`guide` `chinese`
@@ -191,8 +193,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Household team：家务四件套（X 帖）](https://x.com/Totao/status/2115596603478139341) - 厨师、囤货采购、管家、打扫四个分享 Bot，首次对话会引导设置，厨师和囤货搭配用 · @Totao · 2026-10-29。标签：`english` `household` `template`
 - [7 个 Bot 别按钟点空跑：5 个修法](https://x.com/gippp69/status/2115778291755782151) - 英文，按钟点唤醒大多空跑，改成事件触发；提醒试运行会真干活、X 额度大家共用 · @gippp69 · 2026-10-29。标签：`multi-bot` `routine` `english`
 
-## Routine 与额度（50）
+## Routine 与额度（51）
 
+- [选题侦察：比作者均值，跳过广告抽奖（实测教程）](https://grokguide.si/tutorials/content-scout) - 虚构 10 帖实跑：广告抽奖跳过，大号平庸帖未过 2 倍线；只交草稿不代发。标签：`tutorial` `content` `grokguide`
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
 - [周一自查 Routine](https://x.com/mikepat711/status/2107130731382079767) - 英文，让首席助理每周一做一次全队体检 · @mikepat711 · 2026-10-05。标签：`routine` `review`
@@ -244,8 +247,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [对话太长也耗额度：旧 Bot 交接给新 Bot](https://x.com/Mulight/status/2116057516652278058) - 中文，提醒长期往一个窗口塞任务会让上下文越积越贵；可让旧 Bot 建新 Bot 并交接重要记忆 · @Mulight · 2026-10-30。标签：`quota` `context` `chinese`
 - [Routine 只写意图，别写死工具名（实测教程）](https://grokguide.si/tutorials/routine-intent) - 虚构两条 Routine、两版工具表：写死工具名改名后失败；只写意图自动选到新名。标签：`tutorial` `routine` `grokguide`
 
-## 连接、技能与记忆（58）
+## 连接、技能与记忆（60）
 
+- [用 QQ（Napcat）使唤 Grok Bot](https://x.com/lv_chen2006/status/2116189778060378563) - 中文短帖，经 Napcat 把 QQ 消息转给 Bot；要自建桥和登录态，注意账号安全 · @lv_chen2006 · 2026-10-30。标签：`qq` `bridge` `chinese`
+- [丢教程链接，让 Bot 写成可试跑的工程书](https://x.com/ai_chuhai/status/2116260262487437589) - 中文，读完教程核对数字并试跑后交工程书；会先查原许可证再标能不能卖 · @ai_chuhai · 2026-10-30。标签：`skill` `docs` `chinese`
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
 - [多个 Bot 怎么共享背景](https://x.com/sitinme/status/2109890718567473547) - 中文，讨论记忆迁移对多 Bot 的意义 · @sitinme · 2026-10-13。标签：`memory` `chinese`
@@ -305,8 +310,13 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Bot 当联络员：Notion、Cloudflare Worker 和飞书](https://x.com/bggg_ai/status/2115838960861900911) - 中文分享，Bot 把活转给 Claude 和 Codex；飞书群 @机器人 经免费 Worker 中转做小语种翻译，Notion 当共享库 · @bggg_ai · 2026-10-30。标签：`notion` `feishu` `webhook` `chinese`
 - [外链自动提交 Skill：先筛质量再逐站提交](https://x.com/ai_chuhai/status/2116013045080092686) - 中文，基于开源 backlink_skills 改编，一批最多 10 站、验证码和付款交还给你；写明不付费、不加互链、不群发 · @ai_chuhai · 2026-10-30。标签：`backlink` `skill` `chinese`
 
-## 一人公司与内容（104）
+## 一人公司与内容（109）
 
+- [选题侦察员：找高于作者均值的小号爆款](https://x.com/penny777/status/2116167532172214653) - 中文提示词，盯指定领域抓明显高于作者平时水平的帖；我们照这个思路写了实测教程 · @penny777 · 2026-10-30。标签：`chinese` `content` `routine`
+- [给多 Bot 团队搭一间 3D 虚拟办公室](https://x.com/btcup99/status/2116061235250884931) - 中文长文，用 Three.js 做可公开访问的等距办公室，Bot 按状态做动作；偏展示，别当正式监控 · @btcup99 · 2026-10-30。标签：`chinese` `3d` `multi-bot`
+- [Grok Bot + Typefully 搭内容团队](https://x.com/HeyYoGB/status/2116197697028018580) - 英文，用 Typefully MCP 把调研到排期拆给几个 Bot；发帖前仍建议人审 · @HeyYoGB · 2026-10-30。标签：`content` `typefully` `english`
+- [Clawback：找出重复订阅并帮你退掉贵的那个](https://x.com/Jprz1321/status/2116302423711211795) - 英文短帖，扫收据找重复订阅；取消动作要交支付权限，装前想清楚，和我们的账单审计教程对照看 · @Jprz1321 · 2026-10-30。标签：`subscriptions` `english`
+- [在职也能跑一人公司的操作手册](https://x.com/MrnllMtt/status/2116147119749001646) - 英文长文，讲上班同时用 Bot 撑一人公司；文中节奏和工具是作者自己的，别照搬工时 · @MrnllMtt · 2026-10-30。标签：`solo` `english` `ops`
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
 - [用 Grok Bot 做项目宣传片](https://x.com/seekjourney/status/2110986767549739151) - 中文，开源项目怎么让 Bot 出视频 · @seekjourney · 2026-10-16。标签：`video` `chinese`

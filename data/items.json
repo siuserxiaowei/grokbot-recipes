@@ -9505,5 +9505,281 @@
     ],
     "level": "读过文档",
     "verified": "2026-10-30"
+  },
+  {
+    "url": "https://github.com/SnazzyGaz/bot-beacons",
+    "kept": true,
+    "cat": "A",
+    "title": "Bot Beacons：Windows 桌面浮标盯 Bot 状态",
+    "review": "每个 Bot 一个桌面小浮标，有活就发光，点一下进对话或 Ping；要桌面端和配对，MIT，目前只做 Windows",
+    "tags": [
+      "windows",
+      "desktop",
+      "notify"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-31",
+    "repo": "SnazzyGaz/bot-beacons",
+    "last_push": "2026-10-25",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/dorukardahan/grokbox",
+    "kept": true,
+    "cat": "A",
+    "title": "Grok Box：restic 加密备份云电脑到自己的 Drive",
+    "review": "Time Machine 式增量加密备份 /workspace 与 /home/box；默认会把密钥也打进加密仓，密码要另存两处，MIT",
+    "tags": [
+      "backup",
+      "restic",
+      "encrypted"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-31",
+    "repo": "dorukardahan/grokbox",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/lucasjsbarbosa/grokctl",
+    "kept": true,
+    "cat": "C",
+    "title": "grokctl：用 DevTools 从终端给桌面端派活",
+    "review": "非官方 CLI，经 Chrome DevTools 操控 Windows 桌面端，方便 Claude Code / Codex 把活交给云端 Bot；应用一更新就可能挂",
+    "tags": [
+      "cli",
+      "devtools",
+      "windows"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-31",
+    "repo": "lucasjsbarbosa/grokctl",
+    "last_push": "2026-10-25",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/pawelmical/agent-relay",
+    "kept": true,
+    "cat": "C",
+    "title": "agent-relay：Claude 与 Grok Bot 共享任务信箱",
+    "review": "Cloudflare Workers 上的 MCP 任务信箱，两边互相派活；要自管密钥和 webhook，MIT",
+    "tags": [
+      "mcp",
+      "relay",
+      "multi-agent"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-31",
+    "repo": "pawelmical/agent-relay",
+    "last_push": "2026-10-25",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/matthew-rutledge-dev/grokbot-vehicle-fleet",
+    "kept": true,
+    "cat": "C",
+    "title": "Vehicle Fleet：官方 Fleet API 查车，指令要确认",
+    "review": "社区 MCP，默认只读缓存、不主动唤醒车辆；发指令需显式打开并 confirm；自备 Tesla 开发者应用与令牌，MIT",
+    "tags": [
+      "mcp",
+      "tesla",
+      "fleet"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-31",
+    "repo": "matthew-rutledge-dev/grokbot-vehicle-fleet",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/yuehzhan/grokbot-usage-checkin",
+    "kept": true,
+    "cat": "E",
+    "title": "Usage & Check-in：本机额度看板和打卡",
+    "review": "本机仪表盘看每周额度百分比、记工作打卡、按天检索消耗；数据不出本机，推荐在 Linux 云电脑上装，MIT",
+    "tags": [
+      "quota",
+      "dashboard",
+      "linux"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-31",
+    "repo": "yuehzhan/grokbot-usage-checkin",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/brefledev/unfinished-botness",
+    "kept": true,
+    "cat": "C",
+    "title": "Unfinished Botness：导入模板缺技能时的核对与补齐",
+    "review": "实验套件：导出可读源、审计导入 Bot 的技能、核对哈希后再补；原生往返作者标明未完整实测，MIT",
+    "tags": [
+      "skill",
+      "import",
+      "audit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-10-31",
+    "repo": "brefledev/unfinished-botness",
+    "last_push": "2026-10-28",
+    "license": "MIT"
+  },
+  {
+    "url": "https://x.com/btcup99/status/2116061235250884931",
+    "kept": true,
+    "cat": "T5",
+    "title": "给多 Bot 团队搭一间 3D 虚拟办公室",
+    "review": "中文长文，用 Three.js 做可公开访问的等距办公室，Bot 按状态做动作；偏展示，别当正式监控",
+    "tags": [
+      "chinese",
+      "3d",
+      "multi-bot"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "btcup99",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/penny777/status/2116167532172214653",
+    "kept": true,
+    "cat": "T5",
+    "title": "选题侦察员：找高于作者均值的小号爆款",
+    "review": "中文提示词，盯指定领域抓明显高于作者平时水平的帖；我们照这个思路写了实测教程",
+    "tags": [
+      "chinese",
+      "content",
+      "routine"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "penny777",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/tibor_tee/status/2116138557345816705",
+    "kept": true,
+    "cat": "T1",
+    "title": "企业团队怎么用 Grok Bot 跨部门派活",
+    "review": "英文长文，按部门讲 AI 队友怎么落地；偏工作坊讲义，注意权限和审批边界",
+    "tags": [
+      "enterprise",
+      "workshop",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "tibor_tee",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/HeyYoGB/status/2116197697028018580",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot + Typefully 搭内容团队",
+    "review": "英文，用 Typefully MCP 把调研到排期拆给几个 Bot；发帖前仍建议人审",
+    "tags": [
+      "content",
+      "typefully",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "HeyYoGB",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/Jprz1321/status/2116302423711211795",
+    "kept": true,
+    "cat": "T5",
+    "title": "Clawback：找出重复订阅并帮你退掉贵的那个",
+    "review": "英文短帖，扫收据找重复订阅；取消动作要交支付权限，装前想清楚，和我们的账单审计教程对照看",
+    "tags": [
+      "subscriptions",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "Jprz1321",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/0x_kaize/status/2116114441947521127",
+    "kept": true,
+    "cat": "T1",
+    "title": "八月以来社区 Bot 十强榜",
+    "review": "英文串帖，强调好用的 Bot 多半来自用户自己的痛点；榜单主观，当导航用",
+    "tags": [
+      "roundup",
+      "marketplace",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "0x_kaize",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/MrnllMtt/status/2116147119749001646",
+    "kept": true,
+    "cat": "T5",
+    "title": "在职也能跑一人公司的操作手册",
+    "review": "英文长文，讲上班同时用 Bot 撑一人公司；文中节奏和工具是作者自己的，别照搬工时",
+    "tags": [
+      "solo",
+      "english",
+      "ops"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "MrnllMtt",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/lv_chen2006/status/2116189778060378563",
+    "kept": true,
+    "cat": "T4",
+    "title": "用 QQ（Napcat）使唤 Grok Bot",
+    "review": "中文短帖，经 Napcat 把 QQ 消息转给 Bot；要自建桥和登录态，注意账号安全",
+    "tags": [
+      "qq",
+      "bridge",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "lv_chen2006",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://x.com/ai_chuhai/status/2116260262487437589",
+    "kept": true,
+    "cat": "T4",
+    "title": "丢教程链接，让 Bot 写成可试跑的工程书",
+    "review": "中文，读完教程核对数字并试跑后交工程书；会先查原许可证再标能不能卖",
+    "tags": [
+      "skill",
+      "docs",
+      "chinese"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31",
+    "author": "ai_chuhai",
+    "date": "2026-10-30"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/content-scout",
+    "kept": true,
+    "cat": "T5",
+    "title": "选题侦察：比作者均值，跳过广告抽奖（实测教程）",
+    "review": "虚构 10 帖实跑：广告抽奖跳过，大号平庸帖未过 2 倍线；只交草稿不代发",
+    "tags": [
+      "tutorial",
+      "content",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-10-31"
   }
 ]
