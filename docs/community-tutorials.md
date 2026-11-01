@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 440 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 441 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（111）
 
@@ -440,6 +440,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [选题侦察：比作者均值，跳过广告抽奖（实测教程）](https://grokguide.si/tutorials/content-scout) - 虚构 10 帖实跑：广告抽奖跳过，大号平庸帖未过 2 倍线；只交草稿不代发。标签：`tutorial` `content` `grokguide`
 - [销售 Shared Bot：调研、报价、Deal Desk](https://x.com/ScottyBeamIO/status/2116196322420129989) - 英文，按角色做成 Shared Bot，一次改进全员同步；强调客户侧输出先给人审，权限跟代表人走 · @ScottyBeamIO · 2026-10-30。标签：`sales` `shared-bot` `english`
 - [按岗位拆自媒体团队：管什么、怎么干、先问我](https://x.com/johnAGI168/status/2116574459318460725) - 中文长帖：按平台拆岗，建 Bot 只写三件事，发帖/私信/下单写死先确认；建议先跑顺一个岗位再加 · @johnAGI168 · 2026-10-31。标签：`chinese` `content` `roster`
+- [一个人 + 22 个 Bot 做出海增长（X 长文）](https://x.com/kkkeric_ai/status/2116726197111648426) - 中文，按社媒、SEO/AEO、外链、竞品、视频、热点拆岗，强调总管单入口和写审分离；文中夹产品推销，外链节奏请按自己的站规收紧。我们据此写了实测教程 · @kkkeric_ai · 2026-11。标签：`chinese` `growth` `fleet`
+- [出海增长 Bot 小队：一条总管 + 六条线（实测教程）](https://grokguide.si/tutorials/overseas-growth-fleet) - 虚构花名册与巡检：4 条卡住项；评论区注入当数据不当指令；不依赖第三方付费 API。标签：`tutorial` `growth` `grokguide`
 
 ## 安全（21）
 

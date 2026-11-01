@@ -10222,5 +10222,37 @@
     ],
     "level": "读过文档",
     "verified": "2026-11-01"
+  },
+  {
+    "url": "https://x.com/kkkeric_ai/status/2116726197111648426",
+    "kept": true,
+    "cat": "C",
+    "title": "一个人 + 22 个 Bot 做出海增长（X 长文）",
+    "review": "中文长文，按六条线拆出海增长岗；夹产品推销，外链节奏需自收。我们写了不依赖其付费 API 的实测教程",
+    "tags": [
+      "chinese",
+      "growth",
+      "fleet",
+      "tutorial-source"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-01",
+    "author": "kkkeric_ai"
+  },
+  {
+    "url": "https://github.com/BeatAPI/grokbot-growth",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-growth（社区开工包）",
+    "review": "MIT 出海增长技能开工包；仓库仍新，作参考即可，非必需",
+    "tags": [
+      "skill",
+      "growth",
+      "community"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-01",
+    "repo": "BeatAPI/grokbot-growth",
+    "license": "MIT"
   }
 ]
