@@ -9957,5 +9957,239 @@
     ],
     "level": "读过文档",
     "verified": "2026-10-31"
+  },
+  {
+    "url": "https://grokbotshelf.com",
+    "kept": true,
+    "cat": "B",
+    "title": "Grok Bot Shelf",
+    "review": "Phillip Holland 维护的社区模板目录站，八百多个分享链接按生活、效率、创作等分类，点开就能加；源码在 GitHub 且没写 License，条目我们没有逐条抽检",
+    "tags": [
+      "directory",
+      "templates",
+      "discovery"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "PhillipHolland/grokbotshelf",
+    "license": null
+  },
+  {
+    "url": "https://github.com/Gamedesigner/grokdeck",
+    "kept": true,
+    "cat": "A",
+    "title": "GrokDeck",
+    "review": "第三方 Mac / Windows 客户端，给 Bot 多的人用：置顶、分组、搜缓存对话，还能看云电脑；走非官方接口、预览版，凭证只留内存",
+    "tags": [
+      "desktop",
+      "client",
+      "ios"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "Gamedesigner/grokdeck",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/lumpinif/Homebot",
+    "kept": true,
+    "cat": "A",
+    "title": "Homebot",
+    "review": "Mac 应用：用 iPhone 或 HomePod 的 Siri 问自己的 Bot，回答由 Siri 念出；要常开 Mac，局域网明文，早期版本未走 Apple 公证",
+    "tags": [
+      "siri",
+      "homepod",
+      "voice"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "lumpinif/Homebot",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/runesleo/grok-bot-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "Grok Bot Bridge",
+    "review": "让脚本或 Claude Code 经 webhook 给 Bot 派活：job id 本地账本防重发，超时标 UNKNOWN，一条 harvest 把答复收进文件；纯标准库 Python",
+    "tags": [
+      "webhook",
+      "claude-code",
+      "routine"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "runesleo/grok-bot-bridge",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/StefMVP/omarchy-grokbot-voice",
+    "kept": true,
+    "cat": "A",
+    "title": "Grok Bot Voice（Omarchy）",
+    "review": "Omarchy 热键开始、静音、挂断语音通话，不抢键盘焦点；安装会开本地调试口，agent id 要自己从 DevTools 抄，非官方",
+    "tags": [
+      "linux",
+      "voice",
+      "hotkey"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "StefMVP/omarchy-grokbot-voice",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/yohei1126/grok-bot-ops",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-bot-ops",
+    "review": "多 Bot 运维卫生手册，纯文档：共享规则放哪、何时建新或退役、长期 Bot 和一次性对话怎么分、月度审计清单，目标是省额度、交接清楚",
+    "tags": [
+      "multi-agent",
+      "ops",
+      "usage"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "yohei1126/grok-bot-ops",
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/tcballard/grokbot-physical",
+    "kept": true,
+    "cat": "H",
+    "title": "grokbot-physical",
+    "review": "台面语音球：本机唤醒词、Realtime 对话、webhook 派活、LED 显示哪个 Bot 在干活；无硬件也能在 Linux 笔记本上模拟，作者标预览版",
+    "tags": [
+      "hardware",
+      "voice",
+      "raspberry-pi"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "tcballard/grokbot-physical",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/notedit/GrokChan",
+    "kept": true,
+    "cat": "H",
+    "title": "GrokChan",
+    "review": "Stack-chan 风格语音伴：Cloudflare Worker 把浏览器接到 Bot 的 webhook；目前主要是网页桥，M5 固件和唤醒词还在路线图上",
+    "tags": [
+      "hardware",
+      "m5stack",
+      "webhook"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "notedit/GrokChan",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/dwinter3/grokbot-face",
+    "kept": true,
+    "cat": "H",
+    "title": "Grok Bot Face",
+    "review": "把 Pixel 平板变成全屏动画脸和桌面时钟，离线唤醒词打开 App；摄像头和麦克风只在本机处理、不存不传",
+    "tags": [
+      "hardware",
+      "android",
+      "screensaver"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "source": "upstream-1101",
+    "repo": "dwinter3/grokbot-face",
+    "license": "MIT"
+  },
+  {
+    "url": "https://x.com/poteto/status/2116576229319233596",
+    "kept": true,
+    "cat": "T2",
+    "title": "少而精建队：Dr Eggbot + 自建 Skill + 语音复述",
+    "review": "SpaceXAI / Grok Bot 负责人短指南：加 Dr Eggbot、少而精、让 Bot 自建 Skill、接连接器与 Vault、像带实习生一样介绍自己、语音后让 Bot 用自己的话复述验收",
+    "tags": [
+      "team",
+      "skill",
+      "eggbot",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "author": "poteto",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/johnAGI168/status/2116574459318460725",
+    "kept": true,
+    "cat": "T5",
+    "title": "按岗位拆自媒体团队：管什么、怎么干、先问我",
+    "review": "中文长帖：按平台拆岗，建 Bot 只写三件事，发帖/私信/下单写死先确认；建议先跑顺一个岗位再加",
+    "tags": [
+      "chinese",
+      "content",
+      "roster"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "author": "johnAGI168",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/Raytar/status/2116477644665450811",
+    "kept": true,
+    "cat": "T1",
+    "title": "五个习惯把 Grok Bot 用满：职责卡到 Ops 收卡点",
+    "review": "英文长文，五个习惯各附可粘贴提示词：职责卡、Auto-review 先问规则、Routine 用 NOOP 省额度、录操作存 skill、Ops bot 每天收卡点",
+    "tags": [
+      "habits",
+      "skill",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "author": "Raytar",
+    "date": "2026-10-31"
+  },
+  {
+    "url": "https://x.com/0xlangeai/status/2116697379319726381",
+    "kept": true,
+    "cat": "T2",
+    "title": "把 poteto 建队要点写进自己的协作规矩",
+    "review": "中文长帖，转述少而精、Dr Eggbot、边教边沉淀 skill、接齐连接器、实习生入职、语音后 restate，并写进作者自己的规矩",
+    "tags": [
+      "chinese",
+      "team",
+      "skill"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "author": "0xlangeai",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://x.com/Elysianx1f/status/2116692099483812141",
+    "kept": true,
+    "cat": "T2",
+    "title": "一人公司视角提炼 poteto 六条建队逻辑",
+    "review": "中文长帖，把精简胜于数量、自建 Skill、独立工具链、干掉复制粘贴、实习生入职、语音脑暴写成可执行清单",
+    "tags": [
+      "chinese",
+      "team",
+      "onboarding"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01",
+    "author": "Elysianx1f",
+    "date": "2026-11-01"
   }
 ]

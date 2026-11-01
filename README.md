@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **66** 个配方，格式统一，提示词可以直接复制
-- **194** 个生态项目和学习资源，每条都打开核对过
-- **433** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **67** 个配方，格式统一，提示词可以直接复制
+- **203** 个生态项目和学习资源，每条都打开核对过
+- **439** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **114** 篇 grokguide.si 自己的教程
+- **112** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（66）
+## 配方（67）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -48,8 +48,8 @@
 | [研发四个角色：需求、复现、实现、审查](recipes/dev-four-roles.md) | 让 Bot 参与写代码的团队 |
 | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) | 怕 Bot 替你乱发东西的人 |
 | [邮件触发整理：专属邮箱收到就处理](recipes/email-trigger.md) | 经常收固定格式邮件的人 |
+| [工程 Bot 小队：共享进度表巡检 + 夜间审计](recipes/eng-bot-fleet.md) | 想按领域拆两三只工程 Bot，用一张进度表盯 PR，夜里再跑一项审计，又没有（或不想假装有）cloud agents 的人 |
 | [.env 只比键名：从不打印值](recipes/env-key-diff.md) | 换机器或拉新仓库时总漏配环境变量、又怕密钥进聊天的人 |
-| [工程 Bot 小队：共享进度表巡检 + 夜间审计](recipes/eng-bot-fleet.md) | 想按领域拆工程 Bot、用进度表盯 PR 和夜间审计，又不自动合并的人 |
 | [飞书提及过滤：群聊必须 @自己](recipes/feishu-mention-filter.md) | 飞书群接了 Bot、闲聊也唤醒、额度发慌的人 |
 | [交付验收：要能打开、能核对的文件](recipes/file-delivery.md) | 让 Bot 做表格、报告的人 |
 | [总控派活：一张路由表，重活交给工程师 Bot](recipes/fleet-router.md) | 已经有三五个 Bot、每次都要想“这事该找谁”的人 |
@@ -60,6 +60,7 @@
 | [隐藏前先停表：隐藏不等于暂停](recipes/hide-not-pause.md) | 暂时不想看见某个 Bot、却发现额度还在掉的人 |
 | [实跑结果打成离线 HTML 报告](recipes/html-report-pack.md) | 要把多段终端输出交给同事、又不好塞一堆散文件的人 |
 | [报错先对发版：事故排查出时间线](recipes/incident-timeline.md) | 线上一报警就想回滚，又经常回滚完报错还在的人 |
+| [少而精小队：自建 Skill + 语音复述验收](recipes/lean-team-skill.md) | Bot 越建越多却不好管，想照官方负责人 poteto 的短指南收成几只好用的人 |
 | [Linux 新版提醒](recipes/linux-update-watch.md) | 在 Linux 上用 Grok Bot、内置更新管不到的人 |
 | [邮件附件归类：只复制不删](recipes/mail-attach-sort.md) | 邮箱附件堆成山、发票合同混在一起的人 |
 | [主 Bot 只挂两条 Routine：专项点名才干](recipes/main-bot-slim.md) | 主 Bot 越挂越胖、额度被定时任务吃光的人 |
@@ -97,9 +98,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（194）
+## 生态清单（203）
 
-### 官方与工具（22）
+### 官方与工具（25）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -123,8 +124,11 @@
 - [grok-export-tool：本机导出 Bot 与 Grok 对话](https://github.com/LofiSu/grok-export-tool) - 读本机已登录浏览器 cookie，CLI 与 MCP 写出 JSONL/Markdown 归档；不要 API key、不发新消息，读 cookie 属敏感能力，MIT。标签：`export` `backup` `cli` 📦
 - [Bot Beacons：Windows 桌面浮标盯 Bot 状态](https://github.com/SnazzyGaz/bot-beacons) - 每个 Bot 一个桌面小浮标，有活就发光，点一下进对话或 Ping；要桌面端和配对，MIT，目前只做 Windows。标签：`windows` `desktop` `notify` 📦
 - [Grok Box：restic 加密备份云电脑到自己的 Drive](https://github.com/dorukardahan/grokbox) - Time Machine 式增量加密备份 /workspace 与 /home/box；默认会把密钥也打进加密仓，密码要另存两处，MIT。标签：`backup` `restic` `encrypted` 📦
+- [GrokDeck](https://github.com/Gamedesigner/grokdeck) - 第三方 Mac / Windows 客户端，给 Bot 多的人用：置顶、分组、搜缓存对话，还能看云电脑；走非官方接口、预览版，凭证只留内存。标签：`desktop` `client` `ios` 📘
+- [Homebot](https://github.com/lumpinif/Homebot) - Mac 应用：用 iPhone 或 HomePod 的 Siri 问自己的 Bot，回答由 Siri 念出；要常开 Mac，局域网明文，早期版本未走 Apple 公证。标签：`siri` `homepod` `voice` 📘
+- [Grok Bot Voice（Omarchy）](https://github.com/StefMVP/omarchy-grokbot-voice) - Omarchy 热键开始、静音、挂断语音通话，不抢键盘焦点；安装会开本地调试口，agent id 要自己从 DevTools 抄，非官方。标签：`linux` `voice` `hotkey` 📘
 
-### 模板与目录（17）
+### 模板与目录（18）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -143,8 +147,9 @@
 - [灵境 Lingverse：中文写手系列（墨灵）](https://github.com/lingverse-ai/lingverse) - 可一键导入的中文 Bot 系列，第一位「墨灵」专写长文并把同一素材改成多平台版本；内容 CC BY 4.0、代码 MIT。标签：`template` `writing` `chinese` 📘
 - [grokbot.rocks：Grok Bot 分享目录](https://grokbot.rocks/) - @BrianRoemmele 维护的公开分享链接大目录，按 26 个类别分，10 月 28 日已收 7500 多个；量大质量不一，站上另推付费会员指南，挑模板时先看说明再装。标签：`directory` `links` `english` 📘
 - [agentusecases.ai · Grok Bot](https://agentusecases.ai/agents/grok-bot) - 按场景收集 AI 代理用法的目录，Grok Bot 只是其中一类；有赞助位，效果数字是投稿人自己说的。标签：`directory` `use-cases` `english` 📘
+- [Grok Bot Shelf](https://grokbotshelf.com) - Phillip Holland 维护的社区模板目录站，八百多个分享链接按生活、效率、创作等分类，点开就能加；源码在 GitHub 且没写 License，条目我们没有逐条抽检。标签：`directory` `templates` `discovery` 📘
 
-### 技能与连接（50）
+### 技能与连接（51）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -196,8 +201,9 @@
 - [agent-relay：Claude 与 Grok Bot 共享任务信箱](https://github.com/pawelmical/agent-relay) - Cloudflare Workers 上的 MCP 任务信箱，两边互相派活；要自管密钥和 webhook，MIT。标签：`mcp` `relay` `multi-agent` 📦
 - [Vehicle Fleet：官方 Fleet API 查车，指令要确认](https://github.com/matthew-rutledge-dev/grokbot-vehicle-fleet) - 社区 MCP，默认只读缓存、不主动唤醒车辆；发指令需显式打开并 confirm；自备 Tesla 开发者应用与令牌，MIT。标签：`mcp` `tesla` `fleet` 📦
 - [Unfinished Botness：导入模板缺技能时的核对与补齐](https://github.com/brefledev/unfinished-botness) - 实验套件：导出可读源、审计导入 Bot 的技能、核对哈希后再补；原生往返作者标明未完整实测，MIT。标签：`skill` `import` `audit` 📦
+- [Grok Bot Bridge](https://github.com/runesleo/grok-bot-bridge) - 让脚本或 Claude Code 经 webhook 给 Bot 派活：job id 本地账本防重发，超时标 UNKNOWN，一条 harvest 把答复收进文件；纯标准库 Python。标签：`webhook` `claude-code` `routine` 📘
 
-### 多 Bot 团队（29）
+### 多 Bot 团队（30）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -228,6 +234,7 @@
 - [Foreman](https://github.com/GlennHasABeard/foreman) - 一组只读的 X 小 Bot，可整队装也可单装；要自备官方 X API 凭证，不代发。标签：`x` `read-only` `crew` 📦
 - [grok-multi-bot-workflow](https://github.com/tantan1hao/grok-multi-bot-workflow) - 纯提示词的多 Bot 协作流程，覆盖拆需求、证据、接续和验收；作者标为实验版 v0.1.0，还没有完整真实任务验收。标签：`multi-bot` `workflow` `chinese` 📦
 - [head-office](https://github.com/Aaebraham/head-office) - 把 Bot 和其他代理画成一个 3D 办公室看状态；只支持 macOS，读的是本地客户端缓存，不是公开接口，升级可能失效。标签：`dashboard` `multi-bot` `macos` 📦
+- [grok-bot-ops](https://github.com/yohei1126/grok-bot-ops) - 多 Bot 运维卫生手册，纯文档：共享规则放哪、何时建新或退役、长期 Bot 和一次性对话怎么分、月度审计清单，目标是省额度、交接清楚。标签：`multi-agent` `ops` `usage` 📘
 
 ### Routine 与监控（11）
 
@@ -277,7 +284,7 @@
 - [kwant](https://github.com/alexsergivan/kwant) - 自托管的多 Bot 工作台，单个 Rust 程序带审批和 Routine；AGPL 协议，改了要开源。标签：`self-hosted` `rust` `multi-bot` 📦
 - [local-ai-manager](https://github.com/anselmcmakin/local-ai-manager) - 配合 Local AI Manager 模板在自己电脑跑本地模型；发布包带 SHA-256，面板只开在 127.0.0.1，带看门狗。标签：`local-ai` `self-hosted` `template` 📦
 
-### 硬件（6）
+### 硬件（9）
 
 - [groki-bot](https://github.com/JosssphZhou/groki-bot) - M5Stack 桌面小机器人，能用语音把任务交给 Grok Bot。标签：`hardware` `voice` 📦
 - [grok-gadgets](https://github.com/adidshaft/grok-gadgets) - 把硬件接到 Grok Bot 的工具包，可以先用模拟器试。标签：`hardware` `sdk` 📦
@@ -285,6 +292,9 @@
 - [宗主 zongzhu-bot](https://github.com/Liu-zhongxian/zongzhu-bot) - ESP32-S3 圆屏语音终端，说一句话就把活交给 Bot，回复上屏并朗读，中文说明齐全；需要一台常开的电脑跑后端。标签：`hardware` `voice` 📦
 - [stackchan-grok-bridge](https://github.com/Dissipative-ATLAS/stackchan-grok-bridge) - 中文项目，让 StackChan 小机器人把问题经 Mac 中转和 Cloudflare 信箱交给 Grok Bot，作者记了真机一次往返约三分钟，适合爱折腾硬件的人看思路；仓库没写许可证。标签：`hardware` `stackchan` `cloudflare` `chinese` 📘
 - [小糖：ESP32 圆屏桌面宠物接 Grok Bot](https://github.com/vliuyt/grok-bot-esp32-bridge) - 微雪 1.43 寸圆屏板刷成会眨眼的小宠物，按住按键说话，由 Mac 桥接到你的 Bot；走的是桌面 App 内部接口，作者自己说不保证稳定。标签：`esp32` `hardware` `voice` `chinese` 📘
+- [grokbot-physical](https://github.com/tcballard/grokbot-physical) - 台面语音球：本机唤醒词、Realtime 对话、webhook 派活、LED 显示哪个 Bot 在干活；无硬件也能在 Linux 笔记本上模拟，作者标预览版。标签：`hardware` `voice` `raspberry-pi` 📘
+- [GrokChan](https://github.com/notedit/GrokChan) - Stack-chan 风格语音伴：Cloudflare Worker 把浏览器接到 Bot 的 webhook；目前主要是网页桥，M5 固件和唤醒词还在路线图上。标签：`hardware` `m5stack` `webhook` 📘
+- [Grok Bot Face](https://github.com/dwinter3/grokbot-face) - 把 Pixel 平板变成全屏动画脸和桌面时钟，离线唤醒词打开 App；摄像头和麦克风只在本机处理、不存不传。标签：`hardware` `android` `screensaver` 📘
 
 ### 学习资源与合集（30）
 
