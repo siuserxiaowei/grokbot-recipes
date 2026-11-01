@@ -12,9 +12,9 @@
 
 - **67** 个配方，格式统一，提示词可以直接复制
 - **203** 个生态项目和学习资源，每条都打开核对过
-- **439** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **440** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **112** 篇 grokguide.si 自己的教程
+- **113** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -368,7 +368,7 @@
 - [客服队列交给 Bot：五件事怎么分，退款为什么必须等你点头](https://grokguide.si/playbooks/support-five-jobs)
 - [每天只看一个 Bot：收件、日历、情报三个先“只读”，再交给总管](https://grokguide.si/playbooks/work-four-bots)
 
-### 实操教程（24）
+### 实操教程（25）
 
 一件事一篇，照着做
 
@@ -397,6 +397,7 @@
 - [固定的活交给脚本，Bot 只看一行结果](https://grokguide.si/tutorials/script-first)
 - [重复任务扫描：两周日志里找出该自动化的三件事](https://grokguide.si/tutorials/repeat-task-scan)
 - [选题侦察：找高于作者均值的帖，跳过广告抽奖](https://grokguide.si/tutorials/content-scout)
+- [少而精小队：自建 Skill + 语音复述验收](https://grokguide.si/tutorials/lean-team-skill)
 
 ### 常见问题速查（14）
 

@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 439 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 440 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（111）
 
@@ -118,7 +118,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 工程指南（中译）](https://aiblog.ganhai.cloud/guides/grok-bot-for-engineering/) - 官方工程指南中译：专责工程 Bot、共享看板、夜间审计与 P0；我们据此写了实操教程。标签：`engineering` `official` `chinese`
 - [五个习惯把 Grok Bot 用满：职责卡到 Ops 收卡点](https://x.com/Raytar/status/2116477644665450811) - 英文长文，五个习惯各附可粘贴提示词：职责卡、Auto-review 先问规则、Routine 用 NOOP 省额度、录操作存 skill、Ops bot 每天收卡点 · @Raytar · 2026-10-31。标签：`habits` `skill` `english`
 
-## 多 Bot 团队（82）
+## 多 Bot 团队（83）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -202,6 +202,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [少而精建队：Dr Eggbot + 自建 Skill + 语音复述](https://x.com/poteto/status/2116576229319233596) - SpaceXAI / Grok Bot 负责人短指南：加 Dr Eggbot、少而精、让 Bot 自建 Skill、接连接器与 Vault、像带实习生一样介绍自己、语音后让 Bot 用自己的话复述验收 · @poteto · 2026-10-31。标签：`team` `skill` `eggbot` `english`
 - [把 poteto 建队要点写进自己的协作规矩](https://x.com/0xlangeai/status/2116697379319726381) - 中文长帖，转述少而精、Dr Eggbot、边教边沉淀 skill、接齐连接器、实习生入职、语音后 restate，并写进作者自己的规矩 · @0xlangeai · 2026-11-01。标签：`chinese` `team` `skill`
 - [一人公司视角提炼 poteto 六条建队逻辑](https://x.com/Elysianx1f/status/2116692099483812141) - 中文长帖，把精简胜于数量、自建 Skill、独立工具链、干掉复制粘贴、实习生入职、语音脑暴写成可执行清单 · @Elysianx1f · 2026-11-01。标签：`chinese` `team` `onboarding`
+- [少而精小队：自建 Skill + 语音复述验收（实测教程）](https://grokguide.si/tutorials/lean-team-skill) - 虚构 4 席花名册与 8 条教过日志：3 条已教两遍仍无 skill；语音复述五项关键点全过才开工；无 cloud agents。标签：`tutorial` `team` `skill` `grokguide`
 
 ## Routine 与额度（53）
 

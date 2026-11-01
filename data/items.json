@@ -10191,5 +10191,20 @@
     "verified": "2026-11-01",
     "author": "Elysianx1f",
     "date": "2026-11-01"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/lean-team-skill",
+    "kept": true,
+    "cat": "T2",
+    "title": "少而精小队：自建 Skill + 语音复述验收（实测教程）",
+    "review": "虚构 4 席花名册与 8 条教过日志：3 条已教两遍仍无 skill；语音复述五项关键点全过才开工；无 cloud agents",
+    "tags": [
+      "tutorial",
+      "team",
+      "skill",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01"
   }
 ]
