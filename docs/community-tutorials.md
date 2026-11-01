@@ -204,7 +204,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [一人公司视角提炼 poteto 六条建队逻辑](https://x.com/Elysianx1f/status/2116692099483812141) - 中文长帖，把精简胜于数量、自建 Skill、独立工具链、干掉复制粘贴、实习生入职、语音脑暴写成可执行清单 · @Elysianx1f · 2026-11-01。标签：`chinese` `team` `onboarding`
 - [少而精小队：自建 Skill + 语音复述验收（实测教程）](https://grokguide.si/tutorials/lean-team-skill) - 虚构 4 席花名册与 8 条教过日志：3 条已教两遍仍无 skill；语音复述五项关键点全过才开工；无 cloud agents。标签：`tutorial` `team` `skill` `grokguide`
 
-## Routine 与额度（53）
+## Routine 与额度（55）
+
+- [The + sign：一收件箱按 +tag 分门](https://x.com/thecsguy/status/2113058854124794329) - 英文长文，一岗一加号标签、一标签一 Routine（收据入账、newsletter 摘要等），附踩坑 · @thecsguy · 2026-10-22。标签：`email` `routine` `plus-tag` `english`
+- [+tag 邮箱分门：一岗一标签一 Routine（实测教程）](https://grokguide.si/tutorials/plus-tag-jobs) - 虚构 9 封信：记账 4、告警 5；认证失败与无标签跳过；正文 cancel/refund 不执行。标签：`tutorial` `email` `routine` `grokguide`
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`

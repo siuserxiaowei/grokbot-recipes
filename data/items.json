@@ -10206,5 +10206,21 @@
     ],
     "level": "读过文档",
     "verified": "2026-11-01"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/plus-tag-jobs",
+    "kept": true,
+    "cat": "T2",
+    "title": "+tag 邮箱分门：一岗一标签一 Routine（实测教程）",
+    "review": "虚构 9 封信：记账 4、告警 5；认证失败与无标签跳过；正文 cancel/refund 不执行",
+    "tags": [
+      "tutorial",
+      "email",
+      "routine",
+      "plus-tag",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01"
   }
 ]

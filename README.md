@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **67** 个配方，格式统一，提示词可以直接复制
+- **68** 个配方，格式统一，提示词可以直接复制
 - **203** 个生态项目和学习资源，每条都打开核对过
 - **440** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **113** 篇 grokguide.si 自己的教程
+- **114** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（67）
+## 配方（68）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -47,6 +47,7 @@
 | [主 Bot 挂上赛博小晚五模式](recipes/cyber-xiaowan-modes.md) | 想给主 Bot 一套 Witness→Act 思考路由，又不想误用 npx 本地 skill 目录的人 |
 | [研发四个角色：需求、复现、实现、审查](recipes/dev-four-roles.md) | 让 Bot 参与写代码的团队 |
 | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) | 怕 Bot 替你乱发东西的人 |
+| [+tag 邮箱分门：一岗一标签一 Routine](recipes/plus-tag-jobs.md) | 专属邮箱只有一个、要把收据物流 newsletter 分开处理的人 |
 | [邮件触发整理：专属邮箱收到就处理](recipes/email-trigger.md) | 经常收固定格式邮件的人 |
 | [工程 Bot 小队：共享进度表巡检 + 夜间审计](recipes/eng-bot-fleet.md) | 想按领域拆两三只工程 Bot，用一张进度表盯 PR，夜里再跑一项审计，又没有（或不想假装有）cloud agents 的人 |
 | [.env 只比键名：从不打印值](recipes/env-key-diff.md) | 换机器或拉新仓库时总漏配环境变量、又怕密钥进聊天的人 |
@@ -398,6 +399,7 @@
 - [重复任务扫描：两周日志里找出该自动化的三件事](https://grokguide.si/tutorials/repeat-task-scan)
 - [选题侦察：找高于作者均值的帖，跳过广告抽奖](https://grokguide.si/tutorials/content-scout)
 - [少而精小队：自建 Skill + 语音复述验收](https://grokguide.si/tutorials/lean-team-skill)
+- [+tag 邮箱分门：一岗一标签一 Routine](https://grokguide.si/tutorials/plus-tag-jobs)
 
 ### 常见问题速查（14）
 
