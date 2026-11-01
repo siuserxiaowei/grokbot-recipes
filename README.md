@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **68** 个配方，格式统一，提示词可以直接复制
+- **69** 个配方，格式统一，提示词可以直接复制
 - **203** 个生态项目和学习资源，每条都打开核对过
-- **440** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **441** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **114** 篇 grokguide.si 自己的教程
+- **115** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（68）
+## 配方（69）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -70,6 +70,7 @@
 | [消息热力图：看清最常找哪个 Bot](recipes/msg-heatmap.md) | 开了好几个 Bot、想知道哪些常用、哪些建完就闲着的人 |
 | [一人三岗：调研、客服、内容](recipes/one-person-three-roles.md) | 一个人做产品的人 |
 | [海外客服：多语言工单先分流](recipes/outbound-support.md) | 做海外用户的团队 |
+| [出海增长 Bot 小队：一条总管 + 六条线](recipes/overseas-growth-fleet.md) | 一个人做出海增长，想把社媒、SEO/AEO、外链、竞品、视频、热点拆成岗位，又不想开多 Bot 群聊的人 |
 | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) | 想装别人写的技能，又怕作者以后改了内容、或者中途被人动了手脚的人 |
 | [安静检查：没变化只打一行 quiet](recipes/quiet-check.md) | 巡检 Routine 多数时候没变化、却老刷屏的人 |
 | [重复任务扫描：两周日志里找出该自动化的三件事](recipes/repeat-task-scan.md) | 觉得一天很忙却说不清时间花在哪，想先挑三件重复活交给 Bot，又不想一口气开一堆自动化的人 |
@@ -399,6 +400,7 @@
 - [重复任务扫描：两周日志里找出该自动化的三件事](https://grokguide.si/tutorials/repeat-task-scan)
 - [选题侦察：找高于作者均值的帖，跳过广告抽奖](https://grokguide.si/tutorials/content-scout)
 - [少而精小队：自建 Skill + 语音复述验收](https://grokguide.si/tutorials/lean-team-skill)
+- [出海增长 Bot 小队：一条总管 + 六条线](https://grokguide.si/tutorials/overseas-growth-fleet)
 - [+tag 邮箱分门：一岗一标签一 Routine](https://grokguide.si/tutorials/plus-tag-jobs)
 
 ### 常见问题速查（14）

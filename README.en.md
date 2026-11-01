@@ -7,7 +7,7 @@ An unofficial, Chinese-first collection maintained by Dato (siuser小伟) and hi
 - **64** recipes in one format: who it's for → inputs → steps → prompt → output → caveats
 - **196** ecosystem projects, each opened and checked on 2026-10-24 (exists, active, really about Grok Bot)
 - **423** community tutorials ([list, in Chinese](docs/community-tutorials.md))
-- **114** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
+- **115** grokguide.si tutorials (Chinese, with Spanish, Portuguese and French editions for key pages)
 
 Markers: 📘 content read · 📦 repository checked. Full records: [data/items.json](data/items.json).
 
@@ -27,6 +27,7 @@ Markers: 📘 content read · 📦 repository checked. Full records: [data/items
 | Sourced pre-meeting brief | [会前简报：有来源、能核对](recipes/meeting-brief.md) |
 | Solo founder: research, support, content | [一人三岗：调研、客服、内容](recipes/one-person-three-roles.md) |
 | Multilingual support triage | [海外客服：多语言工单先分流](recipes/outbound-support.md) |
+| [Overseas growth fleet: one chief + six lanes](recipes/overseas-growth-fleet.md) | Solo overseas growth: social, SEO/AEO, backlinks, competitors, video, trends — without multi-bot group chats |
 | Pin skills: check sha256 before installing | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) |
 | Usage check-up: pause, rank, re-enable | [额度体检：先停、分级、逐条重开](recipes/routine-budget.md) |
 | Log in without pasting passwords | [安全登录：不把密码直接贴给 Bot](recipes/safe-login.md) |
