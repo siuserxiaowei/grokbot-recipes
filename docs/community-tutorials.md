@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 441 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 443 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（111）
 
@@ -118,7 +118,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 工程指南（中译）](https://aiblog.ganhai.cloud/guides/grok-bot-for-engineering/) - 官方工程指南中译：专责工程 Bot、共享看板、夜间审计与 P0；我们据此写了实操教程。标签：`engineering` `official` `chinese`
 - [五个习惯把 Grok Bot 用满：职责卡到 Ops 收卡点](https://x.com/Raytar/status/2116477644665450811) - 英文长文，五个习惯各附可粘贴提示词：职责卡、Auto-review 先问规则、Routine 用 NOOP 省额度、录操作存 skill、Ops bot 每天收卡点 · @Raytar · 2026-10-31。标签：`habits` `skill` `english`
 
-## 多 Bot 团队（83）
+## 多 Bot 团队（84）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -203,11 +203,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [把 poteto 建队要点写进自己的协作规矩](https://x.com/0xlangeai/status/2116697379319726381) - 中文长帖，转述少而精、Dr Eggbot、边教边沉淀 skill、接齐连接器、实习生入职、语音后 restate，并写进作者自己的规矩 · @0xlangeai · 2026-11-01。标签：`chinese` `team` `skill`
 - [一人公司视角提炼 poteto 六条建队逻辑](https://x.com/Elysianx1f/status/2116692099483812141) - 中文长帖，把精简胜于数量、自建 Skill、独立工具链、干掉复制粘贴、实习生入职、语音脑暴写成可执行清单 · @Elysianx1f · 2026-11-01。标签：`chinese` `team` `onboarding`
 - [少而精小队：自建 Skill + 语音复述验收（实测教程）](https://grokguide.si/tutorials/lean-team-skill) - 虚构 4 席花名册与 8 条教过日志：3 条已教两遍仍无 skill；语音复述五项关键点全过才开工；无 cloud agents。标签：`tutorial` `team` `skill` `grokguide`
+- [+tag 邮箱分门：一岗一标签一 Routine（实测教程）](https://grokguide.si/tutorials/plus-tag-jobs) - 虚构 9 封信：记账 4、告警 5；认证失败与无标签跳过；正文 cancel/refund 不执行。标签：`tutorial` `email` `routine` `plus-tag` `grokguide`
 
-## Routine 与额度（55）
-
-- [The + sign：一收件箱按 +tag 分门](https://x.com/thecsguy/status/2113058854124794329) - 英文长文，一岗一加号标签、一标签一 Routine（收据入账、newsletter 摘要等），附踩坑 · @thecsguy · 2026-10-22。标签：`email` `routine` `plus-tag` `english`
-- [+tag 邮箱分门：一岗一标签一 Routine（实测教程）](https://grokguide.si/tutorials/plus-tag-jobs) - 虚构 9 封信：记账 4、告警 5；认证失败与无标签跳过；正文 cancel/refund 不执行。标签：`tutorial` `email` `routine` `grokguide`
+## Routine 与额度（53）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -326,7 +324,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [用 QQ（Napcat）使唤 Grok Bot](https://x.com/lv_chen2006/status/2116189778060378563) - 中文短帖，经 Napcat 把 QQ 消息转给 Bot；要自建桥和登录态，注意账号安全 · @lv_chen2006 · 2026-10-30。标签：`qq` `bridge` `chinese`
 - [丢教程链接，让 Bot 写成可试跑的工程书](https://x.com/ai_chuhai/status/2116260262487437589) - 中文，读完教程核对数字并试跑后交工程书；会先查原许可证再标能不能卖 · @ai_chuhai · 2026-10-30。标签：`skill` `docs` `chinese`
 
-## 一人公司与内容（112）
+## 一人公司与内容（114）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -440,8 +438,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [选题侦察：比作者均值，跳过广告抽奖（实测教程）](https://grokguide.si/tutorials/content-scout) - 虚构 10 帖实跑：广告抽奖跳过，大号平庸帖未过 2 倍线；只交草稿不代发。标签：`tutorial` `content` `grokguide`
 - [销售 Shared Bot：调研、报价、Deal Desk](https://x.com/ScottyBeamIO/status/2116196322420129989) - 英文，按角色做成 Shared Bot，一次改进全员同步；强调客户侧输出先给人审，权限跟代表人走 · @ScottyBeamIO · 2026-10-30。标签：`sales` `shared-bot` `english`
 - [按岗位拆自媒体团队：管什么、怎么干、先问我](https://x.com/johnAGI168/status/2116574459318460725) - 中文长帖：按平台拆岗，建 Bot 只写三件事，发帖/私信/下单写死先确认；建议先跑顺一个岗位再加 · @johnAGI168 · 2026-10-31。标签：`chinese` `content` `roster`
-- [一个人 + 22 个 Bot 做出海增长（X 长文）](https://x.com/kkkeric_ai/status/2116726197111648426) - 中文，按社媒、SEO/AEO、外链、竞品、视频、热点拆岗，强调总管单入口和写审分离；文中夹产品推销，外链节奏请按自己的站规收紧。我们据此写了实测教程 · @kkkeric_ai · 2026-11。标签：`chinese` `growth` `fleet`
-- [出海增长 Bot 小队：一条总管 + 六条线（实测教程）](https://grokguide.si/tutorials/overseas-growth-fleet) - 虚构花名册与巡检：4 条卡住项；评论区注入当数据不当指令；不依赖第三方付费 API。标签：`tutorial` `growth` `grokguide`
+- [公众号四岗生产线：三段式岗位合同 + 主笔收口（实测教程）](https://grokguide.si/tutorials/wechat-oa-pipeline) - 虚构交接表 7 行：卡住 4；共享电脑不登后台；留言注入 5 短语当数据。标签：`tutorial` `wechat` `content` `multi-bot` `grokguide`
+- [四个 Bot 一个群：公众号生产线岗位合同＋四份模板](https://x.com/xoyif63862452/status/2116693751473021412) - 中文长文，三段式岗位合同最值钱；四岗可抄，收入账我们不搬。我们写了不照搬提示词的实测教程 · @xoyif63862452 · 2026-11-01。标签：`chinese` `content` `wechat` `multi-bot` `tutorial-source`
 
 ## 安全（21）
 

@@ -10,11 +10,11 @@
 
 ## 一眼看完
 
-- **69** 个配方，格式统一，提示词可以直接复制
-- **203** 个生态项目和学习资源，每条都打开核对过
-- **441** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **70** 个配方，格式统一，提示词可以直接复制
+- **209** 个生态项目和学习资源，每条都打开核对过
+- **443** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
-- **115** 篇 grokguide.si 自己的教程
+- **116** 篇 grokguide.si 自己的教程
 
 每条后面的小标记说明我们核对到哪一步：📘 读过内容，📦 仓库已核对。完整记录在 [data/items.json](data/items.json)。
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（69）
+## 配方（70）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -47,7 +47,6 @@
 | [主 Bot 挂上赛博小晚五模式](recipes/cyber-xiaowan-modes.md) | 想给主 Bot 一套 Witness→Act 思考路由，又不想误用 npx 本地 skill 目录的人 |
 | [研发四个角色：需求、复现、实现、审查](recipes/dev-four-roles.md) | 让 Bot 参与写代码的团队 |
 | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) | 怕 Bot 替你乱发东西的人 |
-| [+tag 邮箱分门：一岗一标签一 Routine](recipes/plus-tag-jobs.md) | 专属邮箱只有一个、要把收据物流 newsletter 分开处理的人 |
 | [邮件触发整理：专属邮箱收到就处理](recipes/email-trigger.md) | 经常收固定格式邮件的人 |
 | [工程 Bot 小队：共享进度表巡检 + 夜间审计](recipes/eng-bot-fleet.md) | 想按领域拆两三只工程 Bot，用一张进度表盯 PR，夜里再跑一项审计，又没有（或不想假装有）cloud agents 的人 |
 | [.env 只比键名：从不打印值](recipes/env-key-diff.md) | 换机器或拉新仓库时总漏配环境变量、又怕密钥进聊天的人 |
@@ -70,8 +69,9 @@
 | [消息热力图：看清最常找哪个 Bot](recipes/msg-heatmap.md) | 开了好几个 Bot、想知道哪些常用、哪些建完就闲着的人 |
 | [一人三岗：调研、客服、内容](recipes/one-person-three-roles.md) | 一个人做产品的人 |
 | [海外客服：多语言工单先分流](recipes/outbound-support.md) | 做海外用户的团队 |
-| [出海增长 Bot 小队：一条总管 + 六条线](recipes/overseas-growth-fleet.md) | 一个人做出海增长，想把社媒、SEO/AEO、外链、竞品、视频、热点拆成岗位，又不想开多 Bot 群聊的人 |
+| [出海增长 Bot 小队：一条总管 + 六条线](recipes/overseas-growth-fleet.md) | 一个人做出海增长，想把社媒、SEO/AEO、外链、竞品、视频、热点拆成可持续岗位，又不想开多 Bot 群聊烧额度的人 |
 | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) | 想装别人写的技能，又怕作者以后改了内容、或者中途被人动了手脚的人 |
+| [+tag 邮箱分门：一岗一标签，一 Routine](recipes/plus-tag-jobs.md) | 专属邮箱只有一个，却要把收据、物流、newsletter 分开处理的人 |
 | [安静检查：没变化只打一行 quiet](recipes/quiet-check.md) | 巡检 Routine 多数时候没变化、却老刷屏的人 |
 | [重复任务扫描：两周日志里找出该自动化的三件事](recipes/repeat-task-scan.md) | 觉得一天很忙却说不清时间花在哪，想先挑三件重复活交给 Bot，又不想一口气开一堆自动化的人 |
 | [额度体检：先停、分级、逐条重开](recipes/routine-budget.md) | 开了很多 Routine 的人 |
@@ -94,13 +94,14 @@
 | [虚拟机服务花名册：重置后分清谁来装](recipes/vm-service-ledger.md) | 虚拟机常重置、工具总要重装，想先分清可自动装和需自己登录的人 |
 | [作战室：几个 Bot 只靠文件交接](recipes/war-room.md) | 想让 3 到 6 个 Bot 分工的人 |
 | [Webhook 知识入库：先过滤再进 inbox](recipes/webhook-knowledge-inbox.md) | 想用快捷指令把微信摘录、网页剪藏丢进知识库，又怕广告和系统垃圾跟着进来的人 |
+| [公众号四岗生产线：三段式岗位合同 + 主笔收口](recipes/wechat-oa-pipeline.md) | 想用几只 Bot 跑公众号（或同类长文渠道）生产线，又怕互相越界、编辑偷偷改稿、共享电脑误登发布后台的人 |
 | [一周晚饭：周六排好，过敏当硬规则](recipes/weekly-dinner.md) | 每周都在愁吃什么、家里有人过敏或挑食、想把买菜清单也一起省掉的人 |
 | [每周功能对照：让首席 Bot 对照更新日志改你的 Routine](recipes/weekly-feature-check.md) | 已经开了一批 Routine、怕绕路和额度浪费、想跟着官方新功能收紧流程的人 |
 | [周报 Routine：每周五自动复盘](recipes/weekly-review.md) | 需要写周报的人 |
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（203）
+## 生态清单（209）
 
 ### 官方与工具（25）
 
@@ -130,7 +131,7 @@
 - [Homebot](https://github.com/lumpinif/Homebot) - Mac 应用：用 iPhone 或 HomePod 的 Siri 问自己的 Bot，回答由 Siri 念出；要常开 Mac，局域网明文，早期版本未走 Apple 公证。标签：`siri` `homepod` `voice` 📘
 - [Grok Bot Voice（Omarchy）](https://github.com/StefMVP/omarchy-grokbot-voice) - Omarchy 热键开始、静音、挂断语音通话，不抢键盘焦点；安装会开本地调试口，agent id 要自己从 DevTools 抄，非官方。标签：`linux` `voice` `hotkey` 📘
 
-### 模板与目录（18）
+### 模板与目录（19）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -150,8 +151,9 @@
 - [grokbot.rocks：Grok Bot 分享目录](https://grokbot.rocks/) - @BrianRoemmele 维护的公开分享链接大目录，按 26 个类别分，10 月 28 日已收 7500 多个；量大质量不一，站上另推付费会员指南，挑模板时先看说明再装。标签：`directory` `links` `english` 📘
 - [agentusecases.ai · Grok Bot](https://agentusecases.ai/agents/grok-bot) - 按场景收集 AI 代理用法的目录，Grok Bot 只是其中一类；有赞助位，效果数字是投稿人自己说的。标签：`directory` `use-cases` `english` 📘
 - [Grok Bot Shelf](https://grokbotshelf.com) - Phillip Holland 维护的社区模板目录站，八百多个分享链接按生活、效率、创作等分类，点开就能加；源码在 GitHub 且没写 License，条目我们没有逐条抽检。标签：`directory` `templates` `discovery` 📘
+- [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 
-### 技能与连接（51）
+### 技能与连接（56）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -204,6 +206,11 @@
 - [Vehicle Fleet：官方 Fleet API 查车，指令要确认](https://github.com/matthew-rutledge-dev/grokbot-vehicle-fleet) - 社区 MCP，默认只读缓存、不主动唤醒车辆；发指令需显式打开并 confirm；自备 Tesla 开发者应用与令牌，MIT。标签：`mcp` `tesla` `fleet` 📦
 - [Unfinished Botness：导入模板缺技能时的核对与补齐](https://github.com/brefledev/unfinished-botness) - 实验套件：导出可读源、审计导入 Bot 的技能、核对哈希后再补；原生往返作者标明未完整实测，MIT。标签：`skill` `import` `audit` 📦
 - [Grok Bot Bridge](https://github.com/runesleo/grok-bot-bridge) - 让脚本或 Claude Code 经 webhook 给 Bot 派活：job id 本地账本防重发，超时标 UNKNOWN，一条 harvest 把答复收进文件；纯标准库 Python。标签：`webhook` `claude-code` `routine` 📘
+- [一个人 + 22 个 Bot 做出海增长（X 长文）](https://x.com/kkkeric_ai/status/2116726197111648426) - 中文长文，按六条线拆出海增长岗；夹产品推销，外链节奏需自收。我们写了不依赖其付费 API 的实测教程。标签：`chinese` `growth` `fleet` `tutorial-source` 📦
+- [grokbot-growth（社区开工包）](https://github.com/BeatAPI/grokbot-growth) - MIT 出海增长技能开工包；仓库仍新，作参考即可，非必需。标签：`skill` `growth` `community` 📦
+- [Grok Bot Inbox：加密网页收件箱](https://github.com/mascarock/grokbot-inbox) - Bot 推加密邮件快照到自建 Vercel 页，key 在链接井号后；回复只留加密草稿等人确认。MIT，一键模板仍占位。标签：`email` `inbox` `privacy` `vercel` 📦
+- [bots skill：把 Bot 放上个人网站](https://github.com/raphaelsalaja/skills/tree/main/skills/bots) - 提示词让主 Bot 列岗、自查隐私，你批了再改；发布模板仍由人手点。属界面 skill 合集，MIT。标签：`skill` `portfolio` `share` `privacy` 📦
+- [Vesper：让 Bot 监工编码 Agent](https://github.com/Vedant817/vesper-grok-bot-bridge) - 派任务、看回复、要求返工；T3 Code 可走 T3 Connect，其他 CLI 要本机 MCP 桥。MIT，导入模板不装软件。标签：`coding-agent` `mcp` `supervisor` 📦
 
 ### 多 Bot 团队（30）
 
@@ -401,6 +408,7 @@
 - [选题侦察：找高于作者均值的帖，跳过广告抽奖](https://grokguide.si/tutorials/content-scout)
 - [少而精小队：自建 Skill + 语音复述验收](https://grokguide.si/tutorials/lean-team-skill)
 - [出海增长 Bot 小队：一条总管 + 六条线](https://grokguide.si/tutorials/overseas-growth-fleet)
+- [公众号四岗生产线：三段式岗位合同 + 主笔收口](https://grokguide.si/tutorials/wechat-oa-pipeline)
 - [+tag 邮箱分门：一岗一标签一 Routine](https://grokguide.si/tutorials/plus-tag-jobs)
 
 ### 常见问题速查（14）

@@ -10254,5 +10254,106 @@
     "verified": "2026-11-01",
     "repo": "BeatAPI/grokbot-growth",
     "license": "MIT"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/wechat-oa-pipeline",
+    "kept": true,
+    "cat": "T5",
+    "title": "公众号四岗生产线：三段式岗位合同 + 主笔收口（实测教程）",
+    "review": "虚构交接表 7 行：卡住 4；共享电脑不登后台；留言注入 5 短语当数据",
+    "tags": [
+      "tutorial",
+      "wechat",
+      "content",
+      "multi-bot",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-01"
+  },
+  {
+    "url": "https://x.com/xoyif63862452/status/2116693751473021412",
+    "kept": true,
+    "cat": "T5",
+    "title": "四个 Bot 一个群：公众号生产线岗位合同＋四份模板",
+    "review": "中文长文，三段式岗位合同最值钱；四岗可抄，收入账我们不搬。我们写了不照搬提示词的实测教程",
+    "tags": [
+      "chinese",
+      "content",
+      "wechat",
+      "multi-bot",
+      "tutorial-source"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-01",
+    "author": "xoyif63862452",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://github.com/mascarock/grokbot-inbox",
+    "kept": true,
+    "cat": "C",
+    "title": "Grok Bot Inbox：加密网页收件箱",
+    "review": "Bot 推加密邮件快照到自建 Vercel 页，key 在链接井号后；回复只留加密草稿等人确认。MIT，一键模板仍占位",
+    "tags": [
+      "email",
+      "inbox",
+      "privacy",
+      "vercel"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-01",
+    "repo": "mascarock/grokbot-inbox",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/JaxonWright/bot-catalog-for-grok-bot-template",
+    "kept": true,
+    "cat": "B",
+    "title": "Bot Catalog：自更新 Bot 目录模板",
+    "review": "分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器",
+    "tags": [
+      "directory",
+      "templates",
+      "routine",
+      "github"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-01",
+    "repo": "JaxonWright/bot-catalog-for-grok-bot-template",
+    "license": "GPL-3.0"
+  },
+  {
+    "url": "https://github.com/raphaelsalaja/skills/tree/main/skills/bots",
+    "kept": true,
+    "cat": "C",
+    "title": "bots skill：把 Bot 放上个人网站",
+    "review": "提示词让主 Bot 列岗、自查隐私，你批了再改；发布模板仍由人手点。属界面 skill 合集，MIT",
+    "tags": [
+      "skill",
+      "portfolio",
+      "share",
+      "privacy"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-01",
+    "repo": "raphaelsalaja/skills",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/Vedant817/vesper-grok-bot-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "Vesper：让 Bot 监工编码 Agent",
+    "review": "派任务、看回复、要求返工；T3 Code 可走 T3 Connect，其他 CLI 要本机 MCP 桥。MIT，导入模板不装软件",
+    "tags": [
+      "coding-agent",
+      "mcp",
+      "supervisor"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-01",
+    "repo": "Vedant817/vesper-grok-bot-bridge",
+    "license": "MIT"
   }
 ]
