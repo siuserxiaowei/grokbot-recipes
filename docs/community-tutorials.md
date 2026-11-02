@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 446 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 449 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（111）
 
@@ -263,7 +263,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [重复任务扫描：两周日志找出该自动化的三件事（实测教程）](https://grokguide.si/tutorials/repeat-task-scan) - 虚构 32 条日志实跑：5 项重复入表，一次性丢掉；Top3 收件箱、会前简报、周报抄表。标签：`tutorial` `automation` `grokguide`
 - [工程 Bot 小队：共享进度表巡检 + 夜间审计（实测教程）](https://grokguide.si/tutorials/eng-bot-fleet) - 虚构 6 行进度表：2 条要追、2 条可待审；CI 时长审计揪出 2 条变慢工作流；无 cloud agents，不自动合并。标签：`tutorial` `engineering` `fleet` `grokguide`
 
-## 连接、技能与记忆（60）
+## 连接、技能与记忆（61）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -325,6 +325,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [外链自动提交 Skill：先筛质量再逐站提交](https://x.com/ai_chuhai/status/2116013045080092686) - 中文，基于开源 backlink_skills 改编，一批最多 10 站、验证码和付款交还给你；写明不付费、不加互链、不群发 · @ai_chuhai · 2026-10-30。标签：`backlink` `skill` `chinese`
 - [用 QQ（Napcat）使唤 Grok Bot](https://x.com/lv_chen2006/status/2116189778060378563) - 中文短帖，经 Napcat 把 QQ 消息转给 Bot；要自建桥和登录态，注意账号安全 · @lv_chen2006 · 2026-10-30。标签：`qq` `bridge` `chinese`
 - [丢教程链接，让 Bot 写成可试跑的工程书](https://x.com/ai_chuhai/status/2116260262487437589) - 中文，读完教程核对数字并试跑后交工程书；会先查原许可证再标能不能卖 · @ai_chuhai · 2026-10-30。标签：`skill` `docs` `chinese`
+- [Grok Bot Anywhere：Mac 微信转发与悬浮输入（内测）](https://x.com/cgnot996/status/2117138292399636760) - 中文：铁柱AGI 的 Mac 工具，微信记录转发指定 Bot、悬浮输入、Finder 附件；已公证签名；Windows 待证书。第三方内测，安装包在答疑群分发——本页只收录功能说明与出处 · @cgnot996 · 2026-11-02。标签：`anywhere` `wechat` `mac` `chinese` `community` `beta`
 
 ## 一人公司与内容（114）
 
@@ -443,7 +444,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [公众号四岗生产线：三段式岗位合同 + 主笔收口（实测教程）](https://grokguide.si/tutorials/wechat-oa-pipeline) - 虚构交接表 7 行：卡住 4；共享电脑不登后台；留言注入 5 短语当数据。标签：`tutorial` `wechat` `content` `multi-bot` `grokguide`
 - [四个 Bot 一个群：公众号生产线岗位合同＋四份模板](https://x.com/xoyif63862452/status/2116693751473021412) - 中文长文，三段式岗位合同最值钱；四岗可抄，收入账我们不搬。我们写了不照搬提示词的实测教程 · @xoyif63862452 · 2026-11-01。标签：`chinese` `content` `wechat` `multi-bot` `tutorial-source`
 
-## 安全（22）
+## 安全（24）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
@@ -467,3 +468,5 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [事故排查 Routine：先设权限再下线](https://x.com/doublenickk/status/2115831790191436182) - 英文，Routine 对比报错和发版、出时间线和假设，改生产先批；提醒所有 Bot 共用文件和登录。我们照这个思路写了时间线教程 · @doublenickk · 2026-10-29。标签：`incident` `routine` `security` `english`
 - [家庭网络安全盾：DNS、防火墙、通行密钥](https://x.com/Texas_Twins_Dad/status/2116335904692330881) - 英文模板，带你开 DNS 过滤、防火墙和 2FA；改动都由你亲手做，Bot 不索要密码和验证码 · @Texas_Twins_Dad · 2026-10-31。标签：`security` `family` `template` `english`
 - [封顶虚拟卡进 Vault 代填下单（社区经验）](https://x.com/MaxCryptoSpace/status/2117051575080517662) - 中文：用有日限额的虚拟卡存进 Vault 让 Bot 填表下单；提醒官方文档写明 Vault 里的卡结账未必每次都问——要每笔自己核准就别存卡。不推广具体发卡方或邀请链接 · @MaxCryptoSpace · 2026-11-02。标签：`vault` `payment` `virtual-card` `chinese` `warning`
+- [三步接上 1Password：Password Managers 连接器（社区讲解）](https://x.com/Mulight/status/2117189034464493920) - 中文：Connect apps → Password Managers → 1Password；版本门槛与按次批准；模型看不到明文；暂不支持 Google 登录与 Passkey。对齐官方 Support 页，不照搬全文 · @Mulight · 2026-11-02。标签：`1password` `connect-apps` `security` `chinese` `community`
+- [1Password 连接器：Vault 优先 + 按次批准（实测教程）](https://grokguide.si/tutorials/onepassword-connect) - 虚构六场景巡检：Vault 命中、个人库 Review、共享库搬迁、SSO 接管、付款卡永不代填、批准过期；ASSERT_OK。对齐官方新集成，不登录真实 1Password。标签：`tutorial` `1password` `vault` `security` `grokguide`

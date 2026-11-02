@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **71** 个配方，格式统一，提示词可以直接复制
-- **209** 个生态项目和学习资源，每条都打开核对过
-- **446** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **72** 个配方，格式统一，提示词可以直接复制
+- **210** 个生态项目和学习资源，每条都打开核对过
+- **449** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（71）
+## 配方（72）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -69,6 +69,7 @@
 | [桌面 0.77.0 记忆导入：先草稿再进 Settings](recipes/memory-import-pack.md) | 从其他 AI 助手换到 Grok Bot，想搬家偏好与记忆、又要剥掉密钥的人 |
 | [消息热力图：看清最常找哪个 Bot](recipes/msg-heatmap.md) | 开了好几个 Bot、想知道哪些常用、哪些建完就闲着的人 |
 | [一人三岗：调研、客服、内容](recipes/one-person-three-roles.md) | 一个人做产品的人 |
+| [1Password 连接器：Vault 优先 + 按次批准](recipes/onepassword-connect.md) | 想让 Bot 登录网站整理数据或填表，又不想把密码贴进聊天的人 |
 | [海外客服：多语言工单先分流](recipes/outbound-support.md) | 做海外用户的团队 |
 | [出海增长 Bot 小队：一条总管 + 六条线](recipes/overseas-growth-fleet.md) | 一个人做出海增长，想把社媒、SEO/AEO、外链、竞品、视频、热点拆成可持续岗位，又不想开多 Bot 群聊烧额度的人 |
 | [技能钉版本：装之前先对 sha256](recipes/pinned-skills.md) | 想装别人写的技能，又怕作者以后改了内容、或者中途被人动了手脚的人 |
@@ -102,9 +103,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（209）
+## 生态清单（210）
 
-### 官方与工具（25）
+### 官方与工具（26）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -131,6 +132,7 @@
 - [GrokDeck](https://github.com/Gamedesigner/grokdeck) - 第三方 Mac / Windows 客户端，给 Bot 多的人用：置顶、分组、搜缓存对话，还能看云电脑；走非官方接口、预览版，凭证只留内存。标签：`desktop` `client` `ios` 📘
 - [Homebot](https://github.com/lumpinif/Homebot) - Mac 应用：用 iPhone 或 HomePod 的 Siri 问自己的 Bot，回答由 Siri 念出；要常开 Mac，局域网明文，早期版本未走 Apple 公证。标签：`siri` `homepod` `voice` 📘
 - [Grok Bot Voice（Omarchy）](https://github.com/StefMVP/omarchy-grokbot-voice) - Omarchy 热键开始、静音、挂断语音通话，不抢键盘焦点；安装会开本地调试口，agent id 要自己从 DevTools 抄，非官方。标签：`linux` `voice` `hotkey` 📘
+- [1Password Support：Connect 1Password to Grok Bot](https://support.1password.com/1password-grok-bot/) - 官方步骤与边界：个人/家庭账户、8.12.42+、桌面 0.75+/移动 1.16+、Personal/Private、30 天批准；不填 Passkey/SSO/卡。标签：`official` `1password` `docs` 📘
 
 ### 模板与目录（19）
 

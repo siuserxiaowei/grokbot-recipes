@@ -10407,5 +10407,72 @@
     "verified": "2026-11-02",
     "author": "MaxCryptoSpace",
     "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/Mulight/status/2117189034464493920",
+    "kept": true,
+    "cat": "T6",
+    "title": "三步接上 1Password：Password Managers 连接器（社区讲解）",
+    "review": "中文：Connect apps → Password Managers → 1Password；版本门槛与按次批准；模型看不到明文；暂不支持 Google 登录与 Passkey。对齐官方 Support 页，不照搬全文",
+    "tags": [
+      "1password",
+      "connect-apps",
+      "security",
+      "chinese",
+      "community"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-02",
+    "author": "Mulight",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://support.1password.com/1password-grok-bot/",
+    "kept": true,
+    "cat": "A",
+    "title": "1Password Support：Connect 1Password to Grok Bot",
+    "review": "官方步骤与边界：个人/家庭账户、8.12.42+、桌面 0.75+/移动 1.16+、Personal/Private、30 天批准；不填 Passkey/SSO/卡",
+    "tags": [
+      "official",
+      "1password",
+      "docs"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/cgnot996/status/2117138292399636760",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot Anywhere：Mac 微信转发与悬浮输入（内测）",
+    "review": "中文：铁柱AGI 的 Mac 工具，微信记录转发指定 Bot、悬浮输入、Finder 附件；已公证签名；Windows 待证书。第三方内测，安装包在答疑群分发——本页只收录功能说明与出处",
+    "tags": [
+      "anywhere",
+      "wechat",
+      "mac",
+      "chinese",
+      "community",
+      "beta"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-02",
+    "author": "cgnot996",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/onepassword-connect",
+    "kept": true,
+    "cat": "T6",
+    "title": "1Password 连接器：Vault 优先 + 按次批准（实测教程）",
+    "review": "虚构六场景巡检：Vault 命中、个人库 Review、共享库搬迁、SSO 接管、付款卡永不代填、批准过期；ASSERT_OK。对齐官方新集成，不登录真实 1Password",
+    "tags": [
+      "tutorial",
+      "1password",
+      "vault",
+      "security",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-02"
   }
 ]
