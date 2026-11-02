@@ -10355,5 +10355,57 @@
     "verified": "2026-11-01",
     "repo": "Vedant817/vesper-grok-bot-bridge",
     "license": "MIT"
+  },
+  {
+    "url": "https://x.com/xiaomanotes/status/2117059760646443186",
+    "kept": true,
+    "cat": "T2",
+    "title": "私董会：顾问只发言、执行主笔落盘、点名省额度",
+    "review": "中文长文：人物视角顾问进群只提意见不碰文件；执行 Bot 改稿回结论；用 @ 点名让未用顾问安静；意见打架由人拍板；强调群聊按回复计费",
+    "tags": [
+      "chinese",
+      "multi-bot",
+      "group",
+      "advisor",
+      "billing"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-02",
+    "author": "xiaomanotes",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/advisor-board",
+    "kept": true,
+    "cat": "T2",
+    "title": "私董会顾问团：点名发言 + 执行主笔落盘（实测教程）",
+    "review": "虚构花名册与播放复盘草稿：完播 4820≠分表 3650；本轮只点名留存+渠道，预估 3 条回复；顾问 may_touch_files=false",
+    "tags": [
+      "tutorial",
+      "multi-bot",
+      "group",
+      "advisor",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/MaxCryptoSpace/status/2117051575080517662",
+    "kept": true,
+    "cat": "T6",
+    "title": "封顶虚拟卡进 Vault 代填下单（社区经验）",
+    "review": "中文：用有日限额的虚拟卡存进 Vault 让 Bot 填表下单；提醒官方文档写明 Vault 里的卡结账未必每次都问——要每笔自己核准就别存卡。不推广具体发卡方或邀请链接",
+    "tags": [
+      "vault",
+      "payment",
+      "virtual-card",
+      "chinese",
+      "warning"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-02",
+    "author": "MaxCryptoSpace",
+    "date": "2026-11-02"
   }
 ]

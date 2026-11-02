@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 443 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 446 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（111）
 
@@ -118,7 +118,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 工程指南（中译）](https://aiblog.ganhai.cloud/guides/grok-bot-for-engineering/) - 官方工程指南中译：专责工程 Bot、共享看板、夜间审计与 P0；我们据此写了实操教程。标签：`engineering` `official` `chinese`
 - [五个习惯把 Grok Bot 用满：职责卡到 Ops 收卡点](https://x.com/Raytar/status/2116477644665450811) - 英文长文，五个习惯各附可粘贴提示词：职责卡、Auto-review 先问规则、Routine 用 NOOP 省额度、录操作存 skill、Ops bot 每天收卡点 · @Raytar · 2026-10-31。标签：`habits` `skill` `english`
 
-## 多 Bot 团队（84）
+## 多 Bot 团队（86）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -204,6 +204,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [一人公司视角提炼 poteto 六条建队逻辑](https://x.com/Elysianx1f/status/2116692099483812141) - 中文长帖，把精简胜于数量、自建 Skill、独立工具链、干掉复制粘贴、实习生入职、语音脑暴写成可执行清单 · @Elysianx1f · 2026-11-01。标签：`chinese` `team` `onboarding`
 - [少而精小队：自建 Skill + 语音复述验收（实测教程）](https://grokguide.si/tutorials/lean-team-skill) - 虚构 4 席花名册与 8 条教过日志：3 条已教两遍仍无 skill；语音复述五项关键点全过才开工；无 cloud agents。标签：`tutorial` `team` `skill` `grokguide`
 - [+tag 邮箱分门：一岗一标签一 Routine（实测教程）](https://grokguide.si/tutorials/plus-tag-jobs) - 虚构 9 封信：记账 4、告警 5；认证失败与无标签跳过；正文 cancel/refund 不执行。标签：`tutorial` `email` `routine` `plus-tag` `grokguide`
+- [私董会：顾问只发言、执行主笔落盘、点名省额度](https://x.com/xiaomanotes/status/2117059760646443186) - 中文长文：人物视角顾问进群只提意见不碰文件；执行 Bot 改稿回结论；用 @ 点名让未用顾问安静；意见打架由人拍板；强调群聊按回复计费 · @xiaomanotes · 2026-11-02。标签：`chinese` `multi-bot` `group` `advisor` `billing`
+- [私董会顾问团：点名发言 + 执行主笔落盘（实测教程）](https://grokguide.si/tutorials/advisor-board) - 虚构花名册与播放复盘草稿：完播 4820≠分表 3650；本轮只点名留存+渠道，预估 3 条回复；顾问 may_touch_files=false。标签：`tutorial` `multi-bot` `group` `advisor` `grokguide`
 
 ## Routine 与额度（53）
 
@@ -441,7 +443,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [公众号四岗生产线：三段式岗位合同 + 主笔收口（实测教程）](https://grokguide.si/tutorials/wechat-oa-pipeline) - 虚构交接表 7 行：卡住 4；共享电脑不登后台；留言注入 5 短语当数据。标签：`tutorial` `wechat` `content` `multi-bot` `grokguide`
 - [四个 Bot 一个群：公众号生产线岗位合同＋四份模板](https://x.com/xoyif63862452/status/2116693751473021412) - 中文长文，三段式岗位合同最值钱；四岗可抄，收入账我们不搬。我们写了不照搬提示词的实测教程 · @xoyif63862452 · 2026-11-01。标签：`chinese` `content` `wechat` `multi-bot` `tutorial-source`
 
-## 安全（21）
+## 安全（22）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
@@ -464,3 +466,4 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Set Up Grok Bot Vault（X 长文）](https://x.com/PromptLLM/status/2115472384530555202) - Vault 存登录、卡和联系信息的逐步设置，全账号共用这点要先想清楚 · @PromptLLM · 2026-10-28。标签：`english` `vault` `security`
 - [事故排查 Routine：先设权限再下线](https://x.com/doublenickk/status/2115831790191436182) - 英文，Routine 对比报错和发版、出时间线和假设，改生产先批；提醒所有 Bot 共用文件和登录。我们照这个思路写了时间线教程 · @doublenickk · 2026-10-29。标签：`incident` `routine` `security` `english`
 - [家庭网络安全盾：DNS、防火墙、通行密钥](https://x.com/Texas_Twins_Dad/status/2116335904692330881) - 英文模板，带你开 DNS 过滤、防火墙和 2FA；改动都由你亲手做，Bot 不索要密码和验证码 · @Texas_Twins_Dad · 2026-10-31。标签：`security` `family` `template` `english`
+- [封顶虚拟卡进 Vault 代填下单（社区经验）](https://x.com/MaxCryptoSpace/status/2117051575080517662) - 中文：用有日限额的虚拟卡存进 Vault 让 Bot 填表下单；提醒官方文档写明 Vault 里的卡结账未必每次都问——要每笔自己核准就别存卡。不推广具体发卡方或邀请链接 · @MaxCryptoSpace · 2026-11-02。标签：`vault` `payment` `virtual-card` `chinese` `warning`
