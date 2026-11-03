@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **73** 个配方，格式统一，提示词可以直接复制
-- **215** 个生态项目和学习资源，每条都打开核对过
-- **461** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **74** 个配方，格式统一，提示词可以直接复制
+- **221** 个生态项目和学习资源，每条都打开核对过
+- **466** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（73）
+## 配方（74）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -32,6 +32,7 @@
 |---|---|
 | [私董会顾问团：点名发言 + 执行主笔落盘](recipes/advisor-board.md) | 想用几只人设顾问帮你挑毛病，又怕群聊刷屏烧额度、顾问互相改文件的人 |
 | [多 Bot 小公司开工包：RULES + 一呼一吸](recipes/agency-kit.md) | 想用几份纯文本把多 Bot 小公司的规矩、座位和省额度习惯一次齐备的人 |
+| [编码收尾卡：run-cards 看清跑没跑完](recipes/run-cards.md) | 想把长编码交给 Grok Build / Claude Code，又怕 exit 0 其实半路取消、聊天里看不清进度的人 |
 | [Agent 系统备份：搬走记忆，不带走密钥](recipes/agent-memory-backup.md) | 云电脑要重置或换机器，想带走 bots/skills/inbox，又绝不能把 secrets 打进包的人 |
 | [批准后定时发帖：一次性 Routine 查重再发](recipes/approved-post.md) | 想让 Bot 定时发帖，又怕它发重复、日期写错、数字没出处的人 |
 | [附件预检：查上限再分批](recipes/attach-precheck.md) | 一次要发很多照片视频给 Bot、总有发不上的人 |
@@ -104,7 +105,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（215）
+## 生态清单（221）
 
 ### 官方与工具（26）
 
@@ -157,7 +158,7 @@
 - [Grok Bot Shelf](https://grokbotshelf.com) - Phillip Holland 维护的社区模板目录站，八百多个分享链接按生活、效率、创作等分类，点开就能加；源码在 GitHub 且没写 License，条目我们没有逐条抽检。标签：`directory` `templates` `discovery` 📘
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 
-### 技能与连接（58）
+### 技能与连接（62）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -217,8 +218,12 @@
 - [Vesper：让 Bot 监工编码 Agent](https://github.com/Vedant817/vesper-grok-bot-bridge) - 派任务、看回复、要求返工；T3 Code 可走 T3 Connect，其他 CLI 要本机 MCP 桥。MIT，导入模板不装软件。标签：`coding-agent` `mcp` `supervisor` 📦
 - [usta：云电脑跑自有 Claude Code + 隐私过滤导出](https://github.com/measses/usta) - 在 Grok Bot 云电脑上跑自己的 Claude Code，导出前可过滤隐私；MIT，自行审权限。标签：`claude-code` `cloud-computer` `privacy` `export` 📦
 - [stl-price-manager-skill：短租定价 skill](https://github.com/ekastle/stl-price-manager-skill) - 短租（Airbnb 等）定价与竞品跟踪的技能开工包，可接 AirROI 等数据源；MIT。社区条目可提工具名，本站正文不写标价或代充。标签：`skill` `short-term-rental` `pricing` 📦
+- [grok-discord-bridge：Discord webhook 唤醒](https://github.com/RealDragonJT/grok-discord-bridge) - 自有 Discord bot 被 @ 或私信时 POST 到 Grok Bot Routine webhook；主人白名单；MIT。标签：`discord` `webhook` `routine` 📦
+- [run-cards：编码开跑/收尾卡](https://github.com/rystedtcreative/run-cards) - 长编码外包给 Grok Build / Claude Code 时套一层包装：开跑贴卡、结束贴如实收尾卡（PASSED/FAILED/TIMED OUT/CANCELLED/BLOCKED）；省 Bot 回合。MIT，非官方。标签：`coding-agent` `cli` `status` 📦
+- [bot-keepalive：长任务防云电脑睡眠](https://github.com/realTaki/bot-keepalive) - 用 low effort 子 agent 约每 13 分钟一次 tool call 保持活跃；守护期持续耗额度（作者自测约每天 180 万 token）。中英文档，MIT。标签：`skill` `computer` `long-running` 📦
+- [Markcial/bots：开源模板目录](https://github.com/Markcial/bots) - 派活总管、长期学习机等纯文本模板，装前可读装后可改；MIT。标签：`templates` `directory` `router` 📦
 
-### 多 Bot 团队（33）
+### 多 Bot 团队（34）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -253,8 +258,9 @@
 - [grokbot-agency-kit：多 Bot 小公司开工包](https://github.com/DensitySystems/grokbot-agency-kit) - 纯文本：RULES / 组织 / 交接 / 省额度 + 席位模板 + 安静 Routine；MIT。先改成自己的话再约束。标签：`multi-bot` `rules` `starter` `routines` 📦
 - [grokbot-office：Mac 本地 3D 办公室宠物看板](https://github.com/Charonyuu/grokbot-office) - 读本机桌面缓存，把 Bot 画成会打盹/挥手的 3D 办公室宠物；MIT，仅 macOS，升级可能失效。与 head-office 同类展示向。标签：`dashboard` `multi-bot` `macos` `3d` 📦
 - [Vedthakar/agent-hub：跨 Agent 情境总线](https://github.com/Vedthakar/agent-hub) - 在 Claude、ChatGPT、Gemini、Grok Bot 等之间静默同步情境与批准交接；MIT。与 SiegoZhang/agent-hub 不是同一项目，勿混链。标签：`multi-agent` `context` `handoff` 📦
+- [Grokbot City：本机多 Bot 作战看板](https://github.com/sleeplesshan/grokbot-city) - 任务简报、指派或 Boss 组队、wiki 沉淀；看板不连模型，主 Bot 要能访问装看板的电脑。英韩文档，MIT。标签：`dashboard` `team` `wiki` 📦
 
-### Routine 与监控（11）
+### Routine 与监控（12）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -267,6 +273,7 @@
 - [模板：tibot（poteto）](https://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3) - 盯你的提及和关键词（没 @ 也抓），每天一份短摘要，从不替你发帖；可选手动确认后拉黑。标签：`template` `x` `digest` 📘
 - [dawnbrief：七点简报预览（日历、邮件、RSS）](https://github.com/Obiwayne/dawnbrief) - 七点简报：日历、专注时段、待办邮件、Miniflux/RSSHub；带本地预览工具，MIT；Grok Bot 技能在正式套餐上我们还没端到端跑通，先当结构参考。标签：`routine` `brief` `rss` 📦
 - [Usage & Check-in：本机额度看板和打卡](https://github.com/yuehzhan/grokbot-usage-checkin) - 本机仪表盘看每周额度百分比、记工作打卡、按天检索消耗；数据不出本机，推荐在 Linux 云电脑上装，MIT。标签：`quota` `dashboard` `linux` 📦
+- [Grok Bot 省额度一页纸（smdistefano）](https://github.com/smdistefano/grok-bot) - 一天烧掉一周额度后的复盘：上下文税、并行分叉、轮询、过大 skill、无人唤醒；附常驻规则。Apache-2.0。标签：`budget` `tokens` `rules` 📘
 
 ### 一人公司与内容（8）
 

@@ -10762,5 +10762,177 @@
     ],
     "level": "读过文档",
     "verified": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/rystedtcreative/run-cards",
+    "kept": true,
+    "cat": "C",
+    "title": "run-cards：编码开跑/收尾卡",
+    "review": "长编码外包给 Grok Build / Claude Code 时套一层包装：开跑贴卡、结束贴如实收尾卡；MIT，非官方",
+    "tags": [
+      "coding-agent",
+      "cli",
+      "status"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "repo": "rystedtcreative/run-cards",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/realTaki/bot-keepalive",
+    "kept": true,
+    "cat": "C",
+    "title": "bot-keepalive：长任务防云电脑睡眠",
+    "review": "low effort 子 agent 约每 13 分钟 tool call 保活；守护期持续耗额度；中英文档 MIT",
+    "tags": [
+      "skill",
+      "computer",
+      "long-running"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "realTaki/bot-keepalive",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/Markcial/bots",
+    "kept": true,
+    "cat": "C",
+    "title": "Markcial/bots：开源模板目录",
+    "review": "派活总管等纯文本模板，装前可读装后可改；MIT",
+    "tags": [
+      "templates",
+      "directory",
+      "router"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "Markcial/bots",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/RealDragonJT/grok-discord-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-discord-bridge：Discord webhook 唤醒",
+    "review": "自有 Discord bot 事件 POST 到 Grok Bot Routine webhook；主人白名单；MIT",
+    "tags": [
+      "discord",
+      "webhook",
+      "routine"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "RealDragonJT/grok-discord-bridge",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/sleeplesshan/grokbot-city",
+    "kept": true,
+    "cat": "D",
+    "title": "Grokbot City：本机多 Bot 作战看板",
+    "review": "任务简报与组队看板 + wiki；看板不连模型；英韩文档 MIT",
+    "tags": [
+      "dashboard",
+      "team",
+      "wiki"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "sleeplesshan/grokbot-city",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/smdistefano/grok-bot",
+    "kept": true,
+    "cat": "E",
+    "title": "Grok Bot 省额度一页纸（smdistefano）",
+    "review": "一天烧一周额度后的复盘与常驻规则；Apache-2.0",
+    "tags": [
+      "budget",
+      "tokens",
+      "rules"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "repo": "smdistefano/grok-bot",
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/run-cards",
+    "kept": true,
+    "cat": "T4",
+    "title": "编码收尾卡：run-cards（实测教程）",
+    "review": "本机 npm test 145/145；虚构六收尾判定 ASSERT_OK。对齐上游，不宣称本机跑过真实 grok/claude 长任务",
+    "tags": [
+      "tutorial",
+      "coding-agent",
+      "cli",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/kylewmi/status/2117471459803328912",
+    "kept": true,
+    "cat": "T1",
+    "title": "土豆姐最全 Grok Bot 方法论（长文合集）",
+    "review": "把 poteto 演讲访谈直播长文与推文整理成体系方法论；落地仍用自己的话改",
+    "tags": [
+      "chinese",
+      "poteto",
+      "methodology",
+      "article"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/Marko_Poly/status/2117536532189807014",
+    "kept": true,
+    "cat": "T3",
+    "title": "用量审计：重读旧对话能占大半额度",
+    "review": "导出用量后重读可占大半；事件触发、摘要压聊、规矩写进人设；附审计提示词",
+    "tags": [
+      "usage",
+      "audit",
+      "english",
+      "routine"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/yhy319139806/status/2117542769229222352",
+    "kept": true,
+    "cat": "T2",
+    "title": "13 个 Bot 做微信小游戏（附模板）",
+    "review": "制作人统筹按角色建岗；文末模板可加；本站不搬玩法数值",
+    "tags": [
+      "chinese",
+      "multi-bot",
+      "game",
+      "template",
+      "article"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/poteto/status/2117366076342460440",
+    "kept": true,
+    "cat": "T5",
+    "title": "hire a Data Bot（官方负责人演示）",
+    "review": "示范搭数据向 Bot；可 tag @bot 读帖带建",
+    "tags": [
+      "english",
+      "data",
+      "template",
+      "official"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03"
   }
 ]
