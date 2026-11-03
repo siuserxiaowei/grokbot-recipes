@@ -10474,5 +10474,293 @@
     ],
     "level": "读过文档",
     "verified": "2026-11-02"
+  },
+  {
+    "url": "https://github.com/DensitySystems/grokbot-agency-kit",
+    "kept": true,
+    "cat": "D",
+    "title": "grokbot-agency-kit：多 Bot 小公司开工包",
+    "review": "纯文本：RULES / 组织 / 交接 / 省额度 + 席位模板 + 安静 Routine；MIT。先改成自己的话再约束",
+    "tags": [
+      "multi-bot",
+      "rules",
+      "starter",
+      "routines"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "DensitySystems/grokbot-agency-kit",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/measses/usta",
+    "kept": true,
+    "cat": "C",
+    "title": "usta：云电脑跑自有 Claude Code + 隐私过滤导出",
+    "review": "在 Grok Bot 云电脑上跑自己的 Claude Code，导出前可过滤隐私；MIT，自行审权限",
+    "tags": [
+      "claude-code",
+      "cloud-computer",
+      "privacy",
+      "export"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "measses/usta",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/Charonyuu/grokbot-office",
+    "kept": true,
+    "cat": "D",
+    "title": "grokbot-office：Mac 本地 3D 办公室宠物看板",
+    "review": "读本机桌面缓存，把 Bot 画成会打盹/挥手的 3D 办公室宠物；MIT，仅 macOS，升级可能失效。与 head-office 同类展示向",
+    "tags": [
+      "dashboard",
+      "multi-bot",
+      "macos",
+      "3d"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "Charonyuu/grokbot-office",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/Vedthakar/agent-hub",
+    "kept": true,
+    "cat": "D",
+    "title": "Vedthakar/agent-hub：跨 Agent 情境总线",
+    "review": "在 Claude、ChatGPT、Gemini、Grok Bot 等之间静默同步情境与批准交接；MIT。与 SiegoZhang/agent-hub 不是同一项目，勿混链",
+    "tags": [
+      "multi-agent",
+      "context",
+      "handoff"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "Vedthakar/agent-hub",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/ekastle/stl-price-manager-skill",
+    "kept": true,
+    "cat": "C",
+    "title": "stl-price-manager-skill：短租定价 skill",
+    "review": "短租（Airbnb 等）定价与竞品跟踪的技能开工包，可接 AirROI 等数据源；MIT。社区条目可提工具名，本站正文不写标价或代充",
+    "tags": [
+      "skill",
+      "short-term-rental",
+      "pricing"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-03",
+    "repo": "ekastle/stl-price-manager-skill",
+    "license": "MIT"
+  },
+  {
+    "url": "https://x.com/bradgarland/status/2117401689724727807",
+    "kept": true,
+    "cat": "T3",
+    "title": "Routine Auditor：按月给 Routine 打分（模板）",
+    "review": "英文：几十条 Routine 成功率高但三分之一空转；月审模板建议保留/降频/触发/退役，改动仍由你批。模板 https://x.ai/bot/3y5FglJHBwwg_nR7TxFaI",
+    "tags": [
+      "routine",
+      "audit",
+      "template",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "bradgarland",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/bloggersarvesh/status/2117219007359332499",
+    "kept": true,
+    "cat": "T5",
+    "title": "Local SEO with Grok Bot：本地页 + 商家资料",
+    "review": "英文长文：用 Grok Bot 快速发本地有用页并优化 Google 商家资料；工具栈以免费/自有站为主。本站不搬文中费用数字",
+    "tags": [
+      "seo",
+      "local",
+      "english",
+      "content"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "bloggersarvesh",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/zohanlin/status/2117233750199435678",
+    "kept": true,
+    "cat": "T1",
+    "title": "每天 15 件事（繁体长文）",
+    "review": "繁体 X 长文（文章页）：日常可交给 Bot 的十五类事务清单；涉及钱包/支付的项建议跳过或改成只读提醒，支付留人工",
+    "tags": [
+      "chinese",
+      "traditional",
+      "workflow",
+      "daily"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "zohanlin",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/0xlangeai/status/2117197419779866647",
+    "kept": true,
+    "cat": "T1",
+    "title": "读 poteto 指南再改一件事",
+    "review": "中文：拆 poteto 指南里协作、自动化、角色边界与纠错沉淀；核心是让 Bot 少猜、你更好检查。旧 poteto 帖已收，这篇是新拆解",
+    "tags": [
+      "chinese",
+      "poteto",
+      "roles",
+      "workflow"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "0xlangeai",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/Formulasearch/status/2117218296722514130",
+    "kept": true,
+    "cat": "T5",
+    "title": "EchoMe：站点接待助手联动 Grok Bot",
+    "review": "中文短帖：把可嵌入个人站的 AI 接待助手与 Grok Bot 联动，访客消息可当轻量客服草稿；外发仍建议人审",
+    "tags": [
+      "website",
+      "support",
+      "chinese",
+      "embed"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "Formulasearch",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/Texas_Twins_Dad/status/2116748190649037285",
+    "kept": true,
+    "cat": "T1",
+    "title": "Hey Siri 唤起 Grok Bot Voice Chat（快捷指令）",
+    "review": "英文：用系统快捷指令「Start a Voice Chat with Bot」，Siri 唤醒即可；不必常开麦克风的 Vocal Shortcut。区别于已收的 Homebot 家庭盾思路",
+    "tags": [
+      "ios",
+      "siri",
+      "voice",
+      "shortcuts",
+      "english"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "Texas_Twins_Dad",
+    "date": "2026-11-01"
+  },
+  {
+    "url": "https://x.com/xiaomovps/status/2117268289038770660",
+    "kept": true,
+    "cat": "T4",
+    "title": "国内 5 个 MCP/Skill：小红书到企业微信",
+    "review": "中文：整理小红书社区 MCP、抖音官方 MCP 广场、B 站社区 MCP、飞猪官方 Skill、企业微信 CLI/Skill；权限与发布要自审，支付留人工。勿当红包/优惠文读",
+    "tags": [
+      "mcp",
+      "skill",
+      "chinese",
+      "xiaohongshu",
+      "wecom"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "xiaomovps",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/AleiahLock/status/2117264989014618503",
+    "kept": true,
+    "cat": "T5",
+    "title": "Life / Business / Money 续篇（X 长文）",
+    "review": "英文 X 文章续篇：生活、业务与资金三条线怎么继续拆给 Bot；涉及资金动作一律人批，本站不搬具体标价",
+    "tags": [
+      "english",
+      "solo",
+      "business",
+      "article"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "AleiahLock",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/family_itguy/status/2117374416451760229",
+    "kept": true,
+    "cat": "T2",
+    "title": "reliability 长文：让 Bot 说到做到（附模板）",
+    "review": "英文：针对「说了不做、把自己搞乱」写可靠设置与可复用模板；长文在 X 文章页。有具体玩法可学，不是空喊口号",
+    "tags": [
+      "reliability",
+      "template",
+      "english",
+      "multi-bot"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "family_itguy",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/dontbesilent/status/2117201968624173251",
+    "kept": true,
+    "cat": "T5",
+    "title": "dbs 创业教练 / 内容教练共享 Bot",
+    "review": "中文：创业教练与内容教练已做成可分享 Grok Bot；作者称效果好于直接装 dbskill。教练 Bot 可分享，AI 额度仍由使用者自己承担——本站不推付费课",
+    "tags": [
+      "shared-bot",
+      "coaching",
+      "chinese",
+      "content"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "dontbesilent",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://x.com/Pluvio9yte/status/2117194142921245082",
+    "kept": true,
+    "cat": "T4",
+    "title": "读 X 书签并分类（短帖）",
+    "review": "中文短帖：让 Bot 读取 X 书签按主题分类回看，需要实操的帖可在云电脑上验证；短而可学",
+    "tags": [
+      "x",
+      "bookmarks",
+      "chinese",
+      "research"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03",
+    "author": "Pluvio9yte",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/agency-kit",
+    "kept": true,
+    "cat": "T2",
+    "title": "多 Bot 小公司开工包：RULES + 一呼一吸（实测教程）",
+    "review": "虚构六事件巡检：经理委派、一呼一吸、安静 NOOP、有变化才发、密钥样例拦截、违规呼吸；ASSERT_OK。对齐 DensitySystems 开工包，不宣称跑过真实多 Bot cloud agents",
+    "tags": [
+      "tutorial",
+      "multi-bot",
+      "rules",
+      "routines",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-03"
   }
 ]

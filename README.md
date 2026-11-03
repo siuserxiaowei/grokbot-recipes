@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **72** 个配方，格式统一，提示词可以直接复制
-- **210** 个生态项目和学习资源，每条都打开核对过
-- **449** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **73** 个配方，格式统一，提示词可以直接复制
+- **215** 个生态项目和学习资源，每条都打开核对过
+- **461** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -24,13 +24,14 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（72）
+## 配方（73）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
 | 配方 | 适合 |
 |---|---|
 | [私董会顾问团：点名发言 + 执行主笔落盘](recipes/advisor-board.md) | 想用几只人设顾问帮你挑毛病，又怕群聊刷屏烧额度、顾问互相改文件的人 |
+| [多 Bot 小公司开工包：RULES + 一呼一吸](recipes/agency-kit.md) | 想用几份纯文本把多 Bot 小公司的规矩、座位和省额度习惯一次齐备的人 |
 | [Agent 系统备份：搬走记忆，不带走密钥](recipes/agent-memory-backup.md) | 云电脑要重置或换机器，想带走 bots/skills/inbox，又绝不能把 secrets 打进包的人 |
 | [批准后定时发帖：一次性 Routine 查重再发](recipes/approved-post.md) | 想让 Bot 定时发帖，又怕它发重复、日期写错、数字没出处的人 |
 | [附件预检：查上限再分批](recipes/attach-precheck.md) | 一次要发很多照片视频给 Bot、总有发不上的人 |
@@ -103,7 +104,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（210）
+## 生态清单（215）
 
 ### 官方与工具（26）
 
@@ -156,7 +157,7 @@
 - [Grok Bot Shelf](https://grokbotshelf.com) - Phillip Holland 维护的社区模板目录站，八百多个分享链接按生活、效率、创作等分类，点开就能加；源码在 GitHub 且没写 License，条目我们没有逐条抽检。标签：`directory` `templates` `discovery` 📘
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 
-### 技能与连接（56）
+### 技能与连接（58）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -214,8 +215,10 @@
 - [Grok Bot Inbox：加密网页收件箱](https://github.com/mascarock/grokbot-inbox) - Bot 推加密邮件快照到自建 Vercel 页，key 在链接井号后；回复只留加密草稿等人确认。MIT，一键模板仍占位。标签：`email` `inbox` `privacy` `vercel` 📦
 - [bots skill：把 Bot 放上个人网站](https://github.com/raphaelsalaja/skills/tree/main/skills/bots) - 提示词让主 Bot 列岗、自查隐私，你批了再改；发布模板仍由人手点。属界面 skill 合集，MIT。标签：`skill` `portfolio` `share` `privacy` 📦
 - [Vesper：让 Bot 监工编码 Agent](https://github.com/Vedant817/vesper-grok-bot-bridge) - 派任务、看回复、要求返工；T3 Code 可走 T3 Connect，其他 CLI 要本机 MCP 桥。MIT，导入模板不装软件。标签：`coding-agent` `mcp` `supervisor` 📦
+- [usta：云电脑跑自有 Claude Code + 隐私过滤导出](https://github.com/measses/usta) - 在 Grok Bot 云电脑上跑自己的 Claude Code，导出前可过滤隐私；MIT，自行审权限。标签：`claude-code` `cloud-computer` `privacy` `export` 📦
+- [stl-price-manager-skill：短租定价 skill](https://github.com/ekastle/stl-price-manager-skill) - 短租（Airbnb 等）定价与竞品跟踪的技能开工包，可接 AirROI 等数据源；MIT。社区条目可提工具名，本站正文不写标价或代充。标签：`skill` `short-term-rental` `pricing` 📦
 
-### 多 Bot 团队（30）
+### 多 Bot 团队（33）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -247,6 +250,9 @@
 - [grok-multi-bot-workflow](https://github.com/tantan1hao/grok-multi-bot-workflow) - 纯提示词的多 Bot 协作流程，覆盖拆需求、证据、接续和验收；作者标为实验版 v0.1.0，还没有完整真实任务验收。标签：`multi-bot` `workflow` `chinese` 📦
 - [head-office](https://github.com/Aaebraham/head-office) - 把 Bot 和其他代理画成一个 3D 办公室看状态；只支持 macOS，读的是本地客户端缓存，不是公开接口，升级可能失效。标签：`dashboard` `multi-bot` `macos` 📦
 - [grok-bot-ops](https://github.com/yohei1126/grok-bot-ops) - 多 Bot 运维卫生手册，纯文档：共享规则放哪、何时建新或退役、长期 Bot 和一次性对话怎么分、月度审计清单，目标是省额度、交接清楚。标签：`multi-agent` `ops` `usage` 📘
+- [grokbot-agency-kit：多 Bot 小公司开工包](https://github.com/DensitySystems/grokbot-agency-kit) - 纯文本：RULES / 组织 / 交接 / 省额度 + 席位模板 + 安静 Routine；MIT。先改成自己的话再约束。标签：`multi-bot` `rules` `starter` `routines` 📦
+- [grokbot-office：Mac 本地 3D 办公室宠物看板](https://github.com/Charonyuu/grokbot-office) - 读本机桌面缓存，把 Bot 画成会打盹/挥手的 3D 办公室宠物；MIT，仅 macOS，升级可能失效。与 head-office 同类展示向。标签：`dashboard` `multi-bot` `macos` `3d` 📦
+- [Vedthakar/agent-hub：跨 Agent 情境总线](https://github.com/Vedthakar/agent-hub) - 在 Claude、ChatGPT、Gemini、Grok Bot 等之间静默同步情境与批准交接；MIT。与 SiegoZhang/agent-hub 不是同一项目，勿混链。标签：`multi-agent` `context` `handoff` 📦
 
 ### Routine 与监控（11）
 

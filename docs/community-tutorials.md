@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 449 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 461 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（111）
+## 入门与配置（114）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -117,8 +117,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [笔电阖上，Bot 还在云电脑上做事](https://x.com/KimFull/status/2116448944611803412) - 繁中入门帖，讲清云电脑和本机是分开的；关 App 后 Routine 仍会跑，本机指令要另开权限 · @KimFull · 2026-10-31。标签：`beginner` `computer` `chinese`
 - [Grok Bot 工程指南（中译）](https://aiblog.ganhai.cloud/guides/grok-bot-for-engineering/) - 官方工程指南中译：专责工程 Bot、共享看板、夜间审计与 P0；我们据此写了实操教程。标签：`engineering` `official` `chinese`
 - [五个习惯把 Grok Bot 用满：职责卡到 Ops 收卡点](https://x.com/Raytar/status/2116477644665450811) - 英文长文，五个习惯各附可粘贴提示词：职责卡、Auto-review 先问规则、Routine 用 NOOP 省额度、录操作存 skill、Ops bot 每天收卡点 · @Raytar · 2026-10-31。标签：`habits` `skill` `english`
+- [每天 15 件事（繁体长文）](https://x.com/zohanlin/status/2117233750199435678) - 繁体 X 长文（文章页）：日常可交给 Bot 的十五类事务清单；涉及钱包/支付的项建议跳过或改成只读提醒，支付留人工 · @zohanlin · 2026-11-02。标签：`chinese` `traditional` `workflow` `daily`
+- [读 poteto 指南再改一件事](https://x.com/0xlangeai/status/2117197419779866647) - 中文：拆 poteto 指南里协作、自动化、角色边界与纠错沉淀；核心是让 Bot 少猜、你更好检查。旧 poteto 帖已收，这篇是新拆解 · @0xlangeai · 2026-11-02。标签：`chinese` `poteto` `roles` `workflow`
+- [Hey Siri 唤起 Grok Bot Voice Chat（快捷指令）](https://x.com/Texas_Twins_Dad/status/2116748190649037285) - 英文：用系统快捷指令「Start a Voice Chat with Bot」，Siri 唤醒即可；不必常开麦克风的 Vocal Shortcut。区别于已收的 Homebot 家庭盾思路 · @Texas_Twins_Dad · 2026-11-01。标签：`ios` `siri` `voice` `shortcuts` `english`
 
-## 多 Bot 团队（86）
+## 多 Bot 团队（88）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -206,8 +209,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [+tag 邮箱分门：一岗一标签一 Routine（实测教程）](https://grokguide.si/tutorials/plus-tag-jobs) - 虚构 9 封信：记账 4、告警 5；认证失败与无标签跳过；正文 cancel/refund 不执行。标签：`tutorial` `email` `routine` `plus-tag` `grokguide`
 - [私董会：顾问只发言、执行主笔落盘、点名省额度](https://x.com/xiaomanotes/status/2117059760646443186) - 中文长文：人物视角顾问进群只提意见不碰文件；执行 Bot 改稿回结论；用 @ 点名让未用顾问安静；意见打架由人拍板；强调群聊按回复计费 · @xiaomanotes · 2026-11-02。标签：`chinese` `multi-bot` `group` `advisor` `billing`
 - [私董会顾问团：点名发言 + 执行主笔落盘（实测教程）](https://grokguide.si/tutorials/advisor-board) - 虚构花名册与播放复盘草稿：完播 4820≠分表 3650；本轮只点名留存+渠道，预估 3 条回复；顾问 may_touch_files=false。标签：`tutorial` `multi-bot` `group` `advisor` `grokguide`
+- [reliability 长文：让 Bot 说到做到（附模板）](https://x.com/family_itguy/status/2117374416451760229) - 英文：针对「说了不做、把自己搞乱」写可靠设置与可复用模板；长文在 X 文章页。有具体玩法可学，不是空喊口号 · @family_itguy · 2026-11-02。标签：`reliability` `template` `english` `multi-bot`
+- [多 Bot 小公司开工包：RULES + 一呼一吸（实测教程）](https://grokguide.si/tutorials/agency-kit) - 虚构六事件巡检：经理委派、一呼一吸、安静 NOOP、有变化才发、密钥样例拦截、违规呼吸；ASSERT_OK。对齐 DensitySystems 开工包，不宣称跑过真实多 Bot cloud agents。标签：`tutorial` `multi-bot` `rules` `routines` `grokguide`
 
-## Routine 与额度（53）
+## Routine 与额度（54）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -262,8 +267,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [一条提示词：翻两周工作找重复任务](https://x.com/ericzakariasson/status/2116282740802998627) - 英文短帖，让 Bot 扫邮件会议 Slack 文档，列出重复活并挑三件先自动化；只建议不私自开 · @ericzakariasson · 2026-10-30。标签：`automation` `prompt` `english`
 - [重复任务扫描：两周日志找出该自动化的三件事（实测教程）](https://grokguide.si/tutorials/repeat-task-scan) - 虚构 32 条日志实跑：5 项重复入表，一次性丢掉；Top3 收件箱、会前简报、周报抄表。标签：`tutorial` `automation` `grokguide`
 - [工程 Bot 小队：共享进度表巡检 + 夜间审计（实测教程）](https://grokguide.si/tutorials/eng-bot-fleet) - 虚构 6 行进度表：2 条要追、2 条可待审；CI 时长审计揪出 2 条变慢工作流；无 cloud agents，不自动合并。标签：`tutorial` `engineering` `fleet` `grokguide`
+- [Routine Auditor：按月给 Routine 打分（模板）](https://x.com/bradgarland/status/2117401689724727807) - 英文：几十条 Routine 成功率高但三分之一空转；月审模板建议保留/降频/触发/退役，改动仍由你批。模板 https://x.ai/bot/3y5FglJHBwwg_nR7TxFaI · @bradgarland · 2026-11-02。标签：`routine` `audit` `template` `english`
 
-## 连接、技能与记忆（61）
+## 连接、技能与记忆（63）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -326,8 +332,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [用 QQ（Napcat）使唤 Grok Bot](https://x.com/lv_chen2006/status/2116189778060378563) - 中文短帖，经 Napcat 把 QQ 消息转给 Bot；要自建桥和登录态，注意账号安全 · @lv_chen2006 · 2026-10-30。标签：`qq` `bridge` `chinese`
 - [丢教程链接，让 Bot 写成可试跑的工程书](https://x.com/ai_chuhai/status/2116260262487437589) - 中文，读完教程核对数字并试跑后交工程书；会先查原许可证再标能不能卖 · @ai_chuhai · 2026-10-30。标签：`skill` `docs` `chinese`
 - [Grok Bot Anywhere：Mac 微信转发与悬浮输入（内测）](https://x.com/cgnot996/status/2117138292399636760) - 中文：铁柱AGI 的 Mac 工具，微信记录转发指定 Bot、悬浮输入、Finder 附件；已公证签名；Windows 待证书。第三方内测，安装包在答疑群分发——本页只收录功能说明与出处 · @cgnot996 · 2026-11-02。标签：`anywhere` `wechat` `mac` `chinese` `community` `beta`
+- [国内 5 个 MCP/Skill：小红书到企业微信](https://x.com/xiaomovps/status/2117268289038770660) - 中文：整理小红书社区 MCP、抖音官方 MCP 广场、B 站社区 MCP、飞猪官方 Skill、企业微信 CLI/Skill；权限与发布要自审，支付留人工。勿当红包/优惠文读 · @xiaomovps · 2026-11-02。标签：`mcp` `skill` `chinese` `xiaohongshu` `wecom`
+- [读 X 书签并分类（短帖）](https://x.com/Pluvio9yte/status/2117194142921245082) - 中文短帖：让 Bot 读取 X 书签按主题分类回看，需要实操的帖可在云电脑上验证；短而可学 · @Pluvio9yte · 2026-11-02。标签：`x` `bookmarks` `chinese` `research`
 
-## 一人公司与内容（114）
+## 一人公司与内容（118）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -443,6 +451,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [按岗位拆自媒体团队：管什么、怎么干、先问我](https://x.com/johnAGI168/status/2116574459318460725) - 中文长帖：按平台拆岗，建 Bot 只写三件事，发帖/私信/下单写死先确认；建议先跑顺一个岗位再加 · @johnAGI168 · 2026-10-31。标签：`chinese` `content` `roster`
 - [公众号四岗生产线：三段式岗位合同 + 主笔收口（实测教程）](https://grokguide.si/tutorials/wechat-oa-pipeline) - 虚构交接表 7 行：卡住 4；共享电脑不登后台；留言注入 5 短语当数据。标签：`tutorial` `wechat` `content` `multi-bot` `grokguide`
 - [四个 Bot 一个群：公众号生产线岗位合同＋四份模板](https://x.com/xoyif63862452/status/2116693751473021412) - 中文长文，三段式岗位合同最值钱；四岗可抄，收入账我们不搬。我们写了不照搬提示词的实测教程 · @xoyif63862452 · 2026-11-01。标签：`chinese` `content` `wechat` `multi-bot` `tutorial-source`
+- [Local SEO with Grok Bot：本地页 + 商家资料](https://x.com/bloggersarvesh/status/2117219007359332499) - 英文长文：用 Grok Bot 快速发本地有用页并优化 Google 商家资料；工具栈以免费/自有站为主。本站不搬文中费用数字 · @bloggersarvesh · 2026-11-02。标签：`seo` `local` `english` `content`
+- [EchoMe：站点接待助手联动 Grok Bot](https://x.com/Formulasearch/status/2117218296722514130) - 中文短帖：把可嵌入个人站的 AI 接待助手与 Grok Bot 联动，访客消息可当轻量客服草稿；外发仍建议人审 · @Formulasearch · 2026-11-02。标签：`website` `support` `chinese` `embed`
+- [Life / Business / Money 续篇（X 长文）](https://x.com/AleiahLock/status/2117264989014618503) - 英文 X 文章续篇：生活、业务与资金三条线怎么继续拆给 Bot；涉及资金动作一律人批，本站不搬具体标价 · @AleiahLock · 2026-11-02。标签：`english` `solo` `business` `article`
+- [dbs 创业教练 / 内容教练共享 Bot](https://x.com/dontbesilent/status/2117201968624173251) - 中文：创业教练与内容教练已做成可分享 Grok Bot；作者称效果好于直接装 dbskill。教练 Bot 可分享，AI 额度仍由使用者自己承担——本站不推付费课 · @dontbesilent · 2026-11-02。标签：`shared-bot` `coaching` `chinese` `content`
 
 ## 安全（24）
 
