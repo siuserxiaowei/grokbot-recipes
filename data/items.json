@@ -11205,5 +11205,292 @@
     "verified": "2026-11-04",
     "author": "le0xet",
     "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/KinGao476942/status/2117853896580456514",
+    "kept": true,
+    "cat": "T5",
+    "title": "手机建站六棒：主 Bot 串岗（X 长文）",
+    "review": "调研到司令部六岗 + 主 Bot 调度；日常只跟主 Bot；PR 保持 OPEN；测试不过不呈合；点头才上线；别照搬案例站与标价",
+    "tags": [
+      "chinese",
+      "multi-bot",
+      "shipping",
+      "website"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "KinGao476942",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/Leoskie_L/status/2117810857858252986",
+    "kept": true,
+    "cat": "T3",
+    "title": "账单是重读税：交接卡比加档更管用（X）",
+    "review": "自测 token 里九成是 cached 重读；升级方案救不了，交接卡才补洞；作省额度参考不照搬其电表数字",
+    "tags": [
+      "chinese",
+      "credits",
+      "handoff"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "Leoskie_L",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/bit_sister/status/2117528558411141275",
+    "kept": true,
+    "cat": "T4",
+    "title": "额度不够？给 Grok Bot 接入其他大模型（X 长文）",
+    "review": "用 Skill 把重活分给其他模型；先核官方条款与密钥边界，再决定是否接",
+    "tags": [
+      "chinese",
+      "credits",
+      "skills",
+      "multi-model"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "bit_sister",
+    "date": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/0xlangeai/status/2117582319473102854",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot 与 WorkBuddy：微信一例串飞书 CLI（X）",
+    "review": "电脑上把微信消息转 WorkBuddy，Bot 找官推原文再经飞书 CLI 回传；流程参考，密钥与桥接自担",
+    "tags": [
+      "chinese",
+      "wechat",
+      "feishu",
+      "workbuddy"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "0xlangeai",
+    "date": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/FanShifu/status/2117601715147141360",
+    "kept": true,
+    "cat": "T5",
+    "title": "新站监控：需求→关键词→趋势→再决定建站（X）",
+    "review": "Bot 盯新站承接需求，再用 Similarweb/SEMrush/Trends 估词；先看自己能不能打，再开工",
+    "tags": [
+      "chinese",
+      "seo",
+      "research",
+      "shipping"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "FanShifu",
+    "date": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/0xAlphana/status/2117799355281440986",
+    "kept": true,
+    "cat": "T3",
+    "title": "额度告急：四个开源项目多维度分担（X 长文）",
+    "review": "用开源项目把重活、本地执行、桥接拆出去；装之前核对许可与密钥边界",
+    "tags": [
+      "chinese",
+      "credits",
+      "opensource"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "0xAlphana",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/fankaishuoai/status/2117840211468275823",
+    "kept": true,
+    "cat": "T3",
+    "title": "六条省额度：本地 Agent + 少闲聊（X）",
+    "review": "重活交本地 Agent；Routine 尽量写成脚本；禁闲聊与多 Bot 群聊刷屏；一岗一职",
+    "tags": [
+      "chinese",
+      "credits",
+      "local-agent",
+      "routines"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "fankaishuoai",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/0xbobaaa/status/2117566749428138162",
+    "kept": true,
+    "cat": "T3",
+    "title": "周额度第二天见底：七条修复提示词（X 长文）",
+    "review": "英文：10 分钟 Routine、Bot 互聊、Test 按钮都会烧额度；七条带提示词的修法，作参考不照搬其账单",
+    "tags": [
+      "english",
+      "credits",
+      "routines"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "0xbobaaa",
+    "date": "2026-11-03"
+  },
+  {
+    "url": "https://x.com/chfsunwy/status/2117281142806397051",
+    "kept": true,
+    "cat": "T3",
+    "title": "为什么 Muse 耐烧、Grok Bot 烧得快（X 串）",
+    "review": "差别在上下文怎么管：步数×上下文体积；作计费机制科普，网传池数字勿当真",
+    "tags": [
+      "chinese",
+      "credits",
+      "context"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "chfsunwy",
+    "date": "2026-11-02"
+  },
+  {
+    "url": "https://github.com/ystory/grok-codex-native",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-codex-native：Bot 云电脑上派 Codex",
+    "review": "把编码任务委托给 Bot 本机云电脑上的 Codex；与 bot-codex-delegate 同类思路，装前核默认权限",
+    "tags": [
+      "codex",
+      "delegate",
+      "cloud-computer"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "ystory/grok-codex-native"
+  },
+  {
+    "url": "https://github.com/AnaGuiDev/context-bot",
+    "kept": true,
+    "cat": "E",
+    "title": "context-bot：长对话红绿灯",
+    "review": "绿灯继续、黄灯摘要、红灯换新会话；给长聊省额度的轻量提示",
+    "tags": [
+      "credits",
+      "context",
+      "routine"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "AnaGuiDev/context-bot"
+  },
+  {
+    "url": "https://github.com/paulpierre/gb-launcher",
+    "kept": true,
+    "cat": "A",
+    "title": "gb-launcher：一台 Mac 并排多个 Grok Bot 账号",
+    "review": "小 CLI 启动器并排多账号；仅本机隔离会话，不是安全沙箱，密钥仍各自保管",
+    "tags": [
+      "desktop",
+      "multi-account",
+      "mac"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "paulpierre/gb-launcher"
+  },
+  {
+    "url": "https://github.com/headlessfounder/GrokBotBuzzBridge",
+    "kept": true,
+    "cat": "C",
+    "title": "GrokBotBuzzBridge：Buzz 社区里问 Bot",
+    "review": "Buzz 提问转发到你的 Bot 再回帖；桥接凭证自担，别把社区当审批绕过",
+    "tags": [
+      "bridge",
+      "community",
+      "buzz"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "headlessfounder/GrokBotBuzzBridge"
+  },
+  {
+    "url": "https://github.com/WillingE/financial-freedom",
+    "kept": true,
+    "cat": "F",
+    "title": "financial-freedom：通知→Routine→Sheets 无感记账",
+    "review": "iOS 通知进 Grok Bot 例程再写入 Google Sheets；账本字段自定，勿贴银行卡密",
+    "tags": [
+      "chinese",
+      "finance",
+      "routine",
+      "sheets"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "WillingE/financial-freedom"
+  },
+  {
+    "url": "https://github.com/yunjian-ai/yunjian-zhibo",
+    "kept": true,
+    "cat": "D",
+    "title": "云间Bot 万象直播：抖音直播间多岗",
+    "review": "运营/场控/投手/中控/话术/复盘六岗；垂直场景参考，密钥与平台规则自担",
+    "tags": [
+      "chinese",
+      "live",
+      "multi-bot",
+      "douyin"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "yunjian-ai/yunjian-zhibo"
+  },
+  {
+    "url": "https://github.com/htetahyan/grok-video-studio",
+    "kept": true,
+    "cat": "F",
+    "title": "grok-video-studio：Bot 视频制作工具包",
+    "review": "面向真片剪辑与可度量输出；装前看许可与素材版权要求",
+    "tags": [
+      "video",
+      "content",
+      "toolkit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "htetahyan/grok-video-studio"
+  },
+  {
+    "url": "https://github.com/enrand22/catan-grokbot",
+    "kept": true,
+    "cat": "B",
+    "title": "catan-grokbot：卡坦岛人对 Bot 对 AI",
+    "review": "西语休闲玩法：2–4 人含人类与 Bot；娱乐向，不作生产模板",
+    "tags": [
+      "game",
+      "spanish",
+      "multiplayer"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-04",
+    "repo": "enrand22/catan-grokbot"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/six-bar-site",
+    "kept": true,
+    "cat": "T2",
+    "title": "手机建站六棒：主 Bot 串岗，每棒你点头（实测教程）",
+    "review": "虚构六闸门：等确认、测试未过拦截、自合拦截、跳棒拦截、编数字拦截、点头才上线；ASSERT_OK。思路来自 KinGao 长文，不照搬 JD 与案例站",
+    "tags": [
+      "tutorial",
+      "multi-bot",
+      "shipping",
+      "website",
+      "grokguide"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04"
   }
 ]
