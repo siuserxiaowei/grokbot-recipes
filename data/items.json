@@ -8949,7 +8949,7 @@
   },
   {
     "url": "https://github.com/AidaShika/personal-agent-dossier",
-    "kept": true,
+    "kept": false,
     "cat": "C",
     "title": "personal-agent-dossier",
     "review": "把一个 Bot 的职责、规则、记忆、Routine 和依赖打包成一份 .dossier.md，换平台或换机器时照着重建；导入先空跑，自带校验脚本，MIT",
@@ -8962,7 +8962,8 @@
     "verified": "2026-10-29",
     "repo": "AidaShika/personal-agent-dossier",
     "last_push": "2026-10-29",
-    "license": "MIT"
+    "license": "MIT",
+    "drop_reason": "upstream repo 404 as of 2026-11-04 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://thedailybot.vercel.app/whats-new",
