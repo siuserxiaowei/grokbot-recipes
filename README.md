@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **74** 个配方，格式统一，提示词可以直接复制
-- **221** 个生态项目和学习资源，每条都打开核对过
-- **466** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **76** 个配方，格式统一，提示词可以直接复制
+- **232** 个生态项目和学习资源，每条都打开核对过
+- **471** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -39,6 +39,7 @@
 | [注意力清单：让 Bot 从你的行动里整理重点](recipes/attention-list.md) | 手上项目多、优先级清单总过期的人 |
 | [Auto-review 规则先判一遍：动词加对象，冲突按先问](recipes/auto-review-rules.md) | 想在 0.77 Permissions 里加审批规则、又怕写宽了让 Bot 乱发的人 |
 | [多 Bot 共用规则底座：一个入口、一个写入者](recipes/bot-harness.md) | 同时用好几个 Bot、规则老对不上或者共享文件被互相覆盖的人 |
+| [Codex 派活：bot-codex-delegate 干完再叫醒](recipes/bot-codex-delegate.md) | 想把编码长活交给 Codex，又不想主聊天一直盯盘、也不想云电脑中途睡着的人 |
 | [花名册和看板：多 Bot 分工不打架](recipes/bot-roster.md) | 有 3 个以上 Bot 的人 |
 | [群发前剔除退信和退订](recipes/bounce-suppress.md) | 要给一批人发通知、名单里有退过信的人 |
 | [云电脑自愈：重置后把 Tailscale 和常用状态装回来](recipes/box-heal.md) | 云电脑常被平台重置、换机或休眠，想让 Tailscale、软件包基线和 gh 登录态自动回来，又不想让脚本代你登录的人 |
@@ -105,7 +106,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（221）
+## 生态清单（232）
 
 ### 官方与工具（26）
 
@@ -158,7 +159,7 @@
 - [Grok Bot Shelf](https://grokbotshelf.com) - Phillip Holland 维护的社区模板目录站，八百多个分享链接按生活、效率、创作等分类，点开就能加；源码在 GitHub 且没写 License，条目我们没有逐条抽检。标签：`directory` `templates` `discovery` 📘
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 
-### 技能与连接（62）
+### 技能与连接（67）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -221,15 +222,24 @@
 - [grok-discord-bridge：Discord webhook 唤醒](https://github.com/RealDragonJT/grok-discord-bridge) - 自有 Discord bot 被 @ 或私信时 POST 到 Grok Bot Routine webhook；主人白名单；MIT。标签：`discord` `webhook` `routine` 📦
 - [run-cards：编码开跑/收尾卡](https://github.com/rystedtcreative/run-cards) - 长编码外包给 Grok Build / Claude Code 时套一层包装：开跑贴卡、结束贴如实收尾卡（PASSED/FAILED/TIMED OUT/CANCELLED/BLOCKED）；省 Bot 回合。MIT，非官方。标签：`coding-agent` `cli` `status` 📦
 - [bot-keepalive：长任务防云电脑睡眠](https://github.com/realTaki/bot-keepalive) - 用 low effort 子 agent 约每 13 分钟一次 tool call 保持活跃；守护期持续耗额度（作者自测约每天 180 万 token）。中英文档，MIT。标签：`skill` `computer` `long-running` 📦
+- [bot-codex-delegate：派活给 Codex 干完再叫醒](https://github.com/realTaki/bot-codex-delegate) - 常驻 localhost app-server + 等待子 agent；主聊天空闲，额度花在 Codex；默认 workspace-write/on-request，全权限显式开启。与 bot-keepalive 同作者。中英文档，MIT。标签：`skill` `codex` `delegate` 📦
+- [aibot-hostkit：云电脑一键常驻编码主机](https://github.com/monarchsofchaos004-gif/aibot-hostkit) - 一条命令装 Claude Code/Codex/Gemini 进 tmux，挂了自动拉起，可选 `--plan`；`aibot lock` 防多 Bot 抢写。curl|bash 先读 install.sh；繁中 README，MIT。标签：`computer` `claude-code` `tmux` `setup` 📦
+- [grok-bot-setup：家用 Linux 接 T3 Code（不开公网）](https://github.com/nsoliven/grok-bot-setup) - 本机 watcher 只读 T3 库，线程真在等你才批量 webhook；经自有 Cloudflare Tunnel 窄权限 MCP 回帖。非官方，T3 升级可能失效。MIT。标签：`t3code` `webhook` `mcp` `cloudflare` 📦
+- [MarcusYuan/gbdev：Bot 当架构师带本机 Codex/Cursor](https://github.com/MarcusYuan/gbdev) - 本地编排：拆任务图→并行 worktree→有上限的评审修复→用户点头再合；Bot 只读 JSON 决策，从不 push。Apache-2.0。标签：`codex` `cursor` `orchestrator` 📦
+- [Bookmark Persona：发帖 vs 收藏趣味人设卡](https://github.com/ItsOdeLeo/bookmark-persona) - 读帖/收藏/赞对比「发出的你」和「收藏的你」，出四字母类型与分享卡；纯娱乐，数据留在你的 Bot。MIT。标签：`template` `x` `fun` `share-card` 📦
 - [Markcial/bots：开源模板目录](https://github.com/Markcial/bots) - 派活总管、长期学习机等纯文本模板，装前可读装后可改；MIT。标签：`templates` `directory` `router` 📦
 
-### 多 Bot 团队（34）
+### 多 Bot 团队（38）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
 - [overnight](https://github.com/Archive228/overnight) - 六个 Bot 的视频生产线，发布前必须人审，内容号可以学它的把关方式。标签：`teams` `content` 📦
 - [grokbot-gtm-team](https://github.com/timscheuerai/grokbot-gtm-team) - 作者公开的十几个销售类 Bot 和建队提示词，一次对话建好整队。标签：`teams` `gtm` 📦
 - [AgentPeerChat](https://github.com/AgenticsWorks/AgentPeerChat) - 自托管的 Bot 间消息通道，能把 Grok Bot 和别的助手拉进同一个频道。标签：`self-hosted` `messaging` 📦
+- [Pots（pi-durable-bot）](https://github.com/Crokily/pi-durable-bot) - 自托管 AI 同事：自选模型，读你邀请的频道/邮件/日历，崩溃续跑、消息去重；作者以 Grok Bot 为参照。要 Node 24，MIT。标签：`self-hosted` `byo-model` `durable` 📦
+- [GrokBot 界面学习 Demo（kylin-feng）](https://github.com/kylin-feng/grokbot) - 开源复刻界面与同事式线程；「云电脑」面板为本地模拟，不真操作机器。BYOK，MIT。标签：`clone` `demo` `byok` 📦
+- [napcat-grok-bridge：QQ 私聊桥](https://github.com/taoning0403/napcat-grok-bridge) - NapCat↔Webhook Routine 双向桥，Docker Compose；防回环、端口本机绑定。v0.1 单机器人单对象，MIT。标签：`qq` `webhook` `bridge` 📦
+- [slack-grok-bridge：Slack 例程桥模板](https://github.com/ClawDogLabs/slack-grok-bridge) - Socket Mode 或 Cloudflare Worker/HTTP 中继同一 webhook；附装机提示与托管决策树。package private、未声明许可证，作信号。标签：`slack` `webhook` `bridge` 📘
 - [noodle](https://github.com/pdparchitect/noodle) - Mac 和 iPhone 上的多助手群聊客户端，复用已有订阅。标签：`client` `multi-agent` 📦
 - [orca](https://github.com/stablyai/orca) - 管理一群编程助手的工作台，电脑和手机都能用，社区里规模较大。标签：`workspace` `fleet` 📦
 - [agentrove](https://github.com/Mng-dev-ai/agentrove) - 自托管的编程工作区，把多家编程助手放在一起编排。标签：`self-hosted` `coding` 📦
@@ -340,6 +350,8 @@
 - [grokbot 完整使用指南（xianyu110）](https://github.com/xianyu110/grokbot) - 中文图文教程仓库，10 分钟上手加分主题深入。标签：`guide` `github` 📦
 - [从入门到精通长文（觉醒AI）](https://www.jxxy.net/ai/articles/grok-bot-mastery-guide/) - 中文长文合集页，部分内容要登录才能看。标签：`guide` `chinese` 📘
 - [GrokBotGuide](https://github.com/JeffShanCha/grokbotguide) - 社区一起写的中英双语手册，从入门路线讲到 Skill、Routine 和工具实战，每篇标了来源；非官方，刚起步。标签：`chinese` `guide` 📦
+- [Awesome Grok Bots（ctrlcmdshft）](https://github.com/ctrlcmdshft/awesome-grok-bots) - 279 个第三方 Bot 清单，隐私清理优先；分类由 yaml 生成。全是第三方，加之前自审；CC0。标签：`directory` `privacy` `templates` 📘
+- [GrokBot Guide（一宿君 / anightmonarch）](https://github.com/anightmonarch/grokbot-guide) - 中文实践手册站 grokbotguide.pages.dev：30 分钟入门、六位可导入队友、场景与工作台；与 JeffShanCha/grokbotguide 不是同一项目。MIT。标签：`chinese` `guide` `templates` 📦
 - [Grok Bot Wiki](https://www.grokbotwiki.com/) - 英文资料站，有模板库和指南，每页标了对照的官方文档日期。标签：`wiki` `english` 📘
 - [九类场景与资源库（翔宇工作流）](https://xiangyugongzuoliu.com/grokbot-use-cases/) - 中文，先讲公众号、小红书、抖音怎么拆岗，再按九类场景整理。标签：`usecases` `chinese` 📘
 - [48 个玩法按场景整理（大数跨境）](https://www.10100.com/article/153919718) - 中文合集，作者说明是上手前做的功课，适合当灵感清单。标签：`index` `usecases` 📘

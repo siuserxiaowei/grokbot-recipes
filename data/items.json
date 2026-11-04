@@ -10934,5 +10934,276 @@
     ],
     "level": "读过文档",
     "verified": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/realTaki/bot-codex-delegate",
+    "kept": true,
+    "cat": "C",
+    "title": "bot-codex-delegate：派活给 Codex 干完再叫醒",
+    "review": "常驻 localhost app-server + 等待子 agent；默认 workspace-write/on-request；与 bot-keepalive 同作者",
+    "tags": [
+      "skill",
+      "codex",
+      "delegate"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-04",
+    "repo": "realTaki/bot-codex-delegate",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/monarchsofchaos004-gif/aibot-hostkit",
+    "kept": true,
+    "cat": "C",
+    "title": "aibot-hostkit：云电脑常驻编码主机",
+    "review": "一条命令装 Claude Code/Codex 进 tmux；aibot lock 防抢写；curl|bash 先读脚本",
+    "tags": [
+      "computer",
+      "claude-code",
+      "tmux"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "monarchsofchaos004-gif/aibot-hostkit",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/nsoliven/grok-bot-setup",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bot-setup：家用 Linux 接 T3 Code",
+    "review": "本机 watcher 只读 T3 库，真在等你才 webhook；自有 Tunnel 窄权限 MCP；非官方",
+    "tags": [
+      "t3code",
+      "webhook",
+      "mcp"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-04",
+    "repo": "nsoliven/grok-bot-setup",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/MarcusYuan/gbdev",
+    "kept": true,
+    "cat": "C",
+    "title": "gbdev：Bot 架构师带本机 Codex/Cursor",
+    "review": "拆任务图并行 worktree，有上限评审修复；Bot 只读 JSON，合入须用户点头",
+    "tags": [
+      "codex",
+      "cursor",
+      "orchestrator"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "MarcusYuan/gbdev",
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/ItsOdeLeo/bookmark-persona",
+    "kept": true,
+    "cat": "A",
+    "title": "Bookmark Persona：发帖 vs 收藏趣味卡",
+    "review": "对比发出的你与收藏的你，出类型与分享卡；纯娱乐，数据留在 Bot",
+    "tags": [
+      "template",
+      "x",
+      "fun"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "ItsOdeLeo/bookmark-persona",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/ctrlcmdshft/awesome-grok-bots",
+    "kept": true,
+    "cat": "I",
+    "title": "Awesome Grok Bots（ctrlcmdshft）",
+    "review": "279 个第三方 Bot 清单，隐私清理优先；yaml 生成分类；CC0",
+    "tags": [
+      "directory",
+      "privacy",
+      "templates"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "ctrlcmdshft/awesome-grok-bots",
+    "license": "CC0"
+  },
+  {
+    "url": "https://github.com/anightmonarch/grokbot-guide",
+    "kept": true,
+    "cat": "I",
+    "title": "GrokBot Guide（一宿君）",
+    "review": "中文手册站 grokbotguide.pages.dev；与 JeffShanCha/grokbotguide 不同项目",
+    "tags": [
+      "chinese",
+      "guide",
+      "templates"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "anightmonarch/grokbot-guide",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/Crokily/pi-durable-bot",
+    "kept": true,
+    "cat": "G",
+    "title": "Pots（pi-durable-bot）开源平替",
+    "review": "自托管自选模型；崩溃续跑、消息去重；作者以 Grok Bot 为参照；要 Node 24",
+    "tags": [
+      "self-hosted",
+      "byo-model",
+      "durable"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "Crokily/pi-durable-bot",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/kylin-feng/grokbot",
+    "kept": true,
+    "cat": "G",
+    "title": "kylin-feng/grokbot 界面学习 Demo",
+    "review": "开源复刻界面与同事式线程；云电脑面板为本地模拟；BYOK",
+    "tags": [
+      "clone",
+      "demo",
+      "byok"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "kylin-feng/grokbot",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/taoning0403/napcat-grok-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "napcat-grok-bridge：QQ 私聊桥",
+    "review": "NapCat↔Webhook 双向桥；防回环；v0.1 单对象",
+    "tags": [
+      "qq",
+      "webhook",
+      "bridge"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "taoning0403/napcat-grok-bridge",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/ClawDogLabs/slack-grok-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "slack-grok-bridge：Slack 例程桥模板",
+    "review": "Socket Mode 或 Worker/HTTP 中继；未声明许可证，作信号",
+    "tags": [
+      "slack",
+      "webhook",
+      "bridge"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-04",
+    "repo": "ClawDogLabs/slack-grok-bridge"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/bot-codex-delegate",
+    "kept": true,
+    "cat": "T4",
+    "title": "Codex 派活：bot-codex-delegate（实测教程）",
+    "review": "本机核脚本与安全默认 + 虚构六会话命名 ASSERT_OK；未启动真实 Codex 长任务",
+    "tags": [
+      "tutorial",
+      "codex",
+      "delegate",
+      "grokguide"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/AI_Acq/status/2117783490406346945",
+    "kept": true,
+    "cat": "T2",
+    "title": "九代理团队：幕僚长 + 角色提示词全套（X 长文）",
+    "review": "英文 Article：9 个角色、交接、例程与成本控制；可作多 Bot 开工参考",
+    "tags": [
+      "english",
+      "multi-bot",
+      "article",
+      "playbook"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "AI_Acq",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/ZenithcoreAi/status/2117784526206496888",
+    "kept": true,
+    "cat": "T1",
+    "title": "别只聊天：给 Bot 电脑、记忆和岗位（X）",
+    "review": "英文串帖：把 Elon 的「雇 AI」落到 Grok Bot 配置思路；偏导流，作索引",
+    "tags": [
+      "english",
+      "setup",
+      "hiring"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "ZenithcoreAi",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/qloog/status/2117786882230956249",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 从 0 到 1 阅读路线十篇（X）",
+    "review": "中文索引帖：入门套餐差异、装好怎么用等十篇导航；落地仍要用自己的话",
+    "tags": [
+      "chinese",
+      "index",
+      "onboarding"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "qloog",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/TonyTalksAI/status/2117785691094667506",
+    "kept": true,
+    "cat": "T4",
+    "title": "Bot 指挥 Muse 出片省额度（X）",
+    "review": "中文短帖：云电脑注册 Muse 出片，少占 Bot 额度；外发/账号仍人审",
+    "tags": [
+      "chinese",
+      "muse",
+      "video"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "TonyTalksAI",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/le0xet/status/2117783935253983316",
+    "kept": true,
+    "cat": "T2",
+    "title": "按公司部门整理百个 Bot 角色地图（X）",
+    "review": "英文：把公开目录收成领导/职能可走的地图；作组织参考不照搬标价",
+    "tags": [
+      "english",
+      "org",
+      "directory"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-04",
+    "author": "le0xet",
+    "date": "2026-11-04"
   }
 ]
