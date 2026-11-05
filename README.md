@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **77** 个配方，格式统一，提示词可以直接复制
-- **242** 个生态项目和学习资源，每条都打开核对过
-- **484** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **252** 个生态项目和学习资源，每条都打开核对过
+- **488** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -108,7 +108,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（242）
+## 生态清单（252）
 
 ### 官方与工具（29）
 
@@ -165,7 +165,7 @@
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 - [catan-grokbot：卡坦岛人对 Bot 对 AI](https://github.com/enrand22/catan-grokbot) - 西语休闲玩法：2–4 人含人类与 Bot；娱乐向，不作生产模板。标签：`game` `spanish` `multiplayer` 📦
 
-### 技能与连接（71）
+### 技能与连接（75）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -238,8 +238,12 @@
 - [GrokBotBuzzBridge：Buzz 社区里问 Bot](https://github.com/headlessfounder/GrokBotBuzzBridge) - Buzz 提问转发到你的 Bot 再回帖；桥接凭证自担，别把社区当审批绕过。标签：`bridge` `community` `buzz` 📦
 - [grokbot-wechatclaw-bridge：微信 ClawBot 桥到 webhook](https://github.com/number5meme/grokbot-wechatclaw-bridge) - Tencent iLink 出站长轮询，把微信消息 JSON POST 到任意 webhook；配套 reply.sh，可给 Grok Bot Routine 回消息；无公网端口，MIT。标签：`wechat` `bridge` `webhook` `routine` 📦
 - [grokbot-qqbot-bridge：QQ Bot 桥到 webhook](https://github.com/number5meme/grokbot-qqbot-bridge) - QQ Open Platform v2 出站 WebSocket，私聊消息转发 webhook；可选 Cloudflare Worker 常开中继；和微信桥同作者，MIT。标签：`qq` `bridge` `webhook` `routine` 📦
+- [wake-grokbot：本机 Agent 叫醒在线 Bot](https://github.com/Blicae8917/wake-grokbot) - 零依赖 CLI，本地 inbox 为真相源、wake 只是 nudge；密钥走环境变量，带 doctor/限流/kill switch。MIT。标签：`bridge` `cli` `wake` `routine` 📦
+- [codex-remote：远程 MCP 操作本机 Codex 会话](https://github.com/artisbisers/codex-remote) - 非官方：列会话/开任务/读结果；本机 loopback + Cloudflare 隧道 + bearer。MIT，隧道与令牌自担。标签：`mcp` `codex` `bridge` `remote` 📦
+- [screen-ask：Mac 按住快捷键语音问屏幕](https://github.com/echris6/screen-ask) - 截图经 webhook 交给自己的 Grok Bot Routine；花钱/发送/删除先问。MIT，非官方，需图床。标签：`macos` `voice` `screenshot` `routine` 📦
+- [pr-webhook-relay：组织级 PR → Routine 中继](https://github.com/damao-bot-army/pr-webhook-relay) - Cloudflare Worker 校验 HMAC，只转 opened/synchronize 等摘要；CI + gitleaks。MIT。标签：`github` `webhook` `bridge` `ci` 📦
 
-### 多 Bot 团队（35）
+### 多 Bot 团队（39）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -276,8 +280,12 @@
 - [Vedthakar/agent-hub：跨 Agent 情境总线](https://github.com/Vedthakar/agent-hub) - 在 Claude、ChatGPT、Gemini、Grok Bot 等之间静默同步情境与批准交接；MIT。与 SiegoZhang/agent-hub 不是同一项目，勿混链。标签：`multi-agent` `context` `handoff` 📦
 - [Grokbot City：本机多 Bot 作战看板](https://github.com/sleeplesshan/grokbot-city) - 任务简报与组队看板 + wiki；看板不连模型；英韩文档 MIT。标签：`dashboard` `team` `wiki` 📦
 - [云间Bot 万象直播：抖音直播间多岗](https://github.com/yunjian-ai/yunjian-zhibo) - 运营/场控/投手/中控/话术/复盘六岗；垂直场景参考，密钥与平台规则自担。标签：`chinese` `live` `multi-bot` `douyin` 📦
+- [grok-foreman：Bot 当工头，Claude Code 当工人](https://github.com/WealthRxAi/grok-foreman) - 早班读日志挑≤3 工单，run-ticket.sh 让 Claude Code 开 PR，人只点 Merge；编码不烧 Grok Bot 周额度。MIT，本地核对过目录与契约文件。标签：`multi-bot` `codex` `claude-code` `bridge` 📦
+- [grok-bot-team：按任务类型逐级放权](https://github.com/jon-lange/grok-bot-team) - 幕僚长唯一对接人，专员默认只起草，某类做稳了才升到先做后报；带 QUICKSTART 与脱敏案例。MIT。标签：`multi-bot` `trust` `chief-of-staff` `template` 📦
+- [mission-control-kit：自托管 Bot 团队看板](https://github.com/medicfsd/mission-control-kit) - 各 Bot 写共享 JSONL，脚本生成今日简报/待批/进行中；密码+passkey。MIT，自托管凭证自担。标签：`dashboard` `multi-bot` `self-hosted` 📦
+- [grok-bot-ops-team：带 ops 层的多 Bot 模板](https://github.com/antonvnukov/grok-bot-ops-team) - 六类停机问人、Deming 审稿、日志门禁、kill 规则与周度退役；AGENTS.md + Use this template。MIT。标签：`multi-bot` `ops` `template` `safety` 📦
 
-### Routine 与监控（13）
+### Routine 与监控（14）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -292,6 +300,7 @@
 - [Usage & Check-in：本机额度看板和打卡](https://github.com/yuehzhan/grokbot-usage-checkin) - 本机仪表盘看每周额度百分比、记工作打卡、按天检索消耗；数据不出本机，推荐在 Linux 云电脑上装，MIT。标签：`quota` `dashboard` `linux` 📦
 - [Grok Bot 省额度一页纸（smdistefano）](https://github.com/smdistefano/grok-bot) - 一天烧一周额度后的复盘与常驻规则；Apache-2.0。标签：`budget` `tokens` `rules` 📘
 - [context-bot：长对话红绿灯](https://github.com/AnaGuiDev/context-bot) - 绿灯继续、黄灯摘要、红灯换新会话；给长聊省额度的轻量提示。标签：`credits` `context` `routine` 📦
+- [grok-bot-usage-harness：量多 Bot 群聊唤醒成本](https://github.com/digitalgym/grok-bot-usage-harness) - 纯 Python 估算脚本对比「群聊无 @」与「Lead+笔记」；七条测试消息 CSV，示例数字标虚构。本地跑通 estimate/sequence，MIT。标签：`usage` `multi-bot` `harness` `python` 📘
 
 ### 一人公司与内容（10）
 
@@ -306,7 +315,7 @@
 - [financial-freedom：通知→Routine→Sheets 无感记账](https://github.com/WillingE/financial-freedom) - iOS 通知进 Grok Bot 例程再写入 Google Sheets；账本字段自定，勿贴银行卡密。标签：`chinese` `finance` `routine` `sheets` 📦
 - [grok-video-studio：Bot 视频制作工具包](https://github.com/htetahyan/grok-video-studio) - 面向真片剪辑与可度量输出；装前看许可与素材版权要求。标签：`video` `content` `toolkit` 📦
 
-### 自托管与替代方案（22）
+### 自托管与替代方案（23）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -330,6 +339,7 @@
 - [local-ai-manager](https://github.com/anselmcmakin/local-ai-manager) - 配合 Local AI Manager 模板在自己电脑跑本地模型；发布包带 SHA-256，面板只开在 127.0.0.1，带看门狗。标签：`local-ai` `self-hosted` `template` 📦
 - [Pots（pi-durable-bot）开源平替](https://github.com/Crokily/pi-durable-bot) - 自托管自选模型；崩溃续跑、消息去重；作者以 Grok Bot 为参照；要 Node 24。标签：`self-hosted` `byo-model` `durable` 📦
 - [kylin-feng/grokbot 界面学习 Demo](https://github.com/kylin-feng/grokbot) - 开源复刻界面与同事式线程；云电脑面板为本地模拟；BYOK。标签：`clone` `demo` `byok` 📦
+- [open-super-agent：可自托管的 Grok Bot 平替](https://github.com/kadaliao/open-super-agent) - 多 Bot 群聊、后台 Worker、共用 Linux 桌面、MCP、确认卡；自带模型。MIT，alpha。标签：`self-hosted` `alternative` `multi-bot` 📦
 
 ### 硬件（9）
 
