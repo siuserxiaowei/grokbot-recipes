@@ -11,7 +11,7 @@
 ## 一眼看完
 
 - **76** 个配方，格式统一，提示词可以直接复制
-- **240** 个生态项目和学习资源，每条都打开核对过
+- **239** 个生态项目和学习资源，每条都打开核对过
 - **482** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
@@ -107,7 +107,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（240）
+## 生态清单（239）
 
 ### 官方与工具（28）
 
@@ -163,7 +163,7 @@
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 - [catan-grokbot：卡坦岛人对 Bot 对 AI](https://github.com/enrand22/catan-grokbot) - 西语休闲玩法：2–4 人含人类与 Bot；娱乐向，不作生产模板。标签：`game` `spanish` `multiplayer` 📦
 
-### 技能与连接（70）
+### 技能与连接（69）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -205,7 +205,6 @@
 - [grokbot-weixin](https://github.com/ericyangpan/grokbot-weixin) - 把微信 iLink Bot 消息转成 webhook，交给 Routine 处理；适合想在微信里派活的人，先用测试号试。标签：`webhook` `wechat` `routine` 📦
 - [stampede](https://github.com/vib-z/stampede) - 短信派活给 Bot，经 Tailscale 回到你自己的 Mac 让 Claude Code 干；合并、推送、花钱前都要你点头。标签：`tailscale` `claude-code` `mac` 📦
 - [Tesla-Grokbot-Connector](https://github.com/naoiseirwin/Tesla-Grokbot-Connector) - 本地 MCP，只读查 Tesla 电量、充电、空调和行程，走官方 Fleet API，不发车辆指令。标签：`mcp` `tesla` `read-only` 📦
-- [personal-agent-dossier](https://github.com/AidaShika/personal-agent-dossier) - 把一个 Bot 的职责、规则、记忆、Routine 和依赖打包成一份 .dossier.md，换平台或换机器时照着重建；导入先空跑，自带校验脚本，MIT。标签：`migration` `memory` `skill` 📦
 - [webex-grok](https://github.com/njm-cursor-x/webex-grok) - Webex 连接器，能读发消息、用 Bot 的浏览器入会；要 Webex 管理员先开 MCP，作者不是思科官方。标签：`connector` `webex` `meetings` 📦
 - [datadda27/grokbot-skills](https://github.com/datadda27/grokbot-skills) - 给公开模板（如 CFB Portal Tracker、Prepper）配的现成 skill；技能会跟着仓库更新，装之前钉住版本看一遍。标签：`skill` `templates` 📦
 - [Inbox Sentry：只读盯 Outlook 提示词注入](https://github.com/CodeVelo/inbox-sentry) - 免费模板，只读扫 Outlook/Hotmail 里的假指令和隐藏文字，打进审查清单；人回对错教它，MIT 文档仓，装前看清只读范围。标签：`security` `email` `template` 📦
