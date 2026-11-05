@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 482 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 484 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（117）
 
@@ -124,7 +124,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [别只聊天：给 Bot 电脑、记忆和岗位（X）](https://x.com/ZenithcoreAi/status/2117784526206496888) - 英文串帖：把 Elon 的「雇 AI」落到 Grok Bot 配置思路；偏导流，作索引 · @ZenithcoreAi · 2026-11-04。标签：`english` `setup` `hiring`
 - [Grok Bot 从 0 到 1 阅读路线十篇（X）](https://x.com/qloog/status/2117786882230956249) - 中文索引帖：入门套餐差异、装好怎么用等十篇导航；落地仍要用自己的话 · @qloog · 2026-11-04。标签：`chinese` `index` `onboarding`
 
-## 多 Bot 团队（92）
+## 多 Bot 团队（93）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -218,6 +218,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [九代理团队：幕僚长 + 角色提示词全套（X 长文）](https://x.com/AI_Acq/status/2117783490406346945) - 英文 Article：9 个角色、交接、例程与成本控制；可作多 Bot 开工参考 · @AI_Acq · 2026-11-04。标签：`english` `multi-bot` `article` `playbook`
 - [按公司部门整理百个 Bot 角色地图（X）](https://x.com/le0xet/status/2117783935253983316) - 英文：把公开目录收成领导/职能可走的地图；作组织参考不照搬标价 · @le0xet · 2026-11-04。标签：`english` `org` `directory`
 - [手机建站六棒：主 Bot 串岗，每棒你点头（实测教程）](https://grokguide.si/tutorials/six-bar-site) - 虚构六闸门：等确认、测试未过拦截、自合拦截、跳棒拦截、编数字拦截、点头才上线；ASSERT_OK。思路来自 KinGao 长文，不照搬 JD 与案例站。标签：`tutorial` `multi-bot` `shipping` `website` `grokguide`
+- [从零搭第一支 Agent 小队：CoS + 专岗 + skill/routine（X 长文）](https://x.com/0xsmerkzz/status/2118073227826147530) - 英文长文：别把 Grok Bot 当聊天框，按组织图建首席+专岗，再挂 skills 与 routines；作编排参考，不照搬任何收益数字 · @0xsmerkzz · 2026-11-05。标签：`english` `multi-bot` `org` `skills`
 
 ## Routine 与额度（60）
 
@@ -477,7 +478,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [手机建站六棒：主 Bot 串岗（X 长文）](https://x.com/KinGao476942/status/2117853896580456514) - 调研到司令部六岗 + 主 Bot 调度；日常只跟主 Bot；PR 保持 OPEN；测试不过不呈合；点头才上线；别照搬案例站与标价 · @KinGao476942 · 2026-11-04。标签：`chinese` `multi-bot` `shipping` `website`
 - [新站监控：需求→关键词→趋势→再决定建站（X）](https://x.com/FanShifu/status/2117601715147141360) - Bot 盯新站承接需求，再用 Similarweb/SEMrush/Trends 估词；先看自己能不能打，再开工 · @FanShifu · 2026-11-03。标签：`chinese` `seo` `research` `shipping`
 
-## 安全（24）
+## 安全（25）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
@@ -503,3 +504,4 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [封顶虚拟卡进 Vault 代填下单（社区经验）](https://x.com/MaxCryptoSpace/status/2117051575080517662) - 中文：用有日限额的虚拟卡存进 Vault 让 Bot 填表下单；提醒官方文档写明 Vault 里的卡结账未必每次都问——要每笔自己核准就别存卡。不推广具体发卡方或邀请链接 · @MaxCryptoSpace · 2026-11-02。标签：`vault` `payment` `virtual-card` `chinese` `warning`
 - [三步接上 1Password：Password Managers 连接器（社区讲解）](https://x.com/Mulight/status/2117189034464493920) - 中文：Connect apps → Password Managers → 1Password；版本门槛与按次批准；模型看不到明文；暂不支持 Google 登录与 Passkey。对齐官方 Support 页，不照搬全文 · @Mulight · 2026-11-02。标签：`1password` `connect-apps` `security` `chinese` `community`
 - [1Password 连接器：Vault 优先 + 按次批准（实测教程）](https://grokguide.si/tutorials/onepassword-connect) - 虚构六场景巡检：Vault 命中、个人库 Review、共享库搬迁、SSO 接管、付款卡永不代填、批准过期；ASSERT_OK。对齐官方新集成，不登录真实 1Password。标签：`tutorial` `1password` `vault` `security` `grokguide`
+- [活动账本：哈希链记下来，改一行就露馅（实测教程）](https://grokguide.si/tutorials/activity-log) - 装 gblog、挂 skill、日审私有同步；本地五事件巡检：生命周期、单测、篡改 FAIL、密钥洗、status；ASSERT_OK。思路来自 deximple/grokbot-activity-log，不照搬上游全文。标签：`tutorial` `audit` `ledger` `security` `grokguide`

@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **76** 个配方，格式统一，提示词可以直接复制
-- **239** 个生态项目和学习资源，每条都打开核对过
-- **482** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **77** 个配方，格式统一，提示词可以直接复制
+- **242** 个生态项目和学习资源，每条都打开核对过
+- **484** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -24,12 +24,13 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（76）
+## 配方（77）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
 | 配方 | 适合 |
 |---|---|
+| [活动账本：哈希链记下来，改一行就露馅](recipes/activity-log.md) | 个人版没有 Action Recording，又想知道每个 Bot 干过什么、改过没、密钥有没有漏的人 |
 | [私董会顾问团：点名发言 + 执行主笔落盘](recipes/advisor-board.md) | 想用几只人设顾问帮你挑毛病，又怕群聊刷屏烧额度、顾问互相改文件的人 |
 | [多 Bot 小公司开工包：RULES + 一呼一吸](recipes/agency-kit.md) | 想用几份纯文本把多 Bot 小公司的规矩、座位和省额度习惯一次齐备的人 |
 | [Agent 系统备份：搬走记忆，不带走密钥](recipes/agent-memory-backup.md) | 云电脑要重置或换机器，想带走 bots/skills/inbox，又绝不能把 secrets 打进包的人 |
@@ -107,9 +108,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（239）
+## 生态清单（242）
 
-### 官方与工具（28）
+### 官方与工具（29）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -139,6 +140,7 @@
 - [1Password Support：Connect 1Password to Grok Bot](https://support.1password.com/1password-grok-bot/) - 官方步骤与边界：个人/家庭账户、8.12.42+、桌面 0.75+/移动 1.16+、Personal/Private、30 天批准；不填 Passkey/SSO/卡。标签：`official` `1password` `docs` 📘
 - [Bookmark Persona：发帖 vs 收藏趣味卡](https://github.com/ItsOdeLeo/bookmark-persona) - 对比发出的你与收藏的你，出类型与分享卡；纯娱乐，数据留在 Bot。标签：`template` `x` `fun` 📦
 - [gb-launcher：一台 Mac 并排多个 Grok Bot 账号](https://github.com/paulpierre/gb-launcher) - 小 CLI 启动器并排多账号；仅本机隔离会话，不是安全沙箱，密钥仍各自保管。标签：`desktop` `multi-account` `mac` 📦
+- [grokbot-activity-log：哈希链活动账本](https://github.com/deximple/grokbot-activity-log) - 个人版没有 Action Recording 时，用 stdlib CLI 给每个 Bot 记 append-only 哈希链；改行 verify 必 FAIL，密钥形先洗，sync 拒绝推公仓；含日审/周调优 skill。本地巡检 ASSERT_OK，MIT。标签：`audit` `ledger` `cli` `security` 📦
 
 ### 模板与目录（20）
 
@@ -163,7 +165,7 @@
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 - [catan-grokbot：卡坦岛人对 Bot 对 AI](https://github.com/enrand22/catan-grokbot) - 西语休闲玩法：2–4 人含人类与 Bot；娱乐向，不作生产模板。标签：`game` `spanish` `multiplayer` 📦
 
-### 技能与连接（69）
+### 技能与连接（71）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -234,6 +236,8 @@
 - [slack-grok-bridge：Slack 例程桥模板](https://github.com/ClawDogLabs/slack-grok-bridge) - Socket Mode 或 Worker/HTTP 中继；未声明许可证，作信号。标签：`slack` `webhook` `bridge` 📦
 - [grok-codex-native：Bot 云电脑上派 Codex](https://github.com/ystory/grok-codex-native) - 把编码任务委托给 Bot 本机云电脑上的 Codex；与 bot-codex-delegate 同类思路，装前核默认权限。标签：`codex` `delegate` `cloud-computer` 📦
 - [GrokBotBuzzBridge：Buzz 社区里问 Bot](https://github.com/headlessfounder/GrokBotBuzzBridge) - Buzz 提问转发到你的 Bot 再回帖；桥接凭证自担，别把社区当审批绕过。标签：`bridge` `community` `buzz` 📦
+- [grokbot-wechatclaw-bridge：微信 ClawBot 桥到 webhook](https://github.com/number5meme/grokbot-wechatclaw-bridge) - Tencent iLink 出站长轮询，把微信消息 JSON POST 到任意 webhook；配套 reply.sh，可给 Grok Bot Routine 回消息；无公网端口，MIT。标签：`wechat` `bridge` `webhook` `routine` 📦
+- [grokbot-qqbot-bridge：QQ Bot 桥到 webhook](https://github.com/number5meme/grokbot-qqbot-bridge) - QQ Open Platform v2 出站 WebSocket，私聊消息转发 webhook；可选 Cloudflare Worker 常开中继；和微信桥同作者，MIT。标签：`qq` `bridge` `webhook` `routine` 📦
 
 ### 多 Bot 团队（35）
 

@@ -11493,5 +11493,92 @@
     ],
     "level": "读过内容",
     "verified": "2026-11-04"
+  },
+  {
+    "url": "https://github.com/deximple/grokbot-activity-log",
+    "kept": true,
+    "cat": "A",
+    "title": "grokbot-activity-log：哈希链活动账本",
+    "review": "个人版没有 Action Recording 时，用 stdlib CLI 给每个 Bot 记 append-only 哈希链；改行 verify 必 FAIL，密钥形先洗，sync 拒绝推公仓；含日审/周调优 skill。本地巡检 ASSERT_OK，MIT",
+    "tags": [
+      "audit",
+      "ledger",
+      "cli",
+      "security"
+    ],
+    "level": "跑过测试",
+    "verified": "2026-11-05",
+    "repo": "deximple/grokbot-activity-log",
+    "last_push": "2026-11-04",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/number5meme/grokbot-wechatclaw-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-wechatclaw-bridge：微信 ClawBot 桥到 webhook",
+    "review": "Tencent iLink 出站长轮询，把微信消息 JSON POST 到任意 webhook；配套 reply.sh，可给 Grok Bot Routine 回消息；无公网端口，MIT",
+    "tags": [
+      "wechat",
+      "bridge",
+      "webhook",
+      "routine"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-05",
+    "repo": "number5meme/grokbot-wechatclaw-bridge",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/number5meme/grokbot-qqbot-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-qqbot-bridge：QQ Bot 桥到 webhook",
+    "review": "QQ Open Platform v2 出站 WebSocket，私聊消息转发 webhook；可选 Cloudflare Worker 常开中继；和微信桥同作者，MIT",
+    "tags": [
+      "qq",
+      "bridge",
+      "webhook",
+      "routine"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-05",
+    "repo": "number5meme/grokbot-qqbot-bridge",
+    "last_push": "2026-10-30",
+    "license": "MIT"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/activity-log",
+    "kept": true,
+    "cat": "T6",
+    "title": "活动账本：哈希链记下来，改一行就露馅（实测教程）",
+    "review": "装 gblog、挂 skill、日审私有同步；本地五事件巡检：生命周期、单测、篡改 FAIL、密钥洗、status；ASSERT_OK。思路来自 deximple/grokbot-activity-log，不照搬上游全文",
+    "tags": [
+      "tutorial",
+      "audit",
+      "ledger",
+      "security",
+      "grokguide"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-05"
+  },
+  {
+    "url": "https://x.com/0xsmerkzz/status/2118073227826147530",
+    "kept": true,
+    "cat": "T2",
+    "title": "从零搭第一支 Agent 小队：CoS + 专岗 + skill/routine（X 长文）",
+    "review": "英文长文：别把 Grok Bot 当聊天框，按组织图建首席+专岗，再挂 skills 与 routines；作编排参考，不照搬任何收益数字",
+    "tags": [
+      "english",
+      "multi-bot",
+      "org",
+      "skills"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-05",
+    "author": "0xsmerkzz",
+    "date": "2026-11-05"
   }
 ]
