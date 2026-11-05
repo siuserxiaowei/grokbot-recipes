@@ -31,6 +31,7 @@
 | 配方 | 适合 |
 |---|---|
 | [活动账本：哈希链记下来，改一行就露馅](recipes/activity-log.md) | 个人版没有 Action Recording，又想知道每个 Bot 干过什么、改过没、密钥有没有漏的人 |
+| [逐级放权：Bot 按任务类型挣信任](recipes/earned-autonomy.md) | Bot 多了、消息乱，又不知道哪些事该让 Bot 直接办的人 |
 | [私董会顾问团：点名发言 + 执行主笔落盘](recipes/advisor-board.md) | 想用几只人设顾问帮你挑毛病，又怕群聊刷屏烧额度、顾问互相改文件的人 |
 | [多 Bot 小公司开工包：RULES + 一呼一吸](recipes/agency-kit.md) | 想用几份纯文本把多 Bot 小公司的规矩、座位和省额度习惯一次齐备的人 |
 | [Agent 系统备份：搬走记忆，不带走密钥](recipes/agent-memory-backup.md) | 云电脑要重置或换机器，想带走 bots/skills/inbox，又绝不能把 secrets 打进包的人 |
