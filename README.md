@@ -11,7 +11,7 @@
 ## 一眼看完
 
 - **78** 个配方，格式统一，提示词可以直接复制
-- **268** 个生态项目和学习资源，每条都打开核对过
+- **267** 个生态项目和学习资源，每条都打开核对过
 - **497** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
@@ -109,7 +109,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（268）
+## 生态清单（267）
 
 ### 官方与工具（31）
 
@@ -370,7 +370,7 @@
 - [GrokChan](https://github.com/notedit/GrokChan) - Stack-chan 风格语音伴：Cloudflare Worker 把浏览器接到 Bot 的 webhook；目前主要是网页桥，M5 固件和唤醒词还在路线图上。标签：`hardware` `m5stack` `webhook` 📘
 - [Grok Bot Face](https://github.com/dwinter3/grokbot-face) - 把 Pixel 平板变成全屏动画脸和桌面时钟，离线唤醒词打开 App；摄像头和麦克风只在本机处理、不存不传。标签：`hardware` `android` `screensaver` 📘
 
-### 学习资源与合集（32）
+### 学习资源与合集（31）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -401,12 +401,10 @@
 - [grokbotguide.ai：Grok Bot 中文问答站](https://grokbotguide.ai/zh/) - 独立站，有中文版，按问题组织，比如怎么设定时任务；站方非官方，功能细节以官方为准。标签：`guide` `faq` `chinese` 📘
 - [Grok Bot 保姆级中文使用攻略](https://github.com/AIPMAndy/grok-bot-handbook) - 26 章+指令+FAQ；MIT 有在线版，作者另有付费咨询。标签：`chinese` `guide` `prompts` 📦
 - [跨 Bot 泄露事故：复现说明与护栏思路](https://github.com/themsquared/grok-bot-cross-agent-leak) - 同机敏感只读与外发混装风险；只采纳防御要点，不复制复现。标签：`security` `mcp` `incident` 📦
-- [The Daily Bot · What's New](https://thedailybot.vercel.app/whats-new) - 第三方逐版整理更新内容，查某模板哪版上线方便；以官方日志为准。标签：`changelog` `english` `tracker` 📘
 - [Awesome Grok Bots（ctrlcmdshft）](https://github.com/ctrlcmdshft/awesome-grok-bots) - 279 个第三方 Bot 清单，隐私清理优先；yaml 生成分类；CC0。标签：`directory` `privacy` `templates` 📦
 - [GrokBot Guide（一宿君）](https://github.com/anightmonarch/grokbot-guide) - 中文手册站 grokbotguide.pages.dev；与 JeffShanCha/grokbotguide 不同项目。标签：`chinese` `guide` `templates` 📦
 
 ## 教程索引
-- [The Daily Bot · What's New](https://thedailybot.vercel.app/whats-new) - 第三方整理的 Grok Bot 每版更新，英文，按版本列新功能，想快速查某个模板哪版上的可以翻；以官方更新日志为准。标签：`changelog` `english` `tracker` 📘
 
 ### 入门教程（14 章）（16）
 
