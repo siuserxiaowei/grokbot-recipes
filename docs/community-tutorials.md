@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 493 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 497 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（118）
 
@@ -125,7 +125,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 从 0 到 1 阅读路线十篇（X）](https://x.com/qloog/status/2117786882230956249) - 中文索引帖：入门套餐差异、装好怎么用等十篇导航；落地仍要用自己的话 · @qloog · 2026-11-04。标签：`chinese` `index` `onboarding`
 - [为什么 Bot 总走偏：Memory 与 Skill 怎么分（X 长文）](https://x.com/ai_edisonZ/status/2117876738751369587) - 中文长文：固定 URL/Anti-jobs/首跑命令写进记忆，长手册放技能；分享模板前清测试脏记忆 · @ai_edisonZ · 2026-11-04。标签：`chinese` `memory` `skill` `template`
 
-## 多 Bot 团队（93）
+## 多 Bot 团队（95）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -220,8 +220,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [按公司部门整理百个 Bot 角色地图（X）](https://x.com/le0xet/status/2117783935253983316) - 英文：把公开目录收成领导/职能可走的地图；作组织参考不照搬标价 · @le0xet · 2026-11-04。标签：`english` `org` `directory`
 - [手机建站六棒：主 Bot 串岗，每棒你点头（实测教程）](https://grokguide.si/tutorials/six-bar-site) - 虚构六闸门：等确认、测试未过拦截、自合拦截、跳棒拦截、编数字拦截、点头才上线；ASSERT_OK。思路来自 KinGao 长文，不照搬 JD 与案例站。标签：`tutorial` `multi-bot` `shipping` `website` `grokguide`
 - [从零搭第一支 Agent 小队：CoS + 专岗 + skill/routine（X 长文）](https://x.com/0xsmerkzz/status/2118073227826147530) - 英文长文：别把 Grok Bot 当聊天框，按组织图建首席+专岗，再挂 skills 与 routines；作编排参考，不照搬任何收益数字 · @0xsmerkzz · 2026-11-05。标签：`english` `multi-bot` `org` `skills`
+- [九岗 Bot 怎么排：总入口拆活，不用群聊互传（X）](https://x.com/xiaomovps/status/2118154686637474093) - 九岗各管一摊，发帖与合并代码留人手；作者实测群聊互传又烧额度又跑偏 · @xiaomovps · 2026-11-05。标签：`chinese` `multi-bot` `routing` `credits`
+- [约 30 个 Bot、一岗一事的家庭团队（X）](https://x.com/Texas_Twins_Dad/status/2118072072752566345) - 幕僚长分派，邮件只起草本人发，财务只读银行；例程安静跑、有变化才提醒 · @Texas_Twins_Dad · 2026-11-05。标签：`english` `multi-bot` `chief-of-staff` `family`
 
-## Routine 与额度（62）
+## Routine 与额度（63）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -285,8 +287,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [为什么 Muse 耐烧、Grok Bot 烧得快（X 串）](https://x.com/chfsunwy/status/2117281142806397051) - 差别在上下文怎么管：步数×上下文体积；作计费机制科普，网传池数字勿当真 · @chfsunwy · 2026-11-02。标签：`chinese` `credits` `context`
 - [额度不够：云电脑装 Codex CLI 或 Pi 交重活（X）](https://x.com/Pluvio9yte/status/2118028142761918497) - 中文：给 Bot 加规则把执行交给 Codex/Pi；作者自述约省一半用量，数字仅供参考 · @Pluvio9yte · 2026-11-05。标签：`chinese` `usage` `codex` `pi`
 - [Grok Bot vs Meta Muse：配额泄漏与分工（X 长文）](https://x.com/Bagel8343/status/2118503001321054433) - 英文长文：对照共享云电脑与保险箱助手，列四条额度泄漏和怎么分工 · @Bagel8343 · 2026-11-06。标签：`english` `quota` `muse` `comparison`
+- [10 万人看过的省额度帖背后的带 Bot 方法（X 长文）](https://x.com/leaf_sanren/status/2117935731838722255) - 把信任四步落到实操，讲额度、记忆、组队与国内四个坑，附 7 天上手 · @leaf_sanren · 2026-11-04。标签：`chinese` `credits` `trust` `onboarding`
 
-## 连接、技能与记忆（71）
+## 连接、技能与记忆（72）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -359,6 +362,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [自媒体五件 MCP/Skill：热榜到剪映（X）](https://x.com/cheery9998/status/2117874793949327360) - 中文长帖：TrendRadar、知乎 MCP、WeWrite、剪映 MCP、X 复盘 Skill；第三方凭据自备 · @cheery9998 · 2026-11-04。标签：`chinese` `mcp` `skill` `content`
 - [Grok Bot 搭配自有 VPS：持久化与跳板（X）](https://x.com/xiaomovps/status/2118502494401888338) - 闲置 VPS 才值得：数据持久化、SSH 跳板、互备共享盘 · @xiaomovps · 2026-11-06。标签：`chinese` `vps` `ssh` `persistence`
 - [Jessi X-Article Skill 改成 Grok Bot 工程书（X）](https://x.com/ai_chuhai/status/2118497876422656369) - 先采访再写，整包标题/长文/插图/封面/Hook；只存草稿不代发 · @ai_chuhai · 2026-11-06。标签：`chinese` `x-article` `skill` `draft`
+- [Grok Bot 接微信：官方没有入口，社区桥怎么选（X）](https://x.com/leaf_sanren/status/2118641606295474449) - 官方只接 App/手机/Slack/邮箱/Webhook；社区桥要分清叫它、回微信、推日报三件事 · @leaf_sanren · 2026-11-06。标签：`chinese` `wechat` `bridge` `community`
 
 ## 一人公司与内容（124）
 

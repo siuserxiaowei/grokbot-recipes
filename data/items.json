@@ -12036,5 +12036,235 @@
     "verified": "2026-11-06",
     "author": "ai_chuhai",
     "date": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/RongleCat/grok-bot-cli",
+    "kept": true,
+    "cat": "A",
+    "title": "grok-bot-cli（RongleCat）：多账号名册与跨账号交接",
+    "review": "非官方多账号 CLI+Skill：登录后所有 Bot 进同一名册，可跨账号交接；破坏性命令默认 dry-run",
+    "tags": [
+      "cli",
+      "multi-account",
+      "skill",
+      "unofficial"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "RongleCat/grok-bot-cli",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/LeonYew-Ley/grokbot-task-notify",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-task-notify：本机编码工人跑完再 webhook",
+    "review": "包一层 Codex/Claude/Pi，状态落盘后 webhook 通知 hub Routine，再转任务主 Bot 核验",
+    "tags": [
+      "codex",
+      "claude",
+      "webhook",
+      "bridge"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "LeonYew-Ley/grokbot-task-notify",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/AVGVSTVS96/grokx",
+    "kept": true,
+    "cat": "C",
+    "title": "grokx：经 Bot 内置 X 工具做免费只读查询",
+    "review": "给任意 Agent 的 X 只读 CLI：养一个 X Reader Bot，grokx ask 出 JSON；不耗 X API 额度，非公开后端可能断",
+    "tags": [
+      "x",
+      "cli",
+      "research",
+      "unofficial"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "AVGVSTVS96/grokx",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/Eflores1122/grok-bot-open-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bot-open-skills：求职履历与开源数据 Skill 包",
+    "review": "远程求职/ATS 改简历/GitHub 主页抛光/开放数据流水线；只起草申请，发送由人手点",
+    "tags": [
+      "skills",
+      "jobs",
+      "cv",
+      "open-data"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "Eflores1122/grok-bot-open-skills",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/IvyYang1999/dispatch",
+    "kept": true,
+    "cat": "C",
+    "title": "dispatch：本机 Claude/Codex/Grok Bot 会话互通",
+    "review": "找会话、投递消息、看回执；CLI+MCP+Tauri 桌面；消息落盘 Markdown 不上云",
+    "tags": [
+      "bridge",
+      "mcp",
+      "macos",
+      "multi-session"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "IvyYang1999/dispatch",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/smarzban/rex-grokbot-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "rex-grokbot-bridge：Tailscale MCP 看管本机 Rex",
+    "review": "经 Tailscale MCP 列会话/读屏/键入/spawn；默认 watched 须本机会话 opt-in，完成可 webhook 回 Bot",
+    "tags": [
+      "mcp",
+      "rex",
+      "tailscale",
+      "coding-agent"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "smarzban/rex-grokbot-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/luxiaolei/grok-bot-team-management",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-bot-team-management：团队运转与账号交接 Skill",
+    "review": "精干花名册、契约落 git、一人交付一人验收；含全量/增量交接与少唤醒原则",
+    "tags": [
+      "multi-bot",
+      "skills",
+      "handoff",
+      "ops"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "luxiaolei/grok-bot-team-management",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/Anudorannador/Agent2GrokBot",
+    "kept": true,
+    "cat": "C",
+    "title": "Agent2GrokBot：MCP 客户端桥到固定 webhook Bot",
+    "review": "FastAPI MCP 2.0 占住 SSE，Bot 心跳/进度 POST 回调；超时可 task_get 轮询不丢结果",
+    "tags": [
+      "mcp",
+      "webhook",
+      "bridge",
+      "fastapi"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "Anudorannador/Agent2GrokBot",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/incredible404-rgb/GrokBot-tray",
+    "kept": true,
+    "cat": "A",
+    "title": "GrokBot-tray：Windows 托盘伴侣",
+    "review": "关窗/最小化进托盘、开机静默、隐藏后回收内存；非官方，作者测过 0.79.2",
+    "tags": [
+      "windows",
+      "tray",
+      "desktop",
+      "unofficial"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "incredible404-rgb/GrokBot-tray",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/leaf_sanren/status/2117935731838722255",
+    "kept": true,
+    "cat": "T3",
+    "title": "10 万人看过的省额度帖背后的带 Bot 方法（X 长文）",
+    "review": "把信任四步落到实操，讲额度、记忆、组队与国内四个坑，附 7 天上手",
+    "tags": [
+      "chinese",
+      "credits",
+      "trust",
+      "onboarding"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "leaf_sanren",
+    "date": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/xiaomovps/status/2118154686637474093",
+    "kept": true,
+    "cat": "T2",
+    "title": "九岗 Bot 怎么排：总入口拆活，不用群聊互传（X）",
+    "review": "九岗各管一摊，发帖与合并代码留人手；作者实测群聊互传又烧额度又跑偏",
+    "tags": [
+      "chinese",
+      "multi-bot",
+      "routing",
+      "credits"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "xiaomovps",
+    "date": "2026-11-05"
+  },
+  {
+    "url": "https://x.com/Texas_Twins_Dad/status/2118072072752566345",
+    "kept": true,
+    "cat": "T2",
+    "title": "约 30 个 Bot、一岗一事的家庭团队（X）",
+    "review": "幕僚长分派，邮件只起草本人发，财务只读银行；例程安静跑、有变化才提醒",
+    "tags": [
+      "english",
+      "multi-bot",
+      "chief-of-staff",
+      "family"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "Texas_Twins_Dad",
+    "date": "2026-11-05"
+  },
+  {
+    "url": "https://x.com/leaf_sanren/status/2118641606295474449",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot 接微信：官方没有入口，社区桥怎么选（X）",
+    "review": "官方只接 App/手机/Slack/邮箱/Webhook；社区桥要分清叫它、回微信、推日报三件事",
+    "tags": [
+      "chinese",
+      "wechat",
+      "bridge",
+      "community"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "leaf_sanren",
+    "date": "2026-11-06"
   }
 ]
