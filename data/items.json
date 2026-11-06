@@ -8967,7 +8967,7 @@
   },
   {
     "url": "https://thedailybot.vercel.app/whats-new",
-    "kept": true,
+    "kept": false,
     "cat": "I",
     "title": "The Daily Bot · What's New",
     "review": "第三方逐版整理更新内容，查某模板哪版上线方便；以官方日志为准",
@@ -8977,7 +8977,8 @@
       "tracker"
     ],
     "level": "读过文档",
-    "verified": "2026-10-29"
+    "verified": "2026-10-29",
+    "drop_reason": "upstream Vercel DEPLOYMENT_DISABLED returns 402 as of 2026-11-06 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/s87343472/backlink-pilot",
