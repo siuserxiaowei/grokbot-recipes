@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **77** 个配方，格式统一，提示词可以直接复制
-- **252** 个生态项目和学习资源，每条都打开核对过
-- **488** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **78** 个配方，格式统一，提示词可以直接复制
+- **259** 个生态项目和学习资源，每条都打开核对过
+- **493** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -24,14 +24,13 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（77）
+## 配方（78）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
 | 配方 | 适合 |
 |---|---|
 | [活动账本：哈希链记下来，改一行就露馅](recipes/activity-log.md) | 个人版没有 Action Recording，又想知道每个 Bot 干过什么、改过没、密钥有没有漏的人 |
-| [逐级放权：Bot 按任务类型挣信任](recipes/earned-autonomy.md) | Bot 多了、消息乱，又不知道哪些事该让 Bot 直接办的人 |
 | [私董会顾问团：点名发言 + 执行主笔落盘](recipes/advisor-board.md) | 想用几只人设顾问帮你挑毛病，又怕群聊刷屏烧额度、顾问互相改文件的人 |
 | [多 Bot 小公司开工包：RULES + 一呼一吸](recipes/agency-kit.md) | 想用几份纯文本把多 Bot 小公司的规矩、座位和省额度习惯一次齐备的人 |
 | [Agent 系统备份：搬走记忆，不带走密钥](recipes/agent-memory-backup.md) | 云电脑要重置或换机器，想带走 bots/skills/inbox，又绝不能把 secrets 打进包的人 |
@@ -52,6 +51,7 @@
 | [主 Bot 挂上赛博小晚五模式](recipes/cyber-xiaowan-modes.md) | 想给主 Bot 一套 Witness→Act 思考路由，又不想误用 npx 本地 skill 目录的人 |
 | [研发四个角色：需求、复现、实现、审查](recipes/dev-four-roles.md) | 让 Bot 参与写代码的团队 |
 | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) | 怕 Bot 替你乱发东西的人 |
+| [逐级放权：Bot 按任务类型挣信任](recipes/earned-autonomy.md) | Bot 多了、消息乱，又不知道哪些事该让 Bot 直接办的人 |
 | [邮件触发整理：专属邮箱收到就处理](recipes/email-trigger.md) | 经常收固定格式邮件的人 |
 | [工程 Bot 小队：共享进度表巡检 + 夜间审计](recipes/eng-bot-fleet.md) | 想按领域拆两三只工程 Bot，用一张进度表盯 PR，夜里再跑一项审计，又没有（或不想假装有）cloud agents 的人 |
 | [.env 只比键名：从不打印值](recipes/env-key-diff.md) | 换机器或拉新仓库时总漏配环境变量、又怕密钥进聊天的人 |
@@ -109,7 +109,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（252）
+## 生态清单（259）
 
 ### 官方与工具（29）
 
@@ -166,7 +166,7 @@
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 - [catan-grokbot：卡坦岛人对 Bot 对 AI](https://github.com/enrand22/catan-grokbot) - 西语休闲玩法：2–4 人含人类与 Bot；娱乐向，不作生产模板。标签：`game` `spanish` `multiplayer` 📦
 
-### 技能与连接（75）
+### 技能与连接（80）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -243,8 +243,13 @@
 - [codex-remote：远程 MCP 操作本机 Codex 会话](https://github.com/artisbisers/codex-remote) - 非官方：列会话/开任务/读结果；本机 loopback + Cloudflare 隧道 + bearer。MIT，隧道与令牌自担。标签：`mcp` `codex` `bridge` `remote` 📦
 - [screen-ask：Mac 按住快捷键语音问屏幕](https://github.com/echris6/screen-ask) - 截图经 webhook 交给自己的 Grok Bot Routine；花钱/发送/删除先问。MIT，非官方，需图床。标签：`macos` `voice` `screenshot` `routine` 📦
 - [pr-webhook-relay：组织级 PR → Routine 中继](https://github.com/damao-bot-army/pr-webhook-relay) - Cloudflare Worker 校验 HMAC，只转 opened/synchronize 等摘要；CI + gitleaks。MIT。标签：`github` `webhook` `bridge` `ci` 📦
+- [grokbot-meme：零思考表情包 Skill](https://github.com/aritosi/grokbot-meme) - 本地脚本选图、限频、去重，模型不挑图；附 30 张原创 CC0 表情。标签：`skill` `meme` `chinese` 📦
+- [laravel-grok-bot：Laravel 通知打进 Routine](https://github.com/alfonsobries/laravel-grok-bot) - Laravel 通知渠道，把任意通知 POST 到 Grok Bot webhook Routine。标签：`laravel` `webhook` `routine` `php` 📦
+- [pocket-webhook-to-grok-bot：Pocket → Routine](https://github.com/jamesalmeida/pocket-webhook-to-grok-bot) - Cloudflare Worker 校验签名，把 Pocket webhook 转到 Bot Routine。标签：`pocket` `webhook` `cloudflare` `routine` 📦
+- [telegram-routine-bridge：Telegram ↔ Routine](https://github.com/deluminor/telegram-routine-bridge) - 白名单 Telegram 群与 Routine webhook 双向桥，附小 CLI 回消息。标签：`telegram` `bridge` `webhook` `routine` 📦
+- [X-Article-skill：自有语料出 X 长文包](https://github.com/JessiJCJingyi/X-Article-skill) - Codex Skill：自有语料生成标题/正文/插图/封面/Hook；先采访再写，MIT。标签：`skill` `x-article` `codex` `chinese` 📦
 
-### 多 Bot 团队（39）
+### 多 Bot 团队（40）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -285,6 +290,7 @@
 - [grok-bot-team：按任务类型逐级放权](https://github.com/jon-lange/grok-bot-team) - 幕僚长唯一对接人，专员默认只起草，某类做稳了才升到先做后报；带 QUICKSTART 与脱敏案例。MIT。标签：`multi-bot` `trust` `chief-of-staff` `template` 📦
 - [mission-control-kit：自托管 Bot 团队看板](https://github.com/medicfsd/mission-control-kit) - 各 Bot 写共享 JSONL，脚本生成今日简报/待批/进行中；密码+passkey。MIT，自托管凭证自担。标签：`dashboard` `multi-bot` `self-hosted` 📦
 - [grok-bot-ops-team：带 ops 层的多 Bot 模板](https://github.com/antonvnukov/grok-bot-ops-team) - 六类停机问人、Deming 审稿、日志门禁、kill 规则与周度退役；AGENTS.md + Use this template。MIT。标签：`multi-bot` `ops` `template` `safety` 📦
+- [portfolio-research-desk：六席美股研究台](https://github.com/miniLV/portfolio-research-desk) - 工作日早报串财报/文件/估值/期权/论点，永不下单；可拆专岗，持仓只贴聊天。标签：`multi-bot` `finance` `research` `chinese` 📦
 
 ### Routine 与监控（14）
 
@@ -303,7 +309,7 @@
 - [context-bot：长对话红绿灯](https://github.com/AnaGuiDev/context-bot) - 绿灯继续、黄灯摘要、红灯换新会话；给长聊省额度的轻量提示。标签：`credits` `context` `routine` 📦
 - [grok-bot-usage-harness：量多 Bot 群聊唤醒成本](https://github.com/digitalgym/grok-bot-usage-harness) - 纯 Python 估算脚本对比「群聊无 @」与「Lead+笔记」；七条测试消息 CSV，示例数字标虚构。本地跑通 estimate/sequence，MIT。标签：`usage` `multi-bot` `harness` `python` 📘
 
-### 一人公司与内容（10）
+### 一人公司与内容（11）
 
 - [grokbot-for-gtm](https://github.com/bcharleson/grokbot-for-gtm) - 一整套海外外联获客流程，从建名单到处理回复，出海团队可以参考。标签：`gtm` `outbound` 📦
 - [模板：Motion Director](https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes) - 一句话出动画短片的模板，适合做产品宣传和短视频。标签：`template` `video` 📘
@@ -315,6 +321,7 @@
 - [backlink-pilot](https://github.com/s87343472/backlink-pilot) - 独立开发者一条命令提交目录站和 awesome 列表；批量提交前先逐站看规则，别变成群发。标签：`seo` `backlinks` `cli` 📦
 - [financial-freedom：通知→Routine→Sheets 无感记账](https://github.com/WillingE/financial-freedom) - iOS 通知进 Grok Bot 例程再写入 Google Sheets；账本字段自定，勿贴银行卡密。标签：`chinese` `finance` `routine` `sheets` 📦
 - [grok-video-studio：Bot 视频制作工具包](https://github.com/htetahyan/grok-video-studio) - 面向真片剪辑与可度量输出；装前看许可与素材版权要求。标签：`video` `content` `toolkit` 📦
+- [grokbot-x-launch-kit：X 发帖研究套件](https://github.com/Maliot100X/grokbot-x-launch-kit) - 趋势证据加三条草稿等人审；监控可复用，发帖仍由人手点。标签：`x` `content` `research` `draft` 📦
 
 ### 自托管与替代方案（23）
 

@@ -11826,5 +11826,215 @@
     "verified": "2026-11-05",
     "author": "DongQingAsk",
     "date": "2026-11-04"
+  },
+  {
+    "url": "https://github.com/miniLV/portfolio-research-desk",
+    "kept": true,
+    "cat": "D",
+    "title": "portfolio-research-desk：六席美股研究台",
+    "review": "工作日早报串财报/文件/估值/期权/论点，永不下单；可拆专岗，持仓只贴聊天",
+    "tags": [
+      "multi-bot",
+      "finance",
+      "research",
+      "chinese"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "miniLV/portfolio-research-desk",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/aritosi/grokbot-meme",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-meme：零思考表情包 Skill",
+    "review": "本地脚本选图、限频、去重，模型不挑图；附 30 张原创 CC0 表情",
+    "tags": [
+      "skill",
+      "meme",
+      "chinese"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "aritosi/grokbot-meme",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/alfonsobries/laravel-grok-bot",
+    "kept": true,
+    "cat": "C",
+    "title": "laravel-grok-bot：Laravel 通知打进 Routine",
+    "review": "Laravel 通知渠道，把任意通知 POST 到 Grok Bot webhook Routine",
+    "tags": [
+      "laravel",
+      "webhook",
+      "routine",
+      "php"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "alfonsobries/laravel-grok-bot",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/Maliot100X/grokbot-x-launch-kit",
+    "kept": true,
+    "cat": "F",
+    "title": "grokbot-x-launch-kit：X 发帖研究套件",
+    "review": "趋势证据加三条草稿等人审；监控可复用，发帖仍由人手点",
+    "tags": [
+      "x",
+      "content",
+      "research",
+      "draft"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "Maliot100X/grokbot-x-launch-kit",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/jamesalmeida/pocket-webhook-to-grok-bot",
+    "kept": true,
+    "cat": "C",
+    "title": "pocket-webhook-to-grok-bot：Pocket → Routine",
+    "review": "Cloudflare Worker 校验签名，把 Pocket webhook 转到 Bot Routine",
+    "tags": [
+      "pocket",
+      "webhook",
+      "cloudflare",
+      "routine"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "jamesalmeida/pocket-webhook-to-grok-bot",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/deluminor/telegram-routine-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "telegram-routine-bridge：Telegram ↔ Routine",
+    "review": "白名单 Telegram 群与 Routine webhook 双向桥，附小 CLI 回消息",
+    "tags": [
+      "telegram",
+      "bridge",
+      "webhook",
+      "routine"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "deluminor/telegram-routine-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-05"
+  },
+  {
+    "url": "https://github.com/JessiJCJingyi/X-Article-skill",
+    "kept": true,
+    "cat": "C",
+    "title": "X-Article-skill：自有语料出 X 长文包",
+    "review": "Codex Skill：自有语料生成标题/正文/插图/封面/Hook；先采访再写，MIT",
+    "tags": [
+      "skill",
+      "x-article",
+      "codex",
+      "chinese"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-06",
+    "repo": "JessiJCJingyi/X-Article-skill",
+    "license": "MIT",
+    "last_push": "2026-11-04"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2118504232303391110",
+    "kept": true,
+    "cat": "T5",
+    "title": "一句话查 X 账号数据 + 每日简报例程（X 长文）",
+    "review": "Grok Bot 系列 2-4：连好 X 后查粉丝/帖子/点赞，再建只读日报例程",
+    "tags": [
+      "chinese",
+      "x",
+      "routine",
+      "analytics"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "ai_goge",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/xiaomovps/status/2118502494401888338",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot 搭配自有 VPS：持久化与跳板（X）",
+    "review": "闲置 VPS 才值得：数据持久化、SSH 跳板、互备共享盘",
+    "tags": [
+      "chinese",
+      "vps",
+      "ssh",
+      "persistence"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "xiaomovps",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/MiclauMarius/status/2118508878082019612",
+    "kept": true,
+    "cat": "T5",
+    "title": "语音客服代码管事实 + 五条获客 Routine（X 长文）",
+    "review": "英文长文：模型只判意图，事实与数学归代码；五条获客 Routine 草稿不自动发",
+    "tags": [
+      "english",
+      "voice",
+      "routine",
+      "outbound"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "MiclauMarius",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/Bagel8343/status/2118503001321054433",
+    "kept": true,
+    "cat": "T3",
+    "title": "Grok Bot vs Meta Muse：配额泄漏与分工（X 长文）",
+    "review": "英文长文：对照共享云电脑与保险箱助手，列四条额度泄漏和怎么分工",
+    "tags": [
+      "english",
+      "quota",
+      "muse",
+      "comparison"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "Bagel8343",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/ai_chuhai/status/2118497876422656369",
+    "kept": true,
+    "cat": "T4",
+    "title": "Jessi X-Article Skill 改成 Grok Bot 工程书（X）",
+    "review": "先采访再写，整包标题/长文/插图/封面/Hook；只存草稿不代发",
+    "tags": [
+      "chinese",
+      "x-article",
+      "skill",
+      "draft"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-06",
+    "author": "ai_chuhai",
+    "date": "2026-11-06"
   }
 ]
