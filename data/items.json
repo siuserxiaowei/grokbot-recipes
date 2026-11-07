@@ -12354,5 +12354,174 @@
     "verified": "2026-11-07",
     "author": "cgnot996",
     "date": "2026-11-07"
+  },
+  {
+    "url": "https://x.com/XCreators/status/2118843705327026400",
+    "kept": true,
+    "cat": "T4",
+    "title": "X 官方出品：Grok Bot 创作者终极指南（X 长文）",
+    "review": "英文官方创作者号：风格手册、收藏拆选题、脚本教练、并行剪辑、留存复盘、多平台分发；约 1800 赞 / 2600 收藏",
+    "tags": [
+      "english",
+      "official",
+      "creator",
+      "video",
+      "article"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "XCreators",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/kylewmi/status/2118878868497211709",
+    "kept": true,
+    "cat": "T4",
+    "title": "X 官方创作者指南中文全译（X 长文）",
+    "review": "全文翻译 XCreators 指南；落地仍用自己的闸门，发布与付款自己点",
+    "tags": [
+      "chinese",
+      "creator",
+      "translation",
+      "article"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "kylewmi",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://x.com/Mulight/status/2118986877177151572",
+    "kept": true,
+    "cat": "T5",
+    "title": "从官方创作者指南抽出五条可抄提示（X）",
+    "review": "中文：养懂你的 Bot、收藏变选题、脚本教练、参与剪辑、复盘进 Skill；附提示词",
+    "tags": [
+      "chinese",
+      "creator",
+      "prompts"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "Mulight",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://x.com/cheery9998/status/2118619836377117053",
+    "kept": true,
+    "cat": "T5",
+    "title": "用 Grok Bot 一个月当自媒体运营：四坑四心得（X 视频）",
+    "review": "选题/复盘/涨粉/私信交给 Bot；踩过建太多、越用越笨、额度烧太快；强调 Bot 找素材人来判断",
+    "tags": [
+      "chinese",
+      "creator",
+      "pitfalls",
+      "video"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "cheery9998",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/Marko_Poly/status/2118982166965059777",
+    "kept": true,
+    "cat": "T4",
+    "title": "额度撞墙后怎么保业务：MONEY/TIME/NICE 三桶（X 长文）",
+    "review": "英文：按是否碰客户收入分桶，70%/85% 关 NICE/TIME；附可复制审计提示词；文中账单数字为作者见闻",
+    "tags": [
+      "english",
+      "usage",
+      "budget",
+      "business"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "Marko_Poly",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/junze-xu/grok-bot-cn",
+    "kept": true,
+    "cat": "B",
+    "title": "junze-xu/grok-bot-cn：中文契约模板库",
+    "review": "自称 33 模板 / 13 技能 / 8 例程 / 12 模式；Setup 粘 START.md 或 npx 安装；MIT，多语言 README + Pages",
+    "tags": [
+      "templates",
+      "chinese",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-07",
+    "repo": "junze-xu/grok-bot-cn",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/ArtificialNotImbecile/herdr-grok-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "herdr-grok-bridge：只读 Herdr MCP 桥",
+    "review": "白名单 list/get/read pane；硬拒 send-keys/起进程；输出截断+脱敏；MIT",
+    "tags": [
+      "mcp",
+      "herdr",
+      "readonly",
+      "bridge"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-07",
+    "repo": "ArtificialNotImbecile/herdr-grok-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/onittindwani-ai/bot-showdown-test-kit",
+    "kept": true,
+    "cat": "C",
+    "title": "bot-showdown-test-kit：Grok Bot vs Claude Code 公平对决",
+    "review": "五场销售任务、预先锁死答案钥+SHA、计分脚本；禁开答案钥直到跑完；MIT",
+    "tags": [
+      "eval",
+      "benchmark",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-07",
+    "repo": "onittindwani-ai/bot-showdown-test-kit",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/onittindwani-ai/ai-employee-kit-openai-dots-grok-bot",
+    "kept": true,
+    "cat": "B",
+    "title": "ai-employee-kit：25 岗销售招聘运营提示词",
+    "review": "每人一套 Dots + Grok Bot 安装文、交接配方与选型表；只起草不代发；MIT",
+    "tags": [
+      "templates",
+      "sales",
+      "hiring",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-07",
+    "repo": "onittindwani-ai/ai-employee-kit-openai-dots-grok-bot",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://grokguide.si/tutorials/creator-flywheel",
+    "kept": true,
+    "cat": "T",
+    "title": "创作者飞轮：手册→选题→教练→先批再剪（实测教程）",
+    "review": "六闸本地巡检 ASSERT_OK；思路受 XCreators 官方指南启发，不照搬原文",
+    "tags": [
+      "tutorial",
+      "creator",
+      "grokguide"
+    ],
+    "level": "本地巡检",
+    "verified": "2026-11-07"
   }
 ]

@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 501 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 506 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（118）
 
@@ -223,7 +223,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [九岗 Bot 怎么排：总入口拆活，不用群聊互传（X）](https://x.com/xiaomovps/status/2118154686637474093) - 九岗各管一摊，发帖与合并代码留人手；作者实测群聊互传又烧额度又跑偏 · @xiaomovps · 2026-11-05。标签：`chinese` `multi-bot` `routing` `credits`
 - [约 30 个 Bot、一岗一事的家庭团队（X）](https://x.com/Texas_Twins_Dad/status/2118072072752566345) - 幕僚长分派，邮件只起草本人发，财务只读银行；例程安静跑、有变化才提醒 · @Texas_Twins_Dad · 2026-11-05。标签：`english` `multi-bot` `chief-of-staff` `family`
 
-## Routine 与额度（63）
+## Routine 与额度（64）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -288,6 +288,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [额度不够：云电脑装 Codex CLI 或 Pi 交重活（X）](https://x.com/Pluvio9yte/status/2118028142761918497) - 中文：给 Bot 加规则把执行交给 Codex/Pi；作者自述约省一半用量，数字仅供参考 · @Pluvio9yte · 2026-11-05。标签：`chinese` `usage` `codex` `pi`
 - [Grok Bot vs Meta Muse：配额泄漏与分工（X 长文）](https://x.com/Bagel8343/status/2118503001321054433) - 英文长文：对照共享云电脑与保险箱助手，列四条额度泄漏和怎么分工 · @Bagel8343 · 2026-11-06。标签：`english` `quota` `muse` `comparison`
 - [10 万人看过的省额度帖背后的带 Bot 方法（X 长文）](https://x.com/leaf_sanren/status/2117935731838722255) - 把信任四步落到实操，讲额度、记忆、组队与国内四个坑，附 7 天上手 · @leaf_sanren · 2026-11-04。标签：`chinese` `credits` `trust` `onboarding`
+
+- [额度撞墙后怎么保业务：MONEY/TIME/NICE 三桶（X 长文）](https://x.com/Marko_Poly/status/2118982166965059777) - 英文：按是否碰客户收入分桶，70%/85% 关 NICE/TIME；附可复制审计提示词；文中账单数字为作者见闻 · @Marko_Poly · 2026-11-07。标签：`english` `usage` `budget` `business`
 
 ## 连接、技能与记忆（75）
 
@@ -367,7 +369,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [把视频教程收成 iLang 工程书，一句话出片（X）](https://x.com/ai_chuhai/status/2118812300056432718) - 给人读的长文拆成给 Bot 读的工程书；复制整段即跑，侧重工作流封装而非交易喊单 · @ai_chuhai · 2026-11-06。标签：`chinese` `skill` `video` `ilang`
 - [GBA 微信记录直达 Obsidian 数字花园（X）](https://x.com/cgnot996/status/2118862870553526462) - 铁柱AGI 演示：Grok Bot Anywhere 把微信聊天记录转给管库 Bot，接到 Jackywine 花园流程；与 Anywhere 基础转发条目互补 · @cgnot996 · 2026-11-07。标签：`chinese` `anywhere` `wechat` `obsidian`
 
-## 一人公司与内容（125）
+## 一人公司与内容（129）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -494,6 +496,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [一句话查 X 账号数据 + 每日简报例程（X 长文）](https://x.com/ai_goge/status/2118504232303391110) - Grok Bot 系列 2-4：连好 X 后查粉丝/帖子/点赞，再建只读日报例程 · @ai_goge · 2026-11-06。标签：`chinese` `x` `routine` `analytics`
 - [语音客服代码管事实 + 五条获客 Routine（X 长文）](https://x.com/MiclauMarius/status/2118508878082019612) - 英文长文：模型只判意图，事实与数学归代码；五条获客 Routine 草稿不自动发 · @MiclauMarius · 2026-11-06。标签：`english` `voice` `routine` `outbound`
 - [Grok Bot 系列 2-5｜评论私信分类整理（X 长文）](https://x.com/ai_goge/status/2118869500015841644) - 评论提及分四类并只写不发；私信要本人填 PIN；第一版草稿常成统一句式，纠正后记成长期规矩；附每日未回复例程 · @ai_goge · 2026-11-07。标签：`chinese` `x` `routine` `moderation` `draft`
+
+- [X 官方出品：Grok Bot 创作者终极指南（X 长文）](https://x.com/XCreators/status/2118843705327026400) - 英文官方创作者号：风格手册、收藏拆选题、脚本教练、云电脑并行剪辑、留存复盘、一次成片多平台分发；约 1800 赞 / 2600 收藏 · @XCreators / @Ethan_Ng_13 · 2026-11-06。标签：`english` `official` `creator` `video` `article`
+- [X 官方创作者指南中文全译（X 长文）](https://x.com/kylewmi/status/2118878868497211709) - 全文翻译 XCreators 指南；落地仍用自己的闸门，发布与付款自己点 · @kylewmi · 2026-11-07。标签：`chinese` `creator` `translation` `article`
+- [从官方创作者指南抽出五条可抄提示（X）](https://x.com/Mulight/status/2118986877177151572) - 中文：养懂你的 Bot、收藏变选题、脚本教练、参与剪辑、复盘进 Skill；附提示词 · @Mulight · 2026-11-07。标签：`chinese` `creator` `prompts`
+- [用 Grok Bot 一个月当自媒体运营：四坑四心得（X 视频）](https://x.com/cheery9998/status/2118619836377117053) - 选题/复盘/涨粉/私信交给 Bot；踩过建太多、越用越笨、额度烧太快；强调 Bot 找素材人来判断 · @cheery9998 · 2026-11-06。标签：`chinese` `creator` `pitfalls` `video`
 
 ## 安全（25）
 
