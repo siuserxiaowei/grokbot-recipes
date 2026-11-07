@@ -12267,5 +12267,92 @@
     "verified": "2026-11-06",
     "author": "leaf_sanren",
     "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/Jackywine/status/2118562780383216113",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot + Obsidian 可进化第二大脑（X 长文）",
+    "review": "用 Grok Bot 复盘精简 Obsidian 库（先诊后砍、Ask first），附公开 Bot 与 MIT skills；文中库规模与断链数为作者自述",
+    "tags": [
+      "chinese",
+      "obsidian",
+      "second-brain",
+      "skill"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "Jackywine",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/Jackywine/jackywine-digital-garden-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "jackywine-digital-garden-skills：flomo+Obsidian 双层花园",
+    "review": "7 个 skill：装机、剪藏、串库、孤儿清理；产出进 AI outputs/、批量改动先问；不内嵌 kepano 包，MIT",
+    "tags": [
+      "skill",
+      "obsidian",
+      "flomo",
+      "chinese"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-07",
+    "repo": "Jackywine/jackywine-digital-garden-skills",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2118869500015841644",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot 系列 2-5｜评论私信分类整理（X 长文）",
+    "review": "评论提及分四类并只写不发；私信要本人填 PIN；第一版草稿常成统一句式，纠正后记成长期规矩；附每日未回复例程",
+    "tags": [
+      "chinese",
+      "x",
+      "routine",
+      "moderation",
+      "draft"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "ai_goge",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://x.com/ai_chuhai/status/2118812300056432718",
+    "kept": true,
+    "cat": "T4",
+    "title": "把视频教程收成 iLang 工程书，一句话出片（X）",
+    "review": "给人读的长文拆成给 Bot 读的工程书；复制整段即跑，侧重工作流封装而非交易喊单",
+    "tags": [
+      "chinese",
+      "skill",
+      "video",
+      "ilang"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "ai_chuhai",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://x.com/cgnot996/status/2118862870553526462",
+    "kept": true,
+    "cat": "T4",
+    "title": "GBA 微信记录直达 Obsidian 数字花园（X）",
+    "review": "铁柱AGI 演示：Grok Bot Anywhere 把微信聊天记录转给管库 Bot，接到 Jackywine 花园流程；与 Anywhere 基础转发条目互补",
+    "tags": [
+      "chinese",
+      "anywhere",
+      "wechat",
+      "obsidian"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-07",
+    "author": "cgnot996",
+    "date": "2026-11-07"
   }
 ]

@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **78** 个配方，格式统一，提示词可以直接复制
-- **267** 个生态项目和学习资源，每条都打开核对过
-- **497** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **268** 个生态项目和学习资源，每条都打开核对过
+- **501** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -109,7 +109,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（267）
+## 生态清单（268）
 
 ### 官方与工具（31）
 
@@ -168,7 +168,7 @@
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 - [catan-grokbot：卡坦岛人对 Bot 对 AI](https://github.com/enrand22/catan-grokbot) - 西语休闲玩法：2–4 人含人类与 Bot；娱乐向，不作生产模板。标签：`game` `spanish` `multiplayer` 📦
 
-### 技能与连接（86）
+### 技能与连接（87）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -256,6 +256,7 @@
 - [dispatch：本机 Claude/Codex/Grok Bot 会话互通](https://github.com/IvyYang1999/dispatch) - 找会话、投递消息、看回执；CLI+MCP+Tauri 桌面；消息落盘 Markdown 不上云。标签：`bridge` `mcp` `macos` `multi-session` 📦
 - [rex-grokbot-bridge：Tailscale MCP 看管本机 Rex](https://github.com/smarzban/rex-grokbot-bridge) - 经 Tailscale MCP 列会话/读屏/键入/spawn；默认 watched 须本机会话 opt-in，完成可 webhook 回 Bot。标签：`mcp` `rex` `tailscale` `coding-agent` 📦
 - [Agent2GrokBot：MCP 客户端桥到固定 webhook Bot](https://github.com/Anudorannador/Agent2GrokBot) - FastAPI MCP 2.0 占住 SSE，Bot 心跳/进度 POST 回调；超时可 task_get 轮询不丢结果。标签：`mcp` `webhook` `bridge` `fastapi` 📦
+- [jackywine-digital-garden-skills：flomo+Obsidian 双层花园](https://github.com/Jackywine/jackywine-digital-garden-skills) - 7 个 skill：装机、剪藏、串库、孤儿清理；产出进 AI outputs/、批量改动先问；不内嵌 kepano 包，MIT。标签：`skill` `obsidian` `flomo` `chinese` 📦
 
 ### 多 Bot 团队（41）
 

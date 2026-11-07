@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 497 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 501 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（118）
 
@@ -289,7 +289,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot vs Meta Muse：配额泄漏与分工（X 长文）](https://x.com/Bagel8343/status/2118503001321054433) - 英文长文：对照共享云电脑与保险箱助手，列四条额度泄漏和怎么分工 · @Bagel8343 · 2026-11-06。标签：`english` `quota` `muse` `comparison`
 - [10 万人看过的省额度帖背后的带 Bot 方法（X 长文）](https://x.com/leaf_sanren/status/2117935731838722255) - 把信任四步落到实操，讲额度、记忆、组队与国内四个坑，附 7 天上手 · @leaf_sanren · 2026-11-04。标签：`chinese` `credits` `trust` `onboarding`
 
-## 连接、技能与记忆（72）
+## 连接、技能与记忆（75）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -363,8 +363,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 搭配自有 VPS：持久化与跳板（X）](https://x.com/xiaomovps/status/2118502494401888338) - 闲置 VPS 才值得：数据持久化、SSH 跳板、互备共享盘 · @xiaomovps · 2026-11-06。标签：`chinese` `vps` `ssh` `persistence`
 - [Jessi X-Article Skill 改成 Grok Bot 工程书（X）](https://x.com/ai_chuhai/status/2118497876422656369) - 先采访再写，整包标题/长文/插图/封面/Hook；只存草稿不代发 · @ai_chuhai · 2026-11-06。标签：`chinese` `x-article` `skill` `draft`
 - [Grok Bot 接微信：官方没有入口，社区桥怎么选（X）](https://x.com/leaf_sanren/status/2118641606295474449) - 官方只接 App/手机/Slack/邮箱/Webhook；社区桥要分清叫它、回微信、推日报三件事 · @leaf_sanren · 2026-11-06。标签：`chinese` `wechat` `bridge` `community`
+- [Grok Bot + Obsidian 可进化第二大脑（X 长文）](https://x.com/Jackywine/status/2118562780383216113) - 用 Grok Bot 复盘精简 Obsidian 库（先诊后砍、Ask first），附公开 Bot 与 MIT skills；文中库规模与断链数为作者自述 · @Jackywine · 2026-11-06。标签：`chinese` `obsidian` `second-brain` `skill`
+- [把视频教程收成 iLang 工程书，一句话出片（X）](https://x.com/ai_chuhai/status/2118812300056432718) - 给人读的长文拆成给 Bot 读的工程书；复制整段即跑，侧重工作流封装而非交易喊单 · @ai_chuhai · 2026-11-06。标签：`chinese` `skill` `video` `ilang`
+- [GBA 微信记录直达 Obsidian 数字花园（X）](https://x.com/cgnot996/status/2118862870553526462) - 铁柱AGI 演示：Grok Bot Anywhere 把微信聊天记录转给管库 Bot，接到 Jackywine 花园流程；与 Anywhere 基础转发条目互补 · @cgnot996 · 2026-11-07。标签：`chinese` `anywhere` `wechat` `obsidian`
 
-## 一人公司与内容（124）
+## 一人公司与内容（125）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -490,6 +493,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [闲鱼虚拟资料五岗流水线（X 长文）](https://x.com/DongQingAsk/status/2117918728956596385) - 中文：选品到自动发货五岗；强调闲鱼登录只在常开本机、云电脑 IP 易异常；不搬收益数字，原创资料自担 · @DongQingAsk · 2026-11-04。标签：`chinese` `multi-bot` `xianyu` `shipping`
 - [一句话查 X 账号数据 + 每日简报例程（X 长文）](https://x.com/ai_goge/status/2118504232303391110) - Grok Bot 系列 2-4：连好 X 后查粉丝/帖子/点赞，再建只读日报例程 · @ai_goge · 2026-11-06。标签：`chinese` `x` `routine` `analytics`
 - [语音客服代码管事实 + 五条获客 Routine（X 长文）](https://x.com/MiclauMarius/status/2118508878082019612) - 英文长文：模型只判意图，事实与数学归代码；五条获客 Routine 草稿不自动发 · @MiclauMarius · 2026-11-06。标签：`english` `voice` `routine` `outbound`
+- [Grok Bot 系列 2-5｜评论私信分类整理（X 长文）](https://x.com/ai_goge/status/2118869500015841644) - 评论提及分四类并只写不发；私信要本人填 PIN；第一版草稿常成统一句式，纠正后记成长期规矩；附每日未回复例程 · @ai_goge · 2026-11-07。标签：`chinese` `x` `routine` `moderation` `draft`
 
 ## 安全（25）
 
