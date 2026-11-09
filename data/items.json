@@ -12523,5 +12523,247 @@
     ],
     "level": "本地巡检",
     "verified": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/aritosi/GrokBot-Cloudstandby",
+    "kept": true,
+    "cat": "E",
+    "title": "GrokBot-Cloudstandby：有截止时间的云电脑保活",
+    "review": "登记任务+截止时间，一个前台看守等到底；到期只停保活不杀进程；7 个测试本地跑过，MIT",
+    "tags": [
+      "skill",
+      "keepalive",
+      "cloud-computer",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "aritosi/GrokBot-Cloudstandby",
+    "license": "MIT",
+    "last_push": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/remorses/grokhouse",
+    "kept": true,
+    "cat": "A",
+    "title": "grokhouse：等距小办公室看 Bot 干活",
+    "review": "每只 Bot 一间房，忙闲睡一眼看出，气泡里能直接回话；走非公开接口，作者写明随时可能失效，MIT",
+    "tags": [
+      "client",
+      "visualization",
+      "unofficial",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "remorses/grokhouse",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/nisaral/grokbot-conductor",
+    "kept": true,
+    "cat": "A",
+    "title": "grokbot-conductor：Windows 本机文件夹/时钟唤醒已有 Bot",
+    "review": "本机丢文件或到点就打开对应 Bot、简报放剪贴板；你在官方 App 里点发送前不耗额度，MIT",
+    "tags": [
+      "windows",
+      "local",
+      "wake",
+      "unofficial"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "nisaral/grokbot-conductor",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/onehumanbeing/grok-spaces",
+    "kept": true,
+    "cat": "A",
+    "title": "grok-spaces：给 Bot 一个 macOS 常驻 HTML 工作区",
+    "review": "Bot 写页面和逻辑，本仓提供宿主、存状态和动作桥；不改官方 App，仅 macOS，MIT",
+    "tags": [
+      "macos",
+      "workspace",
+      "html",
+      "unofficial"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "onehumanbeing/grok-spaces",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/QinGeneral/ai-quota-bar",
+    "kept": true,
+    "cat": "A",
+    "title": "ai-quota-bar：菜单栏看 Grok Bot 周额度剩多少",
+    "review": "Cursor/Grok Bot/Codex/Kimi 剩余比例一栏看；读本机已登录态，接口无公开契约，MIT",
+    "tags": [
+      "macos",
+      "usage",
+      "menubar",
+      "chinese"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "QinGeneral/ai-quota-bar",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/Wecko-ai/grokbot-to-hermes",
+    "kept": true,
+    "cat": "G",
+    "title": "grokbot-to-hermes：迁去 Hermes 的补坑手册",
+    "review": "包住官方 importer，补记忆超限、云路径、例程无处投递；默认 dry-run、拒导密钥，MIT",
+    "tags": [
+      "hermes",
+      "migration",
+      "runbook",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "Wecko-ai/grokbot-to-hermes",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/leoresendedop-sys/grokbot-staff",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-staff：Hermes 里的幕僚团 + 交给 Grok Bot 的桥",
+    "review": "方向是 Hermes→Grok Bot：webhook 或收件箱文件交长活，桥默认 fail-closed，MIT",
+    "tags": [
+      "hermes",
+      "bridge",
+      "webhook",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "leoresendedop-sys/grokbot-staff",
+    "license": "MIT",
+    "last_push": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/cxc1344/OpenGrokBot-Android",
+    "kept": true,
+    "cat": "G",
+    "title": "OpenGrokBot-Android：自带 Key 的安卓多 Bot 平替",
+    "review": "总经理立项派活审查返工，Key 进 Keystore；debug 签名、作者说未完整真机验收，MIT",
+    "tags": [
+      "android",
+      "self-hosted",
+      "multi-bot",
+      "chinese"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "cxc1344/OpenGrokBot-Android",
+    "license": "MIT",
+    "last_push": "2026-11-08"
+  },
+  {
+    "url": "https://x.com/xiaomovps/status/2118910548616294837",
+    "kept": true,
+    "cat": "T1",
+    "title": "别急着装 MCP：先走官方 5 步（X）",
+    "review": "装好登录→一 Bot 一类活→一件真实任务说清结果资料限制→敏感操作先问→跑通再设 Routine",
+    "tags": [
+      "chinese",
+      "starter",
+      "routine"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "xiaomovps",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://x.com/CalvinHollywood/status/2119337351797244176",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 新手 16 课（X 长文）",
+    "review": "英文：五部分从安装、Skill/Routine、云电脑浏览器到连接器与审批；作者标明非官方",
+    "tags": [
+      "english",
+      "starter",
+      "article"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "CalvinHollywood",
+    "date": "2026-11-08"
+  },
+  {
+    "url": "https://x.com/GetClareity/status/2118906689055256905",
+    "kept": true,
+    "cat": "T2",
+    "title": "这周给 Bot 团队改了什么：收据、交接、例程体检（X 长文）",
+    "review": "英文：每次运行要附链接收据才算完成；只让幕僚长打扰你；例程按留/放慢/改触发/退役过一遍",
+    "tags": [
+      "english",
+      "multi-bot",
+      "receipts",
+      "routine-audit"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "GetClareity",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://x.com/JonsTechYT/status/2119522566763430148",
+    "kept": true,
+    "cat": "T2",
+    "title": "六只 Bot 各管一摊的日常（X 长文）",
+    "review": "英文：建 Bot 的 Bot、X/Reddit 找话题只起草、做小工具、记账问答；回复都自己批",
+    "tags": [
+      "english",
+      "multi-bot",
+      "daily"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "JonsTechYT",
+    "date": "2026-11-08"
+  },
+  {
+    "url": "https://x.com/LoganTGott/status/2119082804210278580",
+    "kept": true,
+    "cat": "T5",
+    "title": "用 Grok Bot 跑创作者平台的数据和内容（X）",
+    "review": "英文：读 X 原生数据喂给 Claude 建的库；一 Bot 一事；先学你旧帖语气，拿不准的说法要标出",
+    "tags": [
+      "english",
+      "creator",
+      "x-data",
+      "voice"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "LoganTGott",
+    "date": "2026-11-07"
+  },
+  {
+    "url": "https://x.com/Jackyheree/status/2118998158432940277",
+    "kept": true,
+    "cat": "T5",
+    "title": "每天在 X 上筛约稿机会（X）",
+    "review": "英文：每日扫写手/KOL 需求，滤掉纯佣金、赌场和抽奖，只推带链接线索，谈单自己来",
+    "tags": [
+      "english",
+      "leads",
+      "x-radar"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "Jackyheree",
+    "date": "2026-11-07"
   }
 ]

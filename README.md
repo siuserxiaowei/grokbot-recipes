@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **80** 个配方，格式统一，提示词可以直接复制
-- **272** 个生态项目和学习资源，每条都打开核对过
-- **506** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **81** 个配方，格式统一，提示词可以直接复制
+- **280** 个生态项目和学习资源，每条都打开核对过
+- **513** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（80）
+## 配方（81）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -46,10 +46,11 @@
 | [代打电话话术卡：敏感内容一律拦下](recipes/call-script-guard.md) | 想让 Bot 代打订座、催物流电话的人 |
 | [先查来源：会变的事不只信记忆](recipes/check-source-first.md) | Bot 记住的日期、邮箱、订单状态过期了还在照着用的人 |
 | [幕僚长 Bot：一天五条简报，外发等你批准](recipes/chief-of-staff.md) | 想要一个只盯目标、待办和会议的「幕僚长」、又不想它擅自发 Slack / 邮件的人 |
+| [云电脑保活：有截止时间的安静等待](recipes/cloud-standby.md) | 要让云电脑在长任务或远程连接期间别睡过去，又不想它无限挂着耗额度、到点乱杀进程的人 |
 | [评论分诊：四类整理，只写不发](recipes/comment-triage.md) | 评论提及一多就漏回，又不想让 Bot 代发或写成统一套话的人 |
-| [创作者飞轮：手册→选题→教练→先批再剪](recipes/creator-flywheel.md) | 做短视频/自媒体，想让 Bot 帮忙但不想被代写、代剪、代发带着跑的人 |
 | [竞品雷达：只报有变化的部分](recipes/competitor-radar.md) | 需要盯竞争对手的人 |
 | [选题侦察：找高于作者均值的帖，跳过广告抽奖](recipes/content-scout.md) | 做内容、想每天从指定领域抓「明显火过作者平时水平」的帖当灵感，又不想被广告和抽奖刷屏的人 |
+| [创作者飞轮：手册→选题→教练→先批再剪](recipes/creator-flywheel.md) | 做短视频/自媒体，想让 Bot 帮忙但不想被代写、代剪、代发带着跑的人 |
 | [主 Bot 挂上赛博小晚五模式](recipes/cyber-xiaowan-modes.md) | 想给主 Bot 一套 Witness→Act 思考路由，又不想误用 npx 本地 skill 目录的人 |
 | [研发四个角色：需求、复现、实现、审查](recipes/dev-four-roles.md) | 让 Bot 参与写代码的团队 |
 | [先草稿后发送：对外动作全部过人](recipes/draft-then-send.md) | 怕 Bot 替你乱发东西的人 |
@@ -111,9 +112,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（272）
+## 生态清单（280）
 
-### 官方与工具（31）
+### 官方与工具（35）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -146,8 +147,12 @@
 - [grokbot-activity-log：哈希链活动账本](https://github.com/deximple/grokbot-activity-log) - 个人版没有 Action Recording 时，用 stdlib CLI 给每个 Bot 记 append-only 哈希链；改行 verify 必 FAIL，密钥形先洗，sync 拒绝推公仓；含日审/周调优 skill。本地巡检 ASSERT_OK，MIT。标签：`audit` `ledger` `cli` `security` 📦
 - [grok-bot-cli（RongleCat）：多账号名册与跨账号交接](https://github.com/RongleCat/grok-bot-cli) - 非官方多账号 CLI+Skill：登录后所有 Bot 进同一名册，可跨账号交接；破坏性命令默认 dry-run。标签：`cli` `multi-account` `skill` `unofficial` 📦
 - [GrokBot-tray：Windows 托盘伴侣](https://github.com/incredible404-rgb/GrokBot-tray) - 关窗/最小化进托盘、开机静默、隐藏后回收内存；非官方，作者测过 0.79.2。标签：`windows` `tray` `desktop` `unofficial` 📦
+- [grokhouse：等距小办公室看 Bot 干活](https://github.com/remorses/grokhouse) - 每只 Bot 一间房，忙闲睡一眼看出，气泡里能直接回话；走非公开接口，作者写明随时可能失效，MIT。标签：`client` `visualization` `unofficial` `mit` 📦
+- [grokbot-conductor：Windows 本机文件夹/时钟唤醒已有 Bot](https://github.com/nisaral/grokbot-conductor) - 本机丢文件或到点就打开对应 Bot、简报放剪贴板；你在官方 App 里点发送前不耗额度，MIT。标签：`windows` `local` `wake` `unofficial` 📦
+- [grok-spaces：给 Bot 一个 macOS 常驻 HTML 工作区](https://github.com/onehumanbeing/grok-spaces) - Bot 写页面和逻辑，本仓提供宿主、存状态和动作桥；不改官方 App，仅 macOS，MIT。标签：`macos` `workspace` `html` `unofficial` 📦
+- [ai-quota-bar：菜单栏看 Grok Bot 周额度剩多少](https://github.com/QinGeneral/ai-quota-bar) - Cursor/Grok Bot/Codex/Kimi 剩余比例一栏看；读本机已登录态，接口无公开契约，MIT。标签：`macos` `usage` `menubar` `chinese` 📦
 
-### 模板与目录（21）
+### 模板与目录（22）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -169,10 +174,10 @@
 - [Grok Bot Shelf](https://grokbotshelf.com) - Phillip Holland 维护的社区模板目录站，八百多个分享链接按生活、效率、创作等分类，点开就能加；源码在 GitHub 且没写 License，条目我们没有逐条抽检。标签：`directory` `templates` `discovery` 📘
 - [Bot Catalog：自更新 Bot 目录模板](https://github.com/JaxonWright/bot-catalog-for-grok-bot-template) - 分享链接拷贝不会跟作者更新；目录里每只 Bot 可每日查仓库新版本，你同意才升级。GPL-3.0，要 GitHub 连接器。标签：`directory` `templates` `routine` `github` 📦
 - [catan-grokbot：卡坦岛人对 Bot 对 AI](https://github.com/enrand22/catan-grokbot) - 西语休闲玩法：2–4 人含人类与 Bot；娱乐向，不作生产模板。标签：`game` `spanish` `multiplayer` 📦
-
 - [junze-xu/grok-bot-cn：中文契约模板库](https://github.com/junze-xu/grok-bot-cn) - 自称 33 模板 / 13 技能 / 8 例程 / 12 模式；Setup 粘 START.md 或 npx 安装；MIT，多语言 README + Pages。标签：`templates` `chinese` `mit` 📦
+- [ai-employee-kit：25 岗销售招聘运营提示词](https://github.com/onittindwani-ai/ai-employee-kit-openai-dots-grok-bot) - 每人一套 Dots + Grok Bot 安装文、交接配方与选型表；只起草不代发；MIT。标签：`templates` `sales` `hiring` `mit` 📦
 
-### 技能与连接（88）
+### 技能与连接（90）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -262,6 +267,8 @@
 - [Agent2GrokBot：MCP 客户端桥到固定 webhook Bot](https://github.com/Anudorannador/Agent2GrokBot) - FastAPI MCP 2.0 占住 SSE，Bot 心跳/进度 POST 回调；超时可 task_get 轮询不丢结果。标签：`mcp` `webhook` `bridge` `fastapi` 📦
 - [jackywine-digital-garden-skills：flomo+Obsidian 双层花园](https://github.com/Jackywine/jackywine-digital-garden-skills) - 7 个 skill：装机、剪藏、串库、孤儿清理；产出进 AI outputs/、批量改动先问；不内嵌 kepano 包，MIT。标签：`skill` `obsidian` `flomo` `chinese` 📦
 - [herdr-grok-bridge：只读 Herdr MCP 桥](https://github.com/ArtificialNotImbecile/herdr-grok-bridge) - 白名单 list/get/read pane；硬拒 send-keys/起进程；输出截断+脱敏；MIT。标签：`mcp` `herdr` `readonly` `bridge` 📦
+- [bot-showdown-test-kit：Grok Bot vs Claude Code 公平对决](https://github.com/onittindwani-ai/bot-showdown-test-kit) - 五场销售任务、预先锁死答案钥+SHA、计分脚本；禁开答案钥直到跑完；MIT。标签：`eval` `benchmark` `mit` 📦
+- [grokbot-staff：Hermes 里的幕僚团 + 交给 Grok Bot 的桥](https://github.com/leoresendedop-sys/grokbot-staff) - 方向是 Hermes→Grok Bot：webhook 或收件箱文件交长活，桥默认 fail-closed，MIT。标签：`hermes` `bridge` `webhook` `mit` 📦
 
 ### 多 Bot 团队（41）
 
@@ -307,7 +314,7 @@
 - [portfolio-research-desk：六席美股研究台](https://github.com/miniLV/portfolio-research-desk) - 工作日早报串财报/文件/估值/期权/论点，永不下单；可拆专岗，持仓只贴聊天。标签：`multi-bot` `finance` `research` `chinese` 📦
 - [grok-bot-team-management：团队运转与账号交接 Skill](https://github.com/luxiaolei/grok-bot-team-management) - 精干花名册、契约落 git、一人交付一人验收；含全量/增量交接与少唤醒原则。标签：`multi-bot` `skills` `handoff` `ops` 📦
 
-### Routine 与监控（14）
+### Routine 与监控（15）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -323,10 +330,10 @@
 - [Grok Bot 省额度一页纸（smdistefano）](https://github.com/smdistefano/grok-bot) - 一天烧一周额度后的复盘与常驻规则；Apache-2.0。标签：`budget` `tokens` `rules` 📘
 - [context-bot：长对话红绿灯](https://github.com/AnaGuiDev/context-bot) - 绿灯继续、黄灯摘要、红灯换新会话；给长聊省额度的轻量提示。标签：`credits` `context` `routine` 📦
 - [grok-bot-usage-harness：量多 Bot 群聊唤醒成本](https://github.com/digitalgym/grok-bot-usage-harness) - 纯 Python 估算脚本对比「群聊无 @」与「Lead+笔记」；七条测试消息 CSV，示例数字标虚构。本地跑通 estimate/sequence，MIT。标签：`usage` `multi-bot` `harness` `python` 📘
+- [GrokBot-Cloudstandby：有截止时间的云电脑保活](https://github.com/aritosi/GrokBot-Cloudstandby) - 登记任务+截止时间，一个前台看守等到底；到期只停保活不杀进程；7 个测试本地跑过，MIT。标签：`skill` `keepalive` `cloud-computer` `mit` 📦
 
-### 一人公司与内容（12）
+### 一人公司与内容（11）
 
-- [ai-employee-kit：25 岗销售招聘运营提示词](https://github.com/onittindwani-ai/ai-employee-kit-openai-dots-grok-bot) - 每人一套 Dots + Grok Bot 安装文、交接配方与选型表；只起草不代发；MIT。标签：`templates` `sales` `hiring` `mit` 📦
 - [grokbot-for-gtm](https://github.com/bcharleson/grokbot-for-gtm) - 一整套海外外联获客流程，从建名单到处理回复，出海团队可以参考。标签：`gtm` `outbound` 📦
 - [模板：Motion Director](https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes) - 一句话出动画短片的模板，适合做产品宣传和短视频。标签：`template` `video` 📘
 - [模板：Research by Trond](https://x.ai/bot/v3WI0YuJAr1DLoYdYVXh8) - 只读的研究模板，出带引用的简报，做选题前用。标签：`template` `research` 📘
@@ -339,7 +346,7 @@
 - [grok-video-studio：Bot 视频制作工具包](https://github.com/htetahyan/grok-video-studio) - 面向真片剪辑与可度量输出；装前看许可与素材版权要求。标签：`video` `content` `toolkit` 📦
 - [grokbot-x-launch-kit：X 发帖研究套件](https://github.com/Maliot100X/grokbot-x-launch-kit) - 趋势证据加三条草稿等人审；监控可复用，发帖仍由人手点。标签：`x` `content` `research` `draft` 📦
 
-### 自托管与替代方案（23）
+### 自托管与替代方案（25）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -364,6 +371,8 @@
 - [Pots（pi-durable-bot）开源平替](https://github.com/Crokily/pi-durable-bot) - 自托管自选模型；崩溃续跑、消息去重；作者以 Grok Bot 为参照；要 Node 24。标签：`self-hosted` `byo-model` `durable` 📦
 - [kylin-feng/grokbot 界面学习 Demo](https://github.com/kylin-feng/grokbot) - 开源复刻界面与同事式线程；云电脑面板为本地模拟；BYOK。标签：`clone` `demo` `byok` 📦
 - [open-super-agent：可自托管的 Grok Bot 平替](https://github.com/kadaliao/open-super-agent) - 多 Bot 群聊、后台 Worker、共用 Linux 桌面、MCP、确认卡；自带模型。MIT，alpha。标签：`self-hosted` `alternative` `multi-bot` 📦
+- [grokbot-to-hermes：迁去 Hermes 的补坑手册](https://github.com/Wecko-ai/grokbot-to-hermes) - 包住官方 importer，补记忆超限、云路径、例程无处投递；默认 dry-run、拒导密钥，MIT。标签：`hermes` `migration` `runbook` `mit` 📦
+- [OpenGrokBot-Android：自带 Key 的安卓多 Bot 平替](https://github.com/cxc1344/OpenGrokBot-Android) - 总经理立项派活审查返工，Key 进 Keystore；debug 签名、作者说未完整真机验收，MIT。标签：`android` `self-hosted` `multi-bot` `chinese` 📦
 
 ### 硬件（9）
 
@@ -377,9 +386,8 @@
 - [GrokChan](https://github.com/notedit/GrokChan) - Stack-chan 风格语音伴：Cloudflare Worker 把浏览器接到 Bot 的 webhook；目前主要是网页桥，M5 固件和唤醒词还在路线图上。标签：`hardware` `m5stack` `webhook` 📘
 - [Grok Bot Face](https://github.com/dwinter3/grokbot-face) - 把 Pixel 平板变成全屏动画脸和桌面时钟，离线唤醒词打开 App；摄像头和麦克风只在本机处理、不存不传。标签：`hardware` `android` `screensaver` 📘
 
-### 学习资源与合集（32）
+### 学习资源与合集（31）
 
-- [bot-showdown-test-kit：Grok Bot vs Claude Code 公平对决](https://github.com/onittindwani-ai/bot-showdown-test-kit) - 五场销售任务、预先锁死答案钥+SHA、计分脚本；禁开答案钥直到跑完；MIT。标签：`eval` `benchmark` `mit` 📦
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
 - [CNR Grok Bot 指南](https://cnrcode.com/guides/) - 英文入门四篇，讲功能、Routine、省额度和模板；带一些推广。标签：`guide` `english` 📘
