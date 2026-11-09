@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 513 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 516 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（120）
+## 入门与配置（121）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -126,6 +126,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [为什么 Bot 总走偏：Memory 与 Skill 怎么分（X 长文）](https://x.com/ai_edisonZ/status/2117876738751369587) - 中文长文：固定 URL/Anti-jobs/首跑命令写进记忆，长手册放技能；分享模板前清测试脏记忆 · @ai_edisonZ · 2026-11-04。标签：`chinese` `memory` `skill` `template`
 - [别急着装 MCP：先走官方 5 步（X）](https://x.com/xiaomovps/status/2118910548616294837) - 装好登录→一 Bot 一类活→一件真实任务说清结果资料限制→敏感操作先问→跑通再设 Routine · @xiaomovps · 2026-11-07。标签：`chinese` `starter` `routine`
 - [Grok Bot 新手 16 课（X 长文）](https://x.com/CalvinHollywood/status/2119337351797244176) - 英文：五部分从安装、Skill/Routine、云电脑浏览器到连接器与审批；作者标明非官方 · @CalvinHollywood · 2026-11-08。标签：`english` `starter` `article`
+- [Grok Bot 系列 2-6｜在 X 上回复 @bot 派活（X 长文）](https://x.com/ai_goge/status/2119705743234650175) - 讲清 @bot 只转交、@grok 才公开回答；任务进主 Bot，带视频/GIF 不接，部分地区未开放，回复本身是公开的 · @ai_goge · 2026-11-09。标签：`x` `at-bot` `main-bot` `chinese`
 
 ## 多 Bot 团队（97）
 
@@ -227,7 +228,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [这周给 Bot 团队改了什么：收据、交接、例程体检（X 长文）](https://x.com/GetClareity/status/2118906689055256905) - 英文：每次运行要附链接收据才算完成；只让幕僚长打扰你；例程按留/放慢/改触发/退役过一遍 · @GetClareity · 2026-11-07。标签：`english` `multi-bot` `receipts` `routine-audit`
 - [六只 Bot 各管一摊的日常（X 长文）](https://x.com/JonsTechYT/status/2119522566763430148) - 英文：建 Bot 的 Bot、X/Reddit 找话题只起草、做小工具、记账问答；回复都自己批 · @JonsTechYT · 2026-11-08。标签：`english` `multi-bot` `daily`
 
-## Routine 与额度（63）
+## Routine 与额度（64）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -292,8 +293,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [额度不够：云电脑装 Codex CLI 或 Pi 交重活（X）](https://x.com/Pluvio9yte/status/2118028142761918497) - 中文：给 Bot 加规则把执行交给 Codex/Pi；作者自述约省一半用量，数字仅供参考 · @Pluvio9yte · 2026-11-05。标签：`chinese` `usage` `codex` `pi`
 - [Grok Bot vs Meta Muse：配额泄漏与分工（X 长文）](https://x.com/Bagel8343/status/2118503001321054433) - 英文长文：对照共享云电脑与保险箱助手，列四条额度泄漏和怎么分工 · @Bagel8343 · 2026-11-06。标签：`english` `quota` `muse` `comparison`
 - [10 万人看过的省额度帖背后的带 Bot 方法（X 长文）](https://x.com/leaf_sanren/status/2117935731838722255) - 把信任四步落到实操，讲额度、记忆、组队与国内四个坑，附 7 天上手 · @leaf_sanren · 2026-11-04。标签：`chinese` `credits` `trust` `onboarding`
+- [周额度不够用：省用量的五个做法（X 长文）](https://x.com/xiaomiaode5383/status/2119678157515375061) - 先看例程运行记录砍空跑，合并读同一批数据的任务，缩小读取范围，指令里写停止条件；附只读排查提示词 · @xiaomiaode5383 · 2026-11-09。标签：`usage` `routine` `budget` `chinese`
 
-## 连接、技能与记忆（78）
+## 连接、技能与记忆（79）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -373,6 +375,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [X 官方出品：Grok Bot 创作者终极指南（X 长文）](https://x.com/XCreators/status/2118843705327026400) - 英文官方创作者号：风格手册、收藏拆选题、脚本教练、并行剪辑、留存复盘、多平台分发；约 1800 赞 / 2600 收藏 · @XCreators · 2026-11-06。标签：`english` `official` `creator` `video` `article`
 - [X 官方创作者指南中文全译（X 长文）](https://x.com/kylewmi/status/2118878868497211709) - 全文翻译 XCreators 指南；落地仍用自己的闸门，发布与付款自己点 · @kylewmi · 2026-11-07。标签：`chinese` `creator` `translation` `article`
 - [额度撞墙后怎么保业务：MONEY/TIME/NICE 三桶（X 长文）](https://x.com/Marko_Poly/status/2118982166965059777) - 英文：按是否碰客户收入分桶，70%/85% 关 NICE/TIME；附可复制审计提示词；文中账单数字为作者见闻 · @Marko_Poly · 2026-11-07。标签：`english` `usage` `budget` `business`
+- [20 个给 Grok Bot 加装备的开源仓库（X）](https://x.com/xiangxiang103/status/2119630459860820472) - 按联网、桥接、保活省额度、中文抄作业、硬件、平替分组的清单；作者提醒都是社区项目，装前看权限 · @xiangxiang103 · 2026-11-09。标签：`github` `list` `tools` `chinese`
 
 ## 一人公司与内容（129）
 

@@ -12765,5 +12765,219 @@
     "verified": "2026-11-09",
     "author": "Jackyheree",
     "date": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/brett-technical/grokbot-local-forms",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-local-forms：本机表单问人，提交后叫醒 Bot",
+    "review": "Bot 只写 form.json，你在本机浏览器答；每次提交新存 md+json，再 POST 给 webhook 例程。我们在云电脑跑了 11 条断言全过，MIT",
+    "tags": [
+      "forms",
+      "webhook",
+      "human-in-loop",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "brett-technical/grokbot-local-forms",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/RongleCat/grok-bot-anywhere",
+    "kept": true,
+    "cat": "A",
+    "title": "Grok Bot Anywhere：微信转发、Finder、拖放投给指定 Bot",
+    "review": "非官方 Electron 客户端，每个 Bot 可设入口和固定前缀，结果不明不自动重发；macOS 实机验证、Linux 不支持，MIT",
+    "tags": [
+      "client",
+      "wechat",
+      "desktop",
+      "unofficial",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "RongleCat/grok-bot-anywhere",
+    "license": "MIT",
+    "last_push": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/saphid/grok-bots-raycast",
+    "kept": true,
+    "cat": "A",
+    "title": "grok-bots-raycast：Raycast 里给 Bot 发一句",
+    "review": "走 Bot 的 webhook 例程，先审稿再 ⌘Return 发；凭据放本机配置目录，历史只记投递状态不存正文，MIT",
+    "tags": [
+      "raycast",
+      "macos",
+      "webhook",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "saphid/grok-bots-raycast",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/vinhyard/grokbot-cli",
+    "kept": true,
+    "cat": "A",
+    "title": "vinhyard/grokbot-cli：非官方 macOS 命令行",
+    "review": "借已登录的桌面 App 列 Bot、读对话、发一条；send 可 dry-run，改 Bot 必须 --yes，送达不明不重发，MIT",
+    "tags": [
+      "cli",
+      "macos",
+      "unofficial",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "vinhyard/grokbot-cli",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/DeVFirmino/grok-bot-names-and-icons",
+    "kept": true,
+    "cat": "C",
+    "title": "Agent Makeover：按职责给 Bot 起短名、配 35 枚图标",
+    "review": "纯文档和提示词包，让 Bot 读 SKILL.md 先提方案再改；图标要在各 Bot 自己的对话里换并对照侧栏核对，MIT",
+    "tags": [
+      "roster",
+      "icons",
+      "skill",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "DeVFirmino/grok-bot-names-and-icons",
+    "license": "MIT",
+    "last_push": "2026-11-08"
+  },
+  {
+    "url": "https://github.com/sarbarshem/grok-bot-3d-campus",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-bot-3d-campus：多 Bot 团队的 3D 作战室",
+    "review": "主 Bot 按 SKILL 在你自己的 Vercel 上搭，看各团队在忙啥、待批事项和用量；演示站全是虚构数据，对外动作仍回聊天确认，MIT",
+    "tags": [
+      "multi-bot",
+      "dashboard",
+      "3d",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "sarbarshem/grok-bot-3d-campus",
+    "license": "MIT",
+    "last_push": "2026-11-06"
+  },
+  {
+    "url": "https://github.com/simo255/jobfather",
+    "kept": true,
+    "cat": "B",
+    "title": "JobFather：两道审批门的求职 Bot",
+    "review": "每个岗位先给简报等你点头，答卷全文和简历版本再看一遍才提交；LinkedIn MCP 只读，附公开模板，MIT",
+    "tags": [
+      "jobs",
+      "template",
+      "approval",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "simo255/jobfather",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "solo-to-team-skills：一人统筹多个 AI 助手",
+    "review": "派活→收回→核证→验收四支中文技能加登记表；通用协作包，作者写明 Grok Bot 需手动配置，MIT",
+    "tags": [
+      "skill",
+      "multi-agent",
+      "chinese",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "dabingfy-dot/solo-to-team-skills",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/zhiruiai/PandaMate",
+    "kept": true,
+    "cat": "G",
+    "title": "PandaMate：开源自托管的多 Bot 工作区",
+    "review": "群聊分工、带来源的网页调研、对话里直接打开交付物；演示用的是预设回复，体量较大，Apache-2.0",
+    "tags": [
+      "self-hosted",
+      "alternative",
+      "multi-agent",
+      "apache-2.0"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-09",
+    "repo": "zhiruiai/PandaMate",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-08"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2119705743234650175",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 系列 2-6｜在 X 上回复 @bot 派活（X 长文）",
+    "review": "讲清 @bot 只转交、@grok 才公开回答；任务进主 Bot，带视频/GIF 不接，部分地区未开放，回复本身是公开的",
+    "tags": [
+      "x",
+      "at-bot",
+      "main-bot",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "ai_goge",
+    "date": "2026-11-09"
+  },
+  {
+    "url": "https://x.com/xiaomiaode5383/status/2119678157515375061",
+    "kept": true,
+    "cat": "T3",
+    "title": "周额度不够用：省用量的五个做法（X 长文）",
+    "review": "先看例程运行记录砍空跑，合并读同一批数据的任务，缩小读取范围，指令里写停止条件；附只读排查提示词",
+    "tags": [
+      "usage",
+      "routine",
+      "budget",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "xiaomiaode5383",
+    "date": "2026-11-09"
+  },
+  {
+    "url": "https://x.com/xiangxiang103/status/2119630459860820472",
+    "kept": true,
+    "cat": "T4",
+    "title": "20 个给 Grok Bot 加装备的开源仓库（X）",
+    "review": "按联网、桥接、保活省额度、中文抄作业、硬件、平替分组的清单；作者提醒都是社区项目，装前看权限",
+    "tags": [
+      "github",
+      "list",
+      "tools",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-09",
+    "author": "xiangxiang103",
+    "date": "2026-11-09"
   }
 ]
