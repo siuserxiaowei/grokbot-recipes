@@ -312,7 +312,6 @@
 - [grok-bot-ops](https://github.com/yohei1126/grok-bot-ops) - 多 Bot 运维卫生手册，纯文档：共享规则放哪、何时建新或退役、长期 Bot 和一次性对话怎么分、月度审计清单，目标是省额度、交接清楚。标签：`multi-agent` `ops` `usage` 📘
 - [grokbot-agency-kit：多 Bot 小公司开工包](https://github.com/DensitySystems/grokbot-agency-kit) - 纯文本：RULES / 组织 / 交接 / 省额度 + 席位模板 + 安静 Routine；MIT。先改成自己的话再约束。标签：`multi-bot` `rules` `starter` `routines` 📦
 - [grokbot-office：Mac 本地 3D 办公室宠物看板](https://github.com/Charonyuu/grokbot-office) - 读本机桌面缓存，把 Bot 画成会打盹/挥手的 3D 办公室宠物；MIT，仅 macOS，升级可能失效。与 head-office 同类展示向。标签：`dashboard` `multi-bot` `macos` `3d` 📦
-- [Vedthakar/agent-hub：跨 Agent 情境总线](https://github.com/Vedthakar/agent-hub) - 在 Claude、ChatGPT、Gemini、Grok Bot 等之间静默同步情境与批准交接；MIT。与 SiegoZhang/agent-hub 不是同一项目，勿混链。标签：`multi-agent` `context` `handoff` 📦
 - [Grokbot City：本机多 Bot 作战看板](https://github.com/sleeplesshan/grokbot-city) - 任务简报与组队看板 + wiki；看板不连模型；英韩文档 MIT。标签：`dashboard` `team` `wiki` 📦
 - [云间Bot 万象直播：抖音直播间多岗](https://github.com/yunjian-ai/yunjian-zhibo) - 运营/场控/投手/中控/话术/复盘六岗；垂直场景参考，密钥与平台规则自担。标签：`chinese` `live` `multi-bot` `douyin` 📦
 - [grok-foreman：Bot 当工头，Claude Code 当工人](https://github.com/WealthRxAi/grok-foreman) - 早班读日志挑≤3 工单，run-ticket.sh 让 Claude Code 开 PR，人只点 Merge；编码不烧 Grok Bot 周额度。MIT，本地核对过目录与契约文件。标签：`multi-bot` `codex` `claude-code` `bridge` 📦
