@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 516 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 522 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（121）
 
@@ -128,7 +128,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 新手 16 课（X 长文）](https://x.com/CalvinHollywood/status/2119337351797244176) - 英文：五部分从安装、Skill/Routine、云电脑浏览器到连接器与审批；作者标明非官方 · @CalvinHollywood · 2026-11-08。标签：`english` `starter` `article`
 - [Grok Bot 系列 2-6｜在 X 上回复 @bot 派活（X 长文）](https://x.com/ai_goge/status/2119705743234650175) - 讲清 @bot 只转交、@grok 才公开回答；任务进主 Bot，带视频/GIF 不接，部分地区未开放，回复本身是公开的 · @ai_goge · 2026-11-09。标签：`x` `at-bot` `main-bot` `chinese`
 
-## 多 Bot 团队（97）
+## 多 Bot 团队（98）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -227,8 +227,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [约 30 个 Bot、一岗一事的家庭团队（X）](https://x.com/Texas_Twins_Dad/status/2118072072752566345) - 幕僚长分派，邮件只起草本人发，财务只读银行；例程安静跑、有变化才提醒 · @Texas_Twins_Dad · 2026-11-05。标签：`english` `multi-bot` `chief-of-staff` `family`
 - [这周给 Bot 团队改了什么：收据、交接、例程体检（X 长文）](https://x.com/GetClareity/status/2118906689055256905) - 英文：每次运行要附链接收据才算完成；只让幕僚长打扰你；例程按留/放慢/改触发/退役过一遍 · @GetClareity · 2026-11-07。标签：`english` `multi-bot` `receipts` `routine-audit`
 - [六只 Bot 各管一摊的日常（X 长文）](https://x.com/JonsTechYT/status/2119522566763430148) - 英文：建 Bot 的 Bot、X/Reddit 找话题只起草、做小工具、记账问答；回复都自己批 · @JonsTechYT · 2026-11-08。标签：`english` `multi-bot` `daily`
+- [每周一让一个 Bot 查其余 Bot（X）](https://x.com/CarolinaDill/status/2119875094709227851) - 只发短清单：例程跑太勤、同一规则两版、个别 Bot 缺规则、没用的例程还开着；她点头才改。我们据此写了周一互查配方 · @CarolinaDill · 2026-11-10。标签：`multi-bot` `audit` `routine` `english`
 
-## Routine 与额度（64）
+## Routine 与额度（67）
 
 - [Grok Bot 省额度教程](https://x.com/czzzzzzJ_/status/2109600412366160101) - 中文，手把手讲怎么省额度 · @czzzzzzJ_ · 2026-10-12。标签：`cost` `chinese`
 - [每周对照新功能检查用法](https://x.com/Michael_Fenech_/status/2108145378323542306) - 英文，让 Bot 每周看更新日志，提醒你哪些功能该用上 · @Michael_Fenech_ · 2026-10-08。标签：`routine` `updates`
@@ -294,8 +295,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot vs Meta Muse：配额泄漏与分工（X 长文）](https://x.com/Bagel8343/status/2118503001321054433) - 英文长文：对照共享云电脑与保险箱助手，列四条额度泄漏和怎么分工 · @Bagel8343 · 2026-11-06。标签：`english` `quota` `muse` `comparison`
 - [10 万人看过的省额度帖背后的带 Bot 方法（X 长文）](https://x.com/leaf_sanren/status/2117935731838722255) - 把信任四步落到实操，讲额度、记忆、组队与国内四个坑，附 7 天上手 · @leaf_sanren · 2026-11-04。标签：`chinese` `credits` `trust` `onboarding`
 - [周额度不够用：省用量的五个做法（X 长文）](https://x.com/xiaomiaode5383/status/2119678157515375061) - 先看例程运行记录砍空跑，合并读同一批数据的任务，缩小读取范围，指令里写停止条件；附只读排查提示词 · @xiaomiaode5383 · 2026-11-09。标签：`usage` `routine` `budget` `chinese`
+- [用量不够用：十个该先查的地方（X）](https://x.com/Michael_Fenech_/status/2119757645754040489) - 重点不是写短提示词，而是砍掉没必要的活：事件触发代替轮询、合并重复研究、先连接器后浏览器、给研究设上限；附只读审计提示词 · @Michael_Fenech_ · 2026-11-09。标签：`usage` `routine` `audit` `english`
+- [一条每 10 分钟的例程吃掉一周额度（X）](https://x.com/fluixoo/status/2119846148902998057) - 作者自述两天用光：10 分钟一次一周 1008 次、Bot 互相发消息、Test 按钮也跑真活；列七个改法，前后百分比为作者自述 · @fluixoo · 2026-11-10。标签：`usage` `routine` `english`
+- [带一队 Bot 怎么撑满一周额度（X 长文）](https://x.com/MixxsyLabs/status/2119824274177343836) - 先把 11 月初用量波动和重置传闻按「谁说的」分开讲清，再给新手省用量习惯；作者明说自己分不清这次是不是额外重置 · @MixxsyLabs · 2026-11-10。标签：`usage` `beginner` `article` `english`
 
-## 连接、技能与记忆（79）
+## 连接、技能与记忆（81）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -376,6 +380,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [X 官方创作者指南中文全译（X 长文）](https://x.com/kylewmi/status/2118878868497211709) - 全文翻译 XCreators 指南；落地仍用自己的闸门，发布与付款自己点 · @kylewmi · 2026-11-07。标签：`chinese` `creator` `translation` `article`
 - [额度撞墙后怎么保业务：MONEY/TIME/NICE 三桶（X 长文）](https://x.com/Marko_Poly/status/2118982166965059777) - 英文：按是否碰客户收入分桶，70%/85% 关 NICE/TIME；附可复制审计提示词；文中账单数字为作者见闻 · @Marko_Poly · 2026-11-07。标签：`english` `usage` `budget` `business`
 - [20 个给 Grok Bot 加装备的开源仓库（X）](https://x.com/xiangxiang103/status/2119630459860820472) - 按联网、桥接、保活省额度、中文抄作业、硬件、平替分组的清单；作者提醒都是社区项目，装前看权限 · @xiangxiang103 · 2026-11-09。标签：`github` `list` `tools` `chinese`
+- [装上这 20 个开源仓库（X）](https://x.com/aehyok/status/2119747064452309180) - 按向外延伸、长任务省额度、中文抄作业、桌面硬件、平替五组列出，每条一句用途；作者提醒都是社区项目，装前看权限 · @aehyok · 2026-11-09。标签：`github` `list` `tools` `chinese`
+- [iPhone 收到带口令的短信就触发 Bot 例程（X）](https://x.com/Michael_Fenech_/status/2119885990437200101) - 快捷指令「信息」自动化 + 获取 URL 内容 POST 到 webhook 例程，限定发件人和口令；作者实测了一条短信触发，后面列的口令用法他标明没测 · @Michael_Fenech_ · 2026-11-10。标签：`webhook` `iphone` `shortcuts` `english`
 
 ## 一人公司与内容（129）
 

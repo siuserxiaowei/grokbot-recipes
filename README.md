@@ -10,9 +10,9 @@
 
 ## 一眼看完
 
-- **82** 个配方，格式统一，提示词可以直接复制
-- **289** 个生态项目和学习资源，每条都打开核对过
-- **516** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **83** 个配方，格式统一，提示词可以直接复制
+- **297** 个生态项目和学习资源，每条都打开核对过
+- **522** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -24,7 +24,7 @@
 2. 想马上干活，从下面挑一个配方，把提示词复制给你的 Bot。
 3. 想找现成的工具和模板，看生态清单。
 
-## 配方（82）
+## 配方（83）
 
 格式：适合谁 → 准备什么 → 步骤 → 提示词 → 产出 → 注意事项。变量用 {{占位符}}，示例都是虚构的。
 
@@ -60,6 +60,7 @@
 | [.env 只比键名：从不打印值](recipes/env-key-diff.md) | 换机器或拉新仓库时总漏配环境变量、又怕密钥进聊天的人 |
 | [飞书提及过滤：群聊必须 @自己](recipes/feishu-mention-filter.md) | 飞书群接了 Bot、闲聊也唤醒、额度发慌的人 |
 | [交付验收：要能打开、能核对的文件](recipes/file-delivery.md) | 让 Bot 做表格、报告的人 |
+| [Bot 周一互查：一个 Bot 只读体检其余 Bot](recipes/fleet-checkup.md) | 手上有三个以上 Bot，感觉额度掉得快、有的 Bot 不按规矩来，又不想一个个点开设置看的人 |
 | [总控派活：一张路由表，重活交给工程师 Bot](recipes/fleet-router.md) | 已经有三五个 Bot、每次都要想“这事该找谁”的人 |
 | [两个文件夹快照对比](recipes/folder-snapshot-diff.md) | 备份盘、导出目录、前后版本对不上的人 |
 | [免费游戏侦察：只认官方商店](recipes/free-games-scout.md) | 想领限时免费游戏、又不想被转发消息和 Demo 刷屏的人 |
@@ -113,7 +114,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（289）
+## 生态清单（297）
 
 ### 官方与工具（38）
 
@@ -182,7 +183,7 @@
 - [ai-employee-kit：25 岗销售招聘运营提示词](https://github.com/onittindwani-ai/ai-employee-kit-openai-dots-grok-bot) - 每人一套 Dots + Grok Bot 安装文、交接配方与选型表；只起草不代发；MIT。标签：`templates` `sales` `hiring` `mit` 📦
 - [JobFather：两道审批门的求职 Bot](https://github.com/simo255/jobfather) - 每个岗位先给简报等你点头，答卷全文和简历版本再看一遍才提交；LinkedIn MCP 只读，附公开模板，MIT。标签：`jobs` `template` `approval` `mit` 📦
 
-### 技能与连接（93）
+### 技能与连接（98）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -277,8 +278,13 @@
 - [grokbot-local-forms：本机表单问人，提交后叫醒 Bot](https://github.com/brett-technical/grokbot-local-forms) - Bot 只写 form.json，你在本机浏览器答；每次提交新存 md+json，再 POST 给 webhook 例程。我们在云电脑跑了 11 条断言全过，MIT。标签：`forms` `webhook` `human-in-loop` `mit` 📦
 - [Agent Makeover：按职责给 Bot 起短名、配 35 枚图标](https://github.com/DeVFirmino/grok-bot-names-and-icons) - 纯文档和提示词包，让 Bot 读 SKILL.md 先提方案再改；图标要在各 Bot 自己的对话里换并对照侧栏核对，MIT。标签：`roster` `icons` `skill` `mit` 📦
 - [solo-to-team-skills：一人统筹多个 AI 助手](https://github.com/dabingfy-dot/solo-to-team-skills) - 派活→收回→核证→验收四支中文技能加登记表；通用协作包，作者写明 Grok Bot 需手动配置，MIT。标签：`skill` `multi-agent` `chinese` `mit` 📦
+- [grokbot-mcp-bridge：让别的 AI 通过 MCP 问 Bot 并拿回答案](https://github.com/kinopeee/grokbot-mcp-bridge) - 桥部署在 Fly.io，Bot 的 webhook URL 和 key 只放服务端，调用方只拿桥地址和自建的一把 key；ask_grokbot 等回调，慢了可重等或取消，MIT。标签：`mcp` `webhook` `bridge` `mit` 📦
+- [grokbot-bridge-mcp：在 Cursor、Claude Code、Codex 里给 Bot 派活](https://github.com/hanyu1212/grokbot-bridge-mcp) - 中文 README，一条 npx setup 装好并逐个问要不要改客户端配置（改前备份）；提供 ask/check/interrupt/list；依赖非公开接口，作者说明随时可能变，MIT。标签：`mcp` `cursor` `codex` `chinese` `mit` 📦
+- [grokbot-local-agent：重活交给云电脑上的 Pi，做完 webhook 叫醒 Bot](https://github.com/robbin/grokbot-local-agent) - 每个任务有 ID、状态和产物目录，完成只发 state/exit_code 给 webhook；按 owner 过滤避免 Bot 互报别人的活，ack 记得带 --owner，MIT。标签：`pi` `webhook` `usage` `delegate` `mit` 📦
+- [grok-bot-skills（無為）：四个中文 Skill 模板](https://github.com/bianwuwei/grok-bot-skills) - 周报、会议转行动卡、大总管一条龙周报、公众号小绿书；共同规矩是缺信息标待确认、原文件只读、发人前先问，MIT。标签：`skill` `chinese` `weekly-report` `mit` 📦
+- [grok-bot-discord：给 Bot 一只能听 @ 的 Discord 耳朵](https://github.com/davefmurray/grok-bot-discord) - 跑在 Bot 云电脑上的薄网关，服务器/频道/作者三层白名单、默认拒绝，可放行指定的对方 Bot；按消息 ID 去重，MIT。标签：`discord` `bridge` `multi-agent` `mit` 📦
 
-### 多 Bot 团队（42）
+### 多 Bot 团队（43）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -322,6 +328,7 @@
 - [portfolio-research-desk：六席美股研究台](https://github.com/miniLV/portfolio-research-desk) - 工作日早报串财报/文件/估值/期权/论点，永不下单；可拆专岗，持仓只贴聊天。标签：`multi-bot` `finance` `research` `chinese` 📦
 - [grok-bot-team-management：团队运转与账号交接 Skill](https://github.com/luxiaolei/grok-bot-team-management) - 精干花名册、契约落 git、一人交付一人验收；含全量/增量交接与少唤醒原则。标签：`multi-bot` `skills` `handoff` `ops` 📦
 - [grok-bot-3d-campus：多 Bot 团队的 3D 作战室](https://github.com/sarbarshem/grok-bot-3d-campus) - 主 Bot 按 SKILL 在你自己的 Vercel 上搭，看各团队在忙啥、待批事项和用量；演示站全是虚构数据，对外动作仍回聊天确认，MIT。标签：`multi-bot` `dashboard` `3d` `mit` 📦
+- [Grok Ship：把 Bot 变成小软件工厂（已被官方模板取代）](https://github.com/kunchenguid/grok-ship) - scout 只出报告、ship 才开 PR，PR 前有对抗式评审，本地 sqlite 记待办；作者已标注被官方 Firstmate 模板取代，新用户直接看模板，MIT。标签：`software-factory` `cloud-agents` `superseded` `mit` 📦
 
 ### Routine 与监控（15）
 
@@ -355,7 +362,7 @@
 - [grok-video-studio：Bot 视频制作工具包](https://github.com/htetahyan/grok-video-studio) - 面向真片剪辑与可度量输出；装前看许可与素材版权要求。标签：`video` `content` `toolkit` 📦
 - [grokbot-x-launch-kit：X 发帖研究套件](https://github.com/Maliot100X/grokbot-x-launch-kit) - 趋势证据加三条草稿等人审；监控可复用，发帖仍由人手点。标签：`x` `content` `research` `draft` 📦
 
-### 自托管与替代方案（26）
+### 自托管与替代方案（28）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -383,6 +390,8 @@
 - [grokbot-to-hermes：迁去 Hermes 的补坑手册](https://github.com/Wecko-ai/grokbot-to-hermes) - 包住官方 importer，补记忆超限、云路径、例程无处投递；默认 dry-run、拒导密钥，MIT。标签：`hermes` `migration` `runbook` `mit` 📦
 - [OpenGrokBot-Android：自带 Key 的安卓多 Bot 平替](https://github.com/cxc1344/OpenGrokBot-Android) - 总经理立项派活审查返工，Key 进 Keystore；debug 签名、作者说未完整真机验收，MIT。标签：`android` `self-hosted` `multi-bot` `chinese` 📦
 - [PandaMate：开源自托管的多 Bot 工作区](https://github.com/zhiruiai/PandaMate) - 群聊分工、带来源的网页调研、对话里直接打开交付物；演示用的是预设回复，体量较大，Apache-2.0。标签：`self-hosted` `alternative` `multi-agent` `apache-2.0` 📦
+- [Guaca：多 Agent 协作的桌面工作区，可本机或自己的服务器跑](https://github.com/madebywelch/guaca) - 后端跑在容器里，桌面端只是窗口；分组隔离 agent、共享对话和持久记忆、MCP 插件；放 VPS 上合盖也能跑，AGPL-3.0。标签：`self-hosted` `desktop` `multi-agent` `agpl` 📦
+- [AnyModelBot：本机跑的 Bot 平替，任意模型](https://github.com/modelflare-ai/AnyModelBot) - 中文 README，桌面端加微信/飞书入口，模型经 Modelflare 一个 key 接入、按量计费；开源 MIT，但模型调用走作者的商业服务，用前看清。标签：`alternative` `local` `any-model` `mit` 📦
 
 ### 硬件（9）
 

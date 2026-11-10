@@ -12979,5 +12979,252 @@
     "verified": "2026-11-09",
     "author": "xiangxiang103",
     "date": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/kinopeee/grokbot-mcp-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-mcp-bridge：让别的 AI 通过 MCP 问 Bot 并拿回答案",
+    "review": "桥部署在 Fly.io，Bot 的 webhook URL 和 key 只放服务端，调用方只拿桥地址和自建的一把 key；ask_grokbot 等回调，慢了可重等或取消，MIT",
+    "tags": [
+      "mcp",
+      "webhook",
+      "bridge",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "kinopeee/grokbot-mcp-bridge",
+    "license": "MIT",
+    "last_push": "2026-09-27"
+  },
+  {
+    "url": "https://github.com/hanyu1212/grokbot-bridge-mcp",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-bridge-mcp：在 Cursor、Claude Code、Codex 里给 Bot 派活",
+    "review": "中文 README，一条 npx setup 装好并逐个问要不要改客户端配置（改前备份）；提供 ask/check/interrupt/list；依赖非公开接口，作者说明随时可能变，MIT",
+    "tags": [
+      "mcp",
+      "cursor",
+      "codex",
+      "chinese",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "hanyu1212/grokbot-bridge-mcp",
+    "license": "MIT",
+    "last_push": "2026-11-07"
+  },
+  {
+    "url": "https://github.com/robbin/grokbot-local-agent",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-local-agent：重活交给云电脑上的 Pi，做完 webhook 叫醒 Bot",
+    "review": "每个任务有 ID、状态和产物目录，完成只发 state/exit_code 给 webhook；按 owner 过滤避免 Bot 互报别人的活，ack 记得带 --owner，MIT",
+    "tags": [
+      "pi",
+      "webhook",
+      "usage",
+      "delegate",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "robbin/grokbot-local-agent",
+    "license": "MIT",
+    "last_push": "2026-10-26"
+  },
+  {
+    "url": "https://github.com/bianwuwei/grok-bot-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bot-skills（無為）：四个中文 Skill 模板",
+    "review": "周报、会议转行动卡、大总管一条龙周报、公众号小绿书；共同规矩是缺信息标待确认、原文件只读、发人前先问，MIT",
+    "tags": [
+      "skill",
+      "chinese",
+      "weekly-report",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "bianwuwei/grok-bot-skills",
+    "license": "MIT",
+    "last_push": "2026-11-03"
+  },
+  {
+    "url": "https://github.com/davefmurray/grok-bot-discord",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bot-discord：给 Bot 一只能听 @ 的 Discord 耳朵",
+    "review": "跑在 Bot 云电脑上的薄网关，服务器/频道/作者三层白名单、默认拒绝，可放行指定的对方 Bot；按消息 ID 去重，MIT",
+    "tags": [
+      "discord",
+      "bridge",
+      "multi-agent",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "davefmurray/grok-bot-discord",
+    "license": "MIT",
+    "last_push": "2026-10-04"
+  },
+  {
+    "url": "https://github.com/kunchenguid/grok-ship",
+    "kept": true,
+    "cat": "D",
+    "title": "Grok Ship：把 Bot 变成小软件工厂（已被官方模板取代）",
+    "review": "scout 只出报告、ship 才开 PR，PR 前有对抗式评审，本地 sqlite 记待办；作者已标注被官方 Firstmate 模板取代，新用户直接看模板，MIT",
+    "tags": [
+      "software-factory",
+      "cloud-agents",
+      "superseded",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "kunchenguid/grok-ship",
+    "license": "MIT",
+    "last_push": "2026-10-25"
+  },
+  {
+    "url": "https://github.com/madebywelch/guaca",
+    "kept": true,
+    "cat": "G",
+    "title": "Guaca：多 Agent 协作的桌面工作区，可本机或自己的服务器跑",
+    "review": "后端跑在容器里，桌面端只是窗口；分组隔离 agent、共享对话和持久记忆、MCP 插件；放 VPS 上合盖也能跑，AGPL-3.0",
+    "tags": [
+      "self-hosted",
+      "desktop",
+      "multi-agent",
+      "agpl"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "madebywelch/guaca",
+    "license": "AGPL-3.0",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/modelflare-ai/AnyModelBot",
+    "kept": true,
+    "cat": "G",
+    "title": "AnyModelBot：本机跑的 Bot 平替，任意模型",
+    "review": "中文 README，桌面端加微信/飞书入口，模型经 Modelflare 一个 key 接入、按量计费；开源 MIT，但模型调用走作者的商业服务，用前看清",
+    "tags": [
+      "alternative",
+      "local",
+      "any-model",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "modelflare-ai/AnyModelBot",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://x.com/CarolinaDill/status/2119875094709227851",
+    "kept": true,
+    "cat": "T2",
+    "title": "每周一让一个 Bot 查其余 Bot（X）",
+    "review": "只发短清单：例程跑太勤、同一规则两版、个别 Bot 缺规则、没用的例程还开着；她点头才改。我们据此写了周一互查配方",
+    "tags": [
+      "multi-bot",
+      "audit",
+      "routine",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "CarolinaDill",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/aehyok/status/2119747064452309180",
+    "kept": true,
+    "cat": "T4",
+    "title": "装上这 20 个开源仓库（X）",
+    "review": "按向外延伸、长任务省额度、中文抄作业、桌面硬件、平替五组列出，每条一句用途；作者提醒都是社区项目，装前看权限",
+    "tags": [
+      "github",
+      "list",
+      "tools",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "aehyok",
+    "date": "2026-11-09"
+  },
+  {
+    "url": "https://x.com/Michael_Fenech_/status/2119885990437200101",
+    "kept": true,
+    "cat": "T4",
+    "title": "iPhone 收到带口令的短信就触发 Bot 例程（X）",
+    "review": "快捷指令「信息」自动化 + 获取 URL 内容 POST 到 webhook 例程，限定发件人和口令；作者实测了一条短信触发，后面列的口令用法他标明没测",
+    "tags": [
+      "webhook",
+      "iphone",
+      "shortcuts",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "Michael_Fenech_",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/Michael_Fenech_/status/2119757645754040489",
+    "kept": true,
+    "cat": "T3",
+    "title": "用量不够用：十个该先查的地方（X）",
+    "review": "重点不是写短提示词，而是砍掉没必要的活：事件触发代替轮询、合并重复研究、先连接器后浏览器、给研究设上限；附只读审计提示词",
+    "tags": [
+      "usage",
+      "routine",
+      "audit",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "Michael_Fenech_",
+    "date": "2026-11-09"
+  },
+  {
+    "url": "https://x.com/fluixoo/status/2119846148902998057",
+    "kept": true,
+    "cat": "T3",
+    "title": "一条每 10 分钟的例程吃掉一周额度（X）",
+    "review": "作者自述两天用光：10 分钟一次一周 1008 次、Bot 互相发消息、Test 按钮也跑真活；列七个改法，前后百分比为作者自述",
+    "tags": [
+      "usage",
+      "routine",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "fluixoo",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/MixxsyLabs/status/2119824274177343836",
+    "kept": true,
+    "cat": "T3",
+    "title": "带一队 Bot 怎么撑满一周额度（X 长文）",
+    "review": "先把 11 月初用量波动和重置传闻按「谁说的」分开讲清，再给新手省用量习惯；作者明说自己分不清这次是不是额外重置",
+    "tags": [
+      "usage",
+      "beginner",
+      "article",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "MixxsyLabs",
+    "date": "2026-11-10"
   }
 ]
