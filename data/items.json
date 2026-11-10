@@ -13226,5 +13226,373 @@
     "verified": "2026-11-10",
     "author": "MixxsyLabs",
     "date": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/nickvasilescu/grokbot-clone",
+    "kept": true,
+    "cat": "G",
+    "title": "grokbot-clone：用公开 Grok API 自己搭一套常驻 Bot 团队",
+    "review": "每个 Bot 有名字、记忆和可接管的云桌面（Orgo），应用连接走 Composio；写操作默认先批，数据存本地 SQLite；声明与 xAI 无关，第三方云和连接器的权限要自己把关，MIT",
+    "tags": [
+      "self-hosted",
+      "grok-api",
+      "computer-use",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "nickvasilescu/grokbot-clone",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/jason201385-commits/grokbot-manager-kit",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-manager-kit：Bot 当主管，Codex/Claude Code 干活",
+    "review": "需求和验收留在 Bot，改档交本机 CLI，可选另开只读会话审查；注意脚本默认带跳过审批和沙箱的旗标，作者自己也标了高风险，换成 workspace-write 再用，MIT",
+    "tags": [
+      "codex",
+      "claude-code",
+      "delegate",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "jason201385-commits/grokbot-manager-kit",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/txchai/fix-my-grokbot",
+    "kept": true,
+    "cat": "A",
+    "title": "fix-my-grokbot：Mac 上 Bot 的系统授权一键自查",
+    "review": "一条脚本逐项触发邮件、信息、日历、备忘录、浏览器的授权提示，打印通过/失败和修法，不改系统设置；Mac 本机连不上时先跑它，MIT",
+    "tags": [
+      "macos",
+      "permissions",
+      "diagnose",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "txchai/fix-my-grokbot",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/thiago-desa/conductor",
+    "kept": true,
+    "cat": "D",
+    "title": "conductor：主 Bot 按职责把活路由给专岗",
+    "review": "一份人设加路由和上手两个 Skill，带虚构日例与评测；交接不带密钥、只在等你拍板时打扰，适合已有三五个专岗的团队，MIT",
+    "tags": [
+      "router",
+      "main-bot",
+      "multi-bot",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "thiago-desa/conductor",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/hudsonwa/grok-bot-twin",
+    "kept": true,
+    "cat": "G",
+    "title": "grok-bot-twin：在 Hermes 里给每个 Bot 建对照档",
+    "review": "两边并排比对、冲突自己选、可回滚；名字简介能自动搬，指令和例程仍要手动，别让两边同时跑同一岗，MIT",
+    "tags": [
+      "hermes",
+      "migration",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "hudsonwa/grok-bot-twin",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/echris6/grok-bot-worlds",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-bot-worlds：按你的 Bot 花名册生成 3D 小世界",
+    "review": "把一份说明文件交给主 Bot 就能接入，没配置时用虚构团队演示；看团队在干什么的可视化玩具，MIT",
+    "tags": [
+      "visualization",
+      "3d",
+      "multi-bot",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "echris6/grok-bot-worlds",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/bobdivx/bot-cockpit",
+    "kept": true,
+    "cat": "D",
+    "title": "bot-cockpit：不碰账号 cookie 的 Bot 驾驶舱",
+    "review": "团队卡片、等距办公室、用量 CSV 导入，可选 MCP 让 Bot 自愿上报；真实模式从空账本开始，演示数据标明虚构；法文界面，带测试和 Docker，MIT",
+    "tags": [
+      "dashboard",
+      "usage",
+      "french",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "bobdivx/bot-cockpit",
+    "license": "MIT",
+    "last_push": "2026-11-09"
+  },
+  {
+    "url": "https://github.com/plutunieer/bot-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "bot-bridge：Bot 经 localhost 操作你自己的 Chrome",
+    "review": "开标签、读页、点按、输入；桥只听 127.0.0.1，请求要带本机 token；等于把已登录的浏览器交出去，先在干净的浏览器配置里试，MIT",
+    "tags": [
+      "chrome",
+      "browser",
+      "localhost",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "plutunieer/bot-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/krishhgg/t3-watch",
+    "kept": true,
+    "cat": "E",
+    "title": "t3-watch：编码线程跑完才叫醒 Bot，等的时候不耗额度",
+    "review": "T3 Code、Codex、Claude Code 线程结束、要输入或失败时输出一行 JSON 退出，Bot 当后台命令挂着或收 webhook；Rust 单文件，暂无发行包要自己编，MIT/Apache-2.0",
+    "tags": [
+      "watcher",
+      "codex",
+      "claude-code",
+      "apache-2.0"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "krishhgg/t3-watch",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/Agentasy-AI/grokbot-lab",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-lab：Claude Code 与 Bot 的 ping/pong 协作协议",
+    "review": "Claude 侧只发白名单任务，Bot 一次跑一件并带证据回 pong，没证据的完成一律当未核实；排程、外联、删除要人批，协议还是草稿版，MIT",
+    "tags": [
+      "claude-code",
+      "protocol",
+      "webhook",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "Agentasy-AI/grokbot-lab",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/ycaistudio/grokbot-token-saver",
+    "kept": true,
+    "cat": "E",
+    "title": "grokbot-token-saver：多 Bot 团队省周额度 Skill",
+    "review": "在 @vartekxx 的十招之上补了实战习惯：会话太长就交接换新、群里只派一个负责 Bot、错三次就停；改例程要先批，繁中/英/日三语，MIT",
+    "tags": [
+      "usage",
+      "skill",
+      "multi-bot",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "ycaistudio/grokbot-token-saver",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/MrLongMo/homer-hermes-kit",
+    "kept": true,
+    "cat": "G",
+    "title": "homer-hermes-kit：一个窗口把 Bot 连文件搬到 Hermes",
+    "review": "Apple 芯片 Mac 的图形界面搬家工具：装 Hermes、选账号、复制提示词让 Bot 自己打包；密钥只留本机，有图文教程和测试，MIT",
+    "tags": [
+      "hermes",
+      "migration",
+      "macos",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "MrLongMo/homer-hermes-kit",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/Macro-Harder/grokbot-rag",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-rag：本地检索 AgenC 桥协议文档的 MCP",
+    "review": "关键词加向量混合检索，返回带出处的结果并标成数据而非指令；建议在云电脑里用命令拉起，不要暴露公网地址；1 星的早期项目，Apache-2.0",
+    "tags": [
+      "rag",
+      "mcp",
+      "apache-2.0"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "Macro-Harder/grokbot-rag",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/zyamzin/cursor-usage-bar",
+    "kept": true,
+    "cat": "A",
+    "title": "cursor-usage-bar：菜单栏同时看 Cursor 和 Bot 周额度",
+    "review": "读本机已登录的会话显示用量和重置日，不外传；俄文界面，有 DMG，功能和 ai-quota-bar 相近，二选一即可，MIT",
+    "tags": [
+      "usage",
+      "macos",
+      "menubar",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "zyamzin/cursor-usage-bar",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/0xMulight/creator-style-brain",
+    "kept": true,
+    "cat": "F",
+    "title": "creator-style-brain：把自己的旧稿整理成风格手册",
+    "review": "离线 Python 分析器，只喂你本人有权使用的稿子，产出风格手册、草稿比对和给 Bot 的风格提示词；Windows 双击菜单，同作者另有选题库、脚本教练、视频、复盘四个仓，MIT",
+    "tags": [
+      "creator",
+      "style",
+      "skill",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-10",
+    "repo": "0xMulight/creator-style-brain",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/cgnot996/status/2119298485803794467",
+    "kept": true,
+    "cat": "T4",
+    "title": "微信聊天记录合并转发给指定 Bot（X 长文）",
+    "review": "走微信官方合并转发，不读数据库；每个 Bot 单独开关、先存本地再发、结果不明就停；作者自研非官方工具，转发前想好哪些敏感内容不能发",
+    "tags": [
+      "wechat",
+      "forward",
+      "macos",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "cgnot996",
+    "date": "2026-11-08"
+  },
+  {
+    "url": "https://x.com/voidJan/status/2119919053418729509",
+    "kept": true,
+    "cat": "T4",
+    "title": "打开本机执行，一句话让 Bot 调本机 Claude Code（X）",
+    "review": "已在自己电脑登录 CLI 的人，用 claude -p 加允许工具清单就够，不必在云电脑重装再配代理；路径写绝对路径，放开哪些工具要自己想清楚",
+    "tags": [
+      "local-exec",
+      "claude-code",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "voidJan",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/Smartpigai/status/2119261316439531593",
+    "kept": true,
+    "cat": "T5",
+    "title": "Bot + 飞书 + Claude 搭内容素材库（X 长文）",
+    "review": "素材、选题、成稿三张表加四个视图，Bot 定时搜热点入库，人定选题再交 Claude 写；强调先手动跑通、发布时间和采集时间分开记",
+    "tags": [
+      "feishu",
+      "content",
+      "claude",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "Smartpigai",
+    "date": "2026-11-08"
+  },
+  {
+    "url": "https://x.com/SzuWeiChou1/status/2120082923818832271",
+    "kept": true,
+    "cat": "T2",
+    "title": "Bot 换班：岗位留下、会话换新（X）",
+    "review": "把岗位放共享记忆、在岗 Bot 可替换；会话太贵就写交接单让新 Bot 接班，跑到一半不换、单里不放密钥、旧 Bot 先不删。我们据此写了换班配方",
+    "tags": [
+      "multi-bot",
+      "handover",
+      "usage",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "SzuWeiChou1",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/bwolcottauthor/status/2119982530191638934",
+    "kept": true,
+    "cat": "T5",
+    "title": "X 上线剪辑当天做的 Clip Scout 模板（X 串帖）",
+    "review": "找值得剪的片段、保留你自己的观点、逐条检查对原作者是否公平；附可直接添加的公开模板和设计取舍说明",
+    "tags": [
+      "clipping",
+      "template",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "bwolcottauthor",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/Mulight/status/2120035144157593805",
+    "kept": true,
+    "cat": "T5",
+    "title": "按官方创作者指南做的 5 个开源 Skill（X）",
+    "review": "风格脑、选题库、脚本教练、视频制作、数据复盘各一个仓，带中文教程和 Windows 启动菜单；部分要 Python 和 FFmpeg",
+    "tags": [
+      "creator",
+      "skill",
+      "github",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "Mulight",
+    "date": "2026-11-10"
   }
 ]
