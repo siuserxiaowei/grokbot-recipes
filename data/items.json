@@ -13594,5 +13594,39 @@
     "verified": "2026-11-10",
     "author": "Mulight",
     "date": "2026-11-10"
+  },
+  {
+    "url": "https://www.woshipm.com/ai/6487952.html",
+    "kept": true,
+    "cat": "T2",
+    "title": "用了两个月，我的 Bot 分组全公开（人人都是产品经理）",
+    "review": "总控派活，收藏、学习、内容、素材、资讯各成一组；用表情回复当快捷反馈，重活交本机 CLI、轻活留给 Bot；中期合并过职责重叠的 Bot",
+    "tags": [
+      "multi-bot",
+      "main-bot",
+      "chinese",
+      "blog"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "woshipm",
+    "date": "2026-11-03"
+  },
+  {
+    "url": "https://easydailyai.com/grok-bot/",
+    "kept": true,
+    "cat": "T1",
+    "title": "从第一个 Bot 开始：通告、比价、周末行程（EasyDailyAI）",
+    "review": "繁体中文入门，用三个生活例子练读文件、比价、查证网站；每段都给可复制指令，比价跑通再设每周例程、只查价不下单",
+    "tags": [
+      "starter",
+      "traditional-chinese",
+      "routine",
+      "blog"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-10",
+    "author": "EasyDailyAI",
+    "date": "2026-11-06"
   }
 ]

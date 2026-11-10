@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 528 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 530 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（121）
+## 入门与配置（122）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -127,8 +127,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [别急着装 MCP：先走官方 5 步（X）](https://x.com/xiaomovps/status/2118910548616294837) - 装好登录→一 Bot 一类活→一件真实任务说清结果资料限制→敏感操作先问→跑通再设 Routine · @xiaomovps · 2026-11-07。标签：`chinese` `starter` `routine`
 - [Grok Bot 新手 16 课（X 长文）](https://x.com/CalvinHollywood/status/2119337351797244176) - 英文：五部分从安装、Skill/Routine、云电脑浏览器到连接器与审批；作者标明非官方 · @CalvinHollywood · 2026-11-08。标签：`english` `starter` `article`
 - [Grok Bot 系列 2-6｜在 X 上回复 @bot 派活（X 长文）](https://x.com/ai_goge/status/2119705743234650175) - 讲清 @bot 只转交、@grok 才公开回答；任务进主 Bot，带视频/GIF 不接，部分地区未开放，回复本身是公开的 · @ai_goge · 2026-11-09。标签：`x` `at-bot` `main-bot` `chinese`
+- [从第一个 Bot 开始：通告、比价、周末行程（EasyDailyAI）](https://easydailyai.com/grok-bot/) - 繁体中文入门，用三个生活例子练读文件、比价、查证网站；每段都给可复制指令，比价跑通再设每周例程、只查价不下单 · @EasyDailyAI · 2026-11-06。标签：`starter` `traditional-chinese` `routine` `blog`
 
-## 多 Bot 团队（99）
+## 多 Bot 团队（100）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -229,6 +230,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [六只 Bot 各管一摊的日常（X 长文）](https://x.com/JonsTechYT/status/2119522566763430148) - 英文：建 Bot 的 Bot、X/Reddit 找话题只起草、做小工具、记账问答；回复都自己批 · @JonsTechYT · 2026-11-08。标签：`english` `multi-bot` `daily`
 - [每周一让一个 Bot 查其余 Bot（X）](https://x.com/CarolinaDill/status/2119875094709227851) - 只发短清单：例程跑太勤、同一规则两版、个别 Bot 缺规则、没用的例程还开着；她点头才改。我们据此写了周一互查配方 · @CarolinaDill · 2026-11-10。标签：`multi-bot` `audit` `routine` `english`
 - [Bot 换班：岗位留下、会话换新（X）](https://x.com/SzuWeiChou1/status/2120082923818832271) - 把岗位放共享记忆、在岗 Bot 可替换；会话太贵就写交接单让新 Bot 接班，跑到一半不换、单里不放密钥、旧 Bot 先不删。我们据此写了换班配方 · @SzuWeiChou1 · 2026-11-10。标签：`multi-bot` `handover` `usage` `english`
+- [用了两个月，我的 Bot 分组全公开（人人都是产品经理）](https://www.woshipm.com/ai/6487952.html) - 总控派活，收藏、学习、内容、素材、资讯各成一组；用表情回复当快捷反馈，重活交本机 CLI、轻活留给 Bot；中期合并过职责重叠的 Bot · @woshipm · 2026-11-03。标签：`multi-bot` `main-bot` `chinese` `blog`
 
 ## Routine 与额度（67）
 

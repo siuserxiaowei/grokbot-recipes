@@ -12,7 +12,7 @@
 
 - **84** 个配方，格式统一，提示词可以直接复制
 - **312** 个生态项目和学习资源，每条都打开核对过
-- **528** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **530** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
