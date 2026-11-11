@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 530 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 537 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（122）
+## 入门与配置（124）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -128,8 +128,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 新手 16 课（X 长文）](https://x.com/CalvinHollywood/status/2119337351797244176) - 英文：五部分从安装、Skill/Routine、云电脑浏览器到连接器与审批；作者标明非官方 · @CalvinHollywood · 2026-11-08。标签：`english` `starter` `article`
 - [Grok Bot 系列 2-6｜在 X 上回复 @bot 派活（X 长文）](https://x.com/ai_goge/status/2119705743234650175) - 讲清 @bot 只转交、@grok 才公开回答；任务进主 Bot，带视频/GIF 不接，部分地区未开放，回复本身是公开的 · @ai_goge · 2026-11-09。标签：`x` `at-bot` `main-bot` `chinese`
 - [从第一个 Bot 开始：通告、比价、周末行程（EasyDailyAI）](https://easydailyai.com/grok-bot/) - 繁体中文入门，用三个生活例子练读文件、比价、查证网站；每段都给可复制指令，比价跑通再设每周例程、只查价不下单 · @EasyDailyAI · 2026-11-06。标签：`starter` `traditional-chinese` `routine` `blog`
+- [实战知识档案：对照官方文档同步更新（实战产品说）](https://pmer.cn/ai/tools/grok-bot/) - 中文知识页，按官方来源整理职责、Vault、附件上限和邮箱 plus alias；11 月 6 日同步了电脑保留策略和 Shared Bots 的 Manage Bots 入口 · @实战产品说 · 2026-11-06。标签：`starter` `docs` `chinese` `blog`
+- [GitHub 上 20 个现成 Grok Bot 配置（X）](https://x.com/unicodef1wn/status/2120131268092297648) - 英文合集，按销售增长、写软件、交易研究、内容、整套公司和工具分组给仓库链接；条目是作者整理的，装之前自己看许可证和权限，别把链接当成一键安装包 · @unicodef1wn · 2026-11-10。标签：`github` `roundup` `english`
 
-## 多 Bot 团队（100）
+## 多 Bot 团队（102）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -231,6 +233,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [每周一让一个 Bot 查其余 Bot（X）](https://x.com/CarolinaDill/status/2119875094709227851) - 只发短清单：例程跑太勤、同一规则两版、个别 Bot 缺规则、没用的例程还开着；她点头才改。我们据此写了周一互查配方 · @CarolinaDill · 2026-11-10。标签：`multi-bot` `audit` `routine` `english`
 - [Bot 换班：岗位留下、会话换新（X）](https://x.com/SzuWeiChou1/status/2120082923818832271) - 把岗位放共享记忆、在岗 Bot 可替换；会话太贵就写交接单让新 Bot 接班，跑到一半不换、单里不放密钥、旧 Bot 先不删。我们据此写了换班配方 · @SzuWeiChou1 · 2026-11-10。标签：`multi-bot` `handover` `usage` `english`
 - [用了两个月，我的 Bot 分组全公开（人人都是产品经理）](https://www.woshipm.com/ai/6487952.html) - 总控派活，收藏、学习、内容、素材、资讯各成一组；用表情回复当快捷反馈，重活交本机 CLI、轻活留给 Bot；中期合并过职责重叠的 Bot · @woshipm · 2026-11-03。标签：`multi-bot` `main-bot` `chinese` `blog`
+- [模板链接和共享 Bot 是两回事（Study GrokBot 11-09 期）](https://studygrokbot.com/zh/issues/2026-11-09/) - 发模板对方拿到副本，共享 Bot 是同一只一起聊；讲清分享前怎么清理、用谁的应用、谁买单，以及怎么放进 Slack · @Study GrokBot · 2026-11-09。标签：`templates` `shared-bots` `slack` `chinese`
+- [五步排出会退件的小团队（Tenten）](https://tenten.co/learning/grok-bot-multi-agent-team-architecture/) - 中文，用任务契约加主管、研究、策略、执行、审查五个岗，审查可以退件；明确提醒不要把分 Bot 当成安全边界。文中上线时的套餐和平台说明已经过时，以官方页面为准 · @Erik (EKC) · 2026-10-18。标签：`multi-bot` `chief-of-staff` `chinese` `blog`
 
 ## Routine 与额度（67）
 
@@ -302,7 +306,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [一条每 10 分钟的例程吃掉一周额度（X）](https://x.com/fluixoo/status/2119846148902998057) - 作者自述两天用光：10 分钟一次一周 1008 次、Bot 互相发消息、Test 按钮也跑真活；列七个改法，前后百分比为作者自述 · @fluixoo · 2026-11-10。标签：`usage` `routine` `english`
 - [带一队 Bot 怎么撑满一周额度（X 长文）](https://x.com/MixxsyLabs/status/2119824274177343836) - 先把 11 月初用量波动和重置传闻按「谁说的」分开讲清，再给新手省用量习惯；作者明说自己分不清这次是不是额外重置 · @MixxsyLabs · 2026-11-10。标签：`usage` `beginner` `article` `english`
 
-## 连接、技能与记忆（83）
+## 连接、技能与记忆（85）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -387,6 +391,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [iPhone 收到带口令的短信就触发 Bot 例程（X）](https://x.com/Michael_Fenech_/status/2119885990437200101) - 快捷指令「信息」自动化 + 获取 URL 内容 POST 到 webhook 例程，限定发件人和口令；作者实测了一条短信触发，后面列的口令用法他标明没测 · @Michael_Fenech_ · 2026-11-10。标签：`webhook` `iphone` `shortcuts` `english`
 - [微信聊天记录合并转发给指定 Bot（X 长文）](https://x.com/cgnot996/status/2119298485803794467) - 走微信官方合并转发，不读数据库；每个 Bot 单独开关、先存本地再发、结果不明就停；作者自研非官方工具，转发前想好哪些敏感内容不能发 · @cgnot996 · 2026-11-08。标签：`wechat` `forward` `macos` `chinese`
 - [打开本机执行，一句话让 Bot 调本机 Claude Code（X）](https://x.com/voidJan/status/2119919053418729509) - 已在自己电脑登录 CLI 的人，用 claude -p 加允许工具清单就够，不必在云电脑重装再配代理；路径写绝对路径，放开哪些工具要自己想清楚 · @voidJan · 2026-11-10。标签：`local-exec` `claude-code` `chinese`
+- [在 X 上标记 @bot 并接入 X Chat（Study GrokBot 11-11 期）](https://studygrokbot.com/zh/issues/2026-11-11/) - 对照官方文档讲准备条件、@bot 三种回复、不吭声时怎么查，以及 X Chat 连错账号时怎么重新关联；帖子是公开的，别把私密信息写进去 · @Study GrokBot · 2026-11-11。标签：`x` `at-bot` `x-chat` `chinese`
+- [给 Bot 领专属邮箱并用来触发 Routine（Study GrokBot 11-10 期）](https://studygrokbot.com/zh/issues/2026-11-10/) - 讲 mail.grokbot.com 怎么领、能收账单和周报、发信为何要你点头，以及陌生来信的安全边界 · @Study GrokBot · 2026-11-10。标签：`email` `routine` `chinese`
 
 ## 一人公司与内容（132）
 
@@ -523,7 +529,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [X 上线剪辑当天做的 Clip Scout 模板（X 串帖）](https://x.com/bwolcottauthor/status/2119982530191638934) - 找值得剪的片段、保留你自己的观点、逐条检查对原作者是否公平；附可直接添加的公开模板和设计取舍说明 · @bwolcottauthor · 2026-11-10。标签：`clipping` `template` `english`
 - [按官方创作者指南做的 5 个开源 Skill（X）](https://x.com/Mulight/status/2120035144157593805) - 风格脑、选题库、脚本教练、视频制作、数据复盘各一个仓，带中文教程和 Windows 启动菜单；部分要 Python 和 FFmpeg · @Mulight · 2026-11-10。标签：`creator` `skill` `github` `chinese`
 
-## 安全（25）
+## 安全（26）
 
 - [长期用大陆网络交互的坑](https://x.com/chenmo/status/2110380646824816682) - 中文，讲 Bot 电脑出口地区被识别的问题 · @chenmo · 2026-10-14。标签：`network` `china`
 - [装好桌面端先关两个开关](https://x.com/fankaishuoai/status/2111740064409756037) - 中文，安全设置：不在本机执行、不转发流量 · @fankaishuoai · 2026-10-18。标签：`security` `desktop`
@@ -550,3 +556,4 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [三步接上 1Password：Password Managers 连接器（社区讲解）](https://x.com/Mulight/status/2117189034464493920) - 中文：Connect apps → Password Managers → 1Password；版本门槛与按次批准；模型看不到明文；暂不支持 Google 登录与 Passkey。对齐官方 Support 页，不照搬全文 · @Mulight · 2026-11-02。标签：`1password` `connect-apps` `security` `chinese` `community`
 - [1Password 连接器：Vault 优先 + 按次批准（实测教程）](https://grokguide.si/tutorials/onepassword-connect) - 虚构六场景巡检：Vault 命中、个人库 Review、共享库搬迁、SSO 接管、付款卡永不代填、批准过期；ASSERT_OK。对齐官方新集成，不登录真实 1Password。标签：`tutorial` `1password` `vault` `security` `grokguide`
 - [活动账本：哈希链记下来，改一行就露馅（实测教程）](https://grokguide.si/tutorials/activity-log) - 装 gblog、挂 skill、日审私有同步；本地五事件巡检：生命周期、单测、篡改 FAIL、密钥洗、status；ASSERT_OK。思路来自 deximple/grokbot-activity-log，不照搬上游全文。标签：`tutorial` `audit` `ledger` `security` `grokguide`
+- [安全自动化：Four Cs、Routine 与核准范围（CarlStack）](https://carlstack.gravito.dev/blog/grok-bot-cloud-computer-workflows/) - 繁体中文，把导入收成单次任务、技能、Routine、再拆岗；强调共用电脑不是隔离，审批线看可逆性和外部影响，每周问三条再决定要不要停 · @CarlStack · 2026-09-01。标签：`security` `routine` `traditional-chinese` `blog`

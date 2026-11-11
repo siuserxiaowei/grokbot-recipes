@@ -13628,5 +13628,188 @@
     "verified": "2026-11-10",
     "author": "EasyDailyAI",
     "date": "2026-11-06"
+  },
+  {
+    "url": "https://docs.x.ai/grok-bot/tag-on-x",
+    "kept": true,
+    "cat": "A",
+    "title": "官方文档：在 X 上标记 @bot",
+    "review": "在帖子或回复里标记 @bot，请求交给主 Bot，X 上只回一句确认；结果留在应用里。列出地区限制、三种回复，以及带视频或 GIF、同时标记 @grok 时不会送达",
+    "tags": [
+      "official",
+      "docs",
+      "x",
+      "at-bot"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-11"
+  },
+  {
+    "url": "https://docs.x.ai/grok-bot/chat-and-collaboration",
+    "kept": true,
+    "cat": "A",
+    "title": "官方文档：消息与协作",
+    "review": "讲群聊、Bot 之间交接，以及在 X Chat 里和自己的 Bot 对话；这项功能在逐步开放，团队账号不能从 X Chat 关联，套餐要求以这篇为准",
+    "tags": [
+      "official",
+      "docs",
+      "x-chat",
+      "collaboration"
+    ],
+    "level": "读过文档",
+    "verified": "2026-11-11"
+  },
+  {
+    "url": "https://studygrokbot.com/zh/",
+    "kept": true,
+    "cat": "I",
+    "title": "Study GrokBot：每日一题中英专栏",
+    "review": "非官方学习站，每天一期可复制提示词和练习，中英对照；源码在 Licoy/study-grokbot，MIT。本轮核过 11-11 @bot 与 X Chat 一期，说法对得上官方文档",
+    "tags": [
+      "chinese",
+      "guide",
+      "daily",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "Licoy/study-grokbot",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://studygrokbot.com/zh/issues/2026-11-11/",
+    "kept": true,
+    "cat": "T4",
+    "title": "在 X 上标记 @bot 并接入 X Chat（Study GrokBot 11-11 期）",
+    "review": "对照官方文档讲准备条件、@bot 三种回复、不吭声时怎么查，以及 X Chat 连错账号时怎么重新关联；帖子是公开的，别把私密信息写进去",
+    "tags": [
+      "x",
+      "at-bot",
+      "x-chat",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "Study GrokBot",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://studygrokbot.com/zh/issues/2026-11-10/",
+    "kept": true,
+    "cat": "T4",
+    "title": "给 Bot 领专属邮箱并用来触发 Routine（Study GrokBot 11-10 期）",
+    "review": "讲 mail.grokbot.com 怎么领、能收账单和周报、发信为何要你点头，以及陌生来信的安全边界",
+    "tags": [
+      "email",
+      "routine",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "Study GrokBot",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://studygrokbot.com/zh/issues/2026-11-09/",
+    "kept": true,
+    "cat": "T2",
+    "title": "模板链接和共享 Bot 是两回事（Study GrokBot 11-09 期）",
+    "review": "发模板对方拿到副本，共享 Bot 是同一只一起聊；讲清分享前怎么清理、用谁的应用、谁买单，以及怎么放进 Slack",
+    "tags": [
+      "templates",
+      "shared-bots",
+      "slack",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "Study GrokBot",
+    "date": "2026-11-09"
+  },
+  {
+    "url": "https://pmer.cn/ai/tools/grok-bot/",
+    "kept": true,
+    "cat": "T1",
+    "title": "实战知识档案：对照官方文档同步更新（实战产品说）",
+    "review": "中文知识页，按官方来源整理职责、Vault、附件上限和邮箱 plus alias；11 月 6 日同步了电脑保留策略和 Shared Bots 的 Manage Bots 入口",
+    "tags": [
+      "starter",
+      "docs",
+      "chinese",
+      "blog"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "实战产品说",
+    "date": "2026-11-06"
+  },
+  {
+    "url": "https://carlstack.gravito.dev/blog/grok-bot-cloud-computer-workflows/",
+    "kept": true,
+    "cat": "T6",
+    "title": "安全自动化：Four Cs、Routine 与核准范围（CarlStack）",
+    "review": "繁体中文，把导入收成单次任务、技能、Routine、再拆岗；强调共用电脑不是隔离，审批线看可逆性和外部影响，每周问三条再决定要不要停",
+    "tags": [
+      "security",
+      "routine",
+      "traditional-chinese",
+      "blog"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "CarlStack",
+    "date": "2026-09-01"
+  },
+  {
+    "url": "https://tenten.co/learning/grok-bot-multi-agent-team-architecture/",
+    "kept": true,
+    "cat": "T2",
+    "title": "五步排出会退件的小团队（Tenten）",
+    "review": "中文，用任务契约加主管、研究、策略、执行、审查五个岗，审查可以退件；明确提醒不要把分 Bot 当成安全边界。文中上线时的套餐和平台说明已经过时，以官方页面为准",
+    "tags": [
+      "multi-bot",
+      "chief-of-staff",
+      "chinese",
+      "blog"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "Erik (EKC)",
+    "date": "2026-10-18"
+  },
+  {
+    "url": "https://x.com/unicodef1wn/status/2120131268092297648",
+    "kept": true,
+    "cat": "T1",
+    "title": "GitHub 上 20 个现成 Grok Bot 配置（X）",
+    "review": "英文合集，按销售增长、写软件、交易研究、内容、整套公司和工具分组给仓库链接；条目是作者整理的，装之前自己看许可证和权限，别把链接当成一键安装包",
+    "tags": [
+      "github",
+      "roundup",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "unicodef1wn",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/personalagentproxy/proxy",
+    "kept": true,
+    "cat": "G",
+    "title": "Personal Agent Proxy：给多个助手分层授权的自托管入口",
+    "review": "开源自托管访问层，服务连一次，给 Grok Bot 等助手各自登录和细权限，活动可审计，不把连接内容整份抄进它的库；MIT，也提供托管版",
+    "tags": [
+      "self-hosted",
+      "permissions",
+      "mcp",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "personalagentproxy/proxy",
+    "license": "MIT",
+    "last_push": "2026-11-11"
   }
 ]

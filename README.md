@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **312** 个生态项目和学习资源，每条都打开核对过
-- **530** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **316** 个生态项目和学习资源，每条都打开核对过
+- **537** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,9 +115,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（312）
+## 生态清单（316）
 
-### 官方与工具（40）
+### 官方与工具（42）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -159,6 +159,8 @@
 - [vinhyard/grokbot-cli：非官方 macOS 命令行](https://github.com/vinhyard/grokbot-cli) - 借已登录的桌面 App 列 Bot、读对话、发一条；send 可 dry-run，改 Bot 必须 --yes，送达不明不重发，MIT。标签：`cli` `macos` `unofficial` `mit` 📦
 - [fix-my-grokbot：Mac 上 Bot 的系统授权一键自查](https://github.com/txchai/fix-my-grokbot) - 一条脚本逐项触发邮件、信息、日历、备忘录、浏览器的授权提示，打印通过/失败和修法，不改系统设置；Mac 本机连不上时先跑它，MIT。标签：`macos` `permissions` `diagnose` `mit` 📦
 - [cursor-usage-bar：菜单栏同时看 Cursor 和 Bot 周额度](https://github.com/zyamzin/cursor-usage-bar) - 读本机已登录的会话显示用量和重置日，不外传；俄文界面，有 DMG，功能和 ai-quota-bar 相近，二选一即可，MIT。标签：`usage` `macos` `menubar` `mit` 📦
+- [官方文档：在 X 上标记 @bot](https://docs.x.ai/grok-bot/tag-on-x) - 在帖子或回复里标记 @bot，请求交给主 Bot，X 上只回一句确认；结果留在应用里。列出地区限制、三种回复，以及带视频或 GIF、同时标记 @grok 时不会送达。标签：`official` `docs` `x` `at-bot` 📘
+- [官方文档：消息与协作](https://docs.x.ai/grok-bot/chat-and-collaboration) - 讲群聊、Bot 之间交接，以及在 X Chat 里和自己的 Bot 对话；这项功能在逐步开放，团队账号不能从 X Chat 关联，套餐要求以这篇为准。标签：`official` `docs` `x-chat` `collaboration` 📘
 
 ### 模板与目录（23）
 
@@ -375,7 +377,7 @@
 - [grokbot-x-launch-kit：X 发帖研究套件](https://github.com/Maliot100X/grokbot-x-launch-kit) - 趋势证据加三条草稿等人审；监控可复用，发帖仍由人手点。标签：`x` `content` `research` `draft` 📦
 - [creator-style-brain：把自己的旧稿整理成风格手册](https://github.com/0xMulight/creator-style-brain) - 离线 Python 分析器，只喂你本人有权使用的稿子，产出风格手册、草稿比对和给 Bot 的风格提示词；Windows 双击菜单，同作者另有选题库、脚本教练、视频、复盘四个仓，MIT。标签：`creator` `style` `skill` `mit` 📦
 
-### 自托管与替代方案（31）
+### 自托管与替代方案（32）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -408,6 +410,7 @@
 - [grokbot-clone：用公开 Grok API 自己搭一套常驻 Bot 团队](https://github.com/nickvasilescu/grokbot-clone) - 每个 Bot 有名字、记忆和可接管的云桌面（Orgo），应用连接走 Composio；写操作默认先批，数据存本地 SQLite；声明与 xAI 无关，第三方云和连接器的权限要自己把关，MIT。标签：`self-hosted` `grok-api` `computer-use` `mit` 📦
 - [grok-bot-twin：在 Hermes 里给每个 Bot 建对照档](https://github.com/hudsonwa/grok-bot-twin) - 两边并排比对、冲突自己选、可回滚；名字简介能自动搬，指令和例程仍要手动，别让两边同时跑同一岗，MIT。标签：`hermes` `migration` `mit` 📦
 - [homer-hermes-kit：一个窗口把 Bot 连文件搬到 Hermes](https://github.com/MrLongMo/homer-hermes-kit) - Apple 芯片 Mac 的图形界面搬家工具：装 Hermes、选账号、复制提示词让 Bot 自己打包；密钥只留本机，有图文教程和测试，MIT。标签：`hermes` `migration` `macos` `mit` 📦
+- [Personal Agent Proxy：给多个助手分层授权的自托管入口](https://github.com/personalagentproxy/proxy) - 开源自托管访问层，服务连一次，给 Grok Bot 等助手各自登录和细权限，活动可审计，不把连接内容整份抄进它的库；MIT，也提供托管版。标签：`self-hosted` `permissions` `mcp` `mit` 📦
 
 ### 硬件（9）
 
@@ -421,7 +424,7 @@
 - [GrokChan](https://github.com/notedit/GrokChan) - Stack-chan 风格语音伴：Cloudflare Worker 把浏览器接到 Bot 的 webhook；目前主要是网页桥，M5 固件和唤醒词还在路线图上。标签：`hardware` `m5stack` `webhook` 📘
 - [Grok Bot Face](https://github.com/dwinter3/grokbot-face) - 把 Pixel 平板变成全屏动画脸和桌面时钟，离线唤醒词打开 App；摄像头和麦克风只在本机处理、不存不传。标签：`hardware` `android` `screensaver` 📘
 
-### 学习资源与合集（31）
+### 学习资源与合集（32）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -454,6 +457,7 @@
 - [跨 Bot 泄露事故：复现说明与护栏思路](https://github.com/themsquared/grok-bot-cross-agent-leak) - 同机敏感只读与外发混装风险；只采纳防御要点，不复制复现。标签：`security` `mcp` `incident` 📦
 - [Awesome Grok Bots（ctrlcmdshft）](https://github.com/ctrlcmdshft/awesome-grok-bots) - 279 个第三方 Bot 清单，隐私清理优先；yaml 生成分类；CC0。标签：`directory` `privacy` `templates` 📦
 - [GrokBot Guide（一宿君）](https://github.com/anightmonarch/grokbot-guide) - 中文手册站 grokbotguide.pages.dev；与 JeffShanCha/grokbotguide 不同项目。标签：`chinese` `guide` `templates` 📦
+- [Study GrokBot：每日一题中英专栏](https://studygrokbot.com/zh/) - 非官方学习站，每天一期可复制提示词和练习，中英对照；源码在 Licoy/study-grokbot，MIT。本轮核过 11-11 @bot 与 X Chat 一期，说法对得上官方文档。标签：`chinese` `guide` `daily` `mit` 📦
 
 ## 教程索引
 
