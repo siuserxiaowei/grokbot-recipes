@@ -13811,5 +13811,428 @@
     "repo": "personalagentproxy/proxy",
     "license": "MIT",
     "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/PeerRich/grok-bot-macos-menu-bar",
+    "kept": true,
+    "cat": "A",
+    "title": "Grok Bot 菜单栏：一眼看哪个 Bot 在干活",
+    "review": "非官方 macOS 小工具，菜单栏显示正在处理的 Bot 和数量；实时状态要让官方 App 开本机调试端口，这期间本机其他程序也能控制窗口，介意就只看名单",
+    "tags": [
+      "macos",
+      "menubar",
+      "unofficial",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "PeerRich/grok-bot-macos-menu-bar",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/AleiahLock/elon-man",
+    "kept": true,
+    "cat": "H",
+    "title": "Elon Man：3D 打印身体 + ESP32，让 Bot 当桌面机器人的大脑",
+    "review": "硬件全套：零件、接线、固件和 Mac 端核心都给了，可以先用假身体联调；指令走白名单，花钱、外发、删除仍回审批卡",
+    "tags": [
+      "hardware",
+      "esp32",
+      "robot",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "AleiahLock/elon-man",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/webazarashi/mori-webhook-relay",
+    "kept": true,
+    "cat": "E",
+    "title": "Mori 摘要好了才叫醒 Bot 的 Webhook 中继",
+    "review": "Cloudflare Worker 定时查 Mori，只有新会议摘要才触发例程，没新东西不花 Bot 额度；思路可以照搬到别的数据源",
+    "tags": [
+      "webhook",
+      "cloudflare-worker",
+      "quota",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "webazarashi/mori-webhook-relay",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/AlizayAyesha/awesome-grok-bot-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "Grok Bot 技能目录 + 上线前 14 层检查技能",
+    "review": "技能索引只放链接不搬正文，另附一个给写网站用的开工清单技能；目录部分和我们的生态清单有重叠，挑检查技能用就够",
+    "tags": [
+      "skills",
+      "directory",
+      "checklist",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "AlizayAyesha/awesome-grok-bot-skills",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/moeghashim/seo-growth-playbook",
+    "kept": true,
+    "cat": "F",
+    "title": "SEO 与 AI 搜索增长审计技能",
+    "review": "读 Search Console 等数据做技术和内容体检，按现在 / 下一步 / 以后排路线图；默认只读，改站前要你点头",
+    "tags": [
+      "seo",
+      "skill",
+      "audit",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "moeghashim/seo-growth-playbook",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/ArtemXTech/grok-agent-threads",
+    "kept": true,
+    "cat": "C",
+    "title": "手机上通过 Bot 查看和接续本机 Claude Code / Codex 会话",
+    "review": "MCP 服务只监听本机，经 Tailscale 内网给 Bot 用，能列、搜、读、回复和新开会话，故意不给删除和停止；有测试和安全说明",
+    "tags": [
+      "mcp",
+      "tailscale",
+      "claude-code",
+      "codex",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "ArtemXTech/grok-agent-threads",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/Chasen-Liao/grokbot-and-pi",
+    "kept": true,
+    "cat": "C",
+    "title": "GAP：Bot 拆活验收，Pi 干重活，做完 webhook 叫醒",
+    "review": "任务记录落盘当唯一依据，通知里不带正文和密钥，带灾难性删除拦截和空闲熔断；删除、外发、付款、推送不交给 Pi，适合额度紧的人",
+    "tags": [
+      "pi",
+      "subagent",
+      "webhook",
+      "quota",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "Chasen-Liao/grokbot-and-pi",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/kaitoflow/tiko",
+    "kept": true,
+    "cat": "C",
+    "title": "Tiko：给 Codex 配一个按项目绑定的 Grok Bot 专家",
+    "review": "让 Bot 给 Codex 做分析、质询和独立评审，跨会话复用同一个项目专家；作者提醒发送回执不等于做完、可能会新建或改名 Bot，先在测试项目里试",
+    "tags": [
+      "codex",
+      "review",
+      "mcp",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "kaitoflow/tiko",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/harkawataryan/grok-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bridge：让本机 Claude 操作 Windows 版 Grok Bot",
+    "review": "非官方，靠本机调试端口给输入框打字、读回复、切 Bot；开着端口时本机任何程序都能控窗口，暴露到公网更危险，只建议自己机器上玩",
+    "tags": [
+      "windows",
+      "mcp",
+      "claude",
+      "unofficial",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "harkawataryan/grok-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/Ramyrae/file-shepherd",
+    "kept": true,
+    "cat": "B",
+    "title": "File Shepherd：先扫描再给计划的文件整理模板",
+    "review": "找完全重复文件先比大小再算 SHA-256，下载夹、大文件、截图命名、备份对照都有；移动、改名、删除都要你确认，是技能副本不是命令行工具",
+    "tags": [
+      "template",
+      "files",
+      "duplicates",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "Ramyrae/file-shepherd",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/TubeLabHQ/youtube-research-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "TubeLab YouTube 研究技能包",
+    "review": "爆款、赛道、竞品、评论、标题等技能，README 写了接 MCP 后存成 Bot 私有技能的步骤；要自备 TubeLab 账号，偏厂商",
+    "tags": [
+      "youtube",
+      "skills",
+      "research",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "TubeLabHQ/youtube-research-skills",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/Betagg/grokbot-reset-core",
+    "kept": true,
+    "cat": "A",
+    "title": "额度重置报告核对小工具",
+    "review": "在 90 分钟窗口里看几路重置报告能不能互相印证，不抓帖不通知，带测试；只是判断『到底重置了没』的辅助",
+    "tags": [
+      "quota",
+      "reset",
+      "utility",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "Betagg/grokbot-reset-core",
+    "license": "MIT",
+    "last_push": "2026-11-10"
+  },
+  {
+    "url": "https://github.com/BTCUP99/grok-bot-avatar-tool",
+    "kept": true,
+    "cat": "A",
+    "title": "macOS 版 Bot 头像工具（42 款原创）",
+    "review": "按 Bot 分别记住头像，不改官方 App 文件和签名；社区预览版，作者自己说没做完整端到端验收",
+    "tags": [
+      "macos",
+      "avatar",
+      "fun",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "BTCUP99/grok-bot-avatar-tool",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/simo255/shopper",
+    "kept": true,
+    "cat": "F",
+    "title": "Shopper：只报真折扣、从不下单的看价 Bot",
+    "review": "对照约 90 天价格史和论坛交叉确认才提醒，没好价就安静；仓库只有人设文件，面向加拿大，换成本地商店要自己改源",
+    "tags": [
+      "deals",
+      "persona",
+      "shopping",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "simo255/shopper",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/bangzhu-commit/ai-balance-board",
+    "kept": true,
+    "cat": "A",
+    "title": "AI 额度悬浮看板（FoxCode / Codex / Grok Bot）",
+    "review": "查额度不调模型，Grok Bot 部分靠本机浏览器扩展读已登录的用量页、不导出 cookie；预览包未公证，和 ai-quota-bar 同类",
+    "tags": [
+      "quota",
+      "macos",
+      "dashboard",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "bangzhu-commit/ai-balance-board",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/matheusvelloso/ai-usage-bar",
+    "kept": true,
+    "cat": "A",
+    "title": "AI Usage Bar：菜单栏 / 托盘看 Claude 和 Grok Bot 额度",
+    "review": "和已收的额度菜单栏工具同类，多了 Windows 托盘版；读本机登录状态，装之前看清权限",
+    "tags": [
+      "quota",
+      "macos",
+      "windows",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-11",
+    "repo": "matheusvelloso/ai-usage-bar",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/0xlangeai/status/2120323232360493174",
+    "kept": true,
+    "cat": "T3",
+    "title": "Grok Bot 用量页上线：按来源和按 Bot 看谁在吃额度（X）",
+    "review": "中文快讯，给出设置里的入口和两种查看方式；养多个 Bot 的先按 Bot 排一遍，再看例行任务和 Bot 之间互发占多少",
+    "tags": [
+      "quota",
+      "usage",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "0xlangeai",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/0xlangeai/status/2120049568331280486",
+    "kept": true,
+    "cat": "T2",
+    "title": "先让 Agent 能证明自己做对：Lauren 分享的方法拆解（X）",
+    "review": "中文，拆 Grok Bot 工程师 @poteto 的分享：验收做成可调用的验证技能、重复错误先改结构和自动检查；偏工程团队，结论对多 Bot 也适用",
+    "tags": [
+      "engineering",
+      "verification",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "0xlangeai",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/chasen_liao/status/2120177161311297913",
+    "kept": true,
+    "cat": "T3",
+    "title": "Bot 拆任务和验收，干活交给 Pi（X）",
+    "review": "中文，讲经 Tailscale 内网把自有模型接给本地 Pi、Bot 只做派活和验收来省额度；用到第三方订阅反代，账号合规自己判断，配套仓库见 GAP",
+    "tags": [
+      "pi",
+      "quota",
+      "tailscale",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "chasen_liao",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/fankaishuoai/status/2120153537414053969",
+    "kept": true,
+    "cat": "T1",
+    "title": "Grok Bot 的开源平替怎么选（X）",
+    "review": "中文对比 Hermes、OpenMausBot、Rakazo、OpenBot 等，按平台类型讲部署负担；作者自己的组合是本地跑重活、Grok Bot 留轻活",
+    "tags": [
+      "self-hosted",
+      "comparison",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "fankaishuoai",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/Pluvio9yte/status/2119972735426383993",
+    "kept": true,
+    "cat": "T5",
+    "title": "把重复劳动写成 SOP 再交给 Bot（X 长文）",
+    "review": "中文长文，先判断活是否重复、有规矩，再走做一次、改好、存技能、设例程；有站点运营和社媒分析两个 Bot 实例，花钱外发删除要本人点头",
+    "tags": [
+      "sop",
+      "skills",
+      "routine",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "Pluvio9yte",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/BrianRoemmele/status/2119815091092861330",
+    "kept": true,
+    "cat": "T5",
+    "title": "把订阅的 YouTube 和播客每周做成一本杂志（X）",
+    "review": "英文，公开模板：新一期写成杂志稿、配视频截图、引语链回原作，再导出 EPUB 和邮件；适合想周末集中看的人",
+    "tags": [
+      "youtube",
+      "podcast",
+      "newsletter",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "BrianRoemmele",
+    "date": "2026-11-09"
+  },
+  {
+    "url": "https://x.com/BrianRoemmele/status/2120177561565307025",
+    "kept": true,
+    "cat": "T5",
+    "title": "Podcast Maker：话题、账号或 PDF 变成一集播客（X）",
+    "review": "英文，公开模板：自选时长和语气，引用真实来源，产出音频、字幕和 PDF 逐字稿，也能定时更新",
+    "tags": [
+      "podcast",
+      "audio",
+      "template",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "BrianRoemmele",
+    "date": "2026-11-10"
+  },
+  {
+    "url": "https://x.com/lxz2677/status/2120388705617953205",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot 官方连接器支持 Tailscale（X）",
+    "review": "中文快讯，在连接器里搜 Tailscale 授权就能让 Bot 访问你 tailnet 里的设备，作者观察是单向的；本来要上公网的私有服务现在可以只留内网",
+    "tags": [
+      "tailscale",
+      "connector",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-11",
+    "author": "lxz2677",
+    "date": "2026-11-11"
   }
 ]
