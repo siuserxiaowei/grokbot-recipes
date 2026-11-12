@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **332** 个生态项目和学习资源，每条都打开核对过
-- **545** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **334** 个生态项目和学习资源，每条都打开核对过
+- **551** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,7 +115,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（332）
+## 生态清单（334）
 
 ### 官方与工具（47）
 
@@ -167,7 +167,7 @@
 - [AI 额度悬浮看板（FoxCode / Codex / Grok Bot）](https://github.com/bangzhu-commit/ai-balance-board) - 查额度不调模型，Grok Bot 部分靠本机浏览器扩展读已登录的用量页、不导出 cookie；预览包未公证，和 ai-quota-bar 同类。标签：`quota` `macos` `dashboard` `mit` 📦
 - [AI Usage Bar：菜单栏 / 托盘看 Claude 和 Grok Bot 额度](https://github.com/matheusvelloso/ai-usage-bar) - 和已收的额度菜单栏工具同类，多了 Windows 托盘版；读本机登录状态，装之前看清权限。标签：`quota` `macos` `windows` `mit` 📦
 
-### 模板与目录（24）
+### 模板与目录（25）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -193,6 +193,7 @@
 - [ai-employee-kit：25 岗销售招聘运营提示词](https://github.com/onittindwani-ai/ai-employee-kit-openai-dots-grok-bot) - 每人一套 Dots + Grok Bot 安装文、交接配方与选型表；只起草不代发；MIT。标签：`templates` `sales` `hiring` `mit` 📦
 - [JobFather：两道审批门的求职 Bot](https://github.com/simo255/jobfather) - 每个岗位先给简报等你点头，答卷全文和简历版本再看一遍才提交；LinkedIn MCP 只读，附公开模板，MIT。标签：`jobs` `template` `approval` `mit` 📦
 - [File Shepherd：先扫描再给计划的文件整理模板](https://github.com/Ramyrae/file-shepherd) - 找完全重复文件先比大小再算 SHA-256，下载夹、大文件、截图命名、备份对照都有；移动、改名、删除都要你确认，是技能副本不是命令行工具。标签：`template` `files` `duplicates` `mit` 📦
+- [awesome-grok-bot-templates：7000+ 公开模板的检查过链接的清单](https://github.com/Maimuzamilhu/awesome-grok-bot-templates) - 又一个模板大目录，配了 botsdots.site 浏览页；量大但没有逐个审过，挑模板时仍要自己看权限和 Routine。标签：`templates` `directory` 📦
 
 ### 技能与连接（108）
 
@@ -305,7 +306,7 @@
 - [grok-bridge：让本机 Claude 操作 Windows 版 Grok Bot](https://github.com/harkawataryan/grok-bridge) - 非官方，靠本机调试端口给输入框打字、读回复、切 Bot；开着端口时本机任何程序都能控窗口，暴露到公网更危险，只建议自己机器上玩。标签：`windows` `mcp` `claude` `unofficial` `mit` 📦
 - [TubeLab YouTube 研究技能包](https://github.com/TubeLabHQ/youtube-research-skills) - 爆款、赛道、竞品、评论、标题等技能，README 写了接 MCP 后存成 Bot 私有技能的步骤；要自备 TubeLab 账号，偏厂商。标签：`youtube` `skills` `research` `mit` 📦
 
-### 多 Bot 团队（46）
+### 多 Bot 团队（47）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -353,6 +354,7 @@
 - [conductor：主 Bot 按职责把活路由给专岗](https://github.com/thiago-desa/conductor) - 一份人设加路由和上手两个 Skill，带虚构日例与评测；交接不带密钥、只在等你拍板时打扰，适合已有三五个专岗的团队，MIT。标签：`router` `main-bot` `multi-bot` `mit` 📦
 - [grok-bot-worlds：按你的 Bot 花名册生成 3D 小世界](https://github.com/echris6/grok-bot-worlds) - 把一份说明文件交给主 Bot 就能接入，没配置时用虚构团队演示；看团队在干什么的可视化玩具，MIT。标签：`visualization` `3d` `multi-bot` `mit` 📦
 - [bot-cockpit：不碰账号 cookie 的 Bot 驾驶舱](https://github.com/bobdivx/bot-cockpit) - 团队卡片、等距办公室、用量 CSV 导入，可选 MCP 让 Bot 自愿上报；真实模式从空账本开始，演示数据标明虚构；法文界面，带测试和 Docker，MIT。标签：`dashboard` `usage` `french` `mit` 📦
+- [HyperGrok：7 个 Bot 分工的 Hyperliquid 交易研究台](https://github.com/galleonlabs/hypergrok-trading-desk) - 七个角色各管一段，研究和风控跑在前面，真正下单只有一个 Bot 拿钥匙、还要你批准的单子；拿来学分工和审批设计很好，涉及真钱一定先只读。标签：`trading` `multi-bot` `approval` `mit` 📦
 
 ### Routine 与监控（18）
 

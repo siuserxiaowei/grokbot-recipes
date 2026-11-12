@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 545 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 551 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（125）
+## 入门与配置（126）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -131,8 +131,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [实战知识档案：对照官方文档同步更新（实战产品说）](https://pmer.cn/ai/tools/grok-bot/) - 中文知识页，按官方来源整理职责、Vault、附件上限和邮箱 plus alias；11 月 6 日同步了电脑保留策略和 Shared Bots 的 Manage Bots 入口 · @实战产品说 · 2026-11-06。标签：`starter` `docs` `chinese` `blog`
 - [GitHub 上 20 个现成 Grok Bot 配置（X）](https://x.com/unicodef1wn/status/2120131268092297648) - 英文合集，按销售增长、写软件、交易研究、内容、整套公司和工具分组给仓库链接；条目是作者整理的，装之前自己看许可证和权限，别把链接当成一键安装包 · @unicodef1wn · 2026-11-10。标签：`github` `roundup` `english`
 - [Grok Bot 的开源平替怎么选（X）](https://x.com/fankaishuoai/status/2120153537414053969) - 中文对比 Hermes、OpenMausBot、Rakazo、OpenBot 等，按平台类型讲部署负担；作者自己的组合是本地跑重活、Grok Bot 留轻活 · @fankaishuoai · 2026-11-10。标签：`self-hosted` `comparison` `chinese`
+- [10 个 Grok Bot 模板库按需求怎么选（X）](https://x.com/spectnfa/status/2120542315005559169) - 把几个大模板库按“要最多/要分类/要审过”对比了一遍，帮新手少走弯路；数量是作者统计，我们没逐个核 · @spectnfa · 2026-11-11。标签：`templates` `directory` `english`
 
-## 多 Bot 团队（103）
+## 多 Bot 团队（104）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -237,6 +238,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [模板链接和共享 Bot 是两回事（Study GrokBot 11-09 期）](https://studygrokbot.com/zh/issues/2026-11-09/) - 发模板对方拿到副本，共享 Bot 是同一只一起聊；讲清分享前怎么清理、用谁的应用、谁买单，以及怎么放进 Slack · @Study GrokBot · 2026-11-09。标签：`templates` `shared-bots` `slack` `chinese`
 - [五步排出会退件的小团队（Tenten）](https://tenten.co/learning/grok-bot-multi-agent-team-architecture/) - 中文，用任务契约加主管、研究、策略、执行、审查五个岗，审查可以退件；明确提醒不要把分 Bot 当成安全边界。文中上线时的套餐和平台说明已经过时，以官方页面为准 · @Erik (EKC) · 2026-10-18。标签：`multi-bot` `chief-of-staff` `chinese` `blog`
 - [先让 Agent 能证明自己做对：Lauren 分享的方法拆解（X）](https://x.com/0xlangeai/status/2120049568331280486) - 中文，拆 Grok Bot 工程师 @poteto 的分享：验收做成可调用的验证技能、重复错误先改结构和自动检查；偏工程团队，结论对多 Bot 也适用 · @0xlangeai · 2026-11-10。标签：`engineering` `verification` `chinese`
+- [三个 Bot 像“三个妈”一样管生活（X）](https://x.com/betterpromptsai/status/2120459428067442938) - 生活向的小团队例子，几个 Bot 共用一台电脑各管一摊家务事；思路轻松好懂，适合给非技术朋友讲多 Bot 是什么 · @betterpromptsai · 2026-11-11。标签：`multi-bot` `life` `english`
 
 ## Routine 与额度（69）
 
@@ -310,7 +312,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 用量页上线：按来源和按 Bot 看谁在吃额度（X）](https://x.com/0xlangeai/status/2120323232360493174) - 中文快讯，给出设置里的入口和两种查看方式；养多个 Bot 的先按 Bot 排一遍，再看例行任务和 Bot 之间互发占多少 · @0xlangeai · 2026-11-11。标签：`quota` `usage` `chinese`
 - [Bot 拆任务和验收，干活交给 Pi（X）](https://x.com/chasen_liao/status/2120177161311297913) - 中文，讲经 Tailscale 内网把自有模型接给本地 Pi、Bot 只做派活和验收来省额度；用到第三方订阅反代，账号合规自己判断，配套仓库见 GAP · @chasen_liao · 2026-11-10。标签：`pi` `quota` `tailscale` `chinese`
 
-## 连接、技能与记忆（86）
+## 连接、技能与记忆（89）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -398,8 +400,11 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [在 X 上标记 @bot 并接入 X Chat（Study GrokBot 11-11 期）](https://studygrokbot.com/zh/issues/2026-11-11/) - 对照官方文档讲准备条件、@bot 三种回复、不吭声时怎么查，以及 X Chat 连错账号时怎么重新关联；帖子是公开的，别把私密信息写进去 · @Study GrokBot · 2026-11-11。标签：`x` `at-bot` `x-chat` `chinese`
 - [给 Bot 领专属邮箱并用来触发 Routine（Study GrokBot 11-10 期）](https://studygrokbot.com/zh/issues/2026-11-10/) - 讲 mail.grokbot.com 怎么领、能收账单和周报、发信为何要你点头，以及陌生来信的安全边界 · @Study GrokBot · 2026-11-10。标签：`email` `routine` `chinese`
 - [Grok Bot 官方连接器支持 Tailscale（X）](https://x.com/lxz2677/status/2120388705617953205) - 中文快讯，在连接器里搜 Tailscale 授权就能让 Bot 访问你 tailnet 里的设备，作者观察是单向的；本来要上公网的私有服务现在可以只留内网 · @lxz2677 · 2026-11-11。标签：`tailscale` `connector` `chinese`
+- [Grok Bot 和 GitHub：有没有官方仓库、连接器能做什么（Sumus）](https://sumus.im/blog/grok-bot-github) - 英文问答，讲清 Grok Bot 本身不开源、官方 GitHub 连接器能读仓库/提交/PR 评论，社区仓库都不是官方出品；适合先搞清边界再装第三方包 · @Sumus · 2026-10-27。标签：`github` `connector` `english`
+- [Grok Bot 三个月：10 个值得装的 GitHub 仓库（X）](https://x.com/de1lymoon/status/2120624000971800949) - 按用途挑了技能库、派活桥、团队安装器、看板这几类，大部分我们已收；当作入门导航不错，装之前逐个看许可证和权限 · @de1lymoon · 2026-11-12。标签：`github` `skills` `roundup` `english`
+- [在 Grok Bot 云电脑里跑 Claude Code 三个月（X）](https://x.com/Stanllll6o/status/2120383483076071546) - 中文实操回顾，作者把 Claude Code 装在 Bot 的云电脑里长期用，补充了静态 IP 让手机也能接着用；部署网络相关设置前先想清楚暴露面 · @Stanllll6o · 2026-11-11。标签：`claude-code` `cloud-computer` `chinese`
 
-## 一人公司与内容（135）
+## 一人公司与内容（136）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -536,6 +541,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [把重复劳动写成 SOP 再交给 Bot（X 长文）](https://x.com/Pluvio9yte/status/2119972735426383993) - 中文长文，先判断活是否重复、有规矩，再走做一次、改好、存技能、设例程；有站点运营和社媒分析两个 Bot 实例，花钱外发删除要本人点头 · @Pluvio9yte · 2026-11-10。标签：`sop` `skills` `routine` `chinese`
 - [把订阅的 YouTube 和播客每周做成一本杂志（X）](https://x.com/BrianRoemmele/status/2119815091092861330) - 英文，公开模板：新一期写成杂志稿、配视频截图、引语链回原作，再导出 EPUB 和邮件；适合想周末集中看的人 · @BrianRoemmele · 2026-11-09。标签：`youtube` `podcast` `newsletter` `english`
 - [Podcast Maker：话题、账号或 PDF 变成一集播客（X）](https://x.com/BrianRoemmele/status/2120177561565307025) - 英文，公开模板：自选时长和语气，引用真实来源，产出音频、字幕和 PDF 逐字稿，也能定时更新 · @BrianRoemmele · 2026-11-10。标签：`podcast` `audio` `template` `english`
+- [Grok Bot 每日用户案例速递（X）](https://x.com/AskTolik/status/2120565015249895898) - 每天汇总 24 小时内大家用 @bot 做成的事，比如内容选题交给 Muse、脚本剪辑交给 Bot；适合当灵感源，具体效果数字是用户自述 · @AskTolik · 2026-11-12。标签：`daily` `use-cases` `english`
 
 ## 安全（26）
 

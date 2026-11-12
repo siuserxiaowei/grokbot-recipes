@@ -14234,5 +14234,136 @@
     "verified": "2026-11-11",
     "author": "lxz2677",
     "date": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/galleonlabs/hypergrok-trading-desk",
+    "kept": true,
+    "cat": "D",
+    "title": "HyperGrok：7 个 Bot 分工的 Hyperliquid 交易研究台",
+    "review": "七个角色各管一段，研究和风控跑在前面，真正下单只有一个 Bot 拿钥匙、还要你批准的单子；拿来学分工和审批设计很好，涉及真钱一定先只读",
+    "tags": [
+      "trading",
+      "multi-bot",
+      "approval",
+      "mit"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-12",
+    "repo": "galleonlabs/hypergrok-trading-desk",
+    "license": "MIT",
+    "last_push": "2026-11-04"
+  },
+  {
+    "url": "https://github.com/Maimuzamilhu/awesome-grok-bot-templates",
+    "kept": true,
+    "cat": "B",
+    "title": "awesome-grok-bot-templates：7000+ 公开模板的检查过链接的清单",
+    "review": "又一个模板大目录，配了 botsdots.site 浏览页；量大但没有逐个审过，挑模板时仍要自己看权限和 Routine",
+    "tags": [
+      "templates",
+      "directory"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-12",
+    "repo": "Maimuzamilhu/awesome-grok-bot-templates",
+    "license": "未声明",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://sumus.im/blog/grok-bot-github",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot 和 GitHub：有没有官方仓库、连接器能做什么（Sumus）",
+    "review": "英文问答，讲清 Grok Bot 本身不开源、官方 GitHub 连接器能读仓库/提交/PR 评论，社区仓库都不是官方出品；适合先搞清边界再装第三方包",
+    "tags": [
+      "github",
+      "connector",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "Sumus",
+    "date": "2026-10-27"
+  },
+  {
+    "url": "https://x.com/de1lymoon/status/2120624000971800949",
+    "kept": true,
+    "cat": "T4",
+    "title": "Grok Bot 三个月：10 个值得装的 GitHub 仓库（X）",
+    "review": "按用途挑了技能库、派活桥、团队安装器、看板这几类，大部分我们已收；当作入门导航不错，装之前逐个看许可证和权限",
+    "tags": [
+      "github",
+      "skills",
+      "roundup",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "de1lymoon",
+    "date": "2026-11-12"
+  },
+  {
+    "url": "https://x.com/spectnfa/status/2120542315005559169",
+    "kept": true,
+    "cat": "T1",
+    "title": "10 个 Grok Bot 模板库按需求怎么选（X）",
+    "review": "把几个大模板库按“要最多/要分类/要审过”对比了一遍，帮新手少走弯路；数量是作者统计，我们没逐个核",
+    "tags": [
+      "templates",
+      "directory",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "spectnfa",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/betterpromptsai/status/2120459428067442938",
+    "kept": true,
+    "cat": "T2",
+    "title": "三个 Bot 像“三个妈”一样管生活（X）",
+    "review": "生活向的小团队例子，几个 Bot 共用一台电脑各管一摊家务事；思路轻松好懂，适合给非技术朋友讲多 Bot 是什么",
+    "tags": [
+      "multi-bot",
+      "life",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "betterpromptsai",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/Stanllll6o/status/2120383483076071546",
+    "kept": true,
+    "cat": "T4",
+    "title": "在 Grok Bot 云电脑里跑 Claude Code 三个月（X）",
+    "review": "中文实操回顾，作者把 Claude Code 装在 Bot 的云电脑里长期用，补充了静态 IP 让手机也能接着用；部署网络相关设置前先想清楚暴露面",
+    "tags": [
+      "claude-code",
+      "cloud-computer",
+      "chinese"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "Stanllll6o",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/AskTolik/status/2120565015249895898",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot 每日用户案例速递（X）",
+    "review": "每天汇总 24 小时内大家用 @bot 做成的事，比如内容选题交给 Muse、脚本剪辑交给 Bot；适合当灵感源，具体效果数字是用户自述",
+    "tags": [
+      "daily",
+      "use-cases",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "AskTolik",
+    "date": "2026-11-12"
   }
 ]
