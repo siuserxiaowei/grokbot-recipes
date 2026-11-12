@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **334** 个生态项目和学习资源，每条都打开核对过
-- **551** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **347** 个生态项目和学习资源，每条都打开核对过
+- **558** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,9 +115,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（334）
+## 生态清单（347）
 
-### 官方与工具（47）
+### 官方与工具（49）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -166,6 +166,8 @@
 - [macOS 版 Bot 头像工具（42 款原创）](https://github.com/BTCUP99/grok-bot-avatar-tool) - 按 Bot 分别记住头像，不改官方 App 文件和签名；社区预览版，作者自己说没做完整端到端验收。标签：`macos` `avatar` `fun` `mit` 📦
 - [AI 额度悬浮看板（FoxCode / Codex / Grok Bot）](https://github.com/bangzhu-commit/ai-balance-board) - 查额度不调模型，Grok Bot 部分靠本机浏览器扩展读已登录的用量页、不导出 cookie；预览包未公证，和 ai-quota-bar 同类。标签：`quota` `macos` `dashboard` `mit` 📦
 - [AI Usage Bar：菜单栏 / 托盘看 Claude 和 Grok Bot 额度](https://github.com/matheusvelloso/ai-usage-bar) - 和已收的额度菜单栏工具同类，多了 Windows 托盘版；读本机登录状态，装之前看清权限。标签：`quota` `macos` `windows` `mit` 📦
+- [Grok-Bot-for-Linux：非官方 Nix 包装的桌面 App](https://github.com/portal-wheatley/Grok-Bot-for-Linux) - 拆官方 Windows 安装包配 Linux Electron，Nix 用户能直接跑桌面版；非官方，官方更新后可能要等作者跟进。标签：`linux` `nix` `desktop` `mit` 📦
+- [x-bot-unread-filter：x.com 未读数里去掉 Bot 会话](https://github.com/mreasonyang/x-bot-unread-filter) - 油猴脚本，让网页版 X 的私信红点只算真人消息，Bot 会话不再刷未读；小而实用，带测试。标签：`x` `userscript` `mit` 📦
 
 ### 模板与目录（25）
 
@@ -195,7 +197,7 @@
 - [File Shepherd：先扫描再给计划的文件整理模板](https://github.com/Ramyrae/file-shepherd) - 找完全重复文件先比大小再算 SHA-256，下载夹、大文件、截图命名、备份对照都有；移动、改名、删除都要你确认，是技能副本不是命令行工具。标签：`template` `files` `duplicates` `mit` 📦
 - [awesome-grok-bot-templates：7000+ 公开模板的检查过链接的清单](https://github.com/Maimuzamilhu/awesome-grok-bot-templates) - 又一个模板大目录，配了 botsdots.site 浏览页；量大但没有逐个审过，挑模板时仍要自己看权限和 Routine。标签：`templates` `directory` 📦
 
-### 技能与连接（108）
+### 技能与连接（111）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -305,8 +307,11 @@
 - [Tiko：给 Codex 配一个按项目绑定的 Grok Bot 专家](https://github.com/kaitoflow/tiko) - 让 Bot 给 Codex 做分析、质询和独立评审，跨会话复用同一个项目专家；作者提醒发送回执不等于做完、可能会新建或改名 Bot，先在测试项目里试。标签：`codex` `review` `mcp` `mit` 📦
 - [grok-bridge：让本机 Claude 操作 Windows 版 Grok Bot](https://github.com/harkawataryan/grok-bridge) - 非官方，靠本机调试端口给输入框打字、读回复、切 Bot；开着端口时本机任何程序都能控窗口，暴露到公网更危险，只建议自己机器上玩。标签：`windows` `mcp` `claude` `unofficial` `mit` 📦
 - [TubeLab YouTube 研究技能包](https://github.com/TubeLabHQ/youtube-research-skills) - 爆款、赛道、竞品、评论、标题等技能，README 写了接 MCP 后存成 Bot 私有技能的步骤；要自备 TubeLab 账号，偏厂商。标签：`youtube` `skills` `research` `mit` 📦
+- [grokbot-telegram-bridge：在云电脑上跑 Telegram 多人桥](https://github.com/Ashe-Oro/grokbot-telegram-bridge) - 把已有 Bot 接到 Telegram 私聊和群里，配对码放人进来，管理员能用全部能力、普通成员只能聊天，权限分层思路值得抄。标签：`telegram` `bridge` `mit` 📦
+- [herdr-grok-bot：经 Herdr 启动本机 CLI Agent 的技能](https://github.com/Toolsai/herdr-grok-bot) - Bot 要在你电脑上起 Codex、Claude Code 这类交互式 Agent 时改走 Herdr，能随时看状态、插手；社区技能，非官方。标签：`skill` `cli-agent` `mit` 📦
+- [osgb2su：倾斜摄影 OSGB 转 SketchUp 的测绘技能](https://github.com/lixiaomeng0001-hue/osgb2su) - 按地块边界挑瓦片转成 SketchUp 能导入的格式，只用系统 Python，先试跑再导出；垂直行业技能的好例子。标签：`skill` `gis` `survey` `mit` 📦
 
-### 多 Bot 团队（47）
+### 多 Bot 团队（49）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -355,8 +360,10 @@
 - [grok-bot-worlds：按你的 Bot 花名册生成 3D 小世界](https://github.com/echris6/grok-bot-worlds) - 把一份说明文件交给主 Bot 就能接入，没配置时用虚构团队演示；看团队在干什么的可视化玩具，MIT。标签：`visualization` `3d` `multi-bot` `mit` 📦
 - [bot-cockpit：不碰账号 cookie 的 Bot 驾驶舱](https://github.com/bobdivx/bot-cockpit) - 团队卡片、等距办公室、用量 CSV 导入，可选 MCP 让 Bot 自愿上报；真实模式从空账本开始，演示数据标明虚构；法文界面，带测试和 Docker，MIT。标签：`dashboard` `usage` `french` `mit` 📦
 - [HyperGrok：7 个 Bot 分工的 Hyperliquid 交易研究台](https://github.com/galleonlabs/hypergrok-trading-desk) - 七个角色各管一段，研究和风控跑在前面，真正下单只有一个 Bot 拿钥匙、还要你批准的单子；拿来学分工和审批设计很好，涉及真钱一定先只读。标签：`trading` `multi-bot` `approval` `mit` 📦
+- [grok-bot-bridge：用代码给 Bot 队友派活](https://github.com/ramarivera/grok-bot-bridge) - 借一个路由 Bot 加 Executor 应用，在脚本里给指定队友发任务再取回结果；非官方接口，适合想把 Bot 接进自己流水线的人。标签：`dispatch` `multi-bot` `mit` 📦
+- [click：给各家 Agent 开私信信箱](https://github.com/asomervell/click) - 让 Codex、Claude、Grok Bot 等互发私信，可用托管站或自己的 Cloudflare Worker；Bot 侧靠定时和 webhook 例程收信。标签：`agent-mail` `mcp` `apache-2.0` 📦
 
-### Routine 与监控（18）
+### Routine 与监控（20）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -376,6 +383,8 @@
 - [t3-watch：编码线程跑完才叫醒 Bot，等的时候不耗额度](https://github.com/krishhgg/t3-watch) - T3 Code、Codex、Claude Code 线程结束、要输入或失败时输出一行 JSON 退出，Bot 当后台命令挂着或收 webhook；Rust 单文件，暂无发行包要自己编，MIT/Apache-2.0。标签：`watcher` `codex` `claude-code` `apache-2.0` 📦
 - [grokbot-token-saver：多 Bot 团队省周额度 Skill](https://github.com/ycaistudio/grokbot-token-saver) - 在 @vartekxx 的十招之上补了实战习惯：会话太长就交接换新、群里只派一个负责 Bot、错三次就停；改例程要先批，繁中/英/日三语，MIT。标签：`usage` `skill` `multi-bot` `mit` 📦
 - [Mori 摘要好了才叫醒 Bot 的 Webhook 中继](https://github.com/webazarashi/mori-webhook-relay) - Cloudflare Worker 定时查 Mori，只有新会议摘要才触发例程，没新东西不花 Bot 额度；思路可以照搬到别的数据源。标签：`webhook` `cloudflare-worker` `quota` `mit` 📦
+- [proof-carrying-replies：公开发帖前先过四道门](https://github.com/Harisanthosh/proof-carrying-replies) - 每条公开回复都要附绑定原文的凭证并等主人对原文确认，强调全权委托不等于确认；想给发帖类 Bot 加闸的值得一读。标签：`approval` `safety` `x` `mit` 📦
+- [ai-quota-reset-monitor：盯 AI 额度突发重置](https://github.com/qq749937207-ux/ai-quota-reset-monitor) - 技能加例程，盯 ChatGPT、Grok、Claude 周期外的额度重置，区分官宣和疑似，没新消息不打扰；频率按自己额度调低。标签：`routine` `quota` `mit` 📦
 
 ### 一人公司与内容（14）
 
@@ -394,7 +403,7 @@
 - [SEO 与 AI 搜索增长审计技能](https://github.com/moeghashim/seo-growth-playbook) - 读 Search Console 等数据做技术和内容体检，按现在 / 下一步 / 以后排路线图；默认只读，改站前要你点头。标签：`seo` `skill` `audit` `mit` 📦
 - [Shopper：只报真折扣、从不下单的看价 Bot](https://github.com/simo255/shopper) - 对照约 90 天价格史和论坛交叉确认才提醒，没好价就安静；仓库只有人设文件，面向加拿大，换成本地商店要自己改源。标签：`deals` `persona` `shopping` `mit` 📦
 
-### 自托管与替代方案（32）
+### 自托管与替代方案（34）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -428,8 +437,10 @@
 - [grok-bot-twin：在 Hermes 里给每个 Bot 建对照档](https://github.com/hudsonwa/grok-bot-twin) - 两边并排比对、冲突自己选、可回滚；名字简介能自动搬，指令和例程仍要手动，别让两边同时跑同一岗，MIT。标签：`hermes` `migration` `mit` 📦
 - [homer-hermes-kit：一个窗口把 Bot 连文件搬到 Hermes](https://github.com/MrLongMo/homer-hermes-kit) - Apple 芯片 Mac 的图形界面搬家工具：装 Hermes、选账号、复制提示词让 Bot 自己打包；密钥只留本机，有图文教程和测试，MIT。标签：`hermes` `migration` `macos` `mit` 📦
 - [Personal Agent Proxy：给多个助手分层授权的自托管入口](https://github.com/personalagentproxy/proxy) - 开源自托管访问层，服务连一次，给 Grok Bot 等助手各自登录和细权限，活动可审计，不把连接内容整份抄进它的库；MIT，也提供托管版。标签：`self-hosted` `permissions` `mcp` `mit` 📦
+- [grok-hermes-backup：让 Hermes 当 Grok Bot 的备援](https://github.com/iamraven-tw/grok-hermes-backup) - 每周把 Bot 的人设、记忆、技能和例程导出成快照交给 Hermes 保管，主力出问题时有地方接手；导出的内容记得别带密钥。标签：`backup` `hermes` `mit` 📦
+- [damail：自托管多邮箱中枢接 Bot](https://github.com/gopkg-dev/damail) - 把 Gmail、Outlook、QQ、163 等邮箱收到自己服务器，再以自定义连接器接给 Bot 跑例程；发信要主人点头，Docker 一键装。标签：`email` `mcp` `self-hosted` `mit` 📦
 
-### 硬件（10）
+### 硬件（12）
 
 - [groki-bot](https://github.com/JosssphZhou/groki-bot) - M5Stack 桌面小机器人，能用语音把任务交给 Grok Bot。标签：`hardware` `voice` 📦
 - [grok-gadgets](https://github.com/adidshaft/grok-gadgets) - 把硬件接到 Grok Bot 的工具包，可以先用模拟器试。标签：`hardware` `sdk` 📦
@@ -441,6 +452,8 @@
 - [GrokChan](https://github.com/notedit/GrokChan) - Stack-chan 风格语音伴：Cloudflare Worker 把浏览器接到 Bot 的 webhook；目前主要是网页桥，M5 固件和唤醒词还在路线图上。标签：`hardware` `m5stack` `webhook` 📘
 - [Grok Bot Face](https://github.com/dwinter3/grokbot-face) - 把 Pixel 平板变成全屏动画脸和桌面时钟，离线唤醒词打开 App；摄像头和麦克风只在本机处理、不存不传。标签：`hardware` `android` `screensaver` 📘
 - [Elon Man：3D 打印身体 + ESP32，让 Bot 当桌面机器人的大脑](https://github.com/AleiahLock/elon-man) - 硬件全套：零件、接线、固件和 Mac 端核心都给了，可以先用假身体联调；指令走白名单，花钱、外发、删除仍回审批卡。标签：`hardware` `esp32` `robot` `mit` 📦
+- [even-grok-bot：用 Even G2 眼镜指挥 Bot](https://github.com/asuhacoder/even-grok-bot) - 在眼镜上读、回、批准 Bot 的消息，语音在本机转文字不出电脑；中继要碰桌面 App 的调试端口，装前看清风险。标签：`glasses` `voice` `hardware` `mit` 📦
+- [phone-pilot：Windows 上经 USB 操控手机](https://github.com/xthemarketmaker-cmyk/phone-pilot) - 配合 Phone Pilot 模板，不用 Mac 也能让 Bot 操作 iPhone 或 Android；iPhone 需自签 WebDriverAgent，门槛不低。标签：`phone` `windows` `mit` 📦
 
 ### 学习资源与合集（32）
 

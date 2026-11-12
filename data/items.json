@@ -14365,5 +14365,340 @@
     "verified": "2026-11-12",
     "author": "AskTolik",
     "date": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/Ashe-Oro/grokbot-telegram-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-telegram-bridge：在云电脑上跑 Telegram 多人桥",
+    "review": "把已有 Bot 接到 Telegram 私聊和群里，配对码放人进来，管理员能用全部能力、普通成员只能聊天，权限分层思路值得抄",
+    "tags": [
+      "telegram",
+      "bridge",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "Ashe-Oro/grokbot-telegram-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/ramarivera/grok-bot-bridge",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-bot-bridge：用代码给 Bot 队友派活",
+    "review": "借一个路由 Bot 加 Executor 应用，在脚本里给指定队友发任务再取回结果；非官方接口，适合想把 Bot 接进自己流水线的人",
+    "tags": [
+      "dispatch",
+      "multi-bot",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "ramarivera/grok-bot-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/Toolsai/herdr-grok-bot",
+    "kept": true,
+    "cat": "C",
+    "title": "herdr-grok-bot：经 Herdr 启动本机 CLI Agent 的技能",
+    "review": "Bot 要在你电脑上起 Codex、Claude Code 这类交互式 Agent 时改走 Herdr，能随时看状态、插手；社区技能，非官方",
+    "tags": [
+      "skill",
+      "cli-agent",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "Toolsai/herdr-grok-bot",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/iamraven-tw/grok-hermes-backup",
+    "kept": true,
+    "cat": "G",
+    "title": "grok-hermes-backup：让 Hermes 当 Grok Bot 的备援",
+    "review": "每周把 Bot 的人设、记忆、技能和例程导出成快照交给 Hermes 保管，主力出问题时有地方接手；导出的内容记得别带密钥",
+    "tags": [
+      "backup",
+      "hermes",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "iamraven-tw/grok-hermes-backup",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/asuhacoder/even-grok-bot",
+    "kept": true,
+    "cat": "H",
+    "title": "even-grok-bot：用 Even G2 眼镜指挥 Bot",
+    "review": "在眼镜上读、回、批准 Bot 的消息，语音在本机转文字不出电脑；中继要碰桌面 App 的调试端口，装前看清风险",
+    "tags": [
+      "glasses",
+      "voice",
+      "hardware",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "asuhacoder/even-grok-bot",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/xthemarketmaker-cmyk/phone-pilot",
+    "kept": true,
+    "cat": "H",
+    "title": "phone-pilot：Windows 上经 USB 操控手机",
+    "review": "配合 Phone Pilot 模板，不用 Mac 也能让 Bot 操作 iPhone 或 Android；iPhone 需自签 WebDriverAgent，门槛不低",
+    "tags": [
+      "phone",
+      "windows",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "xthemarketmaker-cmyk/phone-pilot",
+    "license": "MIT",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/portal-wheatley/Grok-Bot-for-Linux",
+    "kept": true,
+    "cat": "A",
+    "title": "Grok-Bot-for-Linux：非官方 Nix 包装的桌面 App",
+    "review": "拆官方 Windows 安装包配 Linux Electron，Nix 用户能直接跑桌面版；非官方，官方更新后可能要等作者跟进",
+    "tags": [
+      "linux",
+      "nix",
+      "desktop",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "portal-wheatley/Grok-Bot-for-Linux",
+    "license": "MIT",
+    "last_push": "2026-11-11"
+  },
+  {
+    "url": "https://github.com/lixiaomeng0001-hue/osgb2su",
+    "kept": true,
+    "cat": "C",
+    "title": "osgb2su：倾斜摄影 OSGB 转 SketchUp 的测绘技能",
+    "review": "按地块边界挑瓦片转成 SketchUp 能导入的格式，只用系统 Python，先试跑再导出；垂直行业技能的好例子",
+    "tags": [
+      "skill",
+      "gis",
+      "survey",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "lixiaomeng0001-hue/osgb2su",
+    "license": "MIT",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/gopkg-dev/damail",
+    "kept": true,
+    "cat": "G",
+    "title": "damail：自托管多邮箱中枢接 Bot",
+    "review": "把 Gmail、Outlook、QQ、163 等邮箱收到自己服务器，再以自定义连接器接给 Bot 跑例程；发信要主人点头，Docker 一键装",
+    "tags": [
+      "email",
+      "mcp",
+      "self-hosted",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "gopkg-dev/damail",
+    "license": "MIT",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/asomervell/click",
+    "kept": true,
+    "cat": "D",
+    "title": "click：给各家 Agent 开私信信箱",
+    "review": "让 Codex、Claude、Grok Bot 等互发私信，可用托管站或自己的 Cloudflare Worker；Bot 侧靠定时和 webhook 例程收信",
+    "tags": [
+      "agent-mail",
+      "mcp",
+      "apache-2.0"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "asomervell/click",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/Harisanthosh/proof-carrying-replies",
+    "kept": true,
+    "cat": "E",
+    "title": "proof-carrying-replies：公开发帖前先过四道门",
+    "review": "每条公开回复都要附绑定原文的凭证并等主人对原文确认，强调全权委托不等于确认；想给发帖类 Bot 加闸的值得一读",
+    "tags": [
+      "approval",
+      "safety",
+      "x",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "Harisanthosh/proof-carrying-replies",
+    "license": "MIT",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/qq749937207-ux/ai-quota-reset-monitor",
+    "kept": true,
+    "cat": "E",
+    "title": "ai-quota-reset-monitor：盯 AI 额度突发重置",
+    "review": "技能加例程，盯 ChatGPT、Grok、Claude 周期外的额度重置，区分官宣和疑似，没新消息不打扰；频率按自己额度调低",
+    "tags": [
+      "routine",
+      "quota",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "qq749937207-ux/ai-quota-reset-monitor",
+    "license": "MIT",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/mreasonyang/x-bot-unread-filter",
+    "kept": true,
+    "cat": "A",
+    "title": "x-bot-unread-filter：x.com 未读数里去掉 Bot 会话",
+    "review": "油猴脚本，让网页版 X 的私信红点只算真人消息，Bot 会话不再刷未读；小而实用，带测试",
+    "tags": [
+      "x",
+      "userscript",
+      "mit"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-12",
+    "repo": "mreasonyang/x-bot-unread-filter",
+    "license": "MIT",
+    "last_push": "2026-11-12"
+  },
+  {
+    "url": "https://x.com/chasen_liao/status/2120455125269692774",
+    "kept": true,
+    "cat": "T3",
+    "title": "Bot 只写任务书，跑腿交给 Pi：GAP 省额度长文（X）",
+    "review": "把动脑和动手拆开，Bot 出任务书和验收，终端里的活派给同机 Pi，并用 Webhook 兜底通知；开源仓库可让 Bot 自己照着配",
+    "tags": [
+      "quota",
+      "pi",
+      "delegate"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "chasen_liao",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/0xmomonifty/status/2120405103782117876",
+    "kept": true,
+    "cat": "T4",
+    "title": "Tailscale 加 Pinky：让 Bot 经电脑操控手机（X）",
+    "review": "电脑上装 Tailscale 和 Pinky 连好手机，再在 Bot 的远程智能体里接上，就能远程动手机；手机权限很大，先想清楚边界",
+    "tags": [
+      "tailscale",
+      "phone"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "0xmomonifty",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/CyanCloud77/status/2120363980325871810",
+    "kept": true,
+    "cat": "T4",
+    "title": "t3 code 加 Tailscale 打通 Bot、Mac、Windows 和 NAS（X）",
+    "review": "把多家订阅放进 t3 code，小活在 Mac、重活转 Windows，NAS 挂共享盘；适合设备多、想统一调度的人参考",
+    "tags": [
+      "tailscale",
+      "multi-device"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "CyanCloud77",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/bit_sister/status/2120445798303588836",
+    "kept": true,
+    "cat": "T4",
+    "title": "把 Grok Bot 接进微信：ClawBot 保姆级教程（X 长文）",
+    "review": "让 Bot 建 Webhook 入口，地址和密钥填进加密输入框，再在微信插件扫码绑定，还能收发图片文件；第三方通道，敏感内容别走",
+    "tags": [
+      "wechat",
+      "webhook"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "bit_sister",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/KinGao476942/status/2120476101399216519",
+    "kept": true,
+    "cat": "T5",
+    "title": "三步把 ChatCut 接进 Bot，复刻参考视频的剪辑风格（X）",
+    "review": "先接 ChatCut 连接器装剪辑技能，再把参考视频交给它拆分镜，把节奏和动画存成技能复用；附演示视频",
+    "tags": [
+      "video",
+      "chatcut",
+      "skill"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "KinGao476942",
+    "date": "2026-11-11"
+  },
+  {
+    "url": "https://x.com/Pluvio9yte/status/2120682798071877905",
+    "kept": true,
+    "cat": "T5",
+    "title": "Grok Bot 加 ChatCut 对话式剪 YouTube 竖屏切片（X 长文）",
+    "review": "接好 ChatCut 后上传长视频，一句话剪成 9:16 竖屏短片；搬运切片注意版权和平台规则",
+    "tags": [
+      "video",
+      "chatcut",
+      "shorts"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "Pluvio9yte",
+    "date": "2026-11-12"
+  },
+  {
+    "url": "https://x.com/MichLieben/status/2120524273999868314",
+    "kept": true,
+    "cat": "T2",
+    "title": "用 Grok Bot 跑整套 GTM 的分步指南（X 长文）",
+    "review": "一个总管 Bot 带一队岗位做外呼名单、回复草稿和每日复盘，逐步写了接 Slack、Gmail、日历；英文，数字是作者自述",
+    "tags": [
+      "gtm",
+      "multi-bot",
+      "english"
+    ],
+    "level": "读过内容",
+    "verified": "2026-11-12",
+    "author": "MichLieben",
+    "date": "2026-11-11"
   }
 ]
