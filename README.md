@@ -168,7 +168,7 @@
 - [AI Usage Bar：菜单栏 / 托盘看 Claude 和 Grok Bot 额度](https://github.com/matheusvelloso/ai-usage-bar) - 和已收的额度菜单栏工具同类，多了 Windows 托盘版；读本机登录状态，装之前看清权限。标签：`quota` `macos` `windows` `mit` 📦
 - [Grok-Bot-for-Linux：非官方 Nix 包装的桌面 App](https://github.com/portal-wheatley/Grok-Bot-for-Linux) - 拆官方 Windows 安装包配 Linux Electron，Nix 用户能直接跑桌面版；非官方，官方更新后可能要等作者跟进。标签：`linux` `nix` `desktop` `mit` 📦
 - [x-bot-unread-filter：x.com 未读数里去掉 Bot 会话](https://github.com/mreasonyang/x-bot-unread-filter) - 油猴脚本，让网页版 X 的私信红点只算真人消息，Bot 会话不再刷未读；小而实用，带测试。标签：`x` `userscript` `mit` 📦
-- [官方：Introducing Grok Bot 1.0](https://x.ai/news/grok-bot-1-0) - 正式版公告：多人共用的 Team Bot、能进 Slack/Teams 和视频会议、主动接活，浏览器和文档能力也加强了；英文。标签：`o` `f` `f` `i` `c` `i` `a` `l` 📘
+- [官方：Introducing Grok Bot 1.0](https://x.ai/news/grok-bot-1-0) - 正式版公告：多人共用的 Team Bot、能进 Slack/Teams 和视频会议、主动接活，浏览器和文档能力也加强了；英文。标签：`official` `1.0` `team-bots` `english` 📘
 - [官方 X：Mac 版可用信息、邮件、备忘录等 7 个系统应用](https://x.com/bot/status/2120946968403095906) - Mac 上能直接读写信息、邮件、备忘录、提醒事项、日历、位置和通讯录；先想清楚每个权限要不要开 · @bot · 2026-11-12。标签：`official` `mac` `system-apps` 📦
 
 ### 模板与目录（25）
