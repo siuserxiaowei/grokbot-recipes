@@ -14879,5 +14879,268 @@
     "verified": "2026-11-13",
     "author": "danta_aigc",
     "date": "2026-11-12"
+  },
+  {
+    "url": "https://github.com/Morkeeth/grokbot-video-template",
+    "kept": true,
+    "cat": "B",
+    "title": "grokbot-video-template：Grok Bot 视频工作室模板",
+    "review": "把视频工作室做成可导入的 Bot 模板，想直接套一个做视频的 Bot 可以从这里起步（MIT）",
+    "tags": [
+      "template",
+      "video"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/ahmadaryanto/vertical-reels-video-studio",
+    "kept": true,
+    "cat": "F",
+    "title": "vertical-reels-video-studio：竖屏讲解短视频套件",
+    "review": "Remotion 加 ElevenLabs 做 9:16 带配音讲解视频，附 Bot 模板和 SKILL.md，中英双语说明（MIT）",
+    "tags": [
+      "video",
+      "remotion",
+      "template"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/Yevanchen/cli-relay",
+    "kept": true,
+    "cat": "D",
+    "title": "cli-relay：给 CLI 代理派活的账本",
+    "review": "Grok Bot 往多台 Mac 上派 Claude Code、Codex 任务时记账，断线后先对账再说，不盲目重跑（MIT）",
+    "tags": [
+      "cli",
+      "codex",
+      "claude-code",
+      "relay"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/lucklypriyansh-2/grok-bot-relay",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-bot-relay：让其他 CLI 反向给 Grok Bot 派活",
+    "review": "一个小 MCP 服务加命令行，Claude Code、Codex、Gemini 可以把任务交给 Grok Bot 再取回答案，非官方（MIT）",
+    "tags": [
+      "mcp",
+      "relay",
+      "cli"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/yuehen7/grokbot-and-omp",
+    "kept": true,
+    "cat": "D",
+    "title": "GAO：把 Oh My Pi 当 Grok Bot 子代理",
+    "review": "通过 omp-task 调用 omp，带 webhook 唤醒和防误删保护，适合想把执行外包给本地代理的人（MIT）",
+    "tags": [
+      "subagent",
+      "pi",
+      "webhook"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/fabiocolor/grokbot-at-bot",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-at-bot：在 T3 Code 线程里 @bot",
+    "review": "在 T3 Code 的对话里把请求交给 Grok Bot，它查完再回到原线程接着写（MIT）",
+    "tags": [
+      "integration",
+      "t3code"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/brantley-creator/android-agent-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "android-agent-bridge：让自己的代理操作安卓手机",
+    "review": "手机上跑无障碍服务，经出站中继和 MCP 让代理点手机，作者强调安全优先，权限很大要自己评估（Apache-2.0）",
+    "tags": [
+      "android",
+      "mcp",
+      "phone"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/jamesalmeida/imessage-relay",
+    "kept": true,
+    "cat": "C",
+    "title": "imessage-relay：把 Mac 收到的短信转到 webhook",
+    "review": "launchd 常驻，把新 iMessage 推给 webhook，可以配合 Grok Bot 的 webhook Routine 用（MIT）",
+    "tags": [
+      "imessage",
+      "webhook",
+      "mac"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/jksim26/lucid-dream",
+    "kept": true,
+    "cat": "C",
+    "title": "lucid-dream：多个代理共用一份记忆",
+    "review": "Rust 单文件加 MCP，把 Claude、Grok Bot、Codex 的记忆合到 git 里的 Markdown，还能互相传话（MIT）",
+    "tags": [
+      "memory",
+      "mcp",
+      "multi-agent"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/sai-softwareforest/grove",
+    "kept": true,
+    "cat": "C",
+    "title": "grove：给代码库画地图的 Grok Bot MCP",
+    "review": "把文档、实际代码和测试对照着整理成地图，让 Bot 读大仓库时少走弯路（MIT）",
+    "tags": [
+      "mcp",
+      "codebase"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/willmather95/seo-pack",
+    "kept": true,
+    "cat": "C",
+    "title": "seo-pack：七个 SEO 与 AI 答案技能",
+    "review": "一次装好 Claude Code、Codex、Grok Bot 通用的 SEO 技能，主张每个站每周只改一处（MIT）",
+    "tags": [
+      "skills",
+      "seo"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/briansgithub/ai-quota-usage",
+    "kept": true,
+    "cat": "E",
+    "title": "ai-quota-usage：安卓额度小组件",
+    "review": "在安卓桌面看 Cursor、Grok Bot、Codex 的用量，省得每次进设置页（MIT）",
+    "tags": [
+      "quota",
+      "android",
+      "widget"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://github.com/simo255/jobapplicatoooor",
+    "kept": true,
+    "cat": "F",
+    "title": "jobapplicatoooor：先确认再投的求职 Bot",
+    "review": "用 Simplify 自动填表、简历补齐其余字段，每份申请都要你点头才提交（MIT）",
+    "tags": [
+      "job",
+      "approval",
+      "browser"
+    ],
+    "level": "仓库已核对",
+    "verified": "2026-11-13",
+    "source": "upstream"
+  },
+  {
+    "url": "https://x.com/MaiYangAI/status/2120735641856348407",
+    "cat": "T6",
+    "title": "Grok Bot 团队讲怎么管住 agent 写的代码（演讲中字版）",
+    "review": "约 19 分钟演讲：靠类型、依赖检查和可执行验证约束 agent，评审多看截图和验证产物；PR 数和回滚率是演讲者自述",
+    "tags": [
+      "engineering",
+      "quality",
+      "video",
+      "chinese"
+    ],
+    "author": "MaiYangAI",
+    "date": "2026-11-12",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-13",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/bozhou_ai/status/2120764440522133983",
+    "cat": "T5",
+    "title": "Grok Bot 接 ChatCut 做口播精剪和博客出片",
+    "review": "让 Bot 自己写代码出视频效果差，改接 ChatCut 后口播粗剪和博客转视频都顺了；提醒大文件走上传页别丢进聊天",
+    "tags": [
+      "chatcut",
+      "video",
+      "chinese"
+    ],
+    "author": "bozhou_ai",
+    "date": "2026-11-12",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-13",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/cgnot996/status/2120737579196923953",
+    "cat": "T5",
+    "title": "只用手机让 Grok Bot 加 ChatCut 做家乡文旅短片",
+    "review": "连工具、找素材、下剪辑要求、改到交付四步走，全程手机完成；作者提醒史料和版权要自己核",
+    "tags": [
+      "chatcut",
+      "video",
+      "mobile",
+      "chinese"
+    ],
+    "author": "cgnot996",
+    "date": "2026-11-12",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-13",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/Benjieming1Q84/status/2121080802994004418",
+    "cat": "T3",
+    "title": "接阿里云百炼免费模型给 Grok Bot 分流省额度（X 长文）",
+    "review": "从注册、开免费额度用完即停到建 Key，再给一份按任务类型选模型的分流技能；强调 Key 只走密钥输入框",
+    "tags": [
+      "quota",
+      "bailian",
+      "skills",
+      "chinese"
+    ],
+    "author": "Benjieming1Q84",
+    "date": "2026-11-13",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-13",
+    "source": "x"
   }
 ]

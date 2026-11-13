@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **350** 个生态项目和学习资源，每条都打开核对过
-- **566** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **363** 个生态项目和学习资源，每条都打开核对过
+- **570** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,7 +115,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（350）
+## 生态清单（363）
 
 ### 官方与工具（51）
 
@@ -171,7 +171,7 @@
 - [官方：Introducing Grok Bot 1.0](https://x.ai/news/grok-bot-1-0) - 正式版公告：多人共用的 Team Bot、能进 Slack/Teams 和视频会议、主动接活，浏览器和文档能力也加强了；英文。标签：`official` `1.0` `team-bots` `english` 📘
 - [官方 X：Mac 版可用信息、邮件、备忘录等 7 个系统应用](https://x.com/bot/status/2120946968403095906) - Mac 上能直接读写信息、邮件、备忘录、提醒事项、日历、位置和通讯录；先想清楚每个权限要不要开 · @bot · 2026-11-12。标签：`official` `mac` `system-apps` 📦
 
-### 模板与目录（25）
+### 模板与目录（26）
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -198,8 +198,9 @@
 - [JobFather：两道审批门的求职 Bot](https://github.com/simo255/jobfather) - 每个岗位先给简报等你点头，答卷全文和简历版本再看一遍才提交；LinkedIn MCP 只读，附公开模板，MIT。标签：`jobs` `template` `approval` `mit` 📦
 - [File Shepherd：先扫描再给计划的文件整理模板](https://github.com/Ramyrae/file-shepherd) - 找完全重复文件先比大小再算 SHA-256，下载夹、大文件、截图命名、备份对照都有；移动、改名、删除都要你确认，是技能副本不是命令行工具。标签：`template` `files` `duplicates` `mit` 📦
 - [awesome-grok-bot-templates：7000+ 公开模板的检查过链接的清单](https://github.com/Maimuzamilhu/awesome-grok-bot-templates) - 又一个模板大目录，配了 botsdots.site 浏览页；量大但没有逐个审过，挑模板时仍要自己看权限和 Routine。标签：`templates` `directory` 📦
+- [grokbot-video-template：Grok Bot 视频工作室模板](https://github.com/Morkeeth/grokbot-video-template) - 把视频工作室做成可导入的 Bot 模板，想直接套一个做视频的 Bot 可以从这里起步（MIT）。标签：`template` `video` 📦
 
-### 技能与连接（111）
+### 技能与连接（117）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -312,8 +313,14 @@
 - [grokbot-telegram-bridge：在云电脑上跑 Telegram 多人桥](https://github.com/Ashe-Oro/grokbot-telegram-bridge) - 把已有 Bot 接到 Telegram 私聊和群里，配对码放人进来，管理员能用全部能力、普通成员只能聊天，权限分层思路值得抄。标签：`telegram` `bridge` `mit` 📦
 - [herdr-grok-bot：经 Herdr 启动本机 CLI Agent 的技能](https://github.com/Toolsai/herdr-grok-bot) - Bot 要在你电脑上起 Codex、Claude Code 这类交互式 Agent 时改走 Herdr，能随时看状态、插手；社区技能，非官方。标签：`skill` `cli-agent` `mit` 📦
 - [osgb2su：倾斜摄影 OSGB 转 SketchUp 的测绘技能](https://github.com/lixiaomeng0001-hue/osgb2su) - 按地块边界挑瓦片转成 SketchUp 能导入的格式，只用系统 Python，先试跑再导出；垂直行业技能的好例子。标签：`skill` `gis` `survey` `mit` 📦
+- [grokbot-at-bot：在 T3 Code 线程里 @bot](https://github.com/fabiocolor/grokbot-at-bot) - 在 T3 Code 的对话里把请求交给 Grok Bot，它查完再回到原线程接着写（MIT）。标签：`integration` `t3code` 📦
+- [android-agent-bridge：让自己的代理操作安卓手机](https://github.com/brantley-creator/android-agent-bridge) - 手机上跑无障碍服务，经出站中继和 MCP 让代理点手机，作者强调安全优先，权限很大要自己评估（Apache-2.0）。标签：`android` `mcp` `phone` 📦
+- [imessage-relay：把 Mac 收到的短信转到 webhook](https://github.com/jamesalmeida/imessage-relay) - launchd 常驻，把新 iMessage 推给 webhook，可以配合 Grok Bot 的 webhook Routine 用（MIT）。标签：`imessage` `webhook` `mac` 📦
+- [lucid-dream：多个代理共用一份记忆](https://github.com/jksim26/lucid-dream) - Rust 单文件加 MCP，把 Claude、Grok Bot、Codex 的记忆合到 git 里的 Markdown，还能互相传话（MIT）。标签：`memory` `mcp` `multi-agent` 📦
+- [grove：给代码库画地图的 Grok Bot MCP](https://github.com/sai-softwareforest/grove) - 把文档、实际代码和测试对照着整理成地图，让 Bot 读大仓库时少走弯路（MIT）。标签：`mcp` `codebase` 📦
+- [seo-pack：七个 SEO 与 AI 答案技能](https://github.com/willmather95/seo-pack) - 一次装好 Claude Code、Codex、Grok Bot 通用的 SEO 技能，主张每个站每周只改一处（MIT）。标签：`skills` `seo` 📦
 
-### 多 Bot 团队（49）
+### 多 Bot 团队（52）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -364,8 +371,11 @@
 - [HyperGrok：7 个 Bot 分工的 Hyperliquid 交易研究台](https://github.com/galleonlabs/hypergrok-trading-desk) - 七个角色各管一段，研究和风控跑在前面，真正下单只有一个 Bot 拿钥匙、还要你批准的单子；拿来学分工和审批设计很好，涉及真钱一定先只读。标签：`trading` `multi-bot` `approval` `mit` 📦
 - [grok-bot-bridge：用代码给 Bot 队友派活](https://github.com/ramarivera/grok-bot-bridge) - 借一个路由 Bot 加 Executor 应用，在脚本里给指定队友发任务再取回结果；非官方接口，适合想把 Bot 接进自己流水线的人。标签：`dispatch` `multi-bot` `mit` 📦
 - [click：给各家 Agent 开私信信箱](https://github.com/asomervell/click) - 让 Codex、Claude、Grok Bot 等互发私信，可用托管站或自己的 Cloudflare Worker；Bot 侧靠定时和 webhook 例程收信。标签：`agent-mail` `mcp` `apache-2.0` 📦
+- [cli-relay：给 CLI 代理派活的账本](https://github.com/Yevanchen/cli-relay) - Grok Bot 往多台 Mac 上派 Claude Code、Codex 任务时记账，断线后先对账再说，不盲目重跑（MIT）。标签：`cli` `codex` `claude-code` `relay` 📦
+- [grok-bot-relay：让其他 CLI 反向给 Grok Bot 派活](https://github.com/lucklypriyansh-2/grok-bot-relay) - 一个小 MCP 服务加命令行，Claude Code、Codex、Gemini 可以把任务交给 Grok Bot 再取回答案，非官方（MIT）。标签：`mcp` `relay` `cli` 📦
+- [GAO：把 Oh My Pi 当 Grok Bot 子代理](https://github.com/yuehen7/grokbot-and-omp) - 通过 omp-task 调用 omp，带 webhook 唤醒和防误删保护，适合想把执行外包给本地代理的人（MIT）。标签：`subagent` `pi` `webhook` 📦
 
-### Routine 与监控（20）
+### Routine 与监控（21）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -387,8 +397,9 @@
 - [Mori 摘要好了才叫醒 Bot 的 Webhook 中继](https://github.com/webazarashi/mori-webhook-relay) - Cloudflare Worker 定时查 Mori，只有新会议摘要才触发例程，没新东西不花 Bot 额度；思路可以照搬到别的数据源。标签：`webhook` `cloudflare-worker` `quota` `mit` 📦
 - [proof-carrying-replies：公开发帖前先过四道门](https://github.com/Harisanthosh/proof-carrying-replies) - 每条公开回复都要附绑定原文的凭证并等主人对原文确认，强调全权委托不等于确认；想给发帖类 Bot 加闸的值得一读。标签：`approval` `safety` `x` `mit` 📦
 - [ai-quota-reset-monitor：盯 AI 额度突发重置](https://github.com/qq749937207-ux/ai-quota-reset-monitor) - 技能加例程，盯 ChatGPT、Grok、Claude 周期外的额度重置，区分官宣和疑似，没新消息不打扰；频率按自己额度调低。标签：`routine` `quota` `mit` 📦
+- [ai-quota-usage：安卓额度小组件](https://github.com/briansgithub/ai-quota-usage) - 在安卓桌面看 Cursor、Grok Bot、Codex 的用量，省得每次进设置页（MIT）。标签：`quota` `android` `widget` 📦
 
-### 一人公司与内容（14）
+### 一人公司与内容（16）
 
 - [grokbot-for-gtm](https://github.com/bcharleson/grokbot-for-gtm) - 一整套海外外联获客流程，从建名单到处理回复，出海团队可以参考。标签：`gtm` `outbound` 📦
 - [模板：Motion Director](https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes) - 一句话出动画短片的模板，适合做产品宣传和短视频。标签：`template` `video` 📘
@@ -404,6 +415,8 @@
 - [creator-style-brain：把自己的旧稿整理成风格手册](https://github.com/0xMulight/creator-style-brain) - 离线 Python 分析器，只喂你本人有权使用的稿子，产出风格手册、草稿比对和给 Bot 的风格提示词；Windows 双击菜单，同作者另有选题库、脚本教练、视频、复盘四个仓，MIT。标签：`creator` `style` `skill` `mit` 📦
 - [SEO 与 AI 搜索增长审计技能](https://github.com/moeghashim/seo-growth-playbook) - 读 Search Console 等数据做技术和内容体检，按现在 / 下一步 / 以后排路线图；默认只读，改站前要你点头。标签：`seo` `skill` `audit` `mit` 📦
 - [Shopper：只报真折扣、从不下单的看价 Bot](https://github.com/simo255/shopper) - 对照约 90 天价格史和论坛交叉确认才提醒，没好价就安静；仓库只有人设文件，面向加拿大，换成本地商店要自己改源。标签：`deals` `persona` `shopping` `mit` 📦
+- [vertical-reels-video-studio：竖屏讲解短视频套件](https://github.com/ahmadaryanto/vertical-reels-video-studio) - Remotion 加 ElevenLabs 做 9:16 带配音讲解视频，附 Bot 模板和 SKILL.md，中英双语说明（MIT）。标签：`video` `remotion` `template` 📦
+- [jobapplicatoooor：先确认再投的求职 Bot](https://github.com/simo255/jobapplicatoooor) - 用 Simplify 自动填表、简历补齐其余字段，每份申请都要你点头才提交（MIT）。标签：`job` `approval` `browser` 📦
 
 ### 自托管与替代方案（34）
 
