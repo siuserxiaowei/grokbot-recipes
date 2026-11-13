@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **347** 个生态项目和学习资源，每条都打开核对过
-- **558** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **350** 个生态项目和学习资源，每条都打开核对过
+- **566** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,9 +115,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（347）
+## 生态清单（350）
 
-### 官方与工具（49）
+### 官方与工具（51）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -168,6 +168,8 @@
 - [AI Usage Bar：菜单栏 / 托盘看 Claude 和 Grok Bot 额度](https://github.com/matheusvelloso/ai-usage-bar) - 和已收的额度菜单栏工具同类，多了 Windows 托盘版；读本机登录状态，装之前看清权限。标签：`quota` `macos` `windows` `mit` 📦
 - [Grok-Bot-for-Linux：非官方 Nix 包装的桌面 App](https://github.com/portal-wheatley/Grok-Bot-for-Linux) - 拆官方 Windows 安装包配 Linux Electron，Nix 用户能直接跑桌面版；非官方，官方更新后可能要等作者跟进。标签：`linux` `nix` `desktop` `mit` 📦
 - [x-bot-unread-filter：x.com 未读数里去掉 Bot 会话](https://github.com/mreasonyang/x-bot-unread-filter) - 油猴脚本，让网页版 X 的私信红点只算真人消息，Bot 会话不再刷未读；小而实用，带测试。标签：`x` `userscript` `mit` 📦
+- [官方：Introducing Grok Bot 1.0](https://x.ai/news/grok-bot-1-0) - 正式版公告：多人共用的 Team Bot、能进 Slack/Teams 和视频会议、主动接活，浏览器和文档能力也加强了；英文。标签：`o` `f` `f` `i` `c` `i` `a` `l` 📘
+- [官方 X：Mac 版可用信息、邮件、备忘录等 7 个系统应用](https://x.com/bot/status/2120946968403095906) - Mac 上能直接读写信息、邮件、备忘录、提醒事项、日历、位置和通讯录；先想清楚每个权限要不要开 · @bot · 2026-11-12。标签：`official` `mac` `system-apps` 📦
 
 ### 模板与目录（25）
 
@@ -455,7 +457,7 @@
 - [even-grok-bot：用 Even G2 眼镜指挥 Bot](https://github.com/asuhacoder/even-grok-bot) - 在眼镜上读、回、批准 Bot 的消息，语音在本机转文字不出电脑；中继要碰桌面 App 的调试端口，装前看清风险。标签：`glasses` `voice` `hardware` `mit` 📦
 - [phone-pilot：Windows 上经 USB 操控手机](https://github.com/xthemarketmaker-cmyk/phone-pilot) - 配合 Phone Pilot 模板，不用 Mac 也能让 Bot 操作 iPhone 或 Android；iPhone 需自签 WebDriverAgent，门槛不低。标签：`phone` `windows` `mit` 📦
 
-### 学习资源与合集（32）
+### 学习资源与合集（33）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -489,6 +491,7 @@
 - [Awesome Grok Bots（ctrlcmdshft）](https://github.com/ctrlcmdshft/awesome-grok-bots) - 279 个第三方 Bot 清单，隐私清理优先；yaml 生成分类；CC0。标签：`directory` `privacy` `templates` 📦
 - [GrokBot Guide（一宿君）](https://github.com/anightmonarch/grokbot-guide) - 中文手册站 grokbotguide.pages.dev；与 JeffShanCha/grokbotguide 不同项目。标签：`chinese` `guide` `templates` 📦
 - [Study GrokBot：每日一题中英专栏](https://studygrokbot.com/zh/) - 非官方学习站，每天一期可复制提示词和练习，中英对照；源码在 Licoy/study-grokbot，MIT。本轮核过 11-11 @bot 与 X Chat 一期，说法对得上官方文档。标签：`chinese` `guide` `daily` `mit` 📦
+- [Personal Agent 学习笔记：官方 Work 文档中文整理（skyao）](https://skyao.net/learning-personal-agent/docs/grok-bot/sources/official/2026-11-05-docs-work/) - 把官方 Work with Grok Bot 文档逐段译成中文并加摘要，查 Bot、群聊、技能和 Routine 的原始说法时方便。标签：`docs` `chinese` `notes` 📦
 
 ## 教程索引
 
