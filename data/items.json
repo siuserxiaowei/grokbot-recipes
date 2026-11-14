@@ -15142,5 +15142,533 @@
     "level": "读过内容",
     "verified": "2026-11-13",
     "source": "x"
+  },
+  {
+    "url": "https://github.com/MoshikoKar/AIUsageWidget",
+    "kept": true,
+    "cat": "E",
+    "title": "AIUsageWidget：Windows 托盘额度表",
+    "review": "把 Grok Bot、Claude 和 Codex 用量放在常驻面板，读取本机登录状态，适合多订阅用户统一查看（MIT）",
+    "tags": [
+      "quota",
+      "windows",
+      "widget"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "MoshikoKar/AIUsageWidget",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "MoshikoKar",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/johnatfreecoffee/omarchy-voice-wake",
+    "kept": true,
+    "cat": "A",
+    "title": "omarchy-voice-wake：喊名字进入 Bot 语音",
+    "review": "Omarchy 桌面离线识别唤醒词后打开指定 Bot，语音启动依赖界面识别，版本变化后需重新核对（Apache-2.0）",
+    "tags": [
+      "linux",
+      "voice",
+      "desktop"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "johnatfreecoffee/omarchy-voice-wake",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-14",
+    "author": "johnatfreecoffee",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/mebcode/ai-job-hunter",
+    "kept": true,
+    "cat": "F",
+    "title": "ai-job-hunter：Notion 求职流水线",
+    "review": "先建候选人档案，再定时筛岗、打分和改简历，填表停在提交前等你确认（MIT）",
+    "tags": [
+      "job",
+      "notion",
+      "skills"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "mebcode/ai-job-hunter",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "mebcode",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/milo-the-machine/hermes-grokbot-bridge",
+    "kept": true,
+    "cat": "D",
+    "title": "hermes-grokbot-bridge：Webhook 派活、邮件回传",
+    "review": "Hermes 用例程派给 Bot，再通过只读 IMAP 收回带任务标记的答复，本地无需开放公网入口（MIT）",
+    "tags": [
+      "hermes",
+      "webhook",
+      "email"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "milo-the-machine/hermes-grokbot-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "milo-the-machine",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/rborkow/vgc-teambuilder-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "VGC Teambuilder：宝可梦双打组队连接器",
+    "review": "在 Grok Bot 接入只读 MCP 查队伍合法性、环境用量和伤害范围，统计来自对战梯队而非胜率保证（MIT）",
+    "tags": [
+      "mcp",
+      "gaming",
+      "readonly"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "rborkow/vgc-teambuilder-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "rborkow",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/bot2botlabs/loop-desk-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Loop Desk：退货退款到期清单",
+    "review": "把待退款、退货和配送事项登记为可追踪清单；登记回执公开且长期保留，不适合放私人信息（MIT）",
+    "tags": [
+      "mcp",
+      "reminders",
+      "privacy"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "bot2botlabs/loop-desk-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "bot2botlabs",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/bot2botlabs/warranty-desk-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Warranty Desk：美国品牌保修查询",
+    "review": "按品牌条款查保修期限、到期日和申诉入口，没查到就留空；查询会生成公开回执（MIT）",
+    "tags": [
+      "mcp",
+      "warranty",
+      "privacy"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "bot2botlabs/warranty-desk-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "bot2botlabs",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/DonTranQuiL/grok-bot-ha",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bot-ha：Home Assistant 联动",
+    "review": "把获准的家庭事件送到 Bot 例程，再由连接器处理并回写面板，带发送预算以免频繁触发消耗额度（MIT）",
+    "tags": [
+      "home-assistant",
+      "webhook",
+      "automation"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "DonTranQuiL/grok-bot-ha",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "DonTranQuiL",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/xiaozhenliu/agent-mesh",
+    "kept": true,
+    "cat": "D",
+    "title": "agent-mesh：云端 Bot 与本地编码会话互相唤醒",
+    "review": "借私有消息网和 Webhook 让 Bot 直达已有编码会话，保留上下文并减少空等，需分别配置云端与本地（MIT）",
+    "tags": [
+      "multi-agent",
+      "webhook",
+      "local"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "xiaozhenliu/agent-mesh",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "xiaozhenliu",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/simoncrypta/bercail",
+    "kept": true,
+    "cat": "D",
+    "title": "bercail：Shep 指挥的本地开发工作台",
+    "review": "配套 Shep Bot 把任务交给独立 worktree 里的 Pi 代理，完成后留未提交改动供人在终端审阅（MIT）",
+    "tags": [
+      "multi-agent",
+      "worktree",
+      "review"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "simoncrypta/bercail",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "simoncrypta",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/ImAno177/cstack",
+    "kept": true,
+    "cat": "C",
+    "title": "cstack：跨客户端工作流技能栈",
+    "review": "把派活、执行和评审流程组织成插件技能，含 Grok Bot 接入说明；第三方技能须另看各自许可（MIT）",
+    "tags": [
+      "skills",
+      "plugin",
+      "workflow"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "ImAno177/cstack",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "ImAno177",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/coolxeo/grok-bot-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "Dani Acosta 的 Grok Bot 技能合集",
+    "review": "写作、视频、SEO 和例程维护按技能拆开，免费部分可逐份读；付费套件另售，CLI 导入 Bot 尚未验证（MIT）",
+    "tags": [
+      "skills",
+      "video",
+      "seo"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "coolxeo/grok-bot-skills",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "coolxeo",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/davidgeorgehope/grokbot-mixer",
+    "kept": true,
+    "cat": "F",
+    "title": "grokbot-mixer：DJ Bot 混音流水线",
+    "review": "公开双轨交叉淡化、响度处理与验收代码，仓库不带音频素材，复现还需自备有权使用的曲目（MIT）",
+    "tags": [
+      "audio",
+      "pipeline",
+      "automation"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "davidgeorgehope/grokbot-mixer",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "davidgeorgehope",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/smfworks/grok-bot-templates",
+    "kept": true,
+    "cat": "B",
+    "title": "SMF Works：Michael Gannotti 的 Bot 模板集",
+    "review": "按岗位提供可导入的 Bot 链接，含升学、事实核查、团队巡检与开发搭档，适合先挑单个职责试用（MIT）",
+    "tags": [
+      "templates",
+      "roles",
+      "directory"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "smfworks/grok-bot-templates",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "smfworks",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/society-ai/connect",
+    "kept": true,
+    "cat": "D",
+    "title": "Society AI Connect：跨平台代理群聊桥",
+    "review": "Grok Bot 走远程 MCP、本地代理走桥接进同一消息网络，可跨平台交接任务并按授权范围回复（MIT）",
+    "tags": [
+      "mcp",
+      "bridge",
+      "multi-agent"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "society-ai/connect",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "society-ai",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/thecuriousts/ensembly",
+    "kept": true,
+    "cat": "D",
+    "title": "ensembly：多工具共享任务账本",
+    "review": "用单写入 SQLite 保存授权、认领与完成状态，另提供 Bot 插件和记忆同步，适合防止多个执行端重复做事（MIT）",
+    "tags": [
+      "multi-agent",
+      "memory",
+      "approval"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "thecuriousts/ensembly",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "thecuriousts",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/hzyrgj001/codex-reset-tracker",
+    "kept": true,
+    "cat": "E",
+    "title": "codex-reset-tracker：额度重置消息观察技能",
+    "review": "让 Grok Bot 只读检索公开公告并交给检测器归档，历史模式只是线索，不能保证下一次重置时间（Apache-2.0）",
+    "tags": [
+      "quota",
+      "monitoring",
+      "skills"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "hzyrgj001/codex-reset-tracker",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-13",
+    "author": "hzyrgj001",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/kapadias/pickletime-grokbot",
+    "kept": true,
+    "cat": "E",
+    "title": "PickleTime Bot：球场预约例程",
+    "review": "先在模拟站演练，再用提前启动的例程预约 CourtReserve；真实预约需批准，并记录调度迟到情况（MIT）",
+    "tags": [
+      "routine",
+      "booking",
+      "approval"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "kapadias/pickletime-grokbot",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "kapadias",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/tyler-jewell/grok-bot-plugins",
+    "kept": true,
+    "cat": "C",
+    "title": "SkiHerd：滑雪小队地图插件",
+    "review": "通过 Grok Bot 连接 MCP 管滑雪小队、位置和路线，组数据按说明在创建后 24 小时删除，位置共享前需确认成员（MIT）",
+    "tags": [
+      "mcp",
+      "location",
+      "plugin"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "tyler-jewell/grok-bot-plugins",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "tyler-jewell",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Spidermanrobin/awesome-grokbots",
+    "kept": true,
+    "cat": "I",
+    "title": "awesome-grokbots：三语 Bot 与连接器目录",
+    "review": "按场景列出 Bot、技能和指南并保留来源，作者明确区分链接可访问与实际跑通，适合交叉找案例（MIT）",
+    "tags": [
+      "awesome",
+      "directory",
+      "multilingual"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "Spidermanrobin/awesome-grokbots",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "Spidermanrobin",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/tommy-muckstack/myman",
+    "kept": true,
+    "cat": "C",
+    "title": "MyMan：本机会议与截图记忆接 Bot",
+    "review": "把会议、录屏和截图整理成本地资料，Bot 可在同一台 Mac 调 JSON CLI 取用；云端直连与模板分发尚需核实（Apache-2.0）",
+    "tags": [
+      "macos",
+      "memory",
+      "local"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "tommy-muckstack/myman",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-13",
+    "author": "tommy-muckstack",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Senpi-ai/senpi-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Senpi：Hyperliquid 只读研究连接器",
+    "review": "给 Bot 查询市场信号、钱包历史和策略目录，插件本身不交易；接入服务与数据可用性需另核对（Apache-2.0）",
+    "tags": [
+      "mcp",
+      "finance",
+      "readonly"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "Senpi-ai/senpi-plugin",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-13",
+    "author": "Senpi-ai",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/SimianX-AI/simianx-skills",
+    "kept": true,
+    "cat": "C",
+    "title": "SimianX：股票与加密资产研究技能",
+    "review": "把多代理研究、行情观察和新闻监控接到 Bot，研究结论与收益说法仍需独立核实，服务费用另计（MIT）",
+    "tags": [
+      "mcp",
+      "research",
+      "finance"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "SimianX-AI/simianx-skills",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "SimianX-AI",
+    "source": "github"
+  },
+  {
+    "url": "https://x.com/ycnot84/status/2121345158335836615",
+    "cat": "T6",
+    "title": "Bot 交付质检：验成品、限返工、再沉淀技能",
+    "review": "从视频与研究任务的失败记录提炼验收清单、两次返工上限和证据核查模板，强调检查结论必须对应最终文件版本",
+    "tags": [
+      "quality",
+      "approval",
+      "quota",
+      "chinese"
+    ],
+    "author": "ycnot84",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-14",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/liyue_ai/status/2121203253568475561",
+    "cat": "T5",
+    "title": "ChatCut 接入到口播剪辑与视频复刻",
+    "review": "展示连接器安装、上传页传素材、去停顿后再加字幕的操作，并演示参考图配引导视频；生成细节仍需人工验收",
+    "tags": [
+      "chatcut",
+      "video",
+      "tutorial",
+      "chinese"
+    ],
+    "author": "liyue_ai",
+    "date": "2026-11-13",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-14",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/AgentMsgr/status/2121342281865154923",
+    "cat": "T3",
+    "title": "Grok Bot 管计划、本地代理干长活",
+    "review": "给出管理者规则、执行简报和三行回报格式，建议前后各测一周用量；未提供节省实测，所用 OpenBot 商业使用需另付费",
+    "tags": [
+      "quota",
+      "delegation",
+      "workflow",
+      "english"
+    ],
+    "author": "AgentMsgr",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-14",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/TonyTalksAI/status/2121263873361641958",
+    "cat": "T5",
+    "title": "Bot 与 Muse 跨工具传稿和复核",
+    "review": "让 Bot 通过浏览器把出处、稿子和修改意见交给 Muse，再带回结果由人定稿；各工具额度与可用性按实际账号核对",
+    "tags": [
+      "muse",
+      "browser",
+      "workflow",
+      "chinese"
+    ],
+    "author": "TonyTalksAI",
+    "date": "2026-11-13",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-14",
+    "source": "x"
+  },
+  {
+    "url": "https://github.com/d0s1nt/llm-usage",
+    "kept": true,
+    "cat": "E",
+    "title": "LLM Usage：Mac 菜单栏多订阅用量表",
+    "review": "从本机读取 Grok Bot 缓存用量，并把其他编码订阅放进同一菜单，未登录的工具自动隐藏（MIT）",
+    "tags": [
+      "quota",
+      "macos",
+      "widget"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "d0s1nt/llm-usage",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "d0s1nt",
+    "source": "github"
   }
 ]
