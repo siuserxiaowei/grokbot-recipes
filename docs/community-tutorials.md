@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 574 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 577 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（129）
 
@@ -136,7 +136,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [从 0 开始上手 Grok Bot（腾讯新闻）](https://news.qq.com/rain/a/20261103A0EZBX00) - 中文长篇入门：第一条消息模板、五分钟练手、例程的两个时间坑、群聊什么时候该建，适合新手按顺序读。标签：`starter` `chinese` `routine`
 - [用实时语音给 Grok Bot 派活（X 长文）](https://x.com/arito_si/status/2121021136922411256) - 讲清听写、语音聊天、语音备忘、代打电话四种模式和 iPhone 快捷入口；挂断后任务会转文字接着做 · @arito_si · 2026-11-13。标签：`voice` `mobile` `chinese`
 
-## 多 Bot 团队（105）
+## 多 Bot 团队（106）
+
+- [三层工作台：资料库、Bot 调度与执行代理](https://x.com/SamyAISystems/status/2121541886296944965) - 从一个 Bot 和一条例程开始，给出岗位描述、连接应用和审批规则的步骤，再把重活交给独立仓库里的执行代理 · @SamyAISystems · 2026-11-14。标签：`multi-agent` `workflow` `delegation` `english`
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -322,7 +324,10 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [接阿里云百炼免费模型给 Grok Bot 分流省额度（X 长文）](https://x.com/Benjieming1Q84/status/2121080802994004418) - 从注册、开免费额度用完即停到建 Key，再给一份按任务类型选模型的分流技能；强调 Key 只走密钥输入框 · @Benjieming1Q84 · 2026-11-13。标签：`quota` `bailian` `skills` `chinese`
 - [Grok Bot 管计划、本地代理干长活](https://x.com/AgentMsgr/status/2121342281865154923) - 给出管理者规则、执行简报和三行回报格式，建议前后各测一周用量；未提供节省实测，所用 OpenBot 商业使用需另付费 · @AgentMsgr · 2026-11-14。标签：`quota` `delegation` `workflow` `english`
 
-## 连接、技能与记忆（92）
+## 连接、技能与记忆（94）
+
+- [Coinbase 连接器演示与权限设置笔记](https://x.com/tibor_tee/status/2121543421064261932) - 整理官方访谈中的单组合授权、限额和人工审批设置，附演示时间轴；交易与留存数字仅为受访者陈述 · @tibor_tee · 2026-11-14。标签：`coinbase` `connector` `approval` `english`
+- [云电脑经 Tailscale 连接 Orca 客户端](https://x.com/ForeverLin26/status/2121541985513455905) - 四步短帖串起 Grok Bot 云电脑、Claude Code 和 Orca 远程服务；未展开安装命令与排障，适合作为路线参考 · @ForeverLin26 · 2026-11-14。标签：`tailscale` `remote` `claude-code` `chinese`
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`

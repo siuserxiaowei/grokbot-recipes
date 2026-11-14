@@ -15670,5 +15670,287 @@
     "last_push": "2026-11-13",
     "author": "d0s1nt",
     "source": "github"
+  },
+  {
+    "url": "https://github.com/Bitnxslabs/bitnxs-grokbot",
+    "kept": true,
+    "cat": "C",
+    "title": "Bitnxs：行情简报与逐单确认模板",
+    "review": "用公开行情做简报和阈值提醒，交易脚本另需密钥并逐次确认；杠杆与地区限制按服务条款核对（MIT）",
+    "tags": [
+      "finance",
+      "template",
+      "approval"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "Bitnxslabs/bitnxs-grokbot",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "Bitnxslabs",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/ChamathRosh/proofkit-kit",
+    "kept": true,
+    "cat": "F",
+    "title": "proofkit：找需求与首批买家的轻量 Bot 包",
+    "review": "提供独立 Grok 安装说明，用 X 搜索找求助帖并拟回复；Bot 版不带自动来源复核，发出前需自己检查（MIT）",
+    "tags": [
+      "research",
+      "business",
+      "workflow"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "ChamathRosh/proofkit-kit",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "ChamathRosh",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/WanManDu/grokbot-alarm",
+    "kept": true,
+    "cat": "A",
+    "title": "grokbot-alarm：等待决策时响起手机闹钟",
+    "review": "Bot 经 ntfy 把待确认问题送到 Android，答题后回传下一步；主题密钥即访问凭证，手机需保持后台监听（MIT）",
+    "tags": [
+      "android",
+      "notification",
+      "approval"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "WanManDu/grokbot-alarm",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "WanManDu",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/foztrk/grok-bot-tray",
+    "kept": true,
+    "cat": "A",
+    "title": "grok-bot-tray：Windows 关闭窗口缩到托盘",
+    "review": "为官方桌面端增加可切换的托盘行为并附恢复脚本；会修改应用文件，升级后仍需重新核对（MIT）",
+    "tags": [
+      "windows",
+      "desktop",
+      "tray"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "foztrk/grok-bot-tray",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "foztrk",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/LinXiaoTao/awesome-grokbot",
+    "kept": true,
+    "cat": "B",
+    "title": "Awesome Grok Bot：按岗位挑模板",
+    "review": "中英文目录按销售、工程和日常岗位列出可导入的 Bot 链接，保留作者署名，适合先挑单个职责试用（MIT）",
+    "tags": [
+      "awesome",
+      "templates",
+      "directory"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "LinXiaoTao/awesome-grokbot",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "LinXiaoTao",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/kitepon/grokbot-bridge",
+    "kept": true,
+    "cat": "D",
+    "title": "grokbot-bridge：Bot 与本地团队通话桥",
+    "review": "共享电话簿和会话编号连接 Grok Bot、BellTeam 与本地代理，区分已提交和已读，交付状态不明时避免自动重发（MIT）",
+    "tags": [
+      "bridge",
+      "multi-agent",
+      "messaging"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "kitepon/grokbot-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "kitepon",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Firmary/firmary-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Firmary：事务所客户与账单连接器",
+    "review": "通过 OAuth 按员工权限读客户、工时和账单，配套入职与催款技能；需审批的外部动作返回确认链接（MIT）",
+    "tags": [
+      "mcp",
+      "business",
+      "approval"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "Firmary/firmary-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "Firmary",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/zhlei07/inboxmcp-cursor-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "InboxMCP：多邮箱推送到 Bot 例程",
+    "review": "把 QQ、163、Gmail 等邮件交给托管服务再触发 webhook，按处理进度去重，回信需在服务端确认（MIT）",
+    "tags": [
+      "email",
+      "mcp",
+      "webhook"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "zhlei07/inboxmcp-cursor-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "zhlei07",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Blockworks-Projects/grok-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Blockworks：带出处的加密资产研究插件",
+    "review": "把资料检索、时序数据和观察列表接给 Bot，数据工具只读；部分检索需要企业权限，公开仓不含托管服务实现（MIT）",
+    "tags": [
+      "mcp",
+      "research",
+      "finance"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "Blockworks-Projects/grok-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "Blockworks-Projects",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/FireStorlvl/allegra-sailing-yacht-charters-mcp",
+    "kept": true,
+    "cat": "C",
+    "title": "Allegra：游艇档期与报价连接器",
+    "review": "给 Bot 提供英属维京群岛包船的查档期、分项报价和预订入口，付款与取消须确认；仓内是托管服务连接配置（MIT）",
+    "tags": [
+      "mcp",
+      "travel",
+      "booking"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "FireStorlvl/allegra-sailing-yacht-charters-mcp",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "FireStorlvl",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/FireStorlvl/southern-vermont-stays-ozvermont-mcp",
+    "kept": true,
+    "cat": "C",
+    "title": "Ozvermont：佛蒙特度假住宿连接器",
+    "review": "连接业主托管的住宿服务查询房型、空档与含条款报价，预订和付款前确认；需登录后办理订单（MIT）",
+    "tags": [
+      "mcp",
+      "travel",
+      "booking"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "FireStorlvl/southern-vermont-stays-ozvermont-mcp",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "FireStorlvl",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/willctl/xenonet",
+    "kept": true,
+    "cat": "D",
+    "title": "XenoNet：云端 Bot 接入本地代理工作网",
+    "review": "以限定授权把 Grok Bot 接到本机代理会话，可传话、认领文件和查看冲突；扩展权限需人在机器旁确认（MIT）",
+    "tags": [
+      "multi-agent",
+      "bridge",
+      "permissions"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-14",
+    "repo": "willctl/xenonet",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "willctl",
+    "source": "github"
+  },
+  {
+    "url": "https://x.com/tibor_tee/status/2121543421064261932",
+    "cat": "T4",
+    "title": "Coinbase 连接器演示与权限设置笔记",
+    "review": "整理官方访谈中的单组合授权、限额和人工审批设置，附演示时间轴；交易与留存数字仅为受访者陈述",
+    "tags": [
+      "coinbase",
+      "connector",
+      "approval",
+      "english"
+    ],
+    "author": "tibor_tee",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-14",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/SamyAISystems/status/2121541886296944965",
+    "cat": "T2",
+    "title": "三层工作台：资料库、Bot 调度与执行代理",
+    "review": "从一个 Bot 和一条例程开始，给出岗位描述、连接应用和审批规则的步骤，再把重活交给独立仓库里的执行代理",
+    "tags": [
+      "multi-agent",
+      "workflow",
+      "delegation",
+      "english"
+    ],
+    "author": "SamyAISystems",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-14",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/ForeverLin26/status/2121541985513455905",
+    "cat": "T4",
+    "title": "云电脑经 Tailscale 连接 Orca 客户端",
+    "review": "四步短帖串起 Grok Bot 云电脑、Claude Code 和 Orca 远程服务；未展开安装命令与排障，适合作为路线参考",
+    "tags": [
+      "tailscale",
+      "remote",
+      "claude-code",
+      "chinese"
+    ],
+    "author": "ForeverLin26",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-14",
+    "source": "x"
   }
 ]

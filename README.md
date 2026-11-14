@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **387** 个生态项目和学习资源，每条都打开核对过
-- **574** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **399** 个生态项目和学习资源，每条都打开核对过
+- **577** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,9 +115,12 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（387）
+## 生态清单（399）
 
-### 官方与工具（52）
+### 官方与工具（54）
+
+- [grokbot-alarm：等待决策时响起手机闹钟](https://github.com/WanManDu/grokbot-alarm) - Bot 经 ntfy 把待确认问题送到 Android，答题后回传下一步；主题密钥即访问凭证，手机需保持后台监听（MIT） · @WanManDu。标签：`android` `notification` `approval` 📦
+- [grok-bot-tray：Windows 关闭窗口缩到托盘](https://github.com/foztrk/grok-bot-tray) - 为官方桌面端增加可切换的托盘行为并附恢复脚本；会修改应用文件，升级后仍需重新核对（MIT） · @foztrk。标签：`windows` `desktop` `tray` 📦
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -172,7 +175,9 @@
 - [官方 X：Mac 版可用信息、邮件、备忘录等 7 个系统应用](https://x.com/bot/status/2120946968403095906) - Mac 上能直接读写信息、邮件、备忘录、提醒事项、日历、位置和通讯录；先想清楚每个权限要不要开 · @bot · 2026-11-12。标签：`official` `mac` `system-apps` 📦
 - [omarchy-voice-wake：喊名字进入 Bot 语音](https://github.com/johnatfreecoffee/omarchy-voice-wake) - Omarchy 桌面离线识别唤醒词后打开指定 Bot，语音启动依赖界面识别，版本变化后需重新核对（Apache-2.0） · @johnatfreecoffee。标签：`linux` `voice` `desktop` 📦
 
-### 模板与目录（27）
+### 模板与目录（28）
+
+- [Awesome Grok Bot：按岗位挑模板](https://github.com/LinXiaoTao/awesome-grokbot) - 中英文目录按销售、工程和日常岗位列出可导入的 Bot 链接，保留作者署名，适合先挑单个职责试用（MIT） · @LinXiaoTao。标签：`awesome` `templates` `directory` 📦
 
 - [UseGrokBot](https://usegrokbot.com/) - 按身份整理用例和团队搭法的导航站，适合找灵感，不必从零想。标签：`directory` `cases` 📘
 - [kydlikebtc/awesome-grokbot](https://github.com/kydlikebtc/awesome-grokbot) - 大量公开分享链接的索引，会定期检查链接是否还能打开，中英双语。标签：`directory` `links` 📦
@@ -202,7 +207,14 @@
 - [grokbot-video-template：Grok Bot 视频工作室模板](https://github.com/Morkeeth/grokbot-video-template) - 把视频工作室做成可导入的 Bot 模板，想直接套一个做视频的 Bot 可以从这里起步（MIT）。标签：`template` `video` 📦
 - [SMF Works：Michael Gannotti 的 Bot 模板集](https://github.com/smfworks/grok-bot-templates) - 按岗位提供可导入的 Bot 链接，含升学、事实核查、团队巡检与开发搭档，适合先挑单个职责试用（MIT） · @smfworks。标签：`templates` `roles` `directory` 📦
 
-### 技能与连接（127）
+### 技能与连接（133）
+
+- [Bitnxs：行情简报与逐单确认模板](https://github.com/Bitnxslabs/bitnxs-grokbot) - 用公开行情做简报和阈值提醒，交易脚本另需密钥并逐次确认；杠杆与地区限制按服务条款核对（MIT） · @Bitnxslabs。标签：`finance` `template` `approval` 📦
+- [Firmary：事务所客户与账单连接器](https://github.com/Firmary/firmary-plugin) - 通过 OAuth 按员工权限读客户、工时和账单，配套入职与催款技能；需审批的外部动作返回确认链接（MIT） · @Firmary。标签：`mcp` `business` `approval` 📦
+- [InboxMCP：多邮箱推送到 Bot 例程](https://github.com/zhlei07/inboxmcp-cursor-plugin) - 把 QQ、163、Gmail 等邮件交给托管服务再触发 webhook，按处理进度去重，回信需在服务端确认（MIT） · @zhlei07。标签：`email` `mcp` `webhook` 📦
+- [Blockworks：带出处的加密资产研究插件](https://github.com/Blockworks-Projects/grok-plugin) - 把资料检索、时序数据和观察列表接给 Bot，数据工具只读；部分检索需要企业权限，公开仓不含托管服务实现（MIT） · @Blockworks-Projects。标签：`mcp` `research` `finance` 📦
+- [Allegra：游艇档期与报价连接器](https://github.com/FireStorlvl/allegra-sailing-yacht-charters-mcp) - 给 Bot 提供英属维京群岛包船的查档期、分项报价和预订入口，付款与取消须确认；仓内是托管服务连接配置（MIT） · @FireStorlvl。标签：`mcp` `travel` `booking` 📦
+- [Ozvermont：佛蒙特度假住宿连接器](https://github.com/FireStorlvl/southern-vermont-stays-ozvermont-mcp) - 连接业主托管的住宿服务查询房型、空档与含条款报价，预订和付款前确认；需登录后办理订单（MIT） · @FireStorlvl。标签：`mcp` `travel` `booking` 📦
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -332,7 +344,10 @@
 - [Senpi：Hyperliquid 只读研究连接器](https://github.com/Senpi-ai/senpi-plugin) - 给 Bot 查询市场信号、钱包历史和策略目录，插件本身不交易；接入服务与数据可用性需另核对（Apache-2.0） · @Senpi-ai。标签：`mcp` `finance` `readonly` 📦
 - [SimianX：股票与加密资产研究技能](https://github.com/SimianX-AI/simianx-skills) - 把多代理研究、行情观察和新闻监控接到 Bot，研究结论与收益说法仍需独立核实，服务费用另计（MIT） · @SimianX-AI。标签：`mcp` `research` `finance` 📦
 
-### 多 Bot 团队（57）
+### 多 Bot 团队（59）
+
+- [grokbot-bridge：Bot 与本地团队通话桥](https://github.com/kitepon/grokbot-bridge) - 共享电话簿和会话编号连接 Grok Bot、BellTeam 与本地代理，区分已提交和已读，交付状态不明时避免自动重发（MIT） · @kitepon。标签：`bridge` `multi-agent` `messaging` 📦
+- [XenoNet：云端 Bot 接入本地代理工作网](https://github.com/willctl/xenonet) - 以限定授权把 Grok Bot 接到本机代理会话，可传话、认领文件和查看冲突；扩展权限需人在机器旁确认（MIT） · @willctl。标签：`multi-agent` `bridge` `permissions` 📦
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -420,7 +435,9 @@
 - [PickleTime Bot：球场预约例程](https://github.com/kapadias/pickletime-grokbot) - 先在模拟站演练，再用提前启动的例程预约 CourtReserve；真实预约需批准，并记录调度迟到情况（MIT） · @kapadias。标签：`routine` `booking` `approval` 📦
 - [LLM Usage：Mac 菜单栏多订阅用量表](https://github.com/d0s1nt/llm-usage) - 从本机读取 Grok Bot 缓存用量，并把其他编码订阅放进同一菜单，未登录的工具自动隐藏（MIT） · @d0s1nt。标签：`quota` `macos` `widget` 📦
 
-### 一人公司与内容（18）
+### 一人公司与内容（19）
+
+- [proofkit：找需求与首批买家的轻量 Bot 包](https://github.com/ChamathRosh/proofkit-kit) - 提供独立 Grok 安装说明，用 X 搜索找求助帖并拟回复；Bot 版不带自动来源复核，发出前需自己检查（MIT） · @ChamathRosh。标签：`research` `business` `workflow` 📦
 
 - [grokbot-for-gtm](https://github.com/bcharleson/grokbot-for-gtm) - 一整套海外外联获客流程，从建名单到处理回复，出海团队可以参考。标签：`gtm` `outbound` 📦
 - [模板：Motion Director](https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes) - 一句话出动画短片的模板，适合做产品宣传和短视频。标签：`template` `video` 📘
