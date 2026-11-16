@@ -15952,5 +15952,246 @@
     "level": "读过内容",
     "verified": "2026-11-14",
     "source": "x"
+  },
+  {
+    "url": "https://github.com/BenItBuhner/Claude-Projects-for-Grok-Bot",
+    "kept": true,
+    "cat": "D",
+    "title": "Claude Projects for Grok Bot：把活派进 Claude Code Projects",
+    "review": "本机 MCP 驱动常开 Linux 机器上的官方 Claude 桌面应用，Bot 能派活、查进度、取结果并按规则处理权限卡；只支持 Ubuntu/Debian，非官方（MIT）",
+    "tags": [
+      "claude-code",
+      "mcp",
+      "bridge"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "BenItBuhner/Claude-Projects-for-Grok-Bot",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "BenItBuhner",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/emilkallioniemi/grok-bot-discord",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bot-discord：在 Discord 里给 Bot 派活",
+    "review": "自建桥把 @ 或私信转给 Routine webhook，Bot 再经自定义连接器回贴、读频道和加表情；补上官方没有的 Discord 入口（MIT）",
+    "tags": [
+      "discord",
+      "webhook",
+      "bridge"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "emilkallioniemi/grok-bot-discord",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "emilkallioniemi",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Cahja90/grok-cursor-bruecke",
+    "kept": true,
+    "cat": "D",
+    "title": "grok-cursor-bruecke：Bot 当导演、本机 Cursor 当工人",
+    "review": "Windows 本地 CLI 列窗口、输入、等完成、读回复，循环脚本只做本地提交，推送要在本机面板批准；README 为德英双语（MIT）",
+    "tags": [
+      "cursor",
+      "windows",
+      "bridge"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "Cahja90/grok-cursor-bruecke",
+    "license": "MIT",
+    "last_push": "2026-11-14",
+    "author": "Cahja90",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/pointman-ai/pointman-grokbot",
+    "kept": true,
+    "cat": "C",
+    "title": "pointman-grokbot：让 Bot 在 Pointman 看板里回帖",
+    "review": "提及即经 webhook 唤起例程，Bot 用 Pointman 远程 MCP 读帖和回复；两条官方支持的入口拼成双向通道（MIT）",
+    "tags": [
+      "pointman",
+      "webhook",
+      "mcp"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "pointman-ai/pointman-grokbot",
+    "license": "MIT",
+    "last_push": "2026-11-15",
+    "author": "pointman-ai",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/50pac/daily-info-digest-bot",
+    "kept": true,
+    "cat": "E",
+    "title": "Daily Info Digest Bot：用 Markdown 配置的每晚信息简报",
+    "review": "实习、讲座和 AI 学习动态按 Markdown 规则收集，夜里出一份精选简报；附中文说明，适合学生改成自己的信息源（MIT）",
+    "tags": [
+      "routine",
+      "digest",
+      "markdown"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "50pac/daily-info-digest-bot",
+    "license": "MIT",
+    "last_push": "2026-11-15",
+    "author": "50pac",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/AI-Driven-R-D-Dept/grokbot-webhook",
+    "kept": true,
+    "cat": "D",
+    "title": "grokbot-webhook：从 Claude Code 向 Bot 提问",
+    "review": "Claude Code 插件，经例程 webhook 把问答、调研和摘要类请求交给 Bot 并取回文字结果；文档仅日语，只在 macOS 测过（MIT）",
+    "tags": [
+      "claude-code",
+      "webhook",
+      "plugin"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "AI-Driven-R-D-Dept/grokbot-webhook",
+    "license": "MIT",
+    "last_push": "2026-11-15",
+    "author": "AI-Driven-R-D-Dept",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Kuanyeah/grok-bot-tui",
+    "kept": true,
+    "cat": "A",
+    "title": "grok-bot-tui：终端里的非官方 Bot 界面",
+    "review": "在已收的 grok-bot-cli 传输层上做的终端聊天界面，支持图片附件、表情回应和彩色头像；截图都用离线假数据（MIT）",
+    "tags": [
+      "tui",
+      "terminal",
+      "client"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "Kuanyeah/grok-bot-tui",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "Kuanyeah",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/xiaopai20/easy-ai-bot-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "easy-ai-bot-bridge：Slack / Telegram 到 Bot webhook 的转接",
+    "review": "每个桥是独立 CDK 应用，把平台的签名校验和事件格式转换成 webhook 需要的 Bearer 调用；此前无许可证，现已挂 MIT",
+    "tags": [
+      "slack",
+      "telegram",
+      "webhook"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "xiaopai20/easy-ai-bot-bridge",
+    "license": "MIT",
+    "last_push": "2026-11-15",
+    "author": "xiaopai20",
+    "source": "github"
+  },
+  {
+    "url": "https://x.com/czzzzzzJ_/status/2121548072480301202",
+    "cat": "T4",
+    "title": "系列第 4 课：剪藏插件和桌面转发把后台数据、微信群交给 Bot",
+    "review": "演示浏览器剪藏整页、截图、选元素和多标签页发给指定 Bot，以及微信合并转发打包群聊；文末另有作者课程链接",
+    "tags": [
+      "clipper",
+      "wechat",
+      "memory",
+      "chinese"
+    ],
+    "author": "czzzzzzJ_",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/liam_fallen/status/2121629595703087585",
+    "cat": "T2",
+    "title": "四个 Bot 组成的工作流情报系统",
+    "review": "先连两三个常用应用，再由分析、调研、技能搭建和总管四个 Bot 找出值得自动化的重复活并做成技能，附岗位说明",
+    "tags": [
+      "multi-agent",
+      "workflow",
+      "skills",
+      "english"
+    ],
+    "author": "liam_fallen",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/Haosen9527/status/2121816309801611622",
+    "cat": "T4",
+    "title": "云电脑跑 Claude Code 前先查的五件事",
+    "review": "从账号资格、云电脑共享登录、代理脚本能查到哪一步讲到小任务试跑，提醒住宅 IP 不等于不封号",
+    "tags": [
+      "claude-code",
+      "cloud-computer",
+      "proxy",
+      "chinese"
+    ],
+    "author": "Haosen9527",
+    "date": "2026-11-15",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/ismael_adekunle/status/2121589466439492061",
+    "cat": "T5",
+    "title": "每日一问的选题例程",
+    "review": "把真实帖子放进仓库、写一份语气说明，例程每天问一句今天学到什么，Bot 整理成稿由本人批准再发",
+    "tags": [
+      "routine",
+      "content",
+      "english"
+    ],
+    "author": "ismael_adekunle",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://www.jxxy.net/ai/articles/grok-bot-tasks-skills-routines-guide/",
+    "cat": "T1",
+    "title": "交任务、存 Skill、定时跑：上手顺序",
+    "review": "按手动任务、修正、存 Skill、二次测试、再开例程的顺序上手，附三个检验不同能力的基础任务",
+    "tags": [
+      "beginner",
+      "skills",
+      "routine",
+      "chinese"
+    ],
+    "author": "觉醒AI知识库",
+    "date": "2026-11-01",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "web"
   }
 ]

@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 577 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 582 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（129）
+## 入门与配置（130）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -135,10 +135,9 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 1.0 有什么变化（Flavio Copes）](https://flaviocopes.com/grok-bot-1-0/) - 用表格对比 beta 和 1.0：发布后才能分享、团队学习要先审核、会议只在聊天里回话；英文 · @flaviocopes · 2026-11-12。标签：`1.0` `team-bots` `meetings` `english`
 - [从 0 开始上手 Grok Bot（腾讯新闻）](https://news.qq.com/rain/a/20261103A0EZBX00) - 中文长篇入门：第一条消息模板、五分钟练手、例程的两个时间坑、群聊什么时候该建，适合新手按顺序读。标签：`starter` `chinese` `routine`
 - [用实时语音给 Grok Bot 派活（X 长文）](https://x.com/arito_si/status/2121021136922411256) - 讲清听写、语音聊天、语音备忘、代打电话四种模式和 iPhone 快捷入口；挂断后任务会转文字接着做 · @arito_si · 2026-11-13。标签：`voice` `mobile` `chinese`
+- [交任务、存 Skill、定时跑：上手顺序](https://www.jxxy.net/ai/articles/grok-bot-tasks-skills-routines-guide/) - 按手动任务、修正、存 Skill、二次测试、再开例程的顺序上手，附三个检验不同能力的基础任务 · @觉醒AI知识库 · 2026-11-01。标签：`beginner` `skills` `routine` `chinese`
 
-## 多 Bot 团队（106）
-
-- [三层工作台：资料库、Bot 调度与执行代理](https://x.com/SamyAISystems/status/2121541886296944965) - 从一个 Bot 和一条例程开始，给出岗位描述、连接应用和审批规则的步骤，再把重活交给独立仓库里的执行代理 · @SamyAISystems · 2026-11-14。标签：`multi-agent` `workflow` `delegation` `english`
+## 多 Bot 团队（107）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -245,6 +244,8 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [先让 Agent 能证明自己做对：Lauren 分享的方法拆解（X）](https://x.com/0xlangeai/status/2120049568331280486) - 中文，拆 Grok Bot 工程师 @poteto 的分享：验收做成可调用的验证技能、重复错误先改结构和自动检查；偏工程团队，结论对多 Bot 也适用 · @0xlangeai · 2026-11-10。标签：`engineering` `verification` `chinese`
 - [三个 Bot 像“三个妈”一样管生活（X）](https://x.com/betterpromptsai/status/2120459428067442938) - 生活向的小团队例子，几个 Bot 共用一台电脑各管一摊家务事；思路轻松好懂，适合给非技术朋友讲多 Bot 是什么 · @betterpromptsai · 2026-11-11。标签：`multi-bot` `life` `english`
 - [用 Grok Bot 跑整套 GTM 的分步指南（X 长文）](https://x.com/MichLieben/status/2120524273999868314) - 一个总管 Bot 带一队岗位做外呼名单、回复草稿和每日复盘，逐步写了接 Slack、Gmail、日历；英文，数字是作者自述 · @MichLieben · 2026-11-11。标签：`gtm` `multi-bot` `english`
+- [三层工作台：资料库、Bot 调度与执行代理](https://x.com/SamyAISystems/status/2121541886296944965) - 从一个 Bot 和一条例程开始，给出岗位描述、连接应用和审批规则的步骤，再把重活交给独立仓库里的执行代理 · @SamyAISystems · 2026-11-14。标签：`multi-agent` `workflow` `delegation` `english`
+- [四个 Bot 组成的工作流情报系统](https://x.com/liam_fallen/status/2121629595703087585) - 先连两三个常用应用，再由分析、调研、技能搭建和总管四个 Bot 找出值得自动化的重复活并做成技能，附岗位说明 · @liam_fallen · 2026-11-14。标签：`multi-agent` `workflow` `skills` `english`
 
 ## Routine 与额度（75）
 
@@ -324,10 +325,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [接阿里云百炼免费模型给 Grok Bot 分流省额度（X 长文）](https://x.com/Benjieming1Q84/status/2121080802994004418) - 从注册、开免费额度用完即停到建 Key，再给一份按任务类型选模型的分流技能；强调 Key 只走密钥输入框 · @Benjieming1Q84 · 2026-11-13。标签：`quota` `bailian` `skills` `chinese`
 - [Grok Bot 管计划、本地代理干长活](https://x.com/AgentMsgr/status/2121342281865154923) - 给出管理者规则、执行简报和三行回报格式，建议前后各测一周用量；未提供节省实测，所用 OpenBot 商业使用需另付费 · @AgentMsgr · 2026-11-14。标签：`quota` `delegation` `workflow` `english`
 
-## 连接、技能与记忆（94）
-
-- [Coinbase 连接器演示与权限设置笔记](https://x.com/tibor_tee/status/2121543421064261932) - 整理官方访谈中的单组合授权、限额和人工审批设置，附演示时间轴；交易与留存数字仅为受访者陈述 · @tibor_tee · 2026-11-14。标签：`coinbase` `connector` `approval` `english`
-- [云电脑经 Tailscale 连接 Orca 客户端](https://x.com/ForeverLin26/status/2121541985513455905) - 四步短帖串起 Grok Bot 云电脑、Claude Code 和 Orca 远程服务；未展开安装命令与排障，适合作为路线参考 · @ForeverLin26 · 2026-11-14。标签：`tailscale` `remote` `claude-code` `chinese`
+## 连接、技能与记忆（96）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -421,8 +419,12 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Tailscale 加 Pinky：让 Bot 经电脑操控手机（X）](https://x.com/0xmomonifty/status/2120405103782117876) - 电脑上装 Tailscale 和 Pinky 连好手机，再在 Bot 的远程智能体里接上，就能远程动手机；手机权限很大，先想清楚边界 · @0xmomonifty · 2026-11-11。标签：`tailscale` `phone`
 - [t3 code 加 Tailscale 打通 Bot、Mac、Windows 和 NAS（X）](https://x.com/CyanCloud77/status/2120363980325871810) - 把多家订阅放进 t3 code，小活在 Mac、重活转 Windows，NAS 挂共享盘；适合设备多、想统一调度的人参考 · @CyanCloud77 · 2026-11-11。标签：`tailscale` `multi-device`
 - [把 Grok Bot 接进微信：ClawBot 保姆级教程（X 长文）](https://x.com/bit_sister/status/2120445798303588836) - 让 Bot 建 Webhook 入口，地址和密钥填进加密输入框，再在微信插件扫码绑定，还能收发图片文件；第三方通道，敏感内容别走 · @bit_sister · 2026-11-11。标签：`wechat` `webhook`
+- [Coinbase 连接器演示与权限设置笔记](https://x.com/tibor_tee/status/2121543421064261932) - 整理官方访谈中的单组合授权、限额和人工审批设置，附演示时间轴；交易与留存数字仅为受访者陈述 · @tibor_tee · 2026-11-14。标签：`coinbase` `connector` `approval` `english`
+- [云电脑经 Tailscale 连接 Orca 客户端](https://x.com/ForeverLin26/status/2121541985513455905) - 四步短帖串起 Grok Bot 云电脑、Claude Code 和 Orca 远程服务；未展开安装命令与排障，适合作为路线参考 · @ForeverLin26 · 2026-11-14。标签：`tailscale` `remote` `claude-code` `chinese`
+- [系列第 4 课：剪藏插件和桌面转发把后台数据、微信群交给 Bot](https://x.com/czzzzzzJ_/status/2121548072480301202) - 演示浏览器剪藏整页、截图、选元素和多标签页发给指定 Bot，以及微信合并转发打包群聊；文末另有作者课程链接 · @czzzzzzJ_ · 2026-11-14。标签：`clipper` `wechat` `memory` `chinese`
+- [云电脑跑 Claude Code 前先查的五件事](https://x.com/Haosen9527/status/2121816309801611622) - 从账号资格、云电脑共享登录、代理脚本能查到哪一步讲到小任务试跑，提醒住宅 IP 不等于不封号 · @Haosen9527 · 2026-11-15。标签：`claude-code` `cloud-computer` `proxy` `chinese`
 
-## 一人公司与内容（144）
+## 一人公司与内容（145）
 
 - [一个人的公司怎么用 Grok Bot 搭](https://x.com/sairahul1/status/2089995692874068433) - 英文长文，按岗位拆一人公司的 Bot · @sairahul1 · 2026-08-19。标签：`solo` `english`
 - [内容生产拆给十几个 Bot](https://x.com/ai_goge/status/2110331990566449273) - 中文长文，一个 Bot 只管一个环节 · @ai_goge · 2026-10-14。标签：`content` `chinese`
@@ -568,6 +570,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [只用手机让 Grok Bot 加 ChatCut 做家乡文旅短片](https://x.com/cgnot996/status/2120737579196923953) - 连工具、找素材、下剪辑要求、改到交付四步走，全程手机完成；作者提醒史料和版权要自己核 · @cgnot996 · 2026-11-12。标签：`chatcut` `video` `mobile` `chinese`
 - [ChatCut 接入到口播剪辑与视频复刻](https://x.com/liyue_ai/status/2121203253568475561) - 展示连接器安装、上传页传素材、去停顿后再加字幕的操作，并演示参考图配引导视频；生成细节仍需人工验收 · @liyue_ai · 2026-11-13。标签：`chatcut` `video` `tutorial` `chinese`
 - [Bot 与 Muse 跨工具传稿和复核](https://x.com/TonyTalksAI/status/2121263873361641958) - 让 Bot 通过浏览器把出处、稿子和修改意见交给 Muse，再带回结果由人定稿；各工具额度与可用性按实际账号核对 · @TonyTalksAI · 2026-11-13。标签：`muse` `browser` `workflow` `chinese`
+- [每日一问的选题例程](https://x.com/ismael_adekunle/status/2121589466439492061) - 把真实帖子放进仓库、写一份语气说明，例程每天问一句今天学到什么，Bot 整理成稿由本人批准再发 · @ismael_adekunle · 2026-11-14。标签：`routine` `content` `english`
 
 ## 安全（28）
 
