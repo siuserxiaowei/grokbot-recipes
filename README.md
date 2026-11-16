@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **407** 个生态项目和学习资源，每条都打开核对过
-- **582** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **413** 个生态项目和学习资源，每条都打开核对过
+- **589** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,9 +115,9 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（407）
+## 生态清单（413）
 
-### 官方与工具（55）
+### 官方与工具（57）
 
 - [xAI 开发者文档](https://docs.x.ai) - 模型、接口和工具调用的权威说明，别处说法有冲突时以这里为准。标签：`official` `docs` 📘
 - [xai-org（GitHub 组织）](https://github.com/xai-org) - xAI 自己维护的开源组织，SDK 和公开模型都从这里找。标签：`official` `sdk` 📘
@@ -174,6 +174,8 @@
 - [grokbot-alarm：等待决策时响起手机闹钟](https://github.com/WanManDu/grokbot-alarm) - Bot 经 ntfy 把待确认问题送到 Android，答题后回传下一步；主题密钥即访问凭证，手机需保持后台监听（MIT）。标签：`android` `notification` `approval` 📦
 - [grok-bot-tray：Windows 关闭窗口缩到托盘](https://github.com/foztrk/grok-bot-tray) - 为官方桌面端增加可切换的托盘行为并附恢复脚本；会修改应用文件，升级后仍需重新核对（MIT）。标签：`windows` `desktop` `tray` 📦
 - [grok-bot-tui：终端里的非官方 Bot 界面](https://github.com/Kuanyeah/grok-bot-tui) - 在已收的 grok-bot-cli 传输层上做的终端聊天界面，支持图片附件、表情回应和彩色头像；截图都用离线假数据（MIT）。标签：`tui` `terminal` `client` 📦
+- [Grok Bot HUD：桌面端换壁纸并常显用量](https://github.com/dudu2099/grokbot-hud) - 不改官方应用本体，给窗口加壁纸和一个显示用量的小圆点，可一键恢复；非官方，升级后需留意兼容（MIT）。标签：`desktop` `wallpaper` `usage` 📦
+- [Windows 版 Grok Bot 换壁纸](https://github.com/1806629231-del/grokbot-wallpaper-windows) - 把只支持 macOS 的换壁纸做法改写到 Windows，带浮窗调透明度，不碰 app.asar；非官方（MIT）。标签：`desktop` `wallpaper` `windows` 📦
 
 ### 模板与目录（28）
 
@@ -206,7 +208,7 @@
 - [SMF Works：Michael Gannotti 的 Bot 模板集](https://github.com/smfworks/grok-bot-templates) - 按岗位提供可导入的 Bot 链接，含升学、事实核查、团队巡检与开发搭档，适合先挑单个职责试用（MIT）。标签：`templates` `roles` `directory` 📦
 - [Awesome Grok Bot：按岗位挑模板](https://github.com/LinXiaoTao/awesome-grokbot) - 中英文目录按销售、工程和日常岗位列出可导入的 Bot 链接，保留作者署名，适合先挑单个职责试用（MIT）。标签：`awesome` `templates` `directory` 📦
 
-### 技能与连接（136）
+### 技能与连接（138）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -344,6 +346,8 @@
 - [grok-bot-discord：在 Discord 里给 Bot 派活](https://github.com/emilkallioniemi/grok-bot-discord) - 自建桥把 @ 或私信转给 Routine webhook，Bot 再经自定义连接器回贴、读频道和加表情；补上官方没有的 Discord 入口（MIT）。标签：`discord` `webhook` `bridge` 📦
 - [pointman-grokbot：让 Bot 在 Pointman 看板里回帖](https://github.com/pointman-ai/pointman-grokbot) - 提及即经 webhook 唤起例程，Bot 用 Pointman 远程 MCP 读帖和回复；两条官方支持的入口拼成双向通道（MIT）。标签：`pointman` `webhook` `mcp` 📦
 - [easy-ai-bot-bridge：Slack / Telegram 到 Bot webhook 的转接](https://github.com/xiaopai20/easy-ai-bot-bridge) - 每个桥是独立 CDK 应用，把平台的签名校验和事件格式转换成 webhook 需要的 Bearer 调用；此前无许可证，现已挂 MIT。标签：`slack` `telegram` `webhook` 📦
+- [飞书私聊桥：单 owner 文本转 Webhook 例程](https://github.com/billzhuang6569/feishu-grok-bot) - 用官方 Lark CLI 收私聊文本，交给 Grok Bot 的 Webhook 例程再回原消息；只认唯一 owner，纯标准库加 SQLite，安全边界写得很细（MIT）。标签：`feishu` `bridge` `webhook` `chinese` 📦
+- [Idlerate 插件：让 Bot 调自家电脑上的 Ollama](https://github.com/brent192192/idlerate-plugin) - OAuth 连接的 MCP 连接器加 setup 技能，把模型任务排到你自己配对的电脑上跑，不用贴 API key；依赖 Idlerate 托管中继（MIT）。标签：`mcp` `ollama` `local-compute` 📦
 
 ### 多 Bot 团队（62）
 
@@ -410,7 +414,7 @@
 - [grok-cursor-bruecke：Bot 当导演、本机 Cursor 当工人](https://github.com/Cahja90/grok-cursor-bruecke) - Windows 本地 CLI 列窗口、输入、等完成、读回复，循环脚本只做本地提交，推送要在本机面板批准；README 为德英双语（MIT）。标签：`cursor` `windows` `bridge` 📦
 - [grokbot-webhook：从 Claude Code 向 Bot 提问](https://github.com/AI-Driven-R-D-Dept/grokbot-webhook) - Claude Code 插件，经例程 webhook 把问答、调研和摘要类请求交给 Bot 并取回文字结果；文档仅日语，只在 macOS 测过（MIT）。标签：`claude-code` `webhook` `plugin` 📦
 
-### Routine 与监控（26）
+### Routine 与监控（27）
 
 - [模板：X Post Tracker](https://x.ai/bot/LrOzcsX5ITCY0SfXLmhJn) - 盯自己 X 帖子数据的模板，暴涨或到里程碑才提醒。标签：`template` `x` 📘
 - [每周找出大号和你的互动](https://x.com/WaitWhat/status/2112086807093645796) - 英文，X 运营小 Routine · @WaitWhat · 2026-10-19。标签：`x` `routine` 📘
@@ -438,6 +442,7 @@
 - [PickleTime Bot：球场预约例程](https://github.com/kapadias/pickletime-grokbot) - 先在模拟站演练，再用提前启动的例程预约 CourtReserve；真实预约需批准，并记录调度迟到情况（MIT）。标签：`routine` `booking` `approval` 📦
 - [LLM Usage：Mac 菜单栏多订阅用量表](https://github.com/d0s1nt/llm-usage) - 从本机读取 Grok Bot 缓存用量，并把其他编码订阅放进同一菜单，未登录的工具自动隐藏（MIT）。标签：`quota` `macos` `widget` 📦
 - [Daily Info Digest Bot：用 Markdown 配置的每晚信息简报](https://github.com/50pac/daily-info-digest-bot) - 实习、讲座和 AI 学习动态按 Markdown 规则收集，夜里出一份精选简报；附中文说明，适合学生改成自己的信息源（MIT）。标签：`routine` `digest` `markdown` 📦
+- [用量管家：只读盯额度、按省多少排砍法](https://github.com/Betagg/usage-steward) - 人设加一个上手技能和周报、额度预警两条例程，只读各 Bot 和例程的用量，对照产出给出削减建议，不动别人的配置（MIT）。标签：`usage` `routine` `multi-bot` 📦
 
 ### 一人公司与内容（19）
 
@@ -513,7 +518,7 @@
 - [even-grok-bot：用 Even G2 眼镜指挥 Bot](https://github.com/asuhacoder/even-grok-bot) - 在眼镜上读、回、批准 Bot 的消息，语音在本机转文字不出电脑；中继要碰桌面 App 的调试端口，装前看清风险。标签：`glasses` `voice` `hardware` `mit` 📦
 - [phone-pilot：Windows 上经 USB 操控手机](https://github.com/xthemarketmaker-cmyk/phone-pilot) - 配合 Phone Pilot 模板，不用 Mac 也能让 Bot 操作 iPhone 或 Android；iPhone 需自签 WebDriverAgent，门槛不低。标签：`phone` `windows` `mit` 📦
 
-### 学习资源与合集（34）
+### 学习资源与合集（35）
 
 - [grokbot-field-notes](https://github.com/unicodef1wn/grokbot-field-notes) - 整理了官方团队直播搭产品时的规则、角色和翻车记录，新手少走弯路。标签：`notes` `rules` 📦
 - [awesome-grok-bot（英文）](https://github.com/ZeroPointRepo/awesome-grok-bot) - 英文生态导航，技能、插件和 MCP 比较全。标签：`awesome` `english` 📦
@@ -549,6 +554,7 @@
 - [Study GrokBot：每日一题中英专栏](https://studygrokbot.com/zh/) - 非官方学习站，每天一期可复制提示词和练习，中英对照；源码在 Licoy/study-grokbot，MIT。本轮核过 11-11 @bot 与 X Chat 一期，说法对得上官方文档。标签：`chinese` `guide` `daily` `mit` 📦
 - [Personal Agent 学习笔记：官方 Work 文档中文整理（skyao）](https://skyao.net/learning-personal-agent/docs/grok-bot/sources/official/2026-11-05-docs-work/) - 把官方 Work with Grok Bot 文档逐段译成中文并加摘要，查 Bot、群聊、技能和 Routine 的原始说法时方便。标签：`docs` `chinese` `notes` 📦
 - [awesome-grokbots：三语 Bot 与连接器目录](https://github.com/Spidermanrobin/awesome-grokbots) - 按场景列出 Bot、技能和指南并保留来源，作者明确区分链接可访问与实际跑通，适合交叉找案例（MIT）。标签：`awesome` `directory` `multilingual` 📦
+- [agent 安全规则包：删、花、发、强推先问](https://github.com/iiGeek/agent-safety-rules) - 一份可直接粘进 AGENTS.md、CLAUDE.md 或 Bot 说明的安全规则，不限于 Grok Bot，适合给多 Bot 和编码 agent 统一底线（MIT）。标签：`safety` `rules` `agents-md` 📦
 
 ## 教程索引
 

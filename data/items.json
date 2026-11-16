@@ -16193,5 +16193,239 @@
     "level": "读过内容",
     "verified": "2026-11-16",
     "source": "web"
+  },
+  {
+    "url": "https://github.com/billzhuang6569/feishu-grok-bot",
+    "kept": true,
+    "cat": "C",
+    "title": "飞书私聊桥：单 owner 文本转 Webhook 例程",
+    "review": "用官方 Lark CLI 收私聊文本，交给 Grok Bot 的 Webhook 例程再回原消息；只认唯一 owner，纯标准库加 SQLite，安全边界写得很细（MIT）",
+    "tags": [
+      "feishu",
+      "bridge",
+      "webhook",
+      "chinese"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "billzhuang6569/feishu-grok-bot",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "billzhuang6569",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Betagg/usage-steward",
+    "kept": true,
+    "cat": "E",
+    "title": "用量管家：只读盯额度、按省多少排砍法",
+    "review": "人设加一个上手技能和周报、额度预警两条例程，只读各 Bot 和例程的用量，对照产出给出削减建议，不动别人的配置（MIT）",
+    "tags": [
+      "usage",
+      "routine",
+      "multi-bot"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "Betagg/usage-steward",
+    "license": "MIT",
+    "last_push": "2026-11-13",
+    "author": "Betagg",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/brent192192/idlerate-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Idlerate 插件：让 Bot 调自家电脑上的 Ollama",
+    "review": "OAuth 连接的 MCP 连接器加 setup 技能，把模型任务排到你自己配对的电脑上跑，不用贴 API key；依赖 Idlerate 托管中继（MIT）",
+    "tags": [
+      "mcp",
+      "ollama",
+      "local-compute"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "brent192192/idlerate-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-15",
+    "author": "brent192192",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/iiGeek/agent-safety-rules",
+    "kept": true,
+    "cat": "I",
+    "title": "agent 安全规则包：删、花、发、强推先问",
+    "review": "一份可直接粘进 AGENTS.md、CLAUDE.md 或 Bot 说明的安全规则，不限于 Grok Bot，适合给多 Bot 和编码 agent 统一底线（MIT）",
+    "tags": [
+      "safety",
+      "rules",
+      "agents-md"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "iiGeek/agent-safety-rules",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "iiGeek",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/dudu2099/grokbot-hud",
+    "kept": true,
+    "cat": "A",
+    "title": "Grok Bot HUD：桌面端换壁纸并常显用量",
+    "review": "不改官方应用本体，给窗口加壁纸和一个显示用量的小圆点，可一键恢复；非官方，升级后需留意兼容（MIT）",
+    "tags": [
+      "desktop",
+      "wallpaper",
+      "usage"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "dudu2099/grokbot-hud",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "dudu2099",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/1806629231-del/grokbot-wallpaper-windows",
+    "kept": true,
+    "cat": "A",
+    "title": "Windows 版 Grok Bot 换壁纸",
+    "review": "把只支持 macOS 的换壁纸做法改写到 Windows，带浮窗调透明度，不碰 app.asar；非官方（MIT）",
+    "tags": [
+      "desktop",
+      "wallpaper",
+      "windows"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-16",
+    "repo": "1806629231-del/grokbot-wallpaper-windows",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "1806629231-del",
+    "source": "github"
+  },
+  {
+    "url": "https://x.com/bobolv235824/status/2122138947648201166",
+    "cat": "T1",
+    "title": "普通人上手全攻略：8 个场景加 7 天计划",
+    "review": "去掉写代码部分，把官方文档和几篇热门长文对照整理成新手路线，结尾的 7 天计划适合照着练",
+    "tags": [
+      "beginner",
+      "use-cases",
+      "chinese"
+    ],
+    "author": "bobolv235824",
+    "date": "2026-11-16",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/MaiYangAI/status/2121929065569620020",
+    "cat": "T1",
+    "title": "官方直播近 50 问的中文整理",
+    "review": "把 Matt Palmer 和 Lauren Tan 的直播问答按问题归类，会议、额度到 Cloud Agents 都有，适合查官方口径",
+    "tags": [
+      "faq",
+      "official",
+      "chinese"
+    ],
+    "author": "MaiYangAI",
+    "date": "2026-11-15",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/Mikocrypto11/status/2121935369406951916",
+    "cat": "T4",
+    "title": "6 个 Marketplace Bot 加 6 个开源项目拼第二大脑",
+    "review": "用迁移、文档问答、会议纪要等现成 Bot 配开源记忆和检索项目，思路清楚；文中的效果数字是作者转述",
+    "tags": [
+      "memory",
+      "marketplace",
+      "knowledge"
+    ],
+    "author": "Mikocrypto11",
+    "date": "2026-11-15",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/TylerGriffin/status/2121792697547497739",
+    "cat": "T5",
+    "title": "暖通水电公司老板怎么用 Grok Bot",
+    "review": "按销售、收件箱、招聘薪酬、评价、运营、数据、社媒拆成多个单职责 Bot，传统行业落地的好样本",
+    "tags": [
+      "small-business",
+      "multi-bot",
+      "english"
+    ],
+    "author": "TylerGriffin",
+    "date": "2026-11-15",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/moranweb3/status/2122253341292167678",
+    "cat": "T5",
+    "title": "不用 VPS 的推文自动同步",
+    "review": "一个 Bot 加每小时例程把自己的原创推文同步到另一平台，强调密钥放密钥面板、先试一条再开定时",
+    "tags": [
+      "routine",
+      "cross-post",
+      "chinese"
+    ],
+    "author": "moranweb3",
+    "date": "2026-11-16",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "x"
+  },
+  {
+    "url": "https://www.bilibili.com/video/BV1r9sf6qEdg/",
+    "cat": "T2",
+    "title": "从 0 到 1 视频：分工 Bot、派活与私有技能",
+    "review": "从初次设置讲到生活管家、资讯早报、自媒体管家几个分工 Bot，再讲主 Bot 派活、记忆交接和本地权限",
+    "tags": [
+      "video",
+      "multi-bot",
+      "chinese"
+    ],
+    "author": "杜耶Pro",
+    "date": "2026-10-29",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "web"
+  },
+  {
+    "url": "https://www.99aicreator.com/blog/grok-bot-tutorial-work-use-cases",
+    "cat": "T1",
+    "title": "繁中教学：设定步骤和 6 个工作场景",
+    "review": "竞品摘要、会前准备、内容素材包等六个场景各配一段可改的指令，最后讲怎么存技能和排时区",
+    "tags": [
+      "beginner",
+      "use-cases",
+      "traditional-chinese"
+    ],
+    "author": "99AICreator",
+    "date": "2026-10-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-16",
+    "source": "web"
   }
 ]
