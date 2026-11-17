@@ -2,7 +2,7 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 595 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 597 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
 ## 入门与配置（134）
 
@@ -141,7 +141,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [繁中教学：设定步骤和 6 个工作场景](https://www.99aicreator.com/blog/grok-bot-tutorial-work-use-cases) - 竞品摘要、会前准备、内容素材包等六个场景各配一段可改的指令，最后讲怎么存技能和排时区 · @99AICreator · 2026-10-17。标签：`beginner` `use-cases` `traditional-chinese`
 - [语音聊天：开通话、调语速，和听写、代打电话的区别](https://juliangoldie.com/grok-bot-voice-mode/) - 对照官方文档写了怎么开始语音聊天、在 1.0.1 里调声音和语速，以及语音聊天跟听写、语音备忘、代打电话有什么不同。标签：`voice` `desktop` `mobile` `english`
 
-## 多 Bot 团队（110）
+## 多 Bot 团队（111）
 
 - [十分钟建一支团队](https://x.com/zodchiii/status/2090778823050592662) - 英文，先建首席助理，再让它去建其他岗位 · @zodchiii · 2026-08-21。标签：`team` `chief-of-staff`
 - [首席加岗位的最小团队](https://x.com/Av1dlive/status/2090366905169379554) - 英文早期热帖，语气偏宣传，当最小团队的参考 · @Av1dlive · 2026-08-20。标签：`team` `starter`
@@ -253,6 +253,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [从 0 到 1 视频：分工 Bot、派活与私有技能](https://www.bilibili.com/video/BV1r9sf6qEdg/) - 从初次设置讲到生活管家、资讯早报、自媒体管家几个分工 Bot，再讲主 Bot 派活、记忆交接和本地权限 · @杜耶Pro · 2026-10-29。标签：`video` `multi-bot` `chinese`
 - [1.0 演示：个人 Bot 改团队、进会议、审核记忆](https://teslanorth.com/2026/11/16/grok-bot-1-0-walkthrough-team-meetings-memory/) - 根据 Matt Palmer 的 1.0 演示，讲怎么把已有 Bot 改成团队共享、让它进 Meet、Zoom 或 Teams，以及管理员怎么审学习内容 · @Sarah Lee-Jones · 2026-11-16。标签：`1.0` `team-bots` `meetings` `english`
 - [中文拆解 1.0 演示：团队共享、进会议、主动巡检](https://x.com/arito_si/status/2122467166163460278) - 对照官方 1.0 视频，逐步写了改 Team Bot、会中提问查资料、早上巡检、审核团队教的新规矩，以及邮件日历和 GitHub 的用法；文中的省时说法是作者自己的 · @arito_si · 2026-11-16。标签：`1.0` `team-bots` `meetings` `chinese`
+- [用 Grok Bot 编排、本机 Codex 执行：幕僚长派 GitHub 工单](https://x.com/zhu185178/status/2120171874676347035) - 只用幕僚长对话，任务记在 GitHub Ticket，Codex 在本机 Mac 后台做、Webhook 回调验收；文中有从零搭团队的步骤，对外发布走审批卡 · @zhu185178 · 2026-11-10。标签：`multi-agent` `codex` `github` `chinese`
 
 ## Routine 与额度（76）
 
@@ -333,7 +334,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [Grok Bot 管计划、本地代理干长活](https://x.com/AgentMsgr/status/2121342281865154923) - 给出管理者规则、执行简报和三行回报格式，建议前后各测一周用量；未提供节省实测，所用 OpenBot 商业使用需另付费 · @AgentMsgr · 2026-11-14。标签：`quota` `delegation` `workflow` `english`
 - [用量页怎么看：按来源、按 Bot，再决定砍什么](https://www.aiproductivityinsights.com/p/how-to-optimize-your-grok-bot-usage-effectively) - 对着官方 Usage & Billing 界面说明周额度、By source 和 By Bot，以及和 Cursor、Grok 共用额度时怎么设月度上限；不承诺能省多少 · @Sumeth Manasikarn · 2026-11-16。标签：`usage` `billing` `settings` `english`
 
-## 连接、技能与记忆（97）
+## 连接、技能与记忆（98）
 
 - [Grok Bot 和本地助手打通](https://x.com/fankaishuoai/status/2111361067041673452) - 中文，用 Webhook 和 GitHub 把云端和本机连起来 · @fankaishuoai · 2026-10-17。标签：`webhook` `local`
 - [用 Tailscale 连 Bot 的云电脑](https://x.com/SpringHaoAI/status/2095915259521585458) - 中文保姆级教程，从本机 SSH 进 Bot 的电脑 · @SpringHaoAI · 2026-09-04。标签：`ssh` `tailscale`
@@ -432,6 +433,7 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [系列第 4 课：剪藏插件和桌面转发把后台数据、微信群交给 Bot](https://x.com/czzzzzzJ_/status/2121548072480301202) - 演示浏览器剪藏整页、截图、选元素和多标签页发给指定 Bot，以及微信合并转发打包群聊；文末另有作者课程链接 · @czzzzzzJ_ · 2026-11-14。标签：`clipper` `wechat` `memory` `chinese`
 - [云电脑跑 Claude Code 前先查的五件事](https://x.com/Haosen9527/status/2121816309801611622) - 从账号资格、云电脑共享登录、代理脚本能查到哪一步讲到小任务试跑，提醒住宅 IP 不等于不封号 · @Haosen9527 · 2026-11-15。标签：`claude-code` `cloud-computer` `proxy` `chinese`
 - [6 个 Marketplace Bot 加 6 个开源项目拼第二大脑](https://x.com/Mikocrypto11/status/2121935369406951916) - 用迁移、文档问答、会议纪要等现成 Bot 配开源记忆和检索项目，思路清楚；文中的效果数字是作者转述 · @Mikocrypto11 · 2026-11-15。标签：`memory` `marketplace` `knowledge`
+- [克隆自己：用工作文件夹和决策题训练一个分身 Bot](https://x.com/liam_fallen/status/2122362101926662255) - 新建以自己命名的 Bot，在共享云电脑建 My Clone 档案（关于我、怎么工作、我的决策等），先访谈再喂真实作品，用没告诉过它的题来验收；每周五复盘，不经批准不代发、不采购、不冒充本人 · @liam_fallen · 2026-11-17。标签：`clone` `memory` `skills` `english`
 
 ## 一人公司与内容（149）
 

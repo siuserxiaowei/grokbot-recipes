@@ -16572,5 +16572,178 @@
     "level": "读过内容",
     "verified": "2026-11-17",
     "source": "web"
+  },
+  {
+    "url": "https://github.com/Alex-Liu-airjelly/grok-codex-hud-bridge",
+    "kept": true,
+    "cat": "C",
+    "title": "HUD 桥：在 Mac 上把 Grok Bot 消息交给配对的 Codex",
+    "review": "本机跑一个小服务，经 Agent HUD 把指定 Bot 的消息交到配对的 Codex 线程，再查回结果；要自己配 HTTPS 隧道和配对密钥，接口随 HUD 版本可能变化（Apache-2.0）",
+    "tags": [
+      "bridge",
+      "codex",
+      "macos",
+      "mcp"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "Alex-Liu-airjelly/grok-codex-hud-bridge",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-17",
+    "author": "Alex-Liu-airjelly",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/jackdishman/x-agent-mesh",
+    "kept": true,
+    "cat": "D",
+    "title": "x-agent-mesh：互关好友的 Agent 一起认目标和进度",
+    "review": "Grok Bot 插件，让已互关且双方同意加入的 Agent 用 A2A/MCP 认共同目标、更新进度；托管版须邀请，不代发帖、不转账，付款只出草稿（MIT，尚早）",
+    "tags": [
+      "plugin",
+      "multi-agent",
+      "x",
+      "mcp"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "jackdishman/x-agent-mesh",
+    "license": "MIT",
+    "last_push": "2026-11-17",
+    "author": "jackdishman",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/AndyJuang/ai-video-workshop-agent",
+    "kept": true,
+    "cat": "F",
+    "title": "AI 影片五阶段协作包：脚本到剪辑，过一关再往下",
+    "review": "繁中工作流和提示词，按脚本、出图、出片、配音、剪辑五步走，每步停下来等你点头；默认给免费工具路径，也适用于 Claude Code 和 Codex（CC-BY-4.0）",
+    "tags": [
+      "video",
+      "workflow",
+      "prompts",
+      "traditional-chinese"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "AndyJuang/ai-video-workshop-agent",
+    "license": "CC-BY-4.0",
+    "last_push": "2026-11-17",
+    "author": "AndyJuang",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Kelemek/paint-by-number-kit",
+    "kept": true,
+    "cat": "F",
+    "title": "数字油画套件：把图切成可打印的分色格子和购物清单",
+    "review": "给「数字油画」模板配的脚本，把图减色、编号、切成打印页，并按面积估颜料；色号和用量都是估算，需自己对色（MIT）",
+    "tags": [
+      "image",
+      "template",
+      "print"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "Kelemek/paint-by-number-kit",
+    "license": "MIT",
+    "last_push": "2026-11-17",
+    "author": "Kelemek",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/workstellarai/stellar-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Workstellar 插件：用你的工单权限看单、留言",
+    "review": "给 Cursor 和 Grok Bot 用的厂商插件，用你在公司工作区的身份看工单、写评论；批准、关单、付款和账号变更走不通，需工作区邀请（MIT）",
+    "tags": [
+      "plugin",
+      "mcp",
+      "work-orders"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "workstellarai/stellar-plugin",
+    "license": "MIT",
+    "last_push": "2026-11-17",
+    "author": "workstellarai",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Naz-Qazi/poppy-plugin",
+    "kept": true,
+    "cat": "C",
+    "title": "Poppy 官方插件：连看板和灵感库",
+    "review": "官方 Poppy 插件，登录后可列出看板和额度；生成和搜索可能扣 Poppy 积分，安装是把仓库拷进本地插件目录（ISC）",
+    "tags": [
+      "plugin",
+      "mcp",
+      "content"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "Naz-Qazi/poppy-plugin",
+    "license": "ISC",
+    "last_push": "2026-11-17",
+    "author": "Naz-Qazi",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Insilico-org/plsi",
+    "kept": true,
+    "cat": "D",
+    "title": "PLSI：健康记录工具带，多 Bot 只提出建议和下一步预测",
+    "review": "把健康记录做成脱敏事件和状态图，由一组分工 Bot 加本机 CLI 给出带依据的下一步建议；仓库写明不做诊疗、不替代医生，分享研究数据需你先同意（MIT）",
+    "tags": [
+      "health",
+      "multi-bot",
+      "skills",
+      "cli"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "Insilico-org/plsi",
+    "license": "MIT",
+    "last_push": "2026-11-17",
+    "author": "Insilico-org",
+    "source": "github"
+  },
+  {
+    "url": "https://x.com/zhu185178/status/2120171874676347035",
+    "cat": "T2",
+    "title": "用 Grok Bot 编排、本机 Codex 执行：幕僚长派 GitHub 工单",
+    "review": "只用幕僚长对话，任务记在 GitHub Ticket，Codex 在本机 Mac 后台做、Webhook 回调验收；文中有从零搭团队的步骤，对外发布走审批卡",
+    "tags": [
+      "multi-agent",
+      "codex",
+      "github",
+      "chinese"
+    ],
+    "author": "zhu185178",
+    "date": "2026-11-10",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/liam_fallen/status/2122362101926662255",
+    "cat": "T4",
+    "title": "克隆自己：用工作文件夹和决策题训练一个分身 Bot",
+    "review": "新建以自己命名的 Bot，在共享云电脑建 My Clone 档案（关于我、怎么工作、我的决策等），先访谈再喂真实作品，用没告诉过它的题来验收；每周五复盘，不经批准不代发、不采购、不冒充本人",
+    "tags": [
+      "clone",
+      "memory",
+      "skills",
+      "english"
+    ],
+    "author": "liam_fallen",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "x"
   }
 ]

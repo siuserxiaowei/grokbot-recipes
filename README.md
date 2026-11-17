@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **415** 个生态项目和学习资源，每条都打开核对过
-- **595** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **422** 个生态项目和学习资源，每条都打开核对过
+- **597** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,7 +115,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（415）
+## 生态清单（422）
 
 ### 官方与工具（57）
 
@@ -208,7 +208,7 @@
 - [SMF Works：Michael Gannotti 的 Bot 模板集](https://github.com/smfworks/grok-bot-templates) - 按岗位提供可导入的 Bot 链接，含升学、事实核查、团队巡检与开发搭档，适合先挑单个职责试用（MIT）。标签：`templates` `roles` `directory` 📦
 - [Awesome Grok Bot：按岗位挑模板](https://github.com/LinXiaoTao/awesome-grokbot) - 中英文目录按销售、工程和日常岗位列出可导入的 Bot 链接，保留作者署名，适合先挑单个职责试用（MIT）。标签：`awesome` `templates` `directory` 📦
 
-### 技能与连接（138）
+### 技能与连接（141）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -348,8 +348,11 @@
 - [easy-ai-bot-bridge：Slack / Telegram 到 Bot webhook 的转接](https://github.com/xiaopai20/easy-ai-bot-bridge) - 每个桥是独立 CDK 应用，把平台的签名校验和事件格式转换成 webhook 需要的 Bearer 调用；此前无许可证，现已挂 MIT。标签：`slack` `telegram` `webhook` 📦
 - [飞书私聊桥：单 owner 文本转 Webhook 例程](https://github.com/billzhuang6569/feishu-grok-bot) - 用官方 Lark CLI 收私聊文本，交给 Grok Bot 的 Webhook 例程再回原消息；只认唯一 owner，纯标准库加 SQLite，安全边界写得很细（MIT）。标签：`feishu` `bridge` `webhook` `chinese` 📦
 - [Idlerate 插件：让 Bot 调自家电脑上的 Ollama](https://github.com/brent192192/idlerate-plugin) - OAuth 连接的 MCP 连接器加 setup 技能，把模型任务排到你自己配对的电脑上跑，不用贴 API key；依赖 Idlerate 托管中继（MIT）。标签：`mcp` `ollama` `local-compute` 📦
+- [HUD 桥：在 Mac 上把 Grok Bot 消息交给配对的 Codex](https://github.com/Alex-Liu-airjelly/grok-codex-hud-bridge) - 本机跑一个小服务，经 Agent HUD 把指定 Bot 的消息交到配对的 Codex 线程，再查回结果；要自己配 HTTPS 隧道和配对密钥，接口随 HUD 版本可能变化（Apache-2.0）。标签：`bridge` `codex` `macos` `mcp` 📦
+- [Workstellar 插件：用你的工单权限看单、留言](https://github.com/workstellarai/stellar-plugin) - 给 Cursor 和 Grok Bot 用的厂商插件，用你在公司工作区的身份看工单、写评论；批准、关单、付款和账号变更走不通，需工作区邀请（MIT）。标签：`plugin` `mcp` `work-orders` 📦
+- [Poppy 官方插件：连看板和灵感库](https://github.com/Naz-Qazi/poppy-plugin) - 官方 Poppy 插件，登录后可列出看板和额度；生成和搜索可能扣 Poppy 积分，安装是把仓库拷进本地插件目录（ISC）。标签：`plugin` `mcp` `content` 📦
 
-### 多 Bot 团队（62）
+### 多 Bot 团队（64）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -413,6 +416,8 @@
 - [Claude Projects for Grok Bot：把活派进 Claude Code Projects](https://github.com/BenItBuhner/Claude-Projects-for-Grok-Bot) - 本机 MCP 驱动常开 Linux 机器上的官方 Claude 桌面应用，Bot 能派活、查进度、取结果并按规则处理权限卡；只支持 Ubuntu/Debian，非官方（MIT）。标签：`claude-code` `mcp` `bridge` 📦
 - [grok-cursor-bruecke：Bot 当导演、本机 Cursor 当工人](https://github.com/Cahja90/grok-cursor-bruecke) - Windows 本地 CLI 列窗口、输入、等完成、读回复，循环脚本只做本地提交，推送要在本机面板批准；README 为德英双语（MIT）。标签：`cursor` `windows` `bridge` 📦
 - [grokbot-webhook：从 Claude Code 向 Bot 提问](https://github.com/AI-Driven-R-D-Dept/grokbot-webhook) - Claude Code 插件，经例程 webhook 把问答、调研和摘要类请求交给 Bot 并取回文字结果；文档仅日语，只在 macOS 测过（MIT）。标签：`claude-code` `webhook` `plugin` 📦
+- [x-agent-mesh：互关好友的 Agent 一起认目标和进度](https://github.com/jackdishman/x-agent-mesh) - Grok Bot 插件，让已互关且双方同意加入的 Agent 用 A2A/MCP 认共同目标、更新进度；托管版须邀请，不代发帖、不转账，付款只出草稿（MIT，尚早）。标签：`plugin` `multi-agent` `x` `mcp` 📦
+- [PLSI：健康记录工具带，多 Bot 只提出建议和下一步预测](https://github.com/Insilico-org/plsi) - 把健康记录做成脱敏事件和状态图，由一组分工 Bot 加本机 CLI 给出带依据的下一步建议；仓库写明不做诊疗、不替代医生，分享研究数据需你先同意（MIT）。标签：`health` `multi-bot` `skills` `cli` 📦
 
 ### Routine 与监控（27）
 
@@ -444,7 +449,7 @@
 - [Daily Info Digest Bot：用 Markdown 配置的每晚信息简报](https://github.com/50pac/daily-info-digest-bot) - 实习、讲座和 AI 学习动态按 Markdown 规则收集，夜里出一份精选简报；附中文说明，适合学生改成自己的信息源（MIT）。标签：`routine` `digest` `markdown` 📦
 - [用量管家：只读盯额度、按省多少排砍法](https://github.com/Betagg/usage-steward) - 人设加一个上手技能和周报、额度预警两条例程，只读各 Bot 和例程的用量，对照产出给出削减建议，不动别人的配置（MIT）。标签：`usage` `routine` `multi-bot` 📦
 
-### 一人公司与内容（19）
+### 一人公司与内容（21）
 
 - [grokbot-for-gtm](https://github.com/bcharleson/grokbot-for-gtm) - 一整套海外外联获客流程，从建名单到处理回复，出海团队可以参考。标签：`gtm` `outbound` 📦
 - [模板：Motion Director](https://x.ai/bot/MdpeJPD6eiY7YWUa9bfes) - 一句话出动画短片的模板，适合做产品宣传和短视频。标签：`template` `video` 📘
@@ -465,6 +470,8 @@
 - [ai-job-hunter：Notion 求职流水线](https://github.com/mebcode/ai-job-hunter) - 先建候选人档案，再定时筛岗、打分和改简历，填表停在提交前等你确认（MIT）。标签：`job` `notion` `skills` 📦
 - [grokbot-mixer：DJ Bot 混音流水线](https://github.com/davidgeorgehope/grokbot-mixer) - 公开双轨交叉淡化、响度处理与验收代码，仓库不带音频素材，复现还需自备有权使用的曲目（MIT）。标签：`audio` `pipeline` `automation` 📦
 - [proofkit：找需求与首批买家的轻量 Bot 包](https://github.com/ChamathRosh/proofkit-kit) - 提供独立 Grok 安装说明，用 X 搜索找求助帖并拟回复；Bot 版不带自动来源复核，发出前需自己检查（MIT）。标签：`research` `business` `workflow` 📦
+- [AI 影片五阶段协作包：脚本到剪辑，过一关再往下](https://github.com/AndyJuang/ai-video-workshop-agent) - 繁中工作流和提示词，按脚本、出图、出片、配音、剪辑五步走，每步停下来等你点头；默认给免费工具路径，也适用于 Claude Code 和 Codex（CC-BY-4.0）。标签：`video` `workflow` `prompts` `traditional-chinese` 📦
+- [数字油画套件：把图切成可打印的分色格子和购物清单](https://github.com/Kelemek/paint-by-number-kit) - 给「数字油画」模板配的脚本，把图减色、编号、切成打印页，并按面积估颜料；色号和用量都是估算，需自己对色（MIT）。标签：`image` `template` `print` 📦
 
 ### 自托管与替代方案（36）
 
