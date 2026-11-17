@@ -16427,5 +16427,150 @@
     "level": "读过内容",
     "verified": "2026-11-16",
     "source": "web"
+  },
+  {
+    "url": "https://github.com/FFatTiger/hob",
+    "kept": true,
+    "cat": "G",
+    "title": "Hob：自托管个人助手，后台干活、规矩说了才动手",
+    "review": "开源的 Grok Bot 类助手，小事先回、重活丢后台任务，按你的规则先问再做，也能分组协作；中英界面，MIT",
+    "tags": [
+      "self-hosted",
+      "multi-bot",
+      "approval"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "FFatTiger/hob",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "FFatTiger",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/5dive-ai/5dive",
+    "kept": true,
+    "cat": "G",
+    "title": "5dive：在自己的服务器上跑一支 CLI Agent 团队",
+    "review": "把 Claude Code、Codex、Grok 等做成长期运行的 Linux 服务，每个 Agent 独立用户和权限，可用手机管理；定位是 Grok Bot 的开源替代（MIT）",
+    "tags": [
+      "self-hosted",
+      "multi-bot",
+      "cli"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-17",
+    "repo": "5dive-ai/5dive",
+    "license": "MIT",
+    "last_push": "2026-11-16",
+    "author": "5dive-ai",
+    "source": "github"
+  },
+  {
+    "url": "https://teslanorth.com/2026/11/16/grok-bot-1-0-walkthrough-team-meetings-memory/",
+    "cat": "T2",
+    "title": "1.0 演示：个人 Bot 改团队、进会议、审核记忆",
+    "review": "根据 Matt Palmer 的 1.0 演示，讲怎么把已有 Bot 改成团队共享、让它进 Meet、Zoom 或 Teams，以及管理员怎么审学习内容",
+    "tags": [
+      "1.0",
+      "team-bots",
+      "meetings",
+      "english"
+    ],
+    "author": "Sarah Lee-Jones",
+    "date": "2026-11-16",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "web"
+  },
+  {
+    "url": "https://www.aiproductivityinsights.com/p/how-to-optimize-your-grok-bot-usage-effectively",
+    "cat": "T3",
+    "title": "用量页怎么看：按来源、按 Bot，再决定砍什么",
+    "review": "对着官方 Usage & Billing 界面说明周额度、By source 和 By Bot，以及和 Cursor、Grok 共用额度时怎么设月度上限；不承诺能省多少",
+    "tags": [
+      "usage",
+      "billing",
+      "settings",
+      "english"
+    ],
+    "author": "Sumeth Manasikarn",
+    "date": "2026-11-16",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "web"
+  },
+  {
+    "url": "https://x.com/arito_si/status/2122467166163460278",
+    "cat": "T2",
+    "title": "中文拆解 1.0 演示：团队共享、进会议、主动巡检",
+    "review": "对照官方 1.0 视频，逐步写了改 Team Bot、会中提问查资料、早上巡检、审核团队教的新规矩，以及邮件日历和 GitHub 的用法；文中的省时说法是作者自己的",
+    "tags": [
+      "1.0",
+      "team-bots",
+      "meetings",
+      "chinese"
+    ],
+    "author": "arito_si",
+    "date": "2026-11-16",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/0xkEvinC/status/2122039439350514078",
+    "cat": "T5",
+    "title": "电商和内容：一个 Bot 只干一件事，发出去先批",
+    "review": "店铺、小红书和公众号、链上监控各用专职 Bot，规则写进说明和记忆，再配按天跑的例程，外发前自己点头；是作者系列第一篇",
+    "tags": [
+      "multi-bot",
+      "ecommerce",
+      "content",
+      "chinese"
+    ],
+    "author": "0xkEvinC",
+    "date": "2026-11-15",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "x"
+  },
+  {
+    "url": "https://juliangoldie.com/grok-bot-voice-mode/",
+    "cat": "T1",
+    "title": "语音聊天：开通话、调语速，和听写、代打电话的区别",
+    "review": "对照官方文档写了怎么开始语音聊天、在 1.0.1 里调声音和语速，以及语音聊天跟听写、语音备忘、代打电话有什么不同",
+    "tags": [
+      "voice",
+      "desktop",
+      "mobile",
+      "english"
+    ],
+    "author": "Julian Goldie",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "web"
+  },
+  {
+    "url": "https://news.qq.com/rain/a/20261102A0A7MY00",
+    "cat": "T5",
+    "title": "用了两个月之后：总控派活、分组和表情快捷键",
+    "review": "公开自己的 Bot 分工：总控派活，用点赞和爱心把消息收进收藏或选题库，内容生产和资讯各组专职 Bot，重活交给本地 Grok CLI；也提醒 Bot 太多会抢额度，职责重叠要合并",
+    "tags": [
+      "multi-bot",
+      "content",
+      "chinese",
+      "roster"
+    ],
+    "author": "阿真Irene",
+    "date": "2026-11-02",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-17",
+    "source": "web"
   }
 ]

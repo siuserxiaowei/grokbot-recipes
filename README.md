@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **413** 个生态项目和学习资源，每条都打开核对过
-- **589** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **415** 个生态项目和学习资源，每条都打开核对过
+- **595** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,7 +115,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（413）
+## 生态清单（415）
 
 ### 官方与工具（57）
 
@@ -466,7 +466,7 @@
 - [grokbot-mixer：DJ Bot 混音流水线](https://github.com/davidgeorgehope/grokbot-mixer) - 公开双轨交叉淡化、响度处理与验收代码，仓库不带音频素材，复现还需自备有权使用的曲目（MIT）。标签：`audio` `pipeline` `automation` 📦
 - [proofkit：找需求与首批买家的轻量 Bot 包](https://github.com/ChamathRosh/proofkit-kit) - 提供独立 Grok 安装说明，用 X 搜索找求助帖并拟回复；Bot 版不带自动来源复核，发出前需自己检查（MIT）。标签：`research` `business` `workflow` 📦
 
-### 自托管与替代方案（34）
+### 自托管与替代方案（36）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -502,6 +502,8 @@
 - [Personal Agent Proxy：给多个助手分层授权的自托管入口](https://github.com/personalagentproxy/proxy) - 开源自托管访问层，服务连一次，给 Grok Bot 等助手各自登录和细权限，活动可审计，不把连接内容整份抄进它的库；MIT，也提供托管版。标签：`self-hosted` `permissions` `mcp` `mit` 📦
 - [grok-hermes-backup：让 Hermes 当 Grok Bot 的备援](https://github.com/iamraven-tw/grok-hermes-backup) - 每周把 Bot 的人设、记忆、技能和例程导出成快照交给 Hermes 保管，主力出问题时有地方接手；导出的内容记得别带密钥。标签：`backup` `hermes` `mit` 📦
 - [damail：自托管多邮箱中枢接 Bot](https://github.com/gopkg-dev/damail) - 把 Gmail、Outlook、QQ、163 等邮箱收到自己服务器，再以自定义连接器接给 Bot 跑例程；发信要主人点头，Docker 一键装。标签：`email` `mcp` `self-hosted` `mit` 📦
+- [Hob：自托管个人助手，后台干活、规矩说了才动手](https://github.com/FFatTiger/hob) - 开源的 Grok Bot 类助手，小事先回、重活丢后台任务，按你的规则先问再做，也能分组协作；中英界面，MIT。标签：`self-hosted` `multi-bot` `approval` 📦
+- [5dive：在自己的服务器上跑一支 CLI Agent 团队](https://github.com/5dive-ai/5dive) - 把 Claude Code、Codex、Grok 等做成长期运行的 Linux 服务，每个 Agent 独立用户和权限，可用手机管理；定位是 Grok Bot 的开源替代（MIT）。标签：`self-hosted` `multi-bot` `cli` 📦
 
 ### 硬件（12）
 
