@@ -6024,7 +6024,7 @@
   },
   {
     "url": "https://ai-study.wiki/zh/tutorials/grok-bot/grok-bot-getting-started/",
-    "kept": true,
+    "kept": false,
     "cat": "T1",
     "title": "入门：账号资格、安装与第一个任务（AI Atlas）",
     "review": "中文，先分清 Bot 和普通 Grok 聊天，再用一个只读小任务验收第一次交付，节奏稳",
@@ -6036,7 +6036,8 @@
     "verified": "2026-10-25",
     "author": "AI Atlas",
     "date": "2026-10-21",
-    "source": "sweep-1025am"
+    "source": "sweep-1025am",
+    "drop_reason": "upstream page returns 404 as of 2026-11-18 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://digital-sales-job.com/grok-bot-templates",
@@ -6579,7 +6580,7 @@
   },
   {
     "url": "https://github.com/ELU-Labs/dark-factory",
-    "kept": true,
+    "kept": false,
     "cat": "D",
     "title": "dark-factory",
     "review": "一段提示词让多个 Grok Bot 按工厂流水线改仓库，配合 ELU 做真实用户验证；需要分支保护和预览部署",
@@ -6594,7 +6595,8 @@
     "source": "sweep-1026pm",
     "repo": "ELU-Labs/dark-factory",
     "last_push": "2026-10-26",
-    "license": "MIT"
+    "license": "MIT",
+    "drop_reason": "upstream GitHub repo returns 404 as of 2026-11-18 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/exa-pub/grokbot-tunnel",
@@ -10530,7 +10532,7 @@
   },
   {
     "url": "https://github.com/Vedthakar/agent-hub",
-    "kept": true,
+    "kept": false,
     "cat": "D",
     "title": "Vedthakar/agent-hub：跨 Agent 情境总线",
     "review": "在 Claude、ChatGPT、Gemini、Grok Bot 等之间静默同步情境与批准交接；MIT。与 SiegoZhang/agent-hub 不是同一项目，勿混链",
@@ -10542,7 +10544,8 @@
     "level": "只核实仓库",
     "verified": "2026-11-03",
     "repo": "Vedthakar/agent-hub",
-    "license": "MIT"
+    "license": "MIT",
+    "drop_reason": "upstream GitHub repo returns 404 as of 2026-11-18 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/ekastle/stl-price-manager-skill",
@@ -12580,7 +12583,7 @@
   },
   {
     "url": "https://github.com/onehumanbeing/grok-spaces",
-    "kept": true,
+    "kept": false,
     "cat": "A",
     "title": "grok-spaces：给 Bot 一个 macOS 常驻 HTML 工作区",
     "review": "Bot 写页面和逻辑，本仓提供宿主、存状态和动作桥；不改官方 App，仅 macOS，MIT",
@@ -12594,7 +12597,8 @@
     "verified": "2026-11-09",
     "repo": "onehumanbeing/grok-spaces",
     "license": "MIT",
-    "last_push": "2026-11-07"
+    "last_push": "2026-11-07",
+    "drop_reason": "upstream GitHub repo returns 404 as of 2026-11-18 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/QinGeneral/ai-quota-bar",
@@ -13444,7 +13448,7 @@
   },
   {
     "url": "https://github.com/Macro-Harder/grokbot-rag",
-    "kept": true,
+    "kept": false,
     "cat": "C",
     "title": "grokbot-rag：本地检索 AgenC 桥协议文档的 MCP",
     "review": "关键词加向量混合检索，返回带出处的结果并标成数据而非指令；建议在云电脑里用命令拉起，不要暴露公网地址；1 星的早期项目，Apache-2.0",
@@ -13457,7 +13461,8 @@
     "verified": "2026-11-10",
     "repo": "Macro-Harder/grokbot-rag",
     "license": "Apache-2.0",
-    "last_push": "2026-11-10"
+    "last_push": "2026-11-10",
+    "drop_reason": "upstream GitHub repo returns 404 as of 2026-11-18 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/zyamzin/cursor-usage-bar",
@@ -15016,7 +15021,7 @@
   },
   {
     "url": "https://github.com/sai-softwareforest/grove",
-    "kept": true,
+    "kept": false,
     "cat": "C",
     "title": "grove：给代码库画地图的 Grok Bot MCP",
     "review": "把文档、实际代码和测试对照着整理成地图，让 Bot 读大仓库时少走弯路（MIT）",
@@ -15026,7 +15031,8 @@
     ],
     "level": "仓库已核对",
     "verified": "2026-11-13",
-    "source": "upstream"
+    "source": "upstream",
+    "drop_reason": "upstream GitHub repo returns 404 as of 2026-11-18 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/willmather95/seo-pack",
@@ -15183,7 +15189,7 @@
   },
   {
     "url": "https://github.com/mebcode/ai-job-hunter",
-    "kept": true,
+    "kept": false,
     "cat": "F",
     "title": "ai-job-hunter：Notion 求职流水线",
     "review": "先建候选人档案，再定时筛岗、打分和改简历，填表停在提交前等你确认（MIT）",
@@ -15198,7 +15204,8 @@
     "license": "MIT",
     "last_push": "2026-11-13",
     "author": "mebcode",
-    "source": "github"
+    "source": "github",
+    "drop_reason": "upstream GitHub repo returns 404 as of 2026-11-18 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/milo-the-machine/hermes-grokbot-bridge",
