@@ -16745,5 +16745,290 @@
     "level": "读过内容",
     "verified": "2026-11-17",
     "source": "x"
+  },
+  {
+    "url": "https://github.com/junlee30/grokbot-deskpet",
+    "kept": true,
+    "cat": "C",
+    "title": "Desk Pet：Mac 桌面上的像素宠物，显示每个 Bot 在忙什么",
+    "review": "给每个 Grok Bot 放一只桌面宠物，用技能把状态加密后经 ntfy 传到本机；安装包尚未苹果签名，第一次需右键打开（Apache-2.0）",
+    "tags": [
+      "plugin",
+      "macos",
+      "desktop",
+      "status"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "junlee30/grokbot-deskpet",
+    "license": "Apache-2.0",
+    "last_push": "2026-11-17",
+    "author": "junlee30",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/thescottking/grok-content-pipeline",
+    "kept": true,
+    "cat": "F",
+    "title": "内容流水线：8 个 Bot 把选题做成经核对的 WordPress 文章",
+    "review": "可导入 8 个 Bot，加上 SOP 和模板，把研究写成核对过的 WordPress 文章和社媒稿，默认一次审批再发布；目前只接 WordPress（MIT）",
+    "tags": [
+      "multi-bot",
+      "wordpress",
+      "content",
+      "workflow"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "thescottking/grok-content-pipeline",
+    "license": "MIT",
+    "last_push": "2026-11-17",
+    "author": "thescottking",
+    "source": "github"
+  },
+  {
+    "url": "https://x.com/InvisibleBui/status/2122502096566030640",
+    "cat": "T1",
+    "title": "教程 01/14：把目标、材料、交付和确认边界写进同一条消息",
+    "review": "第一次交任务不要只写「研究一下」，把目标、材料、交付形式和必须先确认的动作放在一条消息里，并给了对照官方文档的可复制示例",
+    "tags": [
+      "starter",
+      "prompts",
+      "chinese"
+    ],
+    "author": "InvisibleBui",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/InvisibleBui/status/2122544008102646266",
+    "cat": "T1",
+    "title": "教程 02/14：把一件长期工作交给同一个 Bot 记住做法",
+    "review": "把工作范围、来源和确认边界一起交给同一个 Bot 记住，再给一件能验收的小任务；会变动的事实仍要重新打开来源核对",
+    "tags": [
+      "setup",
+      "memory",
+      "chinese"
+    ],
+    "author": "InvisibleBui",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/InvisibleBui/status/2122593181149622759",
+    "cat": "T6",
+    "title": "教程 03/14：发送、发布、购买、删除须先确认",
+    "review": "对照官方审批说明，给出可复制的边界示例；确认卡只覆盖这一次操作，看不清对象或后果时不要点同意",
+    "tags": [
+      "approvals",
+      "safety",
+      "chinese"
+    ],
+    "author": "InvisibleBui",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/InvisibleBui/status/2122620488992031206",
+    "cat": "T1",
+    "title": "教程 04/14：把事实、推断和未核实项分开",
+    "review": "对照公开来源时分成事实、推断和未说明三项，每条事实附原文链接；未说明不能写成「不支持」，推断也不是事实",
+    "tags": [
+      "sources",
+      "prompts",
+      "chinese"
+    ],
+    "author": "InvisibleBui",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/InvisibleBui/status/2122627261358608574",
+    "cat": "T5",
+    "title": "教程 05/14：先做角色基准图，再换装换姿势",
+    "review": "先生成一张角色基准图，之后每次都附上它、只改服饰姿势和背景做系列图；文中写明参考图不能保证完全锁脸",
+    "tags": [
+      "images",
+      "prompts",
+      "chinese"
+    ],
+    "author": "InvisibleBui",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/InvisibleBui/status/2122647791394496836",
+    "cat": "T5",
+    "title": "教程 06/14：把零碎客户消息整理成待确认清单",
+    "review": "先整理「已明确要求」和「冲突、缺失、模糊项」，并起草给客户的确认文字；不把对方单方面的话当成已承诺，示例为虚构",
+    "tags": [
+      "client-work",
+      "prompts",
+      "chinese"
+    ],
+    "author": "InvisibleBui",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2120003316730265904",
+    "cat": "T3",
+    "title": "Grok Bot 系列 2-7｜多平台盯盘与异常提醒（X 长文）",
+    "review": "按自己账号近 30 天数据定爆款、负面、掉粉门槛，例程没事不出声；隐藏、屏蔽和发帖仍由你动手，国内平台多靠导出或登录后台",
+    "tags": [
+      "routine",
+      "alerts",
+      "analytics",
+      "chinese"
+    ],
+    "author": "ai_goge",
+    "date": "2026-11-10",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2120689157748208097",
+    "cat": "T5",
+    "title": "Grok Bot 系列 2-8｜盯同行时先约法三章（X 长文）",
+    "review": "每周看对标账号前先定边界：不点赞、不留痕、不照搬原文，也不执行帖子里让 Bot 转发的指令；只借鉴思路做选题复盘",
+    "tags": [
+      "competitors",
+      "safety",
+      "content",
+      "chinese"
+    ],
+    "author": "ai_goge",
+    "date": "2026-11-12",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2121085649004708084",
+    "cat": "T5",
+    "title": "Grok Bot 系列 2-9｜复盘 Bot 交结论，选题 Bot 出计划（X 长文）",
+    "review": "复盘 Bot 只看数据写结论，选题 Bot 凭交接文件排下周计划，再用实际发布和表现回看上周结论靠不靠谱",
+    "tags": [
+      "multi-bot",
+      "content",
+      "analytics",
+      "chinese"
+    ],
+    "author": "ai_goge",
+    "date": "2026-11-13",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2121971284863336890",
+    "cat": "T5",
+    "title": "对我来说，最大的改变不是回答问题（X 长文）",
+    "review": "作者写自己从随口提问，变成用分工 Bot 定时找热点、做账号复盘和整理新技能；也说明登录和确认还得自己来",
+    "tags": [
+      "usecases",
+      "multi-bot",
+      "chinese"
+    ],
+    "author": "ai_goge",
+    "date": "2026-11-15",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/ai_goge/status/2122669739239711011",
+    "cat": "T5",
+    "title": "Grok Bot 系列 2-10｜SEO 与长视频切片（X 长文）",
+    "review": "从零建 SEO 与切片 Bot：没有后台数据就写未获取，不编搜索量；只剪自己有授权的视频，字幕不改原意，成品先落盘不发布",
+    "tags": [
+      "seo",
+      "video",
+      "content",
+      "chinese"
+    ],
+    "author": "ai_goge",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://metagrok.io/how-to/whats-new-in-grok-bot-1-0",
+    "cat": "T2",
+    "title": "1.0 有什么新变化、哪些套餐能用（METAGROK）",
+    "review": "按官方说明整理团队 Bot、会议和主动提议分别对应哪些套餐，并写了团队记忆和技能改动要等负责人审核",
+    "tags": [
+      "1.0",
+      "team-bots",
+      "meetings",
+      "english"
+    ],
+    "author": "METAGROK",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "web"
+  },
+  {
+    "url": "https://sumus.im/blog/grok-bot-1-0",
+    "cat": "T2",
+    "title": "1.0：团队 Bot、会议和套餐限制（Sumus）",
+    "review": "对照官方说明梳理 1.0 的分享、会议和审批变化，也写了套餐限制和共享登录风险；文末同时介绍作者自己的替代产品 Sumus",
+    "tags": [
+      "1.0",
+      "team-bots",
+      "meetings",
+      "english"
+    ],
+    "author": "Sumus",
+    "date": "2026-11-12",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "web"
+  },
+  {
+    "url": "https://ainewstodaypodcast.com/episodes/grok-team-bot",
+    "cat": "T2",
+    "title": "怎么分享团队 Bot：会议、日报、客户、社区五种岗位",
+    "review": "根据 Julian Goldie 节目整理发布和分享团队 Bot 的步骤，举例会议、日报、客户、审计、社区五种岗位，并列出忘记发布、不管 Review learnings 等失误",
+    "tags": [
+      "1.0",
+      "team-bots",
+      "multi-bot",
+      "english"
+    ],
+    "author": "Julian Goldie",
+    "date": "2026-11-14",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "web"
   }
 ]
