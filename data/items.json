@@ -17030,5 +17030,212 @@
     "level": "读过内容",
     "verified": "2026-11-18",
     "source": "web"
+  },
+  {
+    "url": "https://github.com/TherealsmallsAi/open-agent-team",
+    "kept": true,
+    "cat": "D",
+    "title": "open-agent-team：Chief、Lead、Builder、Reviewer 开源班子套件",
+    "review": "受 Lauren Tan 的 pstack / Grok Bot 方法启发，带角色说明、验收技能和权限协议，合入仍由人来做；也能给 Cursor、Claude Code 等用（MIT）",
+    "tags": [
+      "multi-bot",
+      "roles",
+      "verification"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "TherealsmallsAi/open-agent-team",
+    "license": "MIT",
+    "last_push": "2026-11-17",
+    "author": "TherealsmallsAi",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/Rexios80/postern",
+    "kept": true,
+    "cat": "C",
+    "title": "Postern：自托管邮件 MCP，让 Bot 在 Cloud Run 上读写邮箱",
+    "review": "部署在 Google Cloud Run，邮箱密码留在 Secret Manager，Bot 只用可作废的令牌；默认只读不标已读，要发送才开 SMTP。不支持 Outlook 的密码登录（MIT）",
+    "tags": [
+      "mcp",
+      "email",
+      "self-hosted"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "Rexios80/postern",
+    "license": "MIT",
+    "last_push": "2026-11-18",
+    "author": "Rexios80",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/noobhackerTOT/grok-bot-local-exec",
+    "kept": true,
+    "cat": "C",
+    "title": "grok-bot-local-exec：给官方桌面端打补丁，放宽本机读写并接 stdio MCP",
+    "review": "解包 Windows 桌面端的 asar、关掉完整性校验后，给本机文件工具加盘符根目录，并拉起本地 stdio MCP；只在 1.2.0 验证过，升级可能失效，属于非官方改动，请自担风险（MIT）",
+    "tags": [
+      "windows",
+      "local-exec",
+      "mcp",
+      "unofficial-patch"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "noobhackerTOT/grok-bot-local-exec",
+    "license": "MIT",
+    "last_push": "2026-11-17",
+    "author": "noobhackerTOT",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/santmun/grokbot-skill",
+    "kept": true,
+    "cat": "C",
+    "title": "grokbot-skill：Claude Code 技能，把 X 和网页任务交给你的 Grok Bot",
+    "review": "西语说明，通过你自己的 HTTP bridge 和令牌把任务派给 Bot，等结果并下载文件；不代发邮件或帖子，只回草稿。仓库不带任何地址或令牌（MIT）",
+    "tags": [
+      "claude-code",
+      "bridge",
+      "skill",
+      "spanish"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "santmun/grokbot-skill",
+    "license": "MIT",
+    "last_push": "2026-11-18",
+    "author": "santmun",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/BotShelfVampire/botshelf-grok-bot-tools",
+    "kept": true,
+    "cat": "C",
+    "title": "BotShelf 非官方工具包：技能、例程简报和 Bot 设置清单",
+    "review": "71 段可复制文本（技能、例程、设置清单和检查表），按官方文档写成且停在发送、付款、删除之前；作者写明尚未在真实账号上跑过（MIT）",
+    "tags": [
+      "skills",
+      "routines",
+      "untested"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "BotShelfVampire/botshelf-grok-bot-tools",
+    "license": "MIT",
+    "last_push": "2026-11-18",
+    "author": "BotShelfVampire",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/CoworkLab/open-grok-bot",
+    "kept": true,
+    "cat": "G",
+    "title": "CoworkLab/open-grok-bot：自备密钥的安卓多 Bot 客户端（非官方）",
+    "review": "独立开源安卓应用，用 GeckoView 浏览器，密钥自己配，带审批、保险库和并行 Bot；与官方 Grok Bot 不是同一个产品，仓库暂无说明文档（MIT）",
+    "tags": [
+      "self-hosted",
+      "android",
+      "byok",
+      "unofficial"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "CoworkLab/open-grok-bot",
+    "license": "MIT",
+    "last_push": "2026-11-18",
+    "author": "CoworkLab",
+    "source": "github"
+  },
+  {
+    "url": "https://github.com/BotShelfVampire/botshelf-mcp",
+    "kept": true,
+    "cat": "C",
+    "title": "botshelf-mcp：只读 MCP，检索免费团队配方和 Grok Bot 工具",
+    "review": "连上即可搜索、阅读 BotShelf 上的公开条目，不写不存、也不要账号；收费条目只给链接。多数条目作者标明未实测（MIT）",
+    "tags": [
+      "mcp",
+      "directory",
+      "readonly"
+    ],
+    "level": "只核实仓库",
+    "verified": "2026-11-18",
+    "repo": "BotShelfVampire/botshelf-mcp",
+    "license": "MIT",
+    "last_push": "2026-11-18",
+    "author": "BotShelfVampire",
+    "source": "github"
+  },
+  {
+    "url": "https://x.ai/news/grok-bot-accounting",
+    "cat": "T2",
+    "title": "官方会计团队：五个 Bot 各管订单到收款的一段",
+    "review": "SpaceXSI 把开通、开票、账单支持、到账核销和催收交给五个团队 Bot，先把流程做成可审计的内部应用，手册放 Notion 且 Bot 不能改；低风险自动做，退款等要指定的人批，培养大约三周",
+    "tags": [
+      "official",
+      "team-bots",
+      "accounting",
+      "english"
+    ],
+    "author": "SpaceXSI",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "official"
+  },
+  {
+    "url": "https://x.com/cgnot996/status/2122860541907743010",
+    "cat": "T3",
+    "title": "一套 Bot 怎么省额度：先查用量页，再按三层砍空转",
+    "review": "铁柱AGI 的 11 月新长文，讲额度常白花在硬点浏览器、Bot 之间传话、群聊和过密定时检查；先在用量页按 Bot 和来源找大头，再改成走接口或脚本、一件事交给一个 Bot 做完、定时间隔拉长、没变化不汇报",
+    "tags": [
+      "cost",
+      "usage",
+      "multi-bot",
+      "chinese"
+    ],
+    "author": "cgnot996",
+    "date": "2026-11-18",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/loverboyy0321/status/2122258737326879190",
+    "cat": "T5",
+    "title": "用 Grok Bot 在目录站发外链的上手流程（含人工卡点）",
+    "review": "先在云电脑登录常用账号，带 Bot 把两家站点的发布流程完整走两遍，再给指定站点或自己找站两套指令；验证码、扫码和二次验证要人接手，一个 Bot 只做一件事，作者也提醒别往低质量站点投稿",
+    "tags": [
+      "seo",
+      "content",
+      "chinese"
+    ],
+    "author": "loverboyy0321",
+    "date": "2026-11-16",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
+  },
+  {
+    "url": "https://x.com/0xMorlex/status/2122703423854281141",
+    "cat": "T2",
+    "title": "Grok Bot Inc：按 10 步招人，搭一套自己的 Agent 班子",
+    "review": "1.0 之后的英文长文，从幕僚长、趋势雷达、X 分析员开始一个个招，强调章程、共享工具和审批线；X 连接器只读，密码不进聊天。和作者早前那篇 Opus 5.5 十步导读不是同一篇",
+    "tags": [
+      "multi-bot",
+      "harness",
+      "team-bots",
+      "english"
+    ],
+    "author": "0xMorlex",
+    "date": "2026-11-17",
+    "kept": true,
+    "level": "读过内容",
+    "verified": "2026-11-18",
+    "source": "x"
   }
 ]

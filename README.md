@@ -11,8 +11,8 @@
 ## 一眼看完
 
 - **84** 个配方，格式统一，提示词可以直接复制
-- **424** 个生态项目和学习资源，每条都打开核对过
-- **611** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
+- **431** 个生态项目和学习资源，每条都打开核对过
+- **615** 篇社区教程，见 [社区教程精选](docs/community-tutorials.md)
 - **90** 个官方模板市场模板的中文教程，见 [模板市场教程](docs/marketplace-templates.md)
 - **116** 篇 grokguide.si 自己的教程
 
@@ -115,7 +115,7 @@
 | [X 雷达：每天一轮，只推有用的](recipes/x-radar.md) | 做内容、做海外市场的人 |
 | [X 传播分工作台：只读扫帖，你自己点发布](recipes/x-virality-score.md) | 在 X 上发内容、想盯一批账号的爆款与趋势词、又不想让 Bot 代发的人 |
 
-## 生态清单（424）
+## 生态清单（431）
 
 ### 官方与工具（57）
 
@@ -208,7 +208,7 @@
 - [SMF Works：Michael Gannotti 的 Bot 模板集](https://github.com/smfworks/grok-bot-templates) - 按岗位提供可导入的 Bot 链接，含升学、事实核查、团队巡检与开发搭档，适合先挑单个职责试用（MIT）。标签：`templates` `roles` `directory` 📦
 - [Awesome Grok Bot：按岗位挑模板](https://github.com/LinXiaoTao/awesome-grokbot) - 中英文目录按销售、工程和日常岗位列出可导入的 Bot 链接，保留作者署名，适合先挑单个职责试用（MIT）。标签：`awesome` `templates` `directory` 📦
 
-### 技能与连接（142）
+### 技能与连接（147）
 
 - [grok-bot-templates](https://github.com/cobusgreyling/grok-bot-templates) - 把模板当工程来做：有规范、有打分、有团队和 Routine 目录，写自己的模板前对照一下。标签：`templates` `spec` 📦
 - [botskills](https://github.com/PramodDutta/botskills) - 每个设定都写明“哪件事必须先问你”，安全边界的写法很值得学。标签：`skills` `guardrails` 📦
@@ -352,8 +352,13 @@
 - [Workstellar 插件：用你的工单权限看单、留言](https://github.com/workstellarai/stellar-plugin) - 给 Cursor 和 Grok Bot 用的厂商插件，用你在公司工作区的身份看工单、写评论；批准、关单、付款和账号变更走不通，需工作区邀请（MIT）。标签：`plugin` `mcp` `work-orders` 📦
 - [Poppy 官方插件：连看板和灵感库](https://github.com/Naz-Qazi/poppy-plugin) - 官方 Poppy 插件，登录后可列出看板和额度；生成和搜索可能扣 Poppy 积分，安装是把仓库拷进本地插件目录（ISC）。标签：`plugin` `mcp` `content` 📦
 - [Desk Pet：Mac 桌面上的像素宠物，显示每个 Bot 在忙什么](https://github.com/junlee30/grokbot-deskpet) - 给每个 Grok Bot 放一只桌面宠物，用技能把状态加密后经 ntfy 传到本机；安装包尚未苹果签名，第一次需右键打开（Apache-2.0）。标签：`plugin` `macos` `desktop` `status` 📦
+- [Postern：自托管邮件 MCP，让 Bot 在 Cloud Run 上读写邮箱](https://github.com/Rexios80/postern) - 部署在 Google Cloud Run，邮箱密码留在 Secret Manager，Bot 只用可作废的令牌；默认只读不标已读，要发送才开 SMTP。不支持 Outlook 的密码登录（MIT）。标签：`mcp` `email` `self-hosted` 📦
+- [grok-bot-local-exec：给官方桌面端打补丁，放宽本机读写并接 stdio MCP](https://github.com/noobhackerTOT/grok-bot-local-exec) - 解包 Windows 桌面端的 asar、关掉完整性校验后，给本机文件工具加盘符根目录，并拉起本地 stdio MCP；只在 1.2.0 验证过，升级可能失效，属于非官方改动，请自担风险（MIT）。标签：`windows` `local-exec` `mcp` `unofficial-patch` 📦
+- [grokbot-skill：Claude Code 技能，把 X 和网页任务交给你的 Grok Bot](https://github.com/santmun/grokbot-skill) - 西语说明，通过你自己的 HTTP bridge 和令牌把任务派给 Bot，等结果并下载文件；不代发邮件或帖子，只回草稿。仓库不带任何地址或令牌（MIT）。标签：`claude-code` `bridge` `skill` `spanish` 📦
+- [BotShelf 非官方工具包：技能、例程简报和 Bot 设置清单](https://github.com/BotShelfVampire/botshelf-grok-bot-tools) - 71 段可复制文本（技能、例程、设置清单和检查表），按官方文档写成且停在发送、付款、删除之前；作者写明尚未在真实账号上跑过（MIT）。标签：`skills` `routines` `untested` 📦
+- [botshelf-mcp：只读 MCP，检索免费团队配方和 Grok Bot 工具](https://github.com/BotShelfVampire/botshelf-mcp) - 连上即可搜索、阅读 BotShelf 上的公开条目，不写不存、也不要账号；收费条目只给链接。多数条目作者标明未实测（MIT）。标签：`mcp` `directory` `readonly` 📦
 
-### 多 Bot 团队（64）
+### 多 Bot 团队（65）
 
 - [botteams](https://github.com/ellelion/botteams) - 一个文件装下一整支团队（Bot、群聊、Routine），看一次性编排怎么写。标签：`teams` `install` 📦
 - [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) - 需求、复现、提交、审查四个角色分开，审查的 Bot 单独对话，分工很清楚。标签：`teams` `dev` 📦
@@ -419,6 +424,7 @@
 - [grokbot-webhook：从 Claude Code 向 Bot 提问](https://github.com/AI-Driven-R-D-Dept/grokbot-webhook) - Claude Code 插件，经例程 webhook 把问答、调研和摘要类请求交给 Bot 并取回文字结果；文档仅日语，只在 macOS 测过（MIT）。标签：`claude-code` `webhook` `plugin` 📦
 - [x-agent-mesh：互关好友的 Agent 一起认目标和进度](https://github.com/jackdishman/x-agent-mesh) - Grok Bot 插件，让已互关且双方同意加入的 Agent 用 A2A/MCP 认共同目标、更新进度；托管版须邀请，不代发帖、不转账，付款只出草稿（MIT，尚早）。标签：`plugin` `multi-agent` `x` `mcp` 📦
 - [PLSI：健康记录工具带，多 Bot 只提出建议和下一步预测](https://github.com/Insilico-org/plsi) - 把健康记录做成脱敏事件和状态图，由一组分工 Bot 加本机 CLI 给出带依据的下一步建议；仓库写明不做诊疗、不替代医生，分享研究数据需你先同意（MIT）。标签：`health` `multi-bot` `skills` `cli` 📦
+- [open-agent-team：Chief、Lead、Builder、Reviewer 开源班子套件](https://github.com/TherealsmallsAi/open-agent-team) - 受 Lauren Tan 的 pstack / Grok Bot 方法启发，带角色说明、验收技能和权限协议，合入仍由人来做；也能给 Cursor、Claude Code 等用（MIT）。标签：`multi-bot` `roles` `verification` 📦
 
 ### Routine 与监控（27）
 
@@ -475,7 +481,7 @@
 - [数字油画套件：把图切成可打印的分色格子和购物清单](https://github.com/Kelemek/paint-by-number-kit) - 给「数字油画」模板配的脚本，把图减色、编号、切成打印页，并按面积估颜料；色号和用量都是估算，需自己对色（MIT）。标签：`image` `template` `print` 📦
 - [内容流水线：8 个 Bot 把选题做成经核对的 WordPress 文章](https://github.com/thescottking/grok-content-pipeline) - 可导入 8 个 Bot，加上 SOP 和模板，把研究写成核对过的 WordPress 文章和社媒稿，默认一次审批再发布；目前只接 WordPress（MIT）。标签：`multi-bot` `wordpress` `content` `workflow` 📦
 
-### 自托管与替代方案（36）
+### 自托管与替代方案（37）
 
 - [XinyunOpenBot](https://github.com/dongpen-max/XinyunOpenBot) - 面向中文用户的开源替代，默认简体中文，可接多家模型。标签：`self-hosted` `chinese` 📦
 - [OpenGrokBot](https://github.com/wolfqing/OpenGrokBot) - 自托管方案，每个 Bot 一台自己的机器，模型自选。标签：`self-hosted` `byo-model` 📦
@@ -513,6 +519,7 @@
 - [damail：自托管多邮箱中枢接 Bot](https://github.com/gopkg-dev/damail) - 把 Gmail、Outlook、QQ、163 等邮箱收到自己服务器，再以自定义连接器接给 Bot 跑例程；发信要主人点头，Docker 一键装。标签：`email` `mcp` `self-hosted` `mit` 📦
 - [Hob：自托管个人助手，后台干活、规矩说了才动手](https://github.com/FFatTiger/hob) - 开源的 Grok Bot 类助手，小事先回、重活丢后台任务，按你的规则先问再做，也能分组协作；中英界面，MIT。标签：`self-hosted` `multi-bot` `approval` 📦
 - [5dive：在自己的服务器上跑一支 CLI Agent 团队](https://github.com/5dive-ai/5dive) - 把 Claude Code、Codex、Grok 等做成长期运行的 Linux 服务，每个 Agent 独立用户和权限，可用手机管理；定位是 Grok Bot 的开源替代（MIT）。标签：`self-hosted` `multi-bot` `cli` 📦
+- [CoworkLab/open-grok-bot：自备密钥的安卓多 Bot 客户端（非官方）](https://github.com/CoworkLab/open-grok-bot) - 独立开源安卓应用，用 GeckoView 浏览器，密钥自己配，带审批、保险库和并行 Bot；与官方 Grok Bot 不是同一个产品，仓库暂无说明文档（MIT）。标签：`self-hosted` `android` `byok` `unofficial` 📦
 
 ### 硬件（12）
 
