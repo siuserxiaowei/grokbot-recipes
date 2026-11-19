@@ -2,9 +2,9 @@
 
 X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短评都是我们自己写的，版权归原作者。
 
-共 615 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
+共 614 篇，每篇都打开核对过：还能访问、作者和日期对得上、内容确实讲 Grok Bot。文中的数字是作者自己说的。
 
-## 入门与配置（137）
+## 入门与配置（136）
 
 - [让 Grok Bot 更好用的 10 条经验](https://x.com/eze_is_1/status/2109850538045264151) - 中文长文，讲什么时候用 Bot、怎么搭多 Bot，还有让 Mac 息屏不掉线的设置 · @eze_is_1 · 2026-10-13。标签：`tips` `chinese`
 - [官方教程中文整理](https://x.com/Mileson07/status/2108384482063688060) - 把官方英文指南整理成中文，适合不想读英文的人 · @Mileson07 · 2026-10-09。标签：`official` `chinese`
@@ -80,7 +80,6 @@ X、博客和其他网站上的 Grok Bot 教程，按主题整理。标题和短
 - [系列 1-2：下载、套餐和登录（X 长文）](https://x.com/ai_goge/status/2113822097839685660) - 中文系列的准备篇，从下载到登录一步步走；套餐部分会变，开通前再对一次官方页面 · @ai_goge · 2026-10-24。标签：`setup` `login` `chinese`
 - [Grok Bot A 到 Z（X 长文）](https://x.com/AleiahLock/status/2113965935946027159) - 英文，按字母把常见概念过一遍，当术语表查很顺手 · @AleiahLock · 2026-10-24。标签：`glossary` `english`
 - [Grok Bot 野外手册（X 长文）](https://x.com/undefinedKi/status/2113972662506541522) - 英文上手长文，从第一个 Bot 讲到技能和定时任务，结构清楚 · @undefinedKi · 2026-10-24。标签：`setup` `skill` `english`
-- [入门：账号资格、安装与第一个任务（AI Atlas）](https://ai-study.wiki/zh/tutorials/grok-bot/grok-bot-getting-started/) - 中文，先分清 Bot 和普通 Grok 聊天，再用一个只读小任务验收第一次交付，节奏稳 · @AI Atlas · 2026-10-21。标签：`setup` `chinese`
 - [官方 54 个团队模板拆解（日文博客）](https://digital-sales-job.com/grok-bot-templates) - 日文，把官方团队模板按用途和设计套路归类，挑模板前扫一眼能省时间 · @digital-sales-job · 2026-10-19。标签：`templates` `japanese`
 - [八步上手 Grok Bot（X 帖子）](https://x.com/wanerfu/status/2113886968988020918) - 中文，从开第一个 Bot 到建第一个定时任务按八步走，新手照着顺一遍；细节配我们的入门课程看 · @wanerfu · 2026-10-24。标签：`beginner` `setup` `chinese`
 - [云电脑改坏了怎么回退（X 帖子）](https://x.com/alin_zone/status/2113995666401710320) - 中文，讲云电脑出问题时怎么回到之前的状态、平时怎么留备份；配我们的云电脑备份教程一起看 · @alin_zone · 2026-10-24。标签：`vm` `backup` `chinese`
