@@ -10530,7 +10530,7 @@
   },
   {
     "url": "https://github.com/Vedthakar/agent-hub",
-    "kept": true,
+    "kept": false,
     "cat": "D",
     "title": "Vedthakar/agent-hub：跨 Agent 情境总线",
     "review": "在 Claude、ChatGPT、Gemini、Grok Bot 等之间静默同步情境与批准交接；MIT。与 SiegoZhang/agent-hub 不是同一项目，勿混链",
@@ -10542,7 +10542,8 @@
     "level": "只核实仓库",
     "verified": "2026-11-03",
     "repo": "Vedthakar/agent-hub",
-    "license": "MIT"
+    "license": "MIT",
+    "drop_reason": "GitHub repo returns 404 (deleted or made private) as of 2026-11-10 (Asia/Shanghai); link-check fails"
   },
   {
     "url": "https://github.com/ekastle/stl-price-manager-skill",
